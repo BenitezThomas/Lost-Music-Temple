@@ -1,6 +1,6 @@
 // - Ƹ̵̡Ӝ̵̨̄Ʒ - //
 //Author: Emirhan Bulut
-//Date 6/6/2024 US
+//Date 6/7/2024 US
 
 
 using UnityEngine;
@@ -17,9 +17,6 @@ public class WheelInteraction : MonoBehaviour
 
     void Start()
     {
-        //Get the parent object -> Get the WheelPuzzle Script -> Grab the Cylinders List -> Get the number of items inside and set it as our variable.
-        cylinderCount = this.transform.parent.GetComponent<WheelPuzzle>().cylinders.Count;
-
         //Set the current block as default 1.
         currentBlock = 1; 
 
@@ -28,7 +25,6 @@ public class WheelInteraction : MonoBehaviour
 
     void Update()
     {
-        //Set the current Block by using the logic inside this function, push the cylinderCount value for proper results.
         SetCurrentBlock(cylinderCount);
         //Simple Code Checking if  current state == correct state.
         CheckStateCorrect();
@@ -53,66 +49,24 @@ public class WheelInteraction : MonoBehaviour
 
     private void SetCurrentBlock(float count)
     {
-        //This long code block boils down to picking which side is facing the screen depending on the animation being played. 
-        if (count == 3)
+        //This code block decides on what the currentblock is based on the last played animation
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation"))
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation"))
-            {
-                currentBlock = 2;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation1"))
-            {
-                currentBlock = 3;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation2"))
-            {
-                currentBlock = 4;
-            }
+            currentBlock = 2;            
         }
-
-        else if (count == 4)
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation1"))
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation"))
-            {
-                currentBlock = 2;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation1"))
-            {
-                currentBlock = 3;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation2"))
-            {
-                currentBlock = 4;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation3"))
-            {
-                currentBlock = 1;
-            }
-        }
-
-        else if (count == 5)
+            currentBlock = 3;
+        }      
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation2"))
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation"))
-            {
-                currentBlock = 2;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation1"))
-            {
-                currentBlock = 3;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation2"))
-            {
-                currentBlock = 4;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation3"))
-            {
-                currentBlock = 5;
-            }
-            else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation4"))
-            {
-                currentBlock = 1;
-            }
+            currentBlock = 4;
         }
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("rotation3"))
+        {
+            currentBlock = 1;
+        }
+        
     }
 
     private void CheckStateCorrect()
