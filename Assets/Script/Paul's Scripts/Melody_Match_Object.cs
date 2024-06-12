@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Melody_Match_Object : MonoBehaviour
 {
-    public AudioSource audioSource;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private int melodyNumber = 0;
+
     private Melody_Match_Controller melodyMatchController;
-    
-    public int melodyNumber = 0;
-    private int currentArrayIndex = -1;
+    private bool isPlayingMelody = false;
 
     // Start is called before the first frame update
     void OnEnable()
@@ -21,16 +21,14 @@ public class Melody_Match_Object : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
-            if (currentArrayIndex < 0)
+            if (!isPlayingMelody)
             {
-                currentArrayIndex = melodyMatchController.GetMelodyArrayIndex();
                 melodyMatchController.AddMelody(melodyNumber);
                 StartPlayingMelody();
             }
             else
             {
-                melodyMatchController.RemoveMelody(currentArrayIndex);
-                currentArrayIndex = -1;
+                melodyMatchController.RemoveMelody(melodyNumber);
                 StopPlayingMelody();
             }
         }
@@ -38,21 +36,26 @@ public class Melody_Match_Object : MonoBehaviour
 
     public void StartPlayingMelody()
     {
+        isPlayingMelody = true;
+
         if (audioSource == null)
             Debug.Log("Audio source missing for: " + gameObject.name);
         else
             audioSource.Play();
-
-        Debug.Log(gameObject.name + ": PLAYING MELODY");
     }
 
     public void StopPlayingMelody()
     {
+        isPlayingMelody = false;
+
         if (audioSource == null)
             Debug.Log("Audio source missing for: " + gameObject.name);
         else
             audioSource.Stop();
+    }
 
-        Debug.Log(gameObject.name + ": STOPPING MELODY");
+    public bool GetIsPlayingMelody()
+    {
+        return isPlayingMelody;
     }
 }
