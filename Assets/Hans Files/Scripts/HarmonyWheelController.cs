@@ -7,6 +7,8 @@ using UnityEngine;
 
 public class HarmonyWheelController : MonoBehaviour
 {
+    [SerializeField] OpenGate puzzleGate;
+
     // List to hold all WheelInteraction objects in the puzzle
     public List<WheelInteraction> cylinders;
 
@@ -30,7 +32,10 @@ public class HarmonyWheelController : MonoBehaviour
                 return false;
             }
         }
+        
         // If all cylinders are correct, return true
+        puzzleGate.TryOpenGate();
+
         return true;
     }
 }
