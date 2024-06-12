@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 946470732855338595}
   - component: {fileID: 1449515091559159101}
   - component: {fileID: 6456083084772896370}
+  - component: {fileID: -1941796235396361630}
   m_Layer: 0
   m_Name: Melody Object
   m_TagString: Untagged
@@ -120,3 +121,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
   melodyNumber: 0
+--- !u!114 &-1941796235396361630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821303298835071945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 123a9d89353d0ba499e0bc60d53da81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

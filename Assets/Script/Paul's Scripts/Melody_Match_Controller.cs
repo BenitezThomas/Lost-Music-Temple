@@ -4,82 +4,41 @@ using UnityEngine;
 
 public class Melody_Match_Controller : MonoBehaviour
 {
-    
-    private bool isMelodyComplete = true;
-    
-    private int[] melodyArray;
-    private int melodyArrayIndex = 0;
+    private ArrayList melodyArrayList = new ArrayList();
 
-    public void OnEnable()
-    {
-        melodyArray = new int[transform.childCount];
-    }
+    private bool isPuzzleComplete = false;
 
     public void CheckPuzzle()
     {
-        if (isMelodyComplete)
+        for (int i = 0; i < melodyArrayList.Count; i++)
         {
-            Debug.Log("Melody Complete");
-
-            this.gameObject.SetActive(false);
-        }
-        else
-        {
-            melodyArrayIndex = 0;
-            isMelodyComplete = true;
-
-            for (int i = 0; i < transform.childCount; i++)
+            if (melodyArrayList.IndexOf(i) != i)
             {
-                transform.GetChild(i).GetComponent<Melody_Match_Object>().StopPlayingMelody();
-            }
+                return;
+            }                
         }
+
+        Debug.Log("Melody Complete");
+        isPuzzleComplete = true;
     }
 
     public void AddMelody(int newMelody)
-    {
-        if (melodyArrayIndex != newMelody)
-            isMelodyComplete = false;
-        
-        melodyArray[melodyArrayIndex] = newMelody;
-        melodyArrayIndex++;
+    {        
+        melodyArrayList.Add(newMelody);
 
-        if (melodyArrayIndex >= transform.childCount)
+        if (melodyArrayList.Count >= transform.childCount)
             CheckPuzzle();
     }
 
-    public void RemoveMelody(int removeIndex)
+    public void RemoveMelody(int newMelody)
     {
-        melodyArrayIndex--;
-        isMelodyComplete = true;
-
-        int[] tempArray = new int[melodyArray.Length];
-
-        if (removeIndex > 0)
-        {
-            for (int i = 0; i < melodyArrayIndex; i++)
-            {
-                if (i >= removeIndex)
-                {
-                    if (i != melodyArray[i + 1])
-                        isMelodyComplete = false;
-
-                    tempArray[i] = melodyArray[i + 1];
-                }
-                else
-                {
-                    if (i != melodyArray[i])
-                        isMelodyComplete = false;
-
-                    tempArray[i] = melodyArray[i];
-                }
-            }
-        }
-
-        melodyArray = tempArray;
+        melodyArrayList.Remove(newMelody);
+        melodyArrayList.TrimToSize();
+        isPuzzleComplete = false;
     }
 
-    public int GetMelodyArrayIndex()
+    public bool GetIsPuzzleComplete()
     {
-        return melodyArrayIndex;
+        return isPuzzleComplete;
     }
 }
