@@ -39,6 +39,7 @@ public class BlockMovement : MonoBehaviour
     public bool boolInnerHitbox = false;
     
     public bool rotateOverride;
+    public FakeThirdPersonMovement player;
     
     // Start is called before the first frame update
     void Start()
@@ -85,7 +86,7 @@ public class BlockMovement : MonoBehaviour
         {
             if (Input.GetKey(positive_X_Input))
             {
-                this.transform.position = new Vector3(transform.position.x + MoveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                this.transform.position = new Vector3(transform.position.x + MoveSpeed * Time.deltaTime, transform.position.y, transform.position.z);       
             }
             else if (Input.GetKey(negative_X_Input))
             {
