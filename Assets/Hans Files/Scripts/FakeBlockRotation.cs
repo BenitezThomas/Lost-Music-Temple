@@ -10,8 +10,14 @@ public class FakeBlockRotation : MonoBehaviour
     public bool rotateOverride;
     public GameObject player;
     private Rigidbody rb;
+
+    [Tooltip("KeyCode for the Positive Y rotation")]
     public KeyCode positive_Rotation_Input;
+    
+    [Tooltip("KeyCode for the Negative Y rotation")]
     public KeyCode negative_Rotation_Input;
+
+    [Tooltip("Rotation Speed of the Object, Recommended 32")]
     [SerializeField] private int RotationSpeed = 32;
 
     // Start is called before the first frame update
