@@ -18,7 +18,7 @@ public class HarmonyWheelController : MonoBehaviour
         if (AllCylindersAreCorrect())
         {
             //This Part should be changed with a win mechanic whenever the game design allows to do so.
-            Debug.Log("All Correct");
+            puzzleGate.TryOpenGate();
         }
     }
 
@@ -34,8 +34,6 @@ public class HarmonyWheelController : MonoBehaviour
         }
         
         // If all cylinders are correct, return true
-        puzzleGate.TryOpenGate();
-
         return true;
     }
 }
