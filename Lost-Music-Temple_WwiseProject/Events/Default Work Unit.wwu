@@ -58,6 +58,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gate_Open" ID="{B00B6101-DE1B-44C2-AC72-01CBB744E3A7}">
+					<ChildrenList>
+						<Action Name="" ID="{CD41A015-B648-4382-91B6-FCAD5913DC4B}" ShortID="885271750">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate Open" ID="{ED06D34D-F201-43CE-8205-61A20FBEEE57}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Beet_5th_intro" ID="{526045D7-C16A-4275-BC3F-6B96FBF12815}">
+					<ChildrenList>
+						<Action Name="" ID="{A6FF17D8-D593-4D7E-B56E-9B6DA39A1039}" ShortID="58644577">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beet 5th intro" ID="{7999F28D-8145-4CF7-B2BB-66CBC1C812FE}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

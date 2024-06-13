@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E46F6A11-95A8-4D96-3B4B-664C37BB5AED}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5DCA92BA-BC5F-C114-6BDD-DC7EC96AE04E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -34,6 +34,10 @@
 					<ShortName>String Note B.wav</ShortName>
 					<CachePath>SFX/String Note B_818F3B66.wem</CachePath>
 				</File>
+				<File Id="259411272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Beet 5th intro.wav</ShortName>
+					<CachePath>SFX/Beet 5th intro_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="302817086" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note D.wav</ShortName>
 					<CachePath>SFX/String Note D_818F3B66.wem</CachePath>
@@ -41,6 +45,10 @@
 				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="455742158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gate Open.wav</ShortName>
+					<CachePath>SFX/Gate Open_818F3B66.wem</CachePath>
 				</File>
 				<File Id="469612095" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note E.wav</ShortName>
@@ -64,6 +72,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2314254225" Name="Play_Beet_5th_intro" MaxAttenuation="45" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="259411272"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2064026589" Name="Play_FootSteps_Wood" DurationType="OneShot" DurationMin="0.14507936" DurationMax="0.27285713">
 					<MediaRefs>
 						<MediaRef Id="76708715"/>
@@ -71,6 +84,11 @@
 						<MediaRef Id="805070630"/>
 						<MediaRef Id="874061896"/>
 						<MediaRef Id="913326851"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4089264814" Name="Play_Gate_Open" DurationType="OneShot" DurationMin="0.65401363" DurationMax="0.65401363">
+					<MediaRefs>
+						<MediaRef Id="455742158"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293571" Name="Play_String_Note_B" DurationType="OneShot" DurationMin="3.0664172" DurationMax="3.0664172">
@@ -96,5 +114,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{642052A2-DCAB-B368-CEFD-B2D092F7E837}</FileHash>
+	<FileHash>{60D2152D-89CE-5E37-E3EF-585C7EE1B87A}</FileHash>
 </SoundBanksInfo>

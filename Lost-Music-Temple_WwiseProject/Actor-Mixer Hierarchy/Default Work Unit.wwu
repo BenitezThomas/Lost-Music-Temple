@@ -246,6 +246,109 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Folder Name="Stones" ID="{4258AF3F-D43B-443B-98B0-2E4C6B677C4E}" ShortID="550470278">
+					<ChildrenList>
+						<Sound Name="Gate Open" ID="{ED06D34D-F201-43CE-8205-61A20FBEEE57}" ShortID="74782995">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gate Open" ID="{43420E7E-3A46-4D3D-806E-B084A412875E}">
+									<Language>SFX</Language>
+									<AudioFile>Gate Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="455742158"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Gate Open" ID="{43420E7E-3A46-4D3D-806E-B084A412875E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Moving Block" ID="{C697D726-F602-422C-9BFF-CFF1B57B4BA7}" ShortID="183177861">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Moving Block" ID="{2F36555A-2269-4874-A04F-9CA03353C8B8}">
+									<Language>SFX</Language>
+									<AudioFile>Moving Block.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="632686992"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Moving Block" ID="{2F36555A-2269-4874-A04F-9CA03353C8B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Musical Pieces" ID="{B175EAF7-C1CB-4168-B8CF-AAFB6CB71BBB}" ShortID="614780792">
+					<ChildrenList>
+						<Sound Name="Beet 5th intro" ID="{7999F28D-8145-4CF7-B2BB-66CBC1C812FE}" ShortID="994257792">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="New Attenuation" ID="{A3CDD7A2-FFD7-41C1-9D0B-32FA1E32F48C}" WorkUnitID="{EF8CF49C-B84F-427C-91D8-DCB0F5180C86}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beet 5th intro" ID="{99A9EA7A-68F9-46CC-8EB5-1591936B7C1C}">
+									<Language>SFX</Language>
+									<AudioFile>Beet 5th intro.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="259411272"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beet 5th intro" ID="{99A9EA7A-68F9-46CC-8EB5-1591936B7C1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Beet 5th" ID="{D451FB49-6C9B-4F6C-9DBD-044EAF15A64D}" ShortID="873054517">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Beet 5th" ID="{8FE6CCE9-BDE3-43E8-A41D-33E1022C4974}">
+									<Language>SFX</Language>
+									<AudioFile>Beet 5th.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="380060289"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Beet 5th" ID="{8FE6CCE9-BDE3-43E8-A41D-33E1022C4974}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
