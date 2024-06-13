@@ -9,13 +9,14 @@ public class MelodyMatch_Note : MonoBehaviour
 {
     [SerializeField] MusicalNote note;
     [SerializeField] MelodyMatch_Manager puzzleManager;
+    [SerializeField] AK.Wwise.Event stringNoteEvent;
 
     private bool isPlayerNear = false;
 
     private void PlayNote()
     {
         //play note sound
-
+        stringNoteEvent.Post(gameObject);
         //Keep Track of the Next Note in the Melody List
         puzzleManager.CheckIfNoteIsCorrect(note);
     }

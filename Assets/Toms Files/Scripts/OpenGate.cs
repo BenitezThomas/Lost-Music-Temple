@@ -8,6 +8,7 @@ using UnityEngine;
 public class OpenGate : MonoBehaviour
 {
     [SerializeField] Animator animator;
+    [SerializeField] AK.Wwise.Event openGateSound;
 
     bool isOpen = false;
 
@@ -18,6 +19,8 @@ public class OpenGate : MonoBehaviour
             isOpen = true;
 
             animator.Play("OpenGate");
+
+            openGateSound.Post(gameObject);
         }
     }
 }
