@@ -888,6 +888,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3588265015734232969, guid: 0a0eaded394e2f04c972dfd842e6a5d5,
+        type: 3}
+      propertyPath: puzzleLevel
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4540891441786914689, guid: 0a0eaded394e2f04c972dfd842e6a5d5,
         type: 3}
       propertyPath: m_Name

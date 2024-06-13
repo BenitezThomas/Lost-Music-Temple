@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Scenes/Main Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Level_1.unity
+    guid: c1065ecb500e21b41b6b8c8be713f41a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
