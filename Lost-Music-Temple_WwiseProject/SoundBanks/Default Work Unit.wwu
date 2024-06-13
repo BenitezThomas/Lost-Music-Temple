@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B617F426-71C7-46D5-8B4D-61EA6993AD70}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B617F426-71C7-46D5-8B4D-61EA6993AD70}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{0E9DB135-671E-426E-BAA6-268914AD106F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_String_Note_C" ID="{96233C20-43A7-4110-B6FE-325011D58895}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_String_Note_D" ID="{F6401FA3-9CF4-41EB-8D14-CB4AC34EC696}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FootSteps_Wood" ID="{D15F4B62-C950-43F0-B44C-C4BDC8A02789}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_String_Note_E" ID="{F9C89FC3-5B97-4410-AFFF-D24871BF84AF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_String_Note_B" ID="{F8B8DD82-FB45-4D4B-9EF5-BBF6C726DD77}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
