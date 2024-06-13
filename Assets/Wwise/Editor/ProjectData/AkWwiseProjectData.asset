@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584833101653950082
+    m_lastTime: -8584833052968467069
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584833101654080116
+    m_lastTime: -8584833052968607151
     List:
+    - name: Play_Beet_5th_intro
+      guid: d74560526ac17542bc3f6b96fbf12815
+      id: 2314254225
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Play_Beet_5th_intro
+        ObjectType: 3
+        guid: d74560526ac17542bc3f6b96fbf12815
+      Path: Events\Default Work Unit\Play_Beet_5th_intro
+      maxAttenuation: 0
+      maxDuration: 10.101202
+      minDuration: 10.101202
     - name: Play_FootSteps_Wood
       guid: 624b5fd150c9f043b44cc4bdc8a02789
       id: 2064026589
@@ -113,6 +130,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.27285713
       minDuration: 0.14507936
+    - name: Play_Gate_Open
+      guid: 01610bb01bdec244ac7201cbb744e3a7
+      id: 4089264814
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Play_Gate_Open
+        ObjectType: 3
+        guid: 01610bb01bdec244ac7201cbb744e3a7
+      Path: Events\Default Work Unit\Play_Gate_Open
+      maxAttenuation: 0
+      maxDuration: 0.65401363
+      minDuration: 0.65401363
     - name: Play_String_Note_B
       guid: 82ddb8f845fb4b4d9ef5bbf6c726dd77
       id: 2668293571
@@ -238,7 +272,7 @@ MonoBehaviour:
     m_lastTime: -8584833118421871472
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000e0000000f000000
+  ExpandedWaapiItemIds: 0500000006000000070000000e0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

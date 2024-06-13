@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BEET_5TH_INTRO = 2314254225U;
         static const AkUniqueID PLAY_FOOTSTEPS_WOOD = 2064026589U;
+        static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
         static const AkUniqueID PLAY_STRING_NOTE_B = 2668293571U;
         static const AkUniqueID PLAY_STRING_NOTE_C = 2668293570U;
         static const AkUniqueID PLAY_STRING_NOTE_D = 2668293573U;
