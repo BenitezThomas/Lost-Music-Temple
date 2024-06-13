@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="String Notes" ID="{B391BF0A-C3EF-4E0F-9922-3F695644BB6D}" ShortID="395735743">
+					<ChildrenList>
+						<Sound Name="String Note B" ID="{6DFAFF97-40DE-46A1-9600-C42601DEE33E}" ShortID="950804769">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note B" ID="{A04A1276-1458-4B68-A124-2D074B5F99A0}">
+									<Language>SFX</Language>
+									<AudioFile>String Note B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="155952676"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note B" ID="{A04A1276-1458-4B68-A124-2D074B5F99A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note E" ID="{360FC007-DF17-4B92-A7B0-E6DF75219977}" ShortID="111461205">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note E" ID="{6ED0A56F-C55D-43E9-92DA-19E3AC1A8D5E}">
+									<Language>SFX</Language>
+									<AudioFile>String Note E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="469612095"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note E" ID="{6ED0A56F-C55D-43E9-92DA-19E3AC1A8D5E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note D" ID="{EBBDF03B-9840-441D-AF9A-0920AF34BB56}" ShortID="772655479">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note D" ID="{5D614E46-67FE-4114-B6F8-CCA4F68C3534}">
+									<Language>SFX</Language>
+									<AudioFile>String Note D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302817086"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note D" ID="{5D614E46-67FE-4114-B6F8-CCA4F68C3534}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note C" ID="{5073B331-4E53-43E8-AE71-8CC9AE886DCA}" ShortID="641520132">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note C" ID="{32F42E60-713C-42BB-BD6E-5FC1E7496ED4}">
+									<Language>SFX</Language>
+									<AudioFile>String Note C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="500233751"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note C" ID="{32F42E60-713C-42BB-BD6E-5FC1E7496ED4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note A" ID="{D1BB1535-F422-4296-956A-0E696CFCC5B8}" ShortID="556414337">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note A" ID="{BE8AA023-89BA-4E46-849B-E8C61B0D3185}">
+									<Language>SFX</Language>
+									<AudioFile>String Note A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201841258"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note A" ID="{BE8AA023-89BA-4E46-849B-E8C61B0D3185}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="FootSteps Wood" ID="{F76200A0-F96B-455A-ACBA-AD2844554B90}" ShortID="962643387">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Foot Step Wood 1" ID="{14FE66C2-DBB1-47F4-B551-E2CEC8133251}" ShortID="924898190">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Foot Step Wood 1" ID="{EDD9B1D5-B4EB-40CF-AEC1-83B4D4F29DE9}">
+									<Language>SFX</Language>
+									<AudioFile>FootSteps Wood\Foot Step Wood 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="913326851"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Foot Step Wood 1" ID="{EDD9B1D5-B4EB-40CF-AEC1-83B4D4F29DE9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Foot Step Wood 2" ID="{46E7A0F6-DDB0-49EA-AD5F-1332CEC793F1}" ShortID="487135769">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Foot Step Wood 2" ID="{94278483-C4F2-4D40-946B-26F400DECFF2}">
+									<Language>SFX</Language>
+									<AudioFile>FootSteps Wood\Foot Step Wood 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="805070630"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Foot Step Wood 2" ID="{94278483-C4F2-4D40-946B-26F400DECFF2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Foot Step Wood 3" ID="{569ACE67-317C-4049-8F60-5AB006530620}" ShortID="325463448">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Foot Step Wood 3" ID="{A6CA9A45-DE9A-4274-8C97-847848881894}">
+									<Language>SFX</Language>
+									<AudioFile>FootSteps Wood\Foot Step Wood 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="432853403"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Foot Step Wood 3" ID="{A6CA9A45-DE9A-4274-8C97-847848881894}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Foot Step Wood 4" ID="{C2C0DF10-C22B-456D-BE1B-A3E6B31BB5FD}" ShortID="121695035">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Foot Step Wood 4" ID="{A2A2A068-1312-48AC-8D24-9F8048464460}">
+									<Language>SFX</Language>
+									<AudioFile>FootSteps Wood\Foot Step Wood 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="874061896"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Foot Step Wood 4" ID="{A2A2A068-1312-48AC-8D24-9F8048464460}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Foot Step Wood 5" ID="{9CF2926E-29F3-437C-A9F5-EB676E6037A3}" ShortID="938799257">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Foot Step Wood 5" ID="{2B1B7711-5152-41E2-B72A-85DD94B73705}">
+									<Language>SFX</Language>
+									<AudioFile>FootSteps Wood\Foot Step Wood 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="76708715"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Foot Step Wood 5" ID="{2B1B7711-5152-41E2-B72A-85DD94B73705}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
