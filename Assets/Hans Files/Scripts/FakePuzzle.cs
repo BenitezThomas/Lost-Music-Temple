@@ -1,4 +1,4 @@
- // - Ƹ̵̡Ӝ̵̨̄Ʒ - //
+// - Ƹ̵̡Ӝ̵̨̄Ʒ - //
 // Author: Emirhan Bulut
 // Date 6/11/2024 US
 
@@ -6,10 +6,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PerspectivePuzzleManager : MonoBehaviour
+public class FakePerspectivePuzzleManager : MonoBehaviour
 {
     // List of GameObjects representing the blocks in the puzzle
-    public List<GameObject> Blocks;
+    public List<GameObject> MovingBlocks;
+    public List<GameObject> RotatingBlocks;
     // Boolean to determine if the script has finished execution
     private bool finishScript = false;
     // The amount of tolerance allowed for the rotation. Serialized field to adjust in the Unity editor.
@@ -31,10 +32,11 @@ public class PerspectivePuzzleManager : MonoBehaviour
     private bool AllBlockPositionsAreCorrect()
     {
         // Iterate through each block in the list
-        foreach (var block in Blocks)
+        foreach (var block in MovingBlocks)
         {
             // Get the BlockMovement component of the current block
-            BlockMovement tempBlockCode = block.GetComponent<BlockMovement>();
+            FakeBlockMovement tempBlockCode = block.GetComponent<FakeBlockMovement>();
+
             // If the block's inner hitbox is not correct, return false
             if (!tempBlockCode.boolInnerHitbox)
             {
@@ -49,10 +51,10 @@ public class PerspectivePuzzleManager : MonoBehaviour
     private bool AllBlockRotationsAreCorrect()
     {   
         // Iterate through each block in the list
-        foreach (var block in Blocks)
+        foreach (var block in RotatingBlocks)
         {
             // Get the BlockMovement component of the current block
-            BlockMovement tempBlockCode = block.GetComponent<BlockMovement>();
+            FakeBlockRotation tempBlockCode = block.GetComponent<FakeBlockRotation>();
             // If the block can rotate
             if (tempBlockCode.canRotate == true)
             {
@@ -67,7 +69,7 @@ public class PerspectivePuzzleManager : MonoBehaviour
                 else
                 {
                     // If within tolerance, set rotateOverride to false
-                    //tempBlockCode.rotateOverride = false;
+                    tempBlockCode.rotateOverride = false;
                 }
             }
         }
