@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17250794, g: 0.20663778, b: 0.24693221, a: 1}
+  m_IndirectSpecularColor: {r: 0.073649734, g: 0.065639764, b: 0.04311519, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1727,6 +1727,16 @@ MonoBehaviour:
   positive_Rotation_Input: 275
   negative_Rotation_Input: 276
   RotationSpeed: 32
+  playSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f283d7801587a7d4abfdb747e26a0876,
+      type: 2}
+  stopSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4ed621eebb46f634da38d2ec6d95e962,
+      type: 2}
 --- !u!65 &264322625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8963,13 +8973,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814625746}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.25408503, y: -0.39636734, z: -0.30657154, w: 0.8272531}
+  m_LocalRotation: {x: 0.18798439, y: -0.43165663, z: -0.43393096, w: 0.76813954}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 10.216, y: -55.554, z: -46.06}
+  m_LocalEulerAnglesHint: {x: -4.923, y: -56.032, z: -56.305}
 --- !u!114 &1814625749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11834,7 +11844,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5628431066555261141}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000000033423064, y: -0.98095244, z: 0.19424808, w: 0.000000016878642}
+  m_LocalRotation: {x: -0.0000000033423064, y: -0.98095244, z: 0.19424808, w: -0.000000016878642}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13453,6 +13463,16 @@ MonoBehaviour:
   boolOuterHitbox: 0
   boolInnerHitbox: 0
   player: {fileID: 5852629443722282656}
+  playSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f283d7801587a7d4abfdb747e26a0876,
+      type: 2}
+  stopSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4ed621eebb46f634da38d2ec6d95e962,
+      type: 2}
 --- !u!4 &7548952975321013779
 Transform:
   m_ObjectHideFlags: 0
@@ -13813,8 +13833,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 7968427895518765252}
   cam: {fileID: 16552479}
-  speed: 8
-  runSpeed: 12
+  speed: 6
+  runSpeed: 6
   turnSmoothTime: 0.1
   jumpHeight: 1.5
   gravity: -9.81
@@ -14183,7 +14203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7771732189223911058}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000000441983, y: -0.973249, z: 0.22975291, w: 0.000000018722702}
+  m_LocalRotation: {x: -0.00000000441983, y: -0.973249, z: 0.22975291, w: -0.000000018722702}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

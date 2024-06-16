@@ -21,14 +21,26 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="FootSteps">
+					<Switches>
+						<Switch Id="712161697" Name="Rug"/>
+						<Switch Id="2058049674" Name="Wood"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5DCA92BA-BC5F-C114-6BDD-DC7EC96AE04E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4F8227A5-A5E4-4267-F2A9-CE04AE930D95}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="76708715" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 5.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="79362550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug\Foot Step Rug 2.wav</ShortName>
+					<CachePath>SFX/Rug/Foot Step Rug 2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="155952676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note B.wav</ShortName>
@@ -41,6 +53,14 @@
 				<File Id="302817086" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note D.wav</ShortName>
 					<CachePath>SFX/String Note D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="341706876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug\Foot Step Rug 3.wav</ShortName>
+					<CachePath>SFX/Rug/Foot Step Rug 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="402357147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug\Foot Step Rug 5.wav</ShortName>
+					<CachePath>SFX/Rug/Foot Step Rug 5_818F3B66.wem</CachePath>
 				</File>
 				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
@@ -58,6 +78,10 @@
 					<ShortName>String Note C.wav</ShortName>
 					<CachePath>SFX/String Note C_818F3B66.wem</CachePath>
 				</File>
+				<File Id="632686992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Moving Block.wav</ShortName>
+					<CachePath>SFX/Moving Block_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="805070630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 2.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 2_818F3B66.wem</CachePath>
@@ -70,25 +94,53 @@
 					<ShortName>FootSteps Wood\Foot Step Wood 1.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="953043269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug\Foot Step Rug 4.wav</ShortName>
+					<CachePath>SFX/Rug/Foot Step Rug 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="994341315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug\Foot Step Rug 1.wav</ShortName>
+					<CachePath>SFX/Rug/Foot Step Rug 1_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2314254225" Name="Play_Beet_5th_intro" MaxAttenuation="45" DurationType="Infinite">
+				<Event Id="2314254225" Name="Play_Beet_5th_intro" MaxAttenuation="16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="259411272"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2064026589" Name="Play_FootSteps_Wood" DurationType="OneShot" DurationMin="0.14507936" DurationMax="0.27285713">
-					<MediaRefs>
-						<MediaRef Id="76708715"/>
-						<MediaRef Id="432853403"/>
-						<MediaRef Id="805070630"/>
-						<MediaRef Id="874061896"/>
-						<MediaRef Id="913326851"/>
-					</MediaRefs>
+				<Event Id="3854155799" Name="Play_FootSteps" DurationType="OneShot" DurationMin="0.12557149" DurationMax="0.31524622">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="76708715"/>
+								<MediaRef Id="432853403"/>
+								<MediaRef Id="805070630"/>
+								<MediaRef Id="874061896"/>
+								<MediaRef Id="913326851"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="712161697"/>
+							<MediaRefs>
+								<MediaRef Id="79362550"/>
+								<MediaRef Id="341706876"/>
+								<MediaRef Id="402357147"/>
+								<MediaRef Id="953043269"/>
+								<MediaRef Id="994341315"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="4089264814" Name="Play_Gate_Open" DurationType="OneShot" DurationMin="0.65401363" DurationMax="0.65401363">
 					<MediaRefs>
 						<MediaRef Id="455742158"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2746119090" Name="Play_Moving_Block" MaxAttenuation="16" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="632686992"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293571" Name="Play_String_Note_B" DurationType="OneShot" DurationMin="3.0664172" DurationMax="3.0664172">
@@ -111,8 +163,17 @@
 						<MediaRef Id="469612095"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3412145620" Name="Stop_Moving_Block" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="FootSteps">
+					<Switches>
+						<Switch Id="712161697" Name="Rug"/>
+						<Switch Id="2058049674" Name="Wood"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{01AAD892-2083-F498-BD47-43647BDC9616}</FileHash>
+	<FileHash>{E4672E27-97D3-FA47-289C-16A77FFB7FCA}</FileHash>
 </SoundBanksInfo>

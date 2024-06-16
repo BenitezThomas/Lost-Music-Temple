@@ -20,6 +20,12 @@ public class FakeBlockRotation : MonoBehaviour
     [Tooltip("Rotation Speed of the Object, Recommended 32")]
     [SerializeField] private int RotationSpeed = 32;
 
+    [Header("Wwise")]
+    [SerializeField] AK.Wwise.Event playSoundEvent;
+    [SerializeField] AK.Wwise.Event stopSoundEvent;
+
+    private bool isRotating = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,12 +43,26 @@ public class FakeBlockRotation : MonoBehaviour
             if (Input.GetKey(positive_Rotation_Input))
             {
                 this.transform.Rotate(0, RotationSpeed * Time.deltaTime, 0, Space.World);
+                if (!isRotating) playSoundEvent.Post(gameObject);
+                isRotating = true;
             }
             // Rotate negatively around the Y-axis
             else if (Input.GetKey(negative_Rotation_Input))
             {
                 this.transform.Rotate(0, -RotationSpeed * Time.deltaTime, 0, Space.World);
+                if (!isRotating) playSoundEvent.Post(gameObject);
+                isRotating = true;
             }
+            else
+            {
+                stopSoundEvent.Post(gameObject);
+                isRotating = false;
+            }
+        }
+        else
+        {
+            stopSoundEvent.Post(gameObject);
+            isRotating = false;
         }
     }
 
