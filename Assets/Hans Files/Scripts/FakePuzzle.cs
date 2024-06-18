@@ -8,6 +8,8 @@ using UnityEngine;
 
 public class FakePerspectivePuzzleManager : MonoBehaviour
 {
+    [SerializeField] PuzzleCameraManager puzzleCamera;
+
     // List of GameObjects representing the blocks in the puzzle
     public List<GameObject> MovingBlocks;
     public List<GameObject> RotatingBlocks;
@@ -22,8 +24,8 @@ public class FakePerspectivePuzzleManager : MonoBehaviour
         // Check if the script has not finished execution
         if (!finishScript) {
             // If all block rotations and positions are correct, print a debug message
-            if (AllBlockRotationsAreCorrect() && AllBlockPositionsAreCorrect()) { 
-                Debug.Log("All True"); 
+            if (AllBlockRotationsAreCorrect() && AllBlockPositionsAreCorrect()) {
+                StartCoroutine(puzzleCamera.FinishPuzzle());
             }
         }
     }
@@ -59,7 +61,7 @@ public class FakePerspectivePuzzleManager : MonoBehaviour
             if (tempBlockCode.canRotate == true)
             {
                 // Get the rotation of the block
-                Vector3 rotation = tempBlockCode.transform.rotation.eulerAngles;
+                Vector3 rotation = tempBlockCode.transform.localRotation.eulerAngles;
                 // Check if the rotation is within the allowed tolerance range
                 if (rotation.y < 360 - tolerance && rotation.y > Math.Abs(tolerance))
                 {

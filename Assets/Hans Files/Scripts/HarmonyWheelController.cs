@@ -7,6 +7,8 @@ using UnityEngine;
 
 public class HarmonyWheelController : MonoBehaviour
 {
+    [SerializeField] OpenGate puzzleGate;
+
     // List to hold all WheelInteraction objects in the puzzle
     public List<WheelInteraction> cylinders;
 
@@ -16,7 +18,7 @@ public class HarmonyWheelController : MonoBehaviour
         if (AllCylindersAreCorrect())
         {
             //This Part should be changed with a win mechanic whenever the game design allows to do so.
-            Debug.Log("All Correct");
+            puzzleGate.TryOpenGate();
         }
     }
 
@@ -30,6 +32,7 @@ public class HarmonyWheelController : MonoBehaviour
                 return false;
             }
         }
+        
         // If all cylinders are correct, return true
         return true;
     }

@@ -39,11 +39,20 @@ public class FakeThirdPersonMovement : MonoBehaviour
     [Tooltip("Transform position to check if the player is grounded.")]
     [SerializeField] private Transform groundCheck;
 
+    [Header("Wwise")]
+    [SerializeField] AK.Wwise.Event footStep;
+
+
     public bool canMove;
+
+    //Wwise Atributes
+    private bool isPlayingFootStep = false;
+    private float lastFootStepTime = 0;
 
     void Start()
     {
         canMove = true;
+        lastFootStepTime = Time.time;
     }
 
     // Update is called once per frame
@@ -71,6 +80,17 @@ public class FakeThirdPersonMovement : MonoBehaviour
 
             if (direction.magnitude >= 0.1f)
             {
+                if (!isPlayingFootStep)
+                {
+                    footStep.Post(gameObject);
+                    isPlayingFootStep = true;
+                    lastFootStepTime = Time.time;
+                }
+                else
+                {
+                    if (Time.time - lastFootStepTime > 800 / speed * Time.deltaTime) isPlayingFootStep = false;
+                }
+
                 float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 transform.rotation = Quaternion.Euler(0f, angle, 0f);

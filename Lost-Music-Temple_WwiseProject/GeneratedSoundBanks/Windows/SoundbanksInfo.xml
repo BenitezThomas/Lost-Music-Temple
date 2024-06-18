@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5DCA92BA-BC5F-C114-6BDD-DC7EC96AE04E}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="76708715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps Wood\Foot Step Wood 5.wav</ShortName>
+					<CachePath>SFX/FootSteps Wood/Foot Step Wood 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="155952676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note B.wav</ShortName>
+					<CachePath>SFX/String Note B_818F3B66.wem</CachePath>
+				</File>
+				<File Id="259411272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Beet 5th intro.wav</ShortName>
+					<CachePath>SFX/Beet 5th intro_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="302817086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note D.wav</ShortName>
+					<CachePath>SFX/String Note D_818F3B66.wem</CachePath>
+				</File>
+				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
+					<CachePath>SFX/FootSteps Wood/Foot Step Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="455742158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gate Open.wav</ShortName>
+					<CachePath>SFX/Gate Open_818F3B66.wem</CachePath>
+				</File>
+				<File Id="469612095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note E.wav</ShortName>
+					<CachePath>SFX/String Note E_818F3B66.wem</CachePath>
+				</File>
+				<File Id="500233751" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note C.wav</ShortName>
+					<CachePath>SFX/String Note C_818F3B66.wem</CachePath>
+				</File>
+				<File Id="805070630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps Wood\Foot Step Wood 2.wav</ShortName>
+					<CachePath>SFX/FootSteps Wood/Foot Step Wood 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="874061896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps Wood\Foot Step Wood 4.wav</ShortName>
+					<CachePath>SFX/FootSteps Wood/Foot Step Wood 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913326851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FootSteps Wood\Foot Step Wood 1.wav</ShortName>
+					<CachePath>SFX/FootSteps Wood/Foot Step Wood 1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2314254225" Name="Play_Beet_5th_intro" MaxAttenuation="45" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="259411272"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2064026589" Name="Play_FootSteps_Wood" DurationType="OneShot" DurationMin="0.14507936" DurationMax="0.27285713">
+					<MediaRefs>
+						<MediaRef Id="76708715"/>
+						<MediaRef Id="432853403"/>
+						<MediaRef Id="805070630"/>
+						<MediaRef Id="874061896"/>
+						<MediaRef Id="913326851"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4089264814" Name="Play_Gate_Open" DurationType="OneShot" DurationMin="0.65401363" DurationMax="0.65401363">
+					<MediaRefs>
+						<MediaRef Id="455742158"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293571" Name="Play_String_Note_B" DurationType="OneShot" DurationMin="3.0664172" DurationMax="3.0664172">
+					<MediaRefs>
+						<MediaRef Id="155952676"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293570" Name="Play_String_Note_C" DurationType="OneShot" DurationMin="2.9014285" DurationMax="2.9014285">
+					<MediaRefs>
+						<MediaRef Id="500233751"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293573" Name="Play_String_Note_D" DurationType="OneShot" DurationMin="2.3488436" DurationMax="2.3488436">
+					<MediaRefs>
+						<MediaRef Id="302817086"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293572" Name="Play_String_Note_E" DurationType="OneShot" DurationMin="3.0036962" DurationMax="3.0036962">
+					<MediaRefs>
+						<MediaRef Id="469612095"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{60D2152D-89CE-5E37-E3EF-585C7EE1B87A}</FileHash>
+</SoundBanksInfo>
