@@ -1,10 +1,10 @@
 // - Ƹ̵̡Ӝ̵̨̄Ʒ - //
 // Author: Emirhan Bulut
-// Date 6/11/2024 US
+// Date 6/17/2024 US
 
 using UnityEngine;
 
-public class FakeBlockRotation : MonoBehaviour
+public class BlockRotation : MonoBehaviour
 {
     public bool canRotate;
     public bool rotateOverride;
@@ -53,7 +53,7 @@ public class FakeBlockRotation : MonoBehaviour
             {
                 if(Input.GetKey(KeyCode.E))
                 {
-                    player.GetComponent<FakeThirdPersonMovement>().canMove = false;
+                    player.GetComponent<ThirdPersonMovement>().canMove = false;
                     rb.constraints = RigidbodyConstraints.FreezeRotationX  | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePosition;
                     Rotate(true);
                     //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
@@ -61,7 +61,7 @@ public class FakeBlockRotation : MonoBehaviour
                 }
                 else
                 {
-                    player.GetComponent<FakeThirdPersonMovement>().canMove = true;
+                    player.GetComponent<ThirdPersonMovement>().canMove = true;
                     rb.constraints = RigidbodyConstraints.FreezeAll;
                 }
             }
@@ -75,7 +75,7 @@ public class FakeBlockRotation : MonoBehaviour
     {
         if(other.gameObject == player)
         {
-            player.GetComponent<FakeThirdPersonMovement>().canMove = true;
+            player.GetComponent<ThirdPersonMovement>().canMove = true;
         }
     }
 }
