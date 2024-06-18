@@ -40,7 +40,7 @@ public class FakeBlockMovement : MonoBehaviour
                     //canWorkNow = true;
                     if (!isMoving) playSoundEvent.Post(gameObject);
                     
-                    rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+                    rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY;
                     //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
                     isMoving = true;
 
