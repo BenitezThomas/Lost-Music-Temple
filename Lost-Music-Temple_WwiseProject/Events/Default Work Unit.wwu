@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_String_Note_B" ID="{F8B8DD82-FB45-4D4B-9EF5-BBF6C726DD77}">
+					<ChildrenList>
+						<Action Name="" ID="{298A53F6-10B3-404B-A1C8-AE2D052896AA}" ShortID="912031165">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="String Note B" ID="{6DFAFF97-40DE-46A1-9600-C42601DEE33E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_String_Note_C" ID="{96233C20-43A7-4110-B6FE-325011D58895}">
+					<ChildrenList>
+						<Action Name="" ID="{AF105989-197F-4AC5-B909-18346FE3701B}" ShortID="229182364">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="String Note C" ID="{5073B331-4E53-43E8-AE71-8CC9AE886DCA}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_String_Note_D" ID="{F6401FA3-9CF4-41EB-8D14-CB4AC34EC696}">
+					<ChildrenList>
+						<Action Name="" ID="{C0341D9E-921E-4833-9EE5-3B2DF4C356C4}" ShortID="1022633791">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="String Note D" ID="{EBBDF03B-9840-441D-AF9A-0920AF34BB56}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_String_Note_E" ID="{F9C89FC3-5B97-4410-AFFF-D24871BF84AF}">
+					<ChildrenList>
+						<Action Name="" ID="{4EB6A46C-7B3E-4594-B0F2-94B0A67488C8}" ShortID="904243780">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="String Note E" ID="{360FC007-DF17-4B92-A7B0-E6DF75219977}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FootSteps_Wood" ID="{D15F4B62-C950-43F0-B44C-C4BDC8A02789}">
+					<ChildrenList>
+						<Action Name="" ID="{112E8888-B8EB-4CA8-9DE2-306F8CF16BA3}" ShortID="623036007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootSteps Wood" ID="{F76200A0-F96B-455A-ACBA-AD2844554B90}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_Open" ID="{B00B6101-DE1B-44C2-AC72-01CBB744E3A7}">
+					<ChildrenList>
+						<Action Name="" ID="{CD41A015-B648-4382-91B6-FCAD5913DC4B}" ShortID="885271750">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate Open" ID="{ED06D34D-F201-43CE-8205-61A20FBEEE57}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Beet_5th_intro" ID="{526045D7-C16A-4275-BC3F-6B96FBF12815}">
+					<ChildrenList>
+						<Action Name="" ID="{A6FF17D8-D593-4D7E-B56E-9B6DA39A1039}" ShortID="58644577">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beet 5th intro" ID="{7999F28D-8145-4CF7-B2BB-66CBC1C812FE}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

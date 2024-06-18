@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Lost-Music-Temple_WwiseProject" GUID="{0E0A0663-1E91-4786-BFDC-F13CA06500B5}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../../../../Lost-Music-Temple_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{D820F0A4-C978-40B4-A49E-81478BFE7CE1}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Lost-Music-Temple_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{D06891A6-E9F0-45E5-9C64-29D151F505F2}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Lost-Music-Temple_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{066DF4FC-D877-4040-9312-8B9D505A5AFB}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{F645A6BE-76C4-67A8-D2D9-CAAE7188674A}</FileHash>
+</ProjectInfo>
