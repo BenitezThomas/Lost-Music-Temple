@@ -17,6 +17,12 @@ public class FakeBlockMovement : MonoBehaviour
     public GameObject player;
     private Rigidbody rb;
 
+    [Header("Wwise")]
+    [SerializeField] AK.Wwise.Event playSoundEvent;
+    [SerializeField] AK.Wwise.Event stopSoundEvent;
+
+    private bool isMoving = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,13 +38,18 @@ public class FakeBlockMovement : MonoBehaviour
                 if(Input.GetKey(KeyCode.E) && !boolInnerHitbox)
                 {
                     //canWorkNow = true;
-                    rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
+                    if (!isMoving) playSoundEvent.Post(gameObject);
+                    
+                    rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY;
                     //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
+                    isMoving = true;
 
                 }
                 else
                 {
                     rb.constraints = RigidbodyConstraints.FreezeAll;
+                    stopSoundEvent.Post(gameObject);
+                    isMoving = false;
                 }
             }
     }

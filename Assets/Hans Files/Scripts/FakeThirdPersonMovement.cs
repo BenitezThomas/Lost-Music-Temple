@@ -88,7 +88,7 @@ public class FakeThirdPersonMovement : MonoBehaviour
                 }
                 else
                 {
-                    if (Time.time - lastFootStepTime > 800 / speed * Time.deltaTime) isPlayingFootStep = false;
+                    if (Time.time - lastFootStepTime > 250 / speed * Time.deltaTime) isPlayingFootStep = false;
                 }
 
                 float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;

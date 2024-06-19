@@ -18,6 +18,8 @@ public class FakePerspectivePuzzleManager : MonoBehaviour
     // The amount of tolerance allowed for the rotation. Serialized field to adjust in the Unity editor.
     [SerializeField] private float tolerance;
 
+    bool puzzleFinished = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -25,7 +27,8 @@ public class FakePerspectivePuzzleManager : MonoBehaviour
         if (!finishScript) {
             // If all block rotations and positions are correct, print a debug message
             if (AllBlockRotationsAreCorrect() && AllBlockPositionsAreCorrect()) {
-                StartCoroutine(puzzleCamera.FinishPuzzle());
+                if(!puzzleFinished) StartCoroutine(puzzleCamera.FinishPuzzle());
+                puzzleFinished = true;
             }
         }
     }
