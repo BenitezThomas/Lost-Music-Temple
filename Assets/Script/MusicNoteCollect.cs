@@ -28,7 +28,8 @@ public class MusicNoteCollect : MonoBehaviour
     {
         if (playerNear && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(puzzleLevel);
+            GameManager.Instance.CollectSong(puzzleLevel);
+            //SceneManager.LoadScene(puzzleLevel);
             gameObject.SetActive(false);
             //Save Logic
         }
