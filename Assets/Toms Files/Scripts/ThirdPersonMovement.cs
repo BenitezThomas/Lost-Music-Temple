@@ -39,6 +39,11 @@ public class ThirdPersonMovement : MonoBehaviour
     [Tooltip("Transform position to check if the player is grounded.")]
     [SerializeField] private Transform groundCheck;
 
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
+    }
 
     // Update is called once per frame
     void Update()
