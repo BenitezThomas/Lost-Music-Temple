@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
-    [SerializeField] RectTransform[] tutorialStageUI; 
+    [SerializeField] RectTransform[] tutorialStageUI;
+    [SerializeField] CursorHandler cursorHandler;
 
     int currentTutorialStage = -1;
 
@@ -18,7 +19,11 @@ public class TutorialManager : MonoBehaviour
     {
         for (int i = 0; i < tutorialStageUI.Length; i++)
         {
-            if (i == currentTutorialStage) tutorialStageUI[i].gameObject.SetActive(true);
+            if (i == currentTutorialStage)
+            {
+                tutorialStageUI[i].gameObject.SetActive(true);
+                cursorHandler.UnlockCursor();
+            }
             else tutorialStageUI[i].gameObject.SetActive(false);
         }
     }

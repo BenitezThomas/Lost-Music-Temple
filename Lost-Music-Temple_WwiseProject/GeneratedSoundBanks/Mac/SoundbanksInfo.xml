@@ -30,10 +30,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4F8227A5-A5E4-4267-F2A9-CE04AE930D95}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{54676B7D-73B6-B708-1F66-E34562122FCF}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="388114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>melody 3.wav</ShortName>
+					<CachePath>SFX/melody 3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="76708715" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 5.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 5_818F3B66.wem</CachePath>
@@ -42,13 +46,21 @@
 					<ShortName>Rug\Foot Step Rug 2.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="86464845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Melody1.wav</ShortName>
+					<CachePath>SFX/Melody1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="126057298" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note G high.wav</ShortName>
+					<CachePath>SFX/String Note G high_818F3B66.wem</CachePath>
+				</File>
 				<File Id="155952676" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note B.wav</ShortName>
 					<CachePath>SFX/String Note B_818F3B66.wem</CachePath>
 				</File>
-				<File Id="259411272" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Beet 5th intro.wav</ShortName>
-					<CachePath>SFX/Beet 5th intro_FBC78EF0.wem</CachePath>
+				<File Id="201841258" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note A.wav</ShortName>
+					<CachePath>SFX/String Note A_818F3B66.wem</CachePath>
 				</File>
 				<File Id="302817086" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note D.wav</ShortName>
@@ -61,6 +73,10 @@
 				<File Id="402357147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 5.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="409595829" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note F.wav</ShortName>
+					<CachePath>SFX/String Note F_818F3B66.wem</CachePath>
 				</File>
 				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
@@ -78,6 +94,14 @@
 					<ShortName>String Note C.wav</ShortName>
 					<CachePath>SFX/String Note C_818F3B66.wem</CachePath>
 				</File>
+				<File Id="620327961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note G.wav</ShortName>
+					<CachePath>SFX/String Note G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="629947900" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note E Low.wav</ShortName>
+					<CachePath>SFX/String Note E Low_818F3B66.wem</CachePath>
+				</File>
 				<File Id="632686992" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moving Block.wav</ShortName>
 					<CachePath>SFX/Moving Block_FBC78EF0.wem</CachePath>
@@ -94,6 +118,10 @@
 					<ShortName>FootSteps Wood\Foot Step Wood 1.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="933367190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>String Note F high.wav</ShortName>
+					<CachePath>SFX/String Note F high_818F3B66.wem</CachePath>
+				</File>
 				<File Id="953043269" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 4.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 4_818F3B66.wem</CachePath>
@@ -104,11 +132,6 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2314254225" Name="Play_Beet_5th_intro" MaxAttenuation="16" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="259411272"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="3854155799" Name="Play_FootSteps" DurationType="OneShot" DurationMin="0.12557149" DurationMax="0.31524622">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -138,9 +161,24 @@
 						<MediaRef Id="455742158"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1312779127" Name="Play_Melody1" DurationType="OneShot" DurationMin="5.1800227" DurationMax="5.1800227">
+					<MediaRefs>
+						<MediaRef Id="86464845"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1188403304" Name="Play_melody_3" DurationType="OneShot" DurationMin="7.03034" DurationMax="7.03034">
+					<MediaRefs>
+						<MediaRef Id="388114"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2746119090" Name="Play_Moving_Block" MaxAttenuation="16" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="632686992"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293568" Name="Play_String_Note_A" DurationType="OneShot" DurationMin="2.5841043" DurationMax="2.5841043">
+					<MediaRefs>
+						<MediaRef Id="201841258"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293571" Name="Play_String_Note_B" DurationType="OneShot" DurationMin="3.0664172" DurationMax="3.0664172">
@@ -163,6 +201,31 @@
 						<MediaRef Id="469612095"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1227793063" Name="Play_String_Note_E_Low" DurationType="OneShot" DurationMin="3.7212925" DurationMax="3.7212925">
+					<MediaRefs>
+						<MediaRef Id="629947900"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293575" Name="Play_String_Note_F" DurationType="OneShot" DurationMin="3.8428345" DurationMax="3.8428345">
+					<MediaRefs>
+						<MediaRef Id="409595829"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="689432314" Name="Play_String_Note_F_high" DurationType="OneShot" DurationMin="3.2624943" DurationMax="3.2624943">
+					<MediaRefs>
+						<MediaRef Id="933367190"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2668293574" Name="Play_String_Note_G" DurationType="OneShot" DurationMin="2.8860545" DurationMax="2.8860545">
+					<MediaRefs>
+						<MediaRef Id="620327961"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3176529497" Name="Play_String_Note_G_high" DurationType="OneShot" DurationMin="2.6429253" DurationMax="2.6429253">
+					<MediaRefs>
+						<MediaRef Id="126057298"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3412145620" Name="Stop_Moving_Block" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
@@ -175,5 +238,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E4672E27-97D3-FA47-289C-16A77FFB7FCA}</FileHash>
+	<FileHash>{064B2C1B-F30C-1629-9F61-72526C83DA89}</FileHash>
 </SoundBanksInfo>
