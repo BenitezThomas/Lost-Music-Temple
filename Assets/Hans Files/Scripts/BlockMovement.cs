@@ -18,6 +18,11 @@ public class BlockMovement : MonoBehaviour
     private Rigidbody rb;
     public bool canMove;
 
+    [SerializeField] AK.Wwise.Event playMovingStone;
+    [SerializeField] AK.Wwise.Event stopMovingStone;
+
+    private bool isPlayingSound = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,26 +31,27 @@ public class BlockMovement : MonoBehaviour
         rb.constraints = RigidbodyConstraints.FreezeAll;
     }
 
-
     void OnCollisionStay(Collision collision)
     {
-            if (collision.gameObject == player)
+        if (collision.gameObject == player)
+        {
+            if (Input.GetKey(KeyCode.E) && canMove)
             {
-                if(Input.GetKey(KeyCode.E) && canMove)
-                {
-                    rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
-                    
-                    //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
+                rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
 
-                }
-                else
-                {
-                    rb.constraints = RigidbodyConstraints.FreezeAll;
-                }
+                //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
+
+                if (!isPlayingSound) playMovingStone.Post(gameObject);
+                isPlayingSound = true;
             }
+            else
+            {
+                rb.constraints = RigidbodyConstraints.FreezeAll;
+                if (isPlayingSound) stopMovingStone.Post(gameObject);
+                isPlayingSound = false;
+            }
+        }
     }
-
-    
 
     // Trigger enter event handler
     private void OnTriggerEnter(Collider other)
