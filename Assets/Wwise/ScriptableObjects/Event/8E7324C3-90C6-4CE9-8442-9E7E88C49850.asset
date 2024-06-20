@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 994cbdb0f0cb1ce4e944c0d76d36aa1d, type: 3}
-  m_Name: 526045D7-C16A-4275-BC3F-6B96FBF12815
+  m_Name: 8E7324C3-90C6-4CE9-8442-9E7E88C49850
   m_EditorClassIdentifier: 
-  objectName: Play_Beet_5th_intro
-  id: 2314254225
-  guid: 526045D7-C16A-4275-BC3F-6B96FBF12815
+  objectName: Play_String_Note_G
+  id: 2668293574
+  guid: 8E7324C3-90C6-4CE9-8442-9E7E88C49850
