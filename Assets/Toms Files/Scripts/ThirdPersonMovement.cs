@@ -56,7 +56,7 @@ public class ThirdPersonMovement : MonoBehaviour
         controller = GetComponent<CharacterController>();
         canMove = true;
         lastFootStepTime = Time.time;
-        rb = GetComponent<Rigidbody>();
+        //rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -78,7 +78,7 @@ public class ThirdPersonMovement : MonoBehaviour
     void Movement()
     {
         if (canMove) {
-            rb.constraints = RigidbodyConstraints.FreezeRotation;
+            //rb.constraints = RigidbodyConstraints.FreezeRotation;
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
@@ -107,7 +107,7 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         else
         {
-            rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+            //rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
         }
     }
 

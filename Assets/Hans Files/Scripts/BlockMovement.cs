@@ -2,80 +2,122 @@
 // Author: Emirhan Bulut
 // Date 6/11/2024 US
 
+using NUnit.Framework.Constraints;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BlockMovement : MonoBehaviour
 {
-
-    // Correct location hitboxes
-    public GameObject outerHitbox;
-    public GameObject innerHitbox;
-
-    // Object status booleans
-    public bool boolOuterHitbox = false;
-    public bool boolInnerHitbox = false;
     public GameObject player;
     private Rigidbody rb;
+    private Transform ParentObject;
     public bool canMove;
+    public bool inPos;
+    public Transform correctPos;
+
+    [Tooltip("Threshold for both axis to be considered in correct Position")]
+    public float Tolerance = 5f;
+
+    [Tooltip("Threshold for when the object starts shining. Based on collective range of pos.x and pos.z")]
+    public float brightnessThreshold = 3f;
+
+    [Tooltip("How fast the block & player Move // Recommended 6f")]
+    [SerializeField] [Range(0f, 10f)] private float carrySpeed = 6f;
 
     // Start is called before the first frame update
     void Start()
     {
         canMove = true;
-        rb = GetComponent<Rigidbody>();
-        rb.constraints = RigidbodyConstraints.FreezeAll;
+        ParentObject = transform.parent.GetComponent<Transform>();
     }
 
-
-    void OnCollisionStay(Collision collision)
+    void Update()
     {
-            if (collision.gameObject == player)
-            {
-                if(Input.GetKey(KeyCode.E) && canMove)
-                {
-                    rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ;
-                    
-                    //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
+        CheckPos();
+        DetermineBrightnessLevel();
+    }
 
+    // Trigger enter event handler
+    private void OnTriggerStay (Collider collision) 
+    {
+            ThirdPersonMovement thirdPersonMovement = player.GetComponent<ThirdPersonMovement>();
+            if (collision.gameObject == player && canMove)
+            {
+                if(Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E))
+                {
+                    Debug.Log("Pressing Grab");
+
+                    thirdPersonMovement.canMove = false;
+
+                    float vertical = Input.GetAxisRaw("Vertical");
+                    float horizontal = Input.GetAxisRaw("Horizontal");
+
+
+                    if(vertical == 1)
+                    {
+                        ParentObject.transform.position = new Vector3(transform.position.x + carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                        player.transform.position = new Vector3(player.transform.position.x + carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
+                    }
+                    else if(vertical == -1)
+                    {
+                        ParentObject.transform.position = new Vector3(transform.position.x - carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                        player.transform.position = new Vector3(player.transform.position.x - carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
+                    }
+
+                    if(horizontal == -1)
+                    {
+                        ParentObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + carrySpeed * Time.deltaTime);
+                        player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z + carrySpeed * Time.deltaTime);
+                    }
+                    else if(horizontal == 1)
+                    {
+                        ParentObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z -  carrySpeed * Time.deltaTime);
+                        player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - carrySpeed * Time.deltaTime);
+                    }
                 }
                 else
                 {
-                    rb.constraints = RigidbodyConstraints.FreezeAll;
+                    thirdPersonMovement.canMove = true;
                 }
             }
     }
 
-    
-
-    // Trigger enter event handler
-    private void OnTriggerEnter(Collider other)
+    private void CheckPos()
     {
-        // Check if the object collided with the outer hitbox
-        if (other.gameObject == outerHitbox)
-        {
-            boolOuterHitbox = true;
-        }
 
-        // Check if the object collided with the inner hitbox
-        if (other.gameObject == innerHitbox)
+        if(this.transform.position.x > correctPos.position.x - Tolerance && this.transform.position.x < correctPos.position.x + Tolerance && this.transform.position.z > correctPos.position.z - Tolerance && this.transform.position.z < correctPos.position.z + Tolerance)
         {
-            boolInnerHitbox = true;
+            inPos = true;
+        }
+        else
+        {
+            inPos = false;
         }
     }
 
-    // Trigger exit event handler
-    private void OnTriggerExit(Collider other)
+    private float DetermineBrightnessLevel()
     {
-        // Check if the object exited the outer hitbox
-        if (other.gameObject == outerHitbox)
-        {
-            boolOuterHitbox = false;
-        }
 
-        // Check if the object exited the inner hitbox
-        if (other.gameObject == innerHitbox)
+        Vector2 pointA = new Vector2(this.transform.position.x, this.transform.position.z);
+        
+        Vector2 pointB = new Vector2(correctPos.position.x, correctPos.position.z);
+
+        Vector2 difference = pointA - pointB;
+
+        float distance = difference.magnitude;
+
+        if(distance < brightnessThreshold)
         {
-            boolInnerHitbox = false;
+            float clampedValue = 1.0f - Mathf.InverseLerp(brightnessThreshold, 0.0f, distance);
+
+            //For tom :)
+            //This will return a value between 0-1. 
+            // ---- Debug.Log("Clamped Value: " + clampedValue);
+            return clampedValue;
+        }
+        else
+        {
+            return 0f;
         }
     }
 }
