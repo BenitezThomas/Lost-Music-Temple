@@ -3,11 +3,10 @@
 // Date 6/17/2024 US
 
 using UnityEngine;
-
+using System;
 public class BlockRotation : MonoBehaviour
 {
     public bool canRotate;
-    public bool rotateOverride;
     public GameObject player;
     private Rigidbody rb;
 
@@ -20,10 +19,16 @@ public class BlockRotation : MonoBehaviour
     [Tooltip("Rotation Speed of the Object, Recommended 32")]
     [SerializeField] private int RotationSpeed = 32;
 
+    [Tooltip("Tolerance level for how close the rotation can get before we consider it true")]
+    [SerializeField] private float tolerance;
+
+    [Tooltip("Threshold for when the object starts shining. Based on y axis")]
+    [SerializeField] private float brightnessThreshold;
+
     // Start is called before the first frame update
     void Start()
     {
-        rotateOverride = true;
+        canRotate = true;
         rb = GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.FreezeAll;
     }
@@ -31,7 +36,7 @@ public class BlockRotation : MonoBehaviour
     private void Rotate(bool rotate)
     {
         // Check if rotation is allowed and not overridden
-        if (rotate && rotateOverride != false)
+        if (rotate && canRotate != false)
         {
             // Rotate positively around the Y-axis
             if (Input.GetKey(positive_Rotation_Input))
@@ -47,6 +52,52 @@ public class BlockRotation : MonoBehaviour
     }
 
 
+    public bool RotationCorrect()
+    {
+        Vector3 rotation = transform.localRotation.eulerAngles;
+        if(rotation.y < 360 - tolerance && rotation.y > Math.Abs(tolerance))
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
+    private float DetermineBrightnessLevel()
+    {
+        Vector3 rotation = transform.localRotation.eulerAngles;
+        if(rotation.y < 360 - brightnessThreshold && rotation.y > Math.Abs(brightnessThreshold))
+        {
+            //Do Nothing
+            return 0f;
+        }
+        else if(rotation.y > 360 - brightnessThreshold && rotation.y <= 360)
+        {
+            float absValue = 360 - rotation.y;
+            float clampedValue = 1.0f - Mathf.InverseLerp(brightnessThreshold, 0.0f, absValue);
+
+            //For tom :)
+            //This will return a value between 0-1. 
+            // ----- Debug.Log("Clamped Value: " + clampedValue);
+            return clampedValue;
+        }
+        else if(rotation.y < Math.Abs(brightnessThreshold) && rotation.y > 0)
+        {
+            float clampedValue = 1.0f - Mathf.InverseLerp(brightnessThreshold, 0.0f, rotation.y);
+
+            //For tom :)
+            //This will return a value between 0-1. 
+            // ----- Debug.Log("Clamped Value: " + clampedValue);
+            return clampedValue;
+        }
+        else
+        {
+            return 0f;
+        }
+    }
+
     void OnTriggerStay(UnityEngine.Collider other)
     {
             if (other.gameObject == player)
@@ -55,7 +106,7 @@ public class BlockRotation : MonoBehaviour
                 {
                     player.GetComponent<ThirdPersonMovement>().canMove = false;
                     rb.constraints = RigidbodyConstraints.FreezeRotationX  | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePosition;
-                    Rotate(true);
+                    Rotate(canRotate);
                     //collision.gameObject.GetComponent<FakeThirdPersonMovement>().canMove = false;
 
                 }
