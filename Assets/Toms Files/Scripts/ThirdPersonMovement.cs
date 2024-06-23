@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
+    [SerializeField] Animator animator;
+
     [Tooltip("Character Controller component attached to the player.")]
     [SerializeField] private CharacterController controller;
 
@@ -40,23 +42,13 @@ public class ThirdPersonMovement : MonoBehaviour
     [Tooltip("Transform position to check if the player is grounded.")]
     [SerializeField] private Transform groundCheck;
 
-    [Header("Wwise")]
-    [SerializeField] AK.Wwise.Event footStep;
-
-
     public bool canMove;
-
-    //Wwise Atributes
-    private bool isPlayingFootStep = false;
-    private float lastFootStepTime = 0;
 
     void Start()
     {
         groundCheck = transform.Find("Ground Check");
         controller = GetComponent<CharacterController>();
         canMove = true;
-        lastFootStepTime = Time.time;
-        //rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -85,17 +77,6 @@ public class ThirdPersonMovement : MonoBehaviour
 
             if (direction.magnitude >= 0.1f)
             {
-                if (!isPlayingFootStep)
-                {
-                    footStep.Post(gameObject);
-                    isPlayingFootStep = true;
-                    lastFootStepTime = Time.time;
-                }
-                else
-                {
-                    if (Time.time - lastFootStepTime > 800 / speed * Time.deltaTime) isPlayingFootStep = false;
-                }
-
                 float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                 transform.rotation = Quaternion.Euler(0f, angle, 0f);
@@ -103,11 +84,15 @@ public class ThirdPersonMovement : MonoBehaviour
                 Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
                 float currentSpeed = isRunning ? runSpeed : speed;
                 controller.Move(moveDir.normalized * currentSpeed * Time.deltaTime);
+
+                animator.SetFloat("Speed", 1);
             }
+            else animator.SetFloat("Speed", 0);
         }
         else
         {
             //rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+            animator.SetFloat("Speed", 0);
         }
     }
 

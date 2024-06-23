@@ -8,6 +8,8 @@ using UnityEngine;
 
 public class BlockMovement : MonoBehaviour
 {
+    [SerializeField] Transform camTransform;
+
     public GameObject player;
     private Rigidbody rb;
     private Transform ParentObject;
@@ -23,6 +25,11 @@ public class BlockMovement : MonoBehaviour
 
     [Tooltip("How fast the block & player Move // Recommended 6f")]
     [SerializeField] [Range(0f, 10f)] private float carrySpeed = 6f;
+
+    [SerializeField] AK.Wwise.Event playMovingSound;
+    [SerializeField] AK.Wwise.Event stopMovingSound;
+
+    bool isplayingSound = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,10 +47,12 @@ public class BlockMovement : MonoBehaviour
     // Trigger enter event handler
     private void OnTriggerStay (Collider collision) 
     {
-            ThirdPersonMovement thirdPersonMovement = player.GetComponent<ThirdPersonMovement>();
-            if (collision.gameObject == player && canMove)
+        ThirdPersonMovement thirdPersonMovement = player.GetComponent<ThirdPersonMovement>();
+        if (collision.gameObject == player)
+        {
+            if(Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E))
             {
-                if(Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E))
+                if (canMove)
                 {
                     Debug.Log("Pressing Grab");
 
@@ -52,34 +61,85 @@ public class BlockMovement : MonoBehaviour
                     float vertical = Input.GetAxisRaw("Vertical");
                     float horizontal = Input.GetAxisRaw("Horizontal");
 
+                    Vector2 input = new Vector2(horizontal, vertical);
 
-                    if(vertical == 1)
+                    if (input.magnitude > 0.1f)
                     {
-                        ParentObject.transform.position = new Vector3(transform.position.x + carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
-                        player.transform.position = new Vector3(player.transform.position.x + carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
-                    }
-                    else if(vertical == -1)
-                    {
-                        ParentObject.transform.position = new Vector3(transform.position.x - carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
-                        player.transform.position = new Vector3(player.transform.position.x - carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
-                    }
+                        Vector3 forward = camTransform.forward;
+                        Vector3 right = camTransform.right;
 
-                    if(horizontal == -1)
-                    {
-                        ParentObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + carrySpeed * Time.deltaTime);
-                        player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z + carrySpeed * Time.deltaTime);
-                    }
-                    else if(horizontal == 1)
-                    {
-                        ParentObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z -  carrySpeed * Time.deltaTime);
-                        player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - carrySpeed * Time.deltaTime);
+                        forward.y = 0;
+                        right.y = 0;
+
+                        forward.Normalize();
+                        right.Normalize();
+
+                        // Calcula la dirección de movimiento
+                        Vector3 moveDirection = forward * vertical + right * horizontal;
+
+                        // Mueve el bloque en la dirección calculada
+
+                        moveDirection = new Vector3(moveDirection.x, 0, 0);
+
+                        transform.position += moveDirection * carrySpeed * Time.deltaTime;
+                        player.transform.position += moveDirection * carrySpeed * Time.deltaTime;
+
+                        PlaySound(true);
                     }
                 }
-                else
+                
+
+                /*if(vertical == 1)
                 {
-                    thirdPersonMovement.canMove = true;
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x + carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                    player.transform.position = new Vector3(player.transform.position.x + carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
                 }
+                else if(vertical == -1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x - carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                    player.transform.position = new Vector3(player.transform.position.x - carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
+                }
+
+                if(horizontal == -1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + carrySpeed * Time.deltaTime);
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z + carrySpeed * Time.deltaTime);
+                }
+                else if(horizontal == 1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z -  carrySpeed * Time.deltaTime);
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - carrySpeed * Time.deltaTime);
+                }
+                */
             }
+            else
+            {
+                isplayingSound = false;
+                stopMovingSound.Post(gameObject);
+                thirdPersonMovement.canMove = true;
+            }
+        }
+    }
+
+    private void PlaySound(bool play)
+    {
+        if (play)
+        {
+            if (!isplayingSound)
+            {
+                playMovingSound.Post(gameObject);
+                isplayingSound = true;
+            }
+        }
+        else
+        {
+            stopMovingSound.Post(gameObject);
+            isplayingSound = false;
+        }
     }
 
     private void CheckPos()
@@ -118,6 +178,16 @@ public class BlockMovement : MonoBehaviour
         else
         {
             return 0f;
+        }
+    }
+
+    // Trigger exit event handler
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject == player)
+        {
+            player.GetComponent<ThirdPersonMovement>().canMove = true;
+            PlaySound(false);
         }
     }
 }
