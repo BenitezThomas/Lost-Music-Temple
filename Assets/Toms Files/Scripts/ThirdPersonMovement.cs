@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
+    [SerializeField] Animator animator;
+
     [Tooltip("Character Controller component attached to the player.")]
     [SerializeField] private CharacterController controller;
 
@@ -34,15 +36,20 @@ public class ThirdPersonMovement : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
 
     private Vector3 velocity;
+    private Rigidbody rb;
     private bool isGrounded;
 
     [Tooltip("Transform position to check if the player is grounded.")]
     [SerializeField] private Transform groundCheck;
 
+
+    public bool canMove;
+
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = true;
+        groundCheck = transform.Find("Ground Check");
+        controller = GetComponent<CharacterController>();
+        canMove = true;
     }
 
     // Update is called once per frame
@@ -58,25 +65,35 @@ public class ThirdPersonMovement : MonoBehaviour
     void CheckGround()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
     }
 
     // Controls the player's movement 
     void Movement()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+        if (canMove) {
+            //rb.constraints = RigidbodyConstraints.FreezeRotation;
+            float horizontal = Input.GetAxisRaw("Horizontal");
+            float vertical = Input.GetAxisRaw("Vertical");
+            Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
-        if (direction.magnitude >= 0.1f)
+            if (direction.magnitude >= 0.1f)
+            {
+                float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+                transform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+                Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                float currentSpeed = isRunning ? runSpeed : speed;
+                controller.Move(moveDir.normalized * currentSpeed * Time.deltaTime);
+
+                animator.SetFloat("Speed", 1);
+            }
+            else animator.SetFloat("Speed", 0);
+        }
+        else
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            float currentSpeed = isRunning ? runSpeed : speed;
-            controller.Move(moveDir.normalized * currentSpeed * Time.deltaTime);
+            //rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+            animator.SetFloat("Speed", 0);
         }
     }
 
@@ -84,7 +101,7 @@ public class ThirdPersonMovement : MonoBehaviour
     // Controls player jumping 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && canMove)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }

@@ -2,157 +2,192 @@
 // Author: Emirhan Bulut
 // Date 6/11/2024 US
 
+using NUnit.Framework.Constraints;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BlockMovement : MonoBehaviour
 {
-    // Booleans for function controls
-    public bool xAxisCanMove;
-    public bool yAxisCanMove;
-    public bool zAxisCanMove;
-    public bool canRotate;
+    [SerializeField] Transform camTransform;
 
-    // Movement input variables
-    public KeyCode positive_X_Input;
-    public KeyCode negative_X_Input;
-    public KeyCode positive_Y_Input;
-    public KeyCode negative_Y_Input;
-    public KeyCode positive_Z_Input;
-    public KeyCode negative_Z_Input;
+    public GameObject player;
+    private Rigidbody rb;
+    private Transform ParentObject;
+    public bool canMove;
+    public bool inPos;
+    public Transform correctPos;
 
-    // Rotation input variables
-    public KeyCode positive_Rotation_Input;
-    public KeyCode negative_Rotation_Input;
+    [Tooltip("Threshold for both axis to be considered in correct Position")]
+    public float Tolerance = 5f;
 
-    // Recommended rotation speed: 32
-    [SerializeField] private int RotationSpeed;
-    
-    // Recommended movement speed: 7
-    [SerializeField] private int MoveSpeed;
+    [Tooltip("Threshold for when the object starts shining. Based on collective range of pos.x and pos.z")]
+    public float brightnessThreshold = 3f;
 
-    // Correct location hitboxes
-    public GameObject outerHitbox;
-    public GameObject innerHitbox;
+    [Tooltip("How fast the block & player Move // Recommended 6f")]
+    [SerializeField] [Range(0f, 10f)] private float carrySpeed = 6f;
 
-    // Object status booleans
-    public bool boolOuterHitbox = false;
-    public bool boolInnerHitbox = false;
-    
-    public bool rotateOverride;
-    public FakeThirdPersonMovement player;
-    
+    [SerializeField] AK.Wwise.Event playMovingSound;
+    [SerializeField] AK.Wwise.Event stopMovingSound;
+
+    bool isplayingSound = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        rotateOverride = true;
-        if (canRotate == true) {
-            boolInnerHitbox = true;
-            boolOuterHitbox = true;
-        }
+        canMove = true;
+        ParentObject = transform.parent.GetComponent<Transform>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Call move and rotate functions
-        Move(xAxisCanMove, yAxisCanMove, zAxisCanMove);
-        Rotate(canRotate);
-    }
-
-    // Function to handle rotation
-    private void Rotate(bool rotate)
-    {
-        // Check if rotation is allowed and not overridden
-        if (rotate && rotateOverride != false)
-        {
-            // Rotate positively around the Y-axis
-            if (Input.GetKey(positive_Rotation_Input))
-            {
-                this.transform.Rotate(0, RotationSpeed * Time.deltaTime, 0, Space.World);
-            }
-            // Rotate negatively around the Y-axis
-            else if (Input.GetKey(negative_Rotation_Input))
-            {
-                this.transform.Rotate(0, -RotationSpeed * Time.deltaTime, 0, Space.World);
-            }
-        }
-    }
-
-    // Function to handle movement along the specified axes
-    private void Move(bool xCondition, bool yCondition, bool zCondition)
-    {
-        // Move along the X-axis
-        if (xAxisCanMove)
-        {
-            if (Input.GetKey(positive_X_Input))
-            {
-                this.transform.position = new Vector3(transform.position.x + MoveSpeed * Time.deltaTime, transform.position.y, transform.position.z);       
-            }
-            else if (Input.GetKey(negative_X_Input))
-            {
-                this.transform.position = new Vector3(transform.position.x - MoveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
-            }
-        }
-
-        // Move along the Y-axis
-        if (yAxisCanMove)
-        {
-            if (Input.GetKey(positive_Y_Input))
-            {
-                this.transform.position = new Vector3(transform.position.x, transform.position.y + MoveSpeed * Time.deltaTime, transform.position.z);
-            }
-            else if (Input.GetKey(negative_Y_Input))
-            {
-                this.transform.position = new Vector3(transform.position.x, transform.position.y - MoveSpeed * Time.deltaTime, transform.position.z);
-            }
-        }
-
-        // Move along the Z-axis
-        if (zAxisCanMove)
-        {
-            if (Input.GetKey(positive_Z_Input))
-            {
-                this.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + MoveSpeed * Time.deltaTime);
-            }
-            else if (Input.GetKey(negative_Z_Input))
-            {
-                this.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - MoveSpeed * Time.deltaTime);
-            }
-        }
+        CheckPos();
+        DetermineBrightnessLevel();
     }
 
     // Trigger enter event handler
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay (Collider collision) 
     {
-        // Check if the object collided with the outer hitbox
-        if (other.gameObject == outerHitbox)
+        ThirdPersonMovement thirdPersonMovement = player.GetComponent<ThirdPersonMovement>();
+        if (collision.gameObject == player)
         {
-            boolOuterHitbox = true;
-        }
+            if(Input.GetKey(KeyCode.Mouse0) || Input.GetKey(KeyCode.E))
+            {
+                if (canMove)
+                {
+                    Debug.Log("Pressing Grab");
 
-        // Check if the object collided with the inner hitbox
-        if (other.gameObject == innerHitbox)
+                    thirdPersonMovement.canMove = false;
+
+                    float vertical = Input.GetAxisRaw("Vertical");
+                    float horizontal = Input.GetAxisRaw("Horizontal");
+
+                    Vector2 input = new Vector2(horizontal, vertical);
+
+                    if (input.magnitude > 0.1f)
+                    {
+                        Vector3 forward = camTransform.forward;
+                        Vector3 right = camTransform.right;
+
+                        forward.y = 0;
+                        right.y = 0;
+
+                        forward.Normalize();
+                        right.Normalize();
+
+                        // Calcula la dirección de movimiento
+                        Vector3 moveDirection = forward * vertical + right * horizontal;
+
+                        // Mueve el bloque en la dirección calculada
+
+                        moveDirection = new Vector3(moveDirection.x, 0, 0);
+
+                        transform.position += moveDirection * carrySpeed * Time.deltaTime;
+                        player.transform.position += moveDirection * carrySpeed * Time.deltaTime;
+
+                        PlaySound(true);
+                    }
+                }
+                
+
+                /*if(vertical == 1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x + carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                    player.transform.position = new Vector3(player.transform.position.x + carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
+                }
+                else if(vertical == -1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x - carrySpeed * Time.deltaTime, transform.position.y, transform.position.z);
+                    player.transform.position = new Vector3(player.transform.position.x - carrySpeed * Time.deltaTime, player.transform.position.y, player.transform.position.z);
+                }
+
+                if(horizontal == -1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + carrySpeed * Time.deltaTime);
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z + carrySpeed * Time.deltaTime);
+                }
+                else if(horizontal == 1)
+                {
+                    PlaySound();
+                    transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z -  carrySpeed * Time.deltaTime);
+                    player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z - carrySpeed * Time.deltaTime);
+                }
+                */
+            }
+            else
+            {
+                isplayingSound = false;
+                stopMovingSound.Post(gameObject);
+                thirdPersonMovement.canMove = true;
+            }
+        }
+    }
+
+    private void PlaySound(bool play)
+    {
+        if (play)
         {
-            xAxisCanMove = false;
-            yAxisCanMove = false;
-            zAxisCanMove = false;
-            boolInnerHitbox = true;
+            if (!isplayingSound)
+            {
+                playMovingSound.Post(gameObject);
+                isplayingSound = true;
+            }
+        }
+        else
+        {
+            stopMovingSound.Post(gameObject);
+            isplayingSound = false;
+        }
+    }
+
+    private void CheckPos()
+    {
+
+        if(this.transform.position.x > correctPos.position.x - Tolerance && this.transform.position.x < correctPos.position.x + Tolerance && this.transform.position.z > correctPos.position.z - Tolerance && this.transform.position.z < correctPos.position.z + Tolerance)
+        {
+            inPos = true;
+        }
+        else
+        {
+            inPos = false;
+        }
+    }
+
+    private float DetermineBrightnessLevel()
+    {
+
+        Vector2 pointA = new Vector2(this.transform.position.x, this.transform.position.z);
+        
+        Vector2 pointB = new Vector2(correctPos.position.x, correctPos.position.z);
+
+        Vector2 difference = pointA - pointB;
+
+        float distance = difference.magnitude;
+
+        if(distance < brightnessThreshold)
+        {
+            float clampedValue = 1.0f - Mathf.InverseLerp(brightnessThreshold, 0.0f, distance);
+
+            //For tom :)
+            //This will return a value between 0-1. 
+            // ---- Debug.Log("Clamped Value: " + clampedValue);
+            return clampedValue;
+        }
+        else
+        {
+            return 0f;
         }
     }
 
     // Trigger exit event handler
     private void OnTriggerExit(Collider other)
     {
-        // Check if the object exited the outer hitbox
-        if (other.gameObject == outerHitbox)
+        if (other.gameObject == player)
         {
-            boolOuterHitbox = false;
-        }
-
-        // Check if the object exited the inner hitbox
-        if (other.gameObject == innerHitbox)
-        {
-            boolInnerHitbox = false;
+            player.GetComponent<ThirdPersonMovement>().canMove = true;
+            PlaySound(false);
         }
     }
 }

@@ -13,14 +13,38 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_BEET_5TH_INTRO = 2314254225U;
-        static const AkUniqueID PLAY_FOOTSTEPS_WOOD = 2064026589U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
+        static const AkUniqueID PLAY_MELODY1 = 1312779127U;
+        static const AkUniqueID PLAY_MELODY_3 = 1188403304U;
+        static const AkUniqueID PLAY_MOVING_BLOCK = 2746119090U;
+        static const AkUniqueID PLAY_STRING_NOTE_A = 2668293568U;
         static const AkUniqueID PLAY_STRING_NOTE_B = 2668293571U;
         static const AkUniqueID PLAY_STRING_NOTE_C = 2668293570U;
         static const AkUniqueID PLAY_STRING_NOTE_D = 2668293573U;
         static const AkUniqueID PLAY_STRING_NOTE_E = 2668293572U;
+        static const AkUniqueID PLAY_STRING_NOTE_E_LOW = 1227793063U;
+        static const AkUniqueID PLAY_STRING_NOTE_F = 2668293575U;
+        static const AkUniqueID PLAY_STRING_NOTE_F_HIGH = 689432314U;
+        static const AkUniqueID PLAY_STRING_NOTE_G = 2668293574U;
+        static const AkUniqueID PLAY_STRING_NOTE_G_HIGH = 3176529497U;
+        static const AkUniqueID STOP_MOVING_BLOCK = 3412145620U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID RUG = 712161697U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

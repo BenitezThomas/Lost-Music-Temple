@@ -1,22 +1,51 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2064026589	Play_FootSteps_Wood			\Default Work Unit\Play_FootSteps_Wood	
-	2314254225	Play_Beet_5th_intro			\Default Work Unit\Play_Beet_5th_intro	
-	2668293570	Play_String_Note_C			\Default Work Unit\Play_String_Note_C	
-	2668293571	Play_String_Note_B			\Default Work Unit\Play_String_Note_B	
-	2668293572	Play_String_Note_E			\Default Work Unit\Play_String_Note_E	
-	2668293573	Play_String_Note_D			\Default Work Unit\Play_String_Note_D	
-	4089264814	Play_Gate_Open			\Default Work Unit\Play_Gate_Open	
+	689432314	Play_String_Note_F_high			\Default Work Unit\String Notes\Play_String_Note_F_high	
+	1188403304	Play_melody_3			\Default Work Unit\Play_melody_3	
+	1227793063	Play_String_Note_E_Low			\Default Work Unit\String Notes\Play_String_Note_E_Low	
+	1312779127	Play_Melody1			\Default Work Unit\Play_Melody1	
+	2668293568	Play_String_Note_A			\Default Work Unit\String Notes\Play_String_Note_A	
+	2668293570	Play_String_Note_C			\Default Work Unit\String Notes\Play_String_Note_C	
+	2668293571	Play_String_Note_B			\Default Work Unit\String Notes\Play_String_Note_B	
+	2668293572	Play_String_Note_E			\Default Work Unit\String Notes\Play_String_Note_E	
+	2668293573	Play_String_Note_D			\Default Work Unit\String Notes\Play_String_Note_D	
+	2668293574	Play_String_Note_G			\Default Work Unit\String Notes\Play_String_Note_G	
+	2668293575	Play_String_Note_F			\Default Work Unit\String Notes\Play_String_Note_F	
+	2746119090	Play_Moving_Block			\Default Work Unit\Block\Play_Moving_Block	
+	3176529497	Play_String_Note_G_high			\Default Work Unit\String Notes\Play_String_Note_G_high	
+	3412145620	Stop_Moving_Block			\Default Work Unit\Block\Stop_Moving_Block	
+	3854155799	Play_FootSteps			\Default Work Unit\Play_FootSteps	
+	4089264814	Play_Gate_Open			\Default Work Unit\Block\Play_Gate_Open	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	FootSteps			\Default Work Unit\FootSteps	
+
+Switch	ID	Name	Switch Group			Notes
+	712161697	Rug	FootSteps			
+	2058049674	Wood	FootSteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	76708715	Foot Step Wood 5	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps Wood\Foot Step Wood 5		23440
+	388114	melody 3	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\melody 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\melody 3		620172
+	76708715	Foot Step Wood 5	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 5		23440
+	79362550	Foot Step Rug 2	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 2		17042
+	86464845	Melody1	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Melody1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\Melody1		456974
+	126057298	String Note G high	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note G high_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note G high		233202
 	155952676	String Note B	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note B_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note B		270554
-	259411272	Beet 5th intro	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Beet 5th intro_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\Beet 5th intro		891022
+	201841258	String Note A	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note A_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note A		228014
 	302817086	String Note D	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note D_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note D		207264
-	432853403	Foot Step Wood 3	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps Wood\Foot Step Wood 3		13930
+	341706876	Foot Step Rug 3	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 3		18080
+	402357147	Foot Step Rug 5	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 5		16352
+	409595829	String Note F	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note F_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F		339034
+	432853403	Foot Step Wood 3	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 3		13930
 	455742158	Gate Open	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Gate Open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Gate Open		57780
 	469612095	String Note E	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note E_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note E		265022
 	500233751	String Note C	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note C_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note C		256002
-	805070630	Foot Step Wood 2	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps Wood\Foot Step Wood 2		22578
-	874061896	Foot Step Wood 4	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps Wood\Foot Step Wood 4		12892
-	913326851	Foot Step Wood 1	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps Wood\Foot Step Wood 1		24162
+	620327961	String Note G	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note G_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note G		254646
+	629947900	String Note E Low	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note E Low_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note E Low		328314
+	632686992	Moving Block	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Moving Block_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Moving Block		408020
+	805070630	Foot Step Wood 2	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 2		22578
+	874061896	Foot Step Wood 4	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 4		12892
+	913326851	Foot Step Wood 1	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 1		24162
+	933367190	String Note F high	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note F high_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F high		287848
+	953043269	Foot Step Rug 4	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 4		19638
+	994341315	Foot Step Rug 1	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 1		15314
 

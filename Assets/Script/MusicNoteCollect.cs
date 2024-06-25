@@ -8,6 +8,12 @@ public class MusicNoteCollect : MonoBehaviour
     [Tooltip("Scene to play the puzzle")]
     [SerializeField] int puzzleLevel;
 
+    [SerializeField] UI_Manager ui_Manager;
+
+    [SerializeField] MeshRenderer mesh;
+    [SerializeField] Material interactableMaterial;
+    [SerializeField] Material notInteractableMaterial;
+
     bool playerNear;
 
 
@@ -42,6 +48,12 @@ public class MusicNoteCollect : MonoBehaviour
         {
             playerNear = true;
             Debug.Log("collider");
+            Material[] materials = mesh.materials;
+            materials[1].CopyPropertiesFromMaterial(interactableMaterial);
+
+            mesh.materials = materials;
+
+            ui_Manager.ShowInteractableButton(true);
         }
     }
 
@@ -50,7 +62,14 @@ public class MusicNoteCollect : MonoBehaviour
     {
         if(other.CompareTag("Player")) 
         {
-            playerNear = false; 
+            playerNear = false;
+
+            Material[] materials = mesh.materials;
+            materials[1].CopyPropertiesFromMaterial(notInteractableMaterial);
+
+            mesh.materials = materials;
+
+            ui_Manager.ShowInteractableButton(false);
         }    
     }
 }

@@ -7,7 +7,15 @@ public class MelodyMatch_Manager : MonoBehaviour
     [SerializeField] MusicalNote[] melodyNotes;
     [SerializeField] OpenGate puzzleGate;
 
+    [SerializeField] MeshRenderer feedbackMaterial;
+    [SerializeField] float[] emissionSlider;
+
     int nextMelodyNote = 0;
+
+    private void Start()
+    {
+        feedbackMaterial.material.SetFloat("_Slider", 0);
+    }
 
     public void CheckIfNoteIsCorrect(MusicalNote note)
     {
@@ -17,6 +25,7 @@ public class MelodyMatch_Manager : MonoBehaviour
             nextMelodyNote = 0;
         }
 
+        feedbackMaterial.material.SetFloat("_Slider", emissionSlider[nextMelodyNote]);
         CheckIfMelodyIsOver();
     }
 
@@ -25,7 +34,7 @@ public class MelodyMatch_Manager : MonoBehaviour
         if (nextMelodyNote == melodyNotes.Length)
         {
             puzzleGate.TryOpenGate();
-            nextMelodyNote = 0;
+            //nextMelodyNote = 0;
         }
     }
 }
@@ -39,4 +48,11 @@ public enum MusicalNote
     G,
     A,
     B,
+    cUp,
+    dUp,
+    eUp,
+    fUp,
+    gUp,
+    aUp,
+    bUp,
 }
