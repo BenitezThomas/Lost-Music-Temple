@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c079418a731b39489fe1e514944efc72
     GuidInternal: 
-    m_lastTime: -8584829342285881002
+    m_lastTime: -8584827575274034593
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cee84511aa01b24fb8c1736ae2c63afb
     GuidInternal: 
-    m_lastTime: -8584829342286276717
+    m_lastTime: -8584827575300972369
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584829342285901023
+    m_lastTime: -8584824680365579954
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584829342286542463
+    m_lastTime: -8584824680374231911
     List:
-    - name: Play_Beet_5th_intro
-      guid: d74560526ac17542bc3f6b96fbf12815
-      id: 2314254225
+    - name: Block
+      guid: c33612521d14a0439f73db90afaaa1e1
+      id: 4001580976
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,16 +106,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
-      - ElementName: Play_Beet_5th_intro
-        ObjectType: 3
-        guid: d74560526ac17542bc3f6b96fbf12815
-      Path: Events\Default Work Unit\Play_Beet_5th_intro
-      maxAttenuation: 45
+      - ElementName: Block
+        ObjectType: 4
+        guid: c33612521d14a0439f73db90afaaa1e1
+      Path: Events\Default Work Unit\Block
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_FootSteps_Wood
-      guid: 624b5fd150c9f043b44cc4bdc8a02789
-      id: 2064026589
+    - name: Play_FootSteps
+      guid: 86d345da49f886439f96d86dba5d13ea
+      id: 3854155799
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,13 +123,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
-      - ElementName: Play_FootSteps_Wood
+      - ElementName: Play_FootSteps
         ObjectType: 3
-        guid: 624b5fd150c9f043b44cc4bdc8a02789
-      Path: Events\Default Work Unit\Play_FootSteps_Wood
+        guid: 86d345da49f886439f96d86dba5d13ea
+      Path: Events\Default Work Unit\Play_FootSteps
       maxAttenuation: 0
-      maxDuration: 0.27285713
-      minDuration: 0.14507936
+      maxDuration: 0.31524622
+      minDuration: 0.12557149
     - name: Play_Gate_Open
       guid: 01610bb01bdec244ac7201cbb744e3a7
       id: 4089264814
@@ -140,13 +140,90 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Block
+        ObjectType: 4
+        guid: c33612521d14a0439f73db90afaaa1e1
       - ElementName: Play_Gate_Open
         ObjectType: 3
         guid: 01610bb01bdec244ac7201cbb744e3a7
-      Path: Events\Default Work Unit\Play_Gate_Open
+      Path: Events\Default Work Unit\Block\Play_Gate_Open
       maxAttenuation: 0
       maxDuration: 0.65401363
       minDuration: 0.65401363
+    - name: Play_melody_3
+      guid: 0bb18f555ee3774db5dcf449774d4939
+      id: 1188403304
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Play_melody_3
+        ObjectType: 3
+        guid: 0bb18f555ee3774db5dcf449774d4939
+      Path: Events\Default Work Unit\Play_melody_3
+      maxAttenuation: 0
+      maxDuration: 7.03034
+      minDuration: 7.03034
+    - name: Play_Melody1
+      guid: d8fd9c47c979d540878ed96b11fb21fb
+      id: 1312779127
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Play_Melody1
+        ObjectType: 3
+        guid: d8fd9c47c979d540878ed96b11fb21fb
+      Path: Events\Default Work Unit\Play_Melody1
+      maxAttenuation: 0
+      maxDuration: 5.1800227
+      minDuration: 5.1800227
+    - name: Play_Moving_Block
+      guid: ed946ae74199c643b3a31f0fc1886a6f
+      id: 2746119090
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Block
+        ObjectType: 4
+        guid: c33612521d14a0439f73db90afaaa1e1
+      - ElementName: Play_Moving_Block
+        ObjectType: 3
+        guid: ed946ae74199c643b3a31f0fc1886a6f
+      Path: Events\Default Work Unit\Block\Play_Moving_Block
+      maxAttenuation: 16
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_String_Note_A
+      guid: 6cc83967cd6d22419fd041c3797404ef
+      id: 2668293568
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      - ElementName: Play_String_Note_A
+        ObjectType: 3
+        guid: 6cc83967cd6d22419fd041c3797404ef
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_A
+      maxAttenuation: 0
+      maxDuration: 2.5841043
+      minDuration: 2.5841043
     - name: Play_String_Note_B
       guid: 82ddb8f845fb4b4d9ef5bbf6c726dd77
       id: 2668293571
@@ -157,10 +234,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
       - ElementName: Play_String_Note_B
         ObjectType: 3
         guid: 82ddb8f845fb4b4d9ef5bbf6c726dd77
-      Path: Events\Default Work Unit\Play_String_Note_B
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_B
       maxAttenuation: 0
       maxDuration: 3.0664172
       minDuration: 3.0664172
@@ -174,10 +254,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
       - ElementName: Play_String_Note_C
         ObjectType: 3
         guid: 203c2396a7431041b6fe325011d58895
-      Path: Events\Default Work Unit\Play_String_Note_C
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_C
       maxAttenuation: 0
       maxDuration: 2.9014285
       minDuration: 2.9014285
@@ -191,10 +274,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
       - ElementName: Play_String_Note_D
         ObjectType: 3
         guid: a31f40f6f49ceb418d14cb4ac34ec696
-      Path: Events\Default Work Unit\Play_String_Note_D
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_D
       maxAttenuation: 0
       maxDuration: 2.3488436
       minDuration: 2.3488436
@@ -208,13 +294,153 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
       - ElementName: Play_String_Note_E
         ObjectType: 3
         guid: c39fc8f9975b1044afffd24871bf84af
-      Path: Events\Default Work Unit\Play_String_Note_E
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_E
       maxAttenuation: 0
       maxDuration: 3.0036962
       minDuration: 3.0036962
+    - name: Play_String_Note_E_Low
+      guid: b659ac9ab27a8048be1523cf1e9a4993
+      id: 1227793063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      - ElementName: Play_String_Note_E_Low
+        ObjectType: 3
+        guid: b659ac9ab27a8048be1523cf1e9a4993
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_E_Low
+      maxAttenuation: 0
+      maxDuration: 3.7212925
+      minDuration: 3.7212925
+    - name: Play_String_Note_F
+      guid: ecbda9aa9a2dee48bd59ee208c970f8c
+      id: 2668293575
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      - ElementName: Play_String_Note_F
+        ObjectType: 3
+        guid: ecbda9aa9a2dee48bd59ee208c970f8c
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_F
+      maxAttenuation: 0
+      maxDuration: 3.8428345
+      minDuration: 3.8428345
+    - name: Play_String_Note_F_high
+      guid: 5d2e1b0a9d4dec438e793e06a816de2f
+      id: 689432314
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      - ElementName: Play_String_Note_F_high
+        ObjectType: 3
+        guid: 5d2e1b0a9d4dec438e793e06a816de2f
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_F_high
+      maxAttenuation: 0
+      maxDuration: 3.2624943
+      minDuration: 3.2624943
+    - name: Play_String_Note_G
+      guid: c324738ec690e94c84429e7e88c49850
+      id: 2668293574
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      - ElementName: Play_String_Note_G
+        ObjectType: 3
+        guid: c324738ec690e94c84429e7e88c49850
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_G
+      maxAttenuation: 0
+      maxDuration: 2.8860545
+      minDuration: 2.8860545
+    - name: Play_String_Note_G_high
+      guid: e8bf5c7a996f5f4b87d5333898d02f34
+      id: 3176529497
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      - ElementName: Play_String_Note_G_high
+        ObjectType: 3
+        guid: e8bf5c7a996f5f4b87d5333898d02f34
+      Path: Events\Default Work Unit\String Notes\Play_String_Note_G_high
+      maxAttenuation: 0
+      maxDuration: 2.6429253
+      minDuration: 2.6429253
+    - name: Stop_Moving_Block
+      guid: b48b17dd2da84b41a5a294a5b4a6a9bd
+      id: 3412145620
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Block
+        ObjectType: 4
+        guid: c33612521d14a0439f73db90afaaa1e1
+      - ElementName: Stop_Moving_Block
+        ObjectType: 3
+        guid: b48b17dd2da84b41a5a294a5b4a6a9bd
+      Path: Events\Default Work Unit\Block\Stop_Moving_Block
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: String Notes
+      guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      id: 92711785
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: String Notes
+        ObjectType: 4
+        guid: d4b4b533b5d7e04ca6f27e2ed327464c
+      Path: Events\Default Work Unit\String Notes
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -227,7 +453,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 704e823ed1b4ba4980acac3635381b3b
     GuidInternal: 
-    m_lastTime: -8584829342286542463
+    m_lastTime: -8584827575301803057
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -241,7 +467,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 498df801d36d9b489e9a76cd04bcab91
     GuidInternal: 
-    m_lastTime: -8584829342285891005
+    m_lastTime: -8584827575274084630
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -255,8 +481,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a4e80e03fc1e8943a19c9f524f8d7c6c
     GuidInternal: 
-    m_lastTime: -8584829342285886000
-    List: []
+    m_lastTime: -8584824680365439917
+    List:
+    - name: FootSteps
+      guid: 0f2047bd8955f3409a5a2bc29216707d
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+      - ElementName: FootSteps
+        ObjectType: 11
+        guid: 0f2047bd8955f3409a5a2bc29216707d
+      Path: Switches\Default Work Unit\FootSteps
+      values:
+      - name: Rug
+        guid: 7ae0c9d8c5330a41a70b747e7ff0c004
+        id: 712161697
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: FootSteps
+          ObjectType: 11
+          guid: 0f2047bd8955f3409a5a2bc29216707d
+        - ElementName: Rug
+          ObjectType: 10
+          guid: 7ae0c9d8c5330a41a70b747e7ff0c004
+      - name: Wood
+        guid: 2bf0a1217e86144b97c77a94dcd3566c
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: FootSteps
+          ObjectType: 11
+          guid: 0f2047bd8955f3409a5a2bc29216707d
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 2bf0a1217e86144b97c77a94dcd3566c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -269,10 +545,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: b5504e8d964675429cae06d354607df5
     GuidInternal: 
-    m_lastTime: -8584829342285881002
+    m_lastTime: -8584827575274054617
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000e0000000f000000
+  ExpandedWaapiItemIds: 0500000006000000070000000b0000000e0000000f000000110000001200000015000000160000001d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

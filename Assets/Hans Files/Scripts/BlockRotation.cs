@@ -25,6 +25,11 @@ public class BlockRotation : MonoBehaviour
     [Tooltip("Threshold for when the object starts shining. Based on y axis")]
     [SerializeField] private float brightnessThreshold;
 
+    [SerializeField] AK.Wwise.Event playMovingSound;
+    [SerializeField] AK.Wwise.Event stopMovingSound;
+
+    bool isplayingSound = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,13 +46,33 @@ public class BlockRotation : MonoBehaviour
             // Rotate positively around the Y-axis
             if (Input.GetKey(positive_Rotation_Input))
             {
+                PlaySound(true);
                 this.transform.Rotate(0, RotationSpeed * Time.deltaTime, 0, Space.World);
             }
             // Rotate negatively around the Y-axis
             else if (Input.GetKey(negative_Rotation_Input))
             {
+                PlaySound(true);
                 this.transform.Rotate(0, -RotationSpeed * Time.deltaTime, 0, Space.World);
             }
+            else PlaySound(false);
+        }
+    }
+
+    private void PlaySound(bool play)
+    {
+        if (play)
+        {
+            if (!isplayingSound)
+            {
+                playMovingSound.Post(gameObject);
+                isplayingSound = true;
+            }
+        }
+        else
+        {
+            stopMovingSound.Post(gameObject);
+            isplayingSound = false;
         }
     }
 
@@ -127,6 +152,7 @@ public class BlockRotation : MonoBehaviour
         if(other.gameObject == player)
         {
             player.GetComponent<ThirdPersonMovement>().canMove = true;
+            PlaySound(false);
         }
     }
 }
