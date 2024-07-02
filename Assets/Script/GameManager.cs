@@ -46,24 +46,25 @@ public class GameManager : MonoBehaviour
 
     public void CollectSong(int puzzleLevel)
     {
-        // Deactivate the current note
-        notes[currentNoteIndex].SetActive(false);
+        if (puzzleLevel != 0)
+        {
+            // Deactivate the current note
+            notes[currentNoteIndex].SetActive(false);
+
+            // Increment the note index
+            currentNoteIndex++;
+
+            // If there are more notes, activate the next one
+            if (currentNoteIndex < notes.Count)
+            {
+                notes[currentNoteIndex].SetActive(true);
+            }
+        }
 
         // Load the puzzle level
         SceneManager.LoadScene(puzzleLevel);
 
-        // Increment the note index
-        currentNoteIndex++;
-
-        // If there are more notes, activate the next one
-        if (currentNoteIndex < notes.Count)
-        {
-            notes[currentNoteIndex].SetActive(true);
-        }
-
         SaveGameState();
-
-
     }
 
     public void SaveGameState()
@@ -75,5 +76,4 @@ public class GameManager : MonoBehaviour
     {
         currentNoteIndex = SaveSystem.LoadLevel();
     }
-
 }
