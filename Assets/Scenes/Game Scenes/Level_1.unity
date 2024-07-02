@@ -8526,6 +8526,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctBlock: 4
   currentBlock: 0
+  playSound:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72e355fc1e8348b469316a8086cf1e54,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b94b18a94dd71bd4e92550c6876e60b7,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1d80f5800d366104c8d5e349c16033ff,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e5012378606610740ae1066111d29318,
+      type: 2}
   isCorrect: 0
 --- !u!65 &1139439513
 BoxCollider:
@@ -10571,6 +10588,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctBlock: 2
   currentBlock: 0
+  playSound:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6c4aafa3fb0350c42afb98dc23bb8b43,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d5d277b9d5cbb5748bc79e1d57453430,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b94b18a94dd71bd4e92550c6876e60b7,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72e355fc1e8348b469316a8086cf1e54,
+      type: 2}
   isCorrect: 0
 --- !u!65 &1450838252
 BoxCollider:
@@ -13940,7 +13974,7 @@ Transform:
   m_GameObject: {fileID: 1783029698}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.044999998, y: 0, z: 0.47419998}
+  m_LocalPosition: {x: 0.044999998, y: -0, z: 0}
   m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 0.099999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16303,7 +16337,7 @@ Transform:
   m_GameObject: {fileID: 2055002007}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.044999998, y: 0, z: 0.47419998}
+  m_LocalPosition: {x: -0.044999998, y: 0, z: 0}
   m_LocalScale: {x: 0.099999994, y: 0.099999994, z: 0.099999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16620,6 +16654,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctBlock: 3
   currentBlock: 0
+  playSound:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72e355fc1e8348b469316a8086cf1e54,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1d80f5800d366104c8d5e349c16033ff,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b172b1e14647b3b4c80b77b90fbef38f,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b94b18a94dd71bd4e92550c6876e60b7,
+      type: 2}
   isCorrect: 0
 --- !u!65 &2077115498
 BoxCollider:
@@ -19459,6 +19510,11 @@ MonoBehaviour:
     type: 2}
   notInteractableMaterial: {fileID: 2100000, guid: e9edf14697c1eb94ba6f30a8b8570994,
     type: 2}
+  collectSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3208defa6d75ab045bea09ef169bf064,
+      type: 2}
 --- !u!135 &9104476686052280686
 SphereCollider:
   m_ObjectHideFlags: 0
