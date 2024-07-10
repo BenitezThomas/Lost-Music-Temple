@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	407578916	Play_Collect_Scroll_Jingle			\Default Work Unit\Play_Collect_Scroll_Jingle	
+	409577309	Stop_Study_Time			\Default Work Unit\Stop_Study_Time	
 	689432314	Play_String_Note_F_high			\Default Work Unit\String Notes\Play_String_Note_F_high	
 	860510136	Play_HarmonyWheel_D			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_D	
 	860510137	Play_HarmonyWheel_E			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_E	
@@ -19,9 +20,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2668293574	Play_String_Note_G			\Default Work Unit\String Notes\Play_String_Note_G	
 	2668293575	Play_String_Note_F			\Default Work Unit\String Notes\Play_String_Note_F	
 	2746119090	Play_Moving_Block			\Default Work Unit\Block\Play_Moving_Block	
+	3007483891	Stop_Lost_library_game_trailer_music			\Default Work Unit\Stop_Lost_library_game_trailer_music	
 	3176529497	Play_String_Note_G_high			\Default Work Unit\String Notes\Play_String_Note_G_high	
 	3412145620	Stop_Moving_Block			\Default Work Unit\Block\Stop_Moving_Block	
 	3854155799	Play_FootSteps			\Default Work Unit\Play_FootSteps	
+	3935525577	Play_Lost_library_game_trailer_music			\Default Work Unit\Play_Lost_library_game_trailer_music	
 	4089264814	Play_Gate_Open			\Default Work Unit\Block\Play_Gate_Open	
 	4219497895	Play_Study_Time			\Default Work Unit\Play_Study_Time	
 
@@ -61,9 +64,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	874061896	Foot Step Wood 4	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 4		12892
 	876776862	HarmonyWheel_D	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_D_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_D		243460
 	888044100	HarmonyWheel_F	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_F_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_F		243460
-	893217437	Study Time	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Study Time_2200D972.wem		\Actor-Mixer Hierarchy\Default Work Unit\Study Time		6272208
+	893217437	Study Time	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Study Time_43E96754.wem		\Actor-Mixer Hierarchy\Default Work Unit\Study Time		6272208
 	913326851	Foot Step Wood 1	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 1		24162
 	933367190	String Note F high	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note F high_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F high		287848
 	953043269	Foot Step Rug 4	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 4		19638
 	994341315	Foot Step Rug 1	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 1		15314
+	1018386894	Lost library game trailer music	C:\Users\thomy\Unity projects\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Lost library game trailer music_751B93A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lost library game trailer music		12018692
 

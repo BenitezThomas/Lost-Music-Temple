@@ -8543,6 +8543,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e5012378606610740ae1066111d29318,
       type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72e355fc1e8348b469316a8086cf1e54,
+      type: 2}
   isCorrect: 0
 --- !u!65 &1139439513
 BoxCollider:
@@ -10604,6 +10608,10 @@ MonoBehaviour:
   - idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 72e355fc1e8348b469316a8086cf1e54,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6c4aafa3fb0350c42afb98dc23bb8b43,
       type: 2}
   isCorrect: 0
 --- !u!65 &1450838252
@@ -16671,6 +16679,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b94b18a94dd71bd4e92550c6876e60b7,
       type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72e355fc1e8348b469316a8086cf1e54,
+      type: 2}
   isCorrect: 0
 --- !u!65 &2077115498
 BoxCollider:
@@ -19503,7 +19515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa724c12ee96d040a51460469313855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleLevel: 0
+  puzzleLevel: 1
   ui_Manager: {fileID: 283181244}
   mesh: {fileID: 5662048566640711185}
   interactableMaterial: {fileID: 2100000, guid: 524e6f1186d8aa941b6257cae87d5583,
