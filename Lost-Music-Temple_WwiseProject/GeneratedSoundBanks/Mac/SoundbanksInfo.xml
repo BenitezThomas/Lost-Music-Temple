@@ -30,7 +30,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2DD1816A-791A-5825-AE4C-0EBAD486ABCF}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43FB6272-1A62-248B-59A2-817899F9DD70}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -148,7 +148,7 @@
 				</File>
 				<File Id="893217437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Study Time.wav</ShortName>
-					<CachePath>SFX/Study Time_2200D972.wem</CachePath>
+					<CachePath>SFX/Study Time_43E96754.wem</CachePath>
 				</File>
 				<File Id="913326851" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 1.wav</ShortName>
@@ -166,9 +166,13 @@
 					<ShortName>Rug\Foot Step Rug 1.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1018386894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lost library game trailer music.wav</ShortName>
+					<CachePath>SFX/Lost library game trailer music_751B93A6.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="407578916" Name="Play_Collect_Scroll_Jingle" DurationType="OneShot" DurationMin="2.3506458" DurationMax="2.3506458">
+				<Event Id="407578916" Name="Play_Collect_Scroll_Jingle" MaxAttenuation="16" DurationType="OneShot" DurationMin="2.3506458" DurationMax="2.3506458">
 					<MediaRefs>
 						<MediaRef Id="721139345"/>
 					</MediaRefs>
@@ -235,6 +239,11 @@
 				<Event Id="860510139" Name="Play_HarmonyWheel_G" DurationType="OneShot" DurationMin="1.0505208" DurationMax="1.0505208">
 					<MediaRefs>
 						<MediaRef Id="488647433"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3935525577" Name="Play_Lost_library_game_trailer_music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1018386894"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1312779127" Name="Play_Melody1" DurationType="OneShot" DurationMin="5.1800227" DurationMax="5.1800227">
@@ -307,7 +316,9 @@
 						<MediaRef Id="893217437"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3007483891" Name="Stop_Lost_library_game_trailer_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3412145620" Name="Stop_Moving_Block" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="409577309" Name="Stop_Study_Time" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2385628198" Name="FootSteps">
@@ -319,5 +330,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F607D8F6-187F-A9A8-3D94-B38CB0C977DF}</FileHash>
+	<FileHash>{F2C3207E-9DF9-DBD8-2C9A-309B748F2052}</FileHash>
 </SoundBanksInfo>

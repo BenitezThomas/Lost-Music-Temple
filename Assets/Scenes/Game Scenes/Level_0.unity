@@ -5687,7 +5687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749061466}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16423994, y: 0.055605855, z: -0.009273583, w: 0.98480827}
+  m_LocalRotation: {x: 0.16423993, y: 0.055605877, z: -0.009273587, w: 0.98480827}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11053,7 +11053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431349299}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23780322, y: 0.000000018694196, z: -0.000000004576834, w: 0.97131336}
+  m_LocalRotation: {x: 0.23780324, y: -0.000000018685192, z: 0.00000000457463, w: 0.97131336}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14145,7 +14145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999727612}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20236337, y: 0.000000008424823, z: -0.0000000017408938, w: 0.9793105}
+  m_LocalRotation: {x: 0.20236337, y: 0.000000008425194, z: -0.0000000017409701, w: 0.9793105}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17937,7 +17937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa724c12ee96d040a51460469313855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleLevel: 0
+  puzzleLevel: 1
   ui_Manager: {fileID: 1120418318}
   mesh: {fileID: 5662048566640711185}
   interactableMaterial: {fileID: 2100000, guid: 524e6f1186d8aa941b6257cae87d5583,
