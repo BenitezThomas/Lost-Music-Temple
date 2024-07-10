@@ -2064,7 +2064,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 0
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -2731,7 +2731,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 0
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -5152,7 +5152,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697599184}
   serializedVersion: 4
-  m_Mass: 300
+  m_Mass: 200
   m_Drag: 1
   m_AngularDrag: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5187,17 +5187,19 @@ MonoBehaviour:
   player: {fileID: 2013196419}
   positive_Rotation_Input: 323
   negative_Rotation_Input: 324
-  RotationSpeed: 20
-  tolerance: 5
+  RotationSpeed: 32
+  tolerance: 10
   brightnessThreshold: 0
   playMovingSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f283d7801587a7d4abfdb747e26a0876,
+      type: 2}
   stopMovingSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4ed621eebb46f634da38d2ec6d95e962,
+      type: 2}
 --- !u!65 &697599188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5685,7 +5687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749061466}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16424103, y: 0.055606224, z: -0.00927371, w: 0.984808}
+  m_LocalRotation: {x: 0.16423993, y: 0.055605877, z: -0.009273587, w: 0.98480827}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10755,7 +10757,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 1
+  m_Priority: 2
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 2013196425}
   m_Follow: {fileID: 2013196425}
@@ -11051,7 +11053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431349299}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24292769, y: 0.000000008345475, z: -0.0000000020899524, w: 0.97004443}
+  m_LocalRotation: {x: 0.23780324, y: -0.000000018685192, z: 0.00000000457463, w: 0.97131336}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14143,7 +14145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999727612}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20753054, y: 0.000000016831782, z: -0.0000000035708512, w: 0.97822857}
+  m_LocalRotation: {x: 0.20236337, y: 0.000000008425194, z: -0.0000000017409701, w: 0.9793105}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14376,7 +14378,7 @@ Transform:
   m_GameObject: {fileID: 2013196419}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.467, z: -38.46}
+  m_LocalPosition: {x: 0, y: 1.467, z: -38.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17935,13 +17937,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa724c12ee96d040a51460469313855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleLevel: 0
+  puzzleLevel: 1
   ui_Manager: {fileID: 1120418318}
   mesh: {fileID: 5662048566640711185}
   interactableMaterial: {fileID: 2100000, guid: 524e6f1186d8aa941b6257cae87d5583,
     type: 2}
   notInteractableMaterial: {fileID: 2100000, guid: e9edf14697c1eb94ba6f30a8b8570994,
     type: 2}
+  collectSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3208defa6d75ab045bea09ef169bf064,
+      type: 2}
 --- !u!135 &9104476686052280686
 SphereCollider:
   m_ObjectHideFlags: 0
