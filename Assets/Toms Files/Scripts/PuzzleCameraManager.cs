@@ -12,30 +12,40 @@ public class PuzzleCameraManager : MonoBehaviour
 
     bool isPlayerNear = false;
     bool isPuzzleFinished = false;
+    bool isPlayingAnimation = false;
 
     private void Update()
     {
         if (!isPuzzleFinished)
         {
-            if (isPlayerNear && Input.GetKey(KeyCode.E)) puzzleCamera.m_Priority = 10;
+            if (isPlayerNear && Input.GetKey(KeyCode.E) || isPlayingAnimation) puzzleCamera.m_Priority = 10;
             else puzzleCamera.m_Priority = 0;
         } 
+        else
+        {
+            if (!isPlayingAnimation) puzzleCamera.m_Priority = 0;
+        }
     }
 
     public IEnumerator FinishPuzzle()
     {
-        isPuzzleFinished = true;
+        if (!isPuzzleFinished)
+        {
+            isPlayingAnimation = true;
+            isPuzzleFinished = true;
 
-        puzzleCamera.m_Priority = 10;
+            puzzleCamera.m_Priority = 10;
 
-        yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(2f);
 
-        puzzleGate.TryOpenGate();
-        gatePieces.gameObject.SetActive(true);
+            puzzleGate.TryOpenGate();
+            gatePieces.gameObject.SetActive(true);
 
-        yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1f);
 
-        puzzleCamera.m_Priority = 0;
+            isPlayingAnimation = false;
+            puzzleCamera.m_Priority = 0;
+        }
     }
 
     //Detection of player proximity
