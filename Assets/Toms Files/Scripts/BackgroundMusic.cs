@@ -8,7 +8,8 @@ public class BackgroundMusic : MonoBehaviour
     [SerializeField] AK.Wwise.Event stopGameSong;
     [SerializeField] AK.Wwise.Event playMenuSong;
     [SerializeField] AK.Wwise.Event stopMenuSong;
-
+    [SerializeField] AK.Wwise.Event playLevel_1Music;
+    [SerializeField] AK.Wwise.Event stopLevel_1Music;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,12 +19,12 @@ public class BackgroundMusic : MonoBehaviour
     public void StartGameSong()
     {
         stopMenuSong.Post(gameObject);
-        playGameSong.Post(gameObject);
+        playLevel_1Music.Post(gameObject);
     }
 
     public void StartMenuSong()
     {
-        stopGameSong.Post(gameObject);
+        stopLevel_1Music.Post(gameObject);
         playMenuSong.Post(gameObject);
     }
 }

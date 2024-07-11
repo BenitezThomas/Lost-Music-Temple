@@ -332,6 +332,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}">
+					<ChildrenList>
+						<Action Name="" ID="{F79194C2-5C78-4EA9-AB11-15A8082B25E7}" ShortID="636315013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}">
+					<ChildrenList>
+						<Action Name="" ID="{E3BD38C9-E0D2-4C17-A717-E2126100D804}" ShortID="842673571">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

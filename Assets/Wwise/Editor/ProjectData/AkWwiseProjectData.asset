@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c079418a731b39489fe1e514944efc72
     GuidInternal: 
-    m_lastTime: -8584827575274034593
+    m_lastTime: -8584809555006115047
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cee84511aa01b24fb8c1736ae2c63afb
     GuidInternal: 
-    m_lastTime: -8584827575300972369
+    m_lastTime: -8584809555008871363
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584816475786106137
+    m_lastTime: -8584808875403216266
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584816475787424963
+    m_lastTime: -8584808875403171000
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -147,6 +147,23 @@ MonoBehaviour:
       maxAttenuation: 16
       maxDuration: 2.3506458
       minDuration: 2.3506458
+    - name: Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+      guid: 81a70c641227ce4395d3c6d02718b3d0
+      id: 2150382181
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+        ObjectType: 3
+        guid: 81a70c641227ce4395d3c6d02718b3d0
+      Path: Events\Default Work Unit\Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+      maxAttenuation: 0
+      maxDuration: 134.18184
+      minDuration: 134.18184
     - name: Play_FootSteps
       guid: 86d345da49f886439f96d86dba5d13ea
       id: 3854155799
@@ -612,6 +629,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+      guid: 27afba34b712da468d68bfe392c7d2a6
+      id: 3691818063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+        ObjectType: 3
+        guid: 27afba34b712da468d68bfe392c7d2a6
+      Path: Events\Default Work Unit\Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Lost_library_game_trailer_music
       guid: 6408be93b8010c41ad23cca62bb6b599
       id: 3007483891
@@ -695,7 +729,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 704e823ed1b4ba4980acac3635381b3b
     GuidInternal: 
-    m_lastTime: -8584827575301803057
+    m_lastTime: -8584809555011968931
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -709,7 +743,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 498df801d36d9b489e9a76cd04bcab91
     GuidInternal: 
-    m_lastTime: -8584827575274084630
+    m_lastTime: -8584809555006130064
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -723,7 +757,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a4e80e03fc1e8943a19c9f524f8d7c6c
     GuidInternal: 
-    m_lastTime: -8584823784607497306
+    m_lastTime: -8584809555006115047
     List:
     - name: FootSteps
       guid: 0f2047bd8955f3409a5a2bc29216707d
@@ -787,7 +821,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: b5504e8d964675429cae06d354607df5
     GuidInternal: 
-    m_lastTime: -8584827575274054617
+    m_lastTime: -8584809555006115047
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 05000000060000000700000008000000
