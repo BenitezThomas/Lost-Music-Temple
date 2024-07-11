@@ -14,6 +14,8 @@ public class MusicNoteCollect : MonoBehaviour
     [SerializeField] Material interactableMaterial;
     [SerializeField] Material notInteractableMaterial;
 
+    [SerializeField] AK.Wwise.Event collectSound;
+
     bool playerNear;
 
 
@@ -34,9 +36,10 @@ public class MusicNoteCollect : MonoBehaviour
     {
         if (playerNear && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(puzzleLevel);
-            gameObject.SetActive(false);
-            //Save Logic
+            collectSound.Post(gameObject);
+            GameManager.Instance.CollectSong(puzzleLevel);
+            //SceneManager.LoadScene(puzzleLevel);
+            //gameObject.SetActive(false);
         }
     }
 
