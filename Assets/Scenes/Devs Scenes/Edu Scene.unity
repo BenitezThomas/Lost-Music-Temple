@@ -555,17 +555,17 @@ PrefabInstance:
     - target: {fileID: 6046052191167419044, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.098537624
+      value: 0.09853762
       objectReference: {fileID: 0}
     - target: {fileID: 6046052191167419044, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000042806607
+      value: 0.000000004280661
       objectReference: {fileID: 0}
     - target: {fileID: 6046052191167419044, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 4.238689e-10
+      value: -4.238689e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7337371046797068341, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
@@ -605,7 +605,7 @@ GameObject:
   - component: {fileID: 1733131723}
   m_Layer: 3
   m_Name: Ground Check
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -697,6 +697,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1817397872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3200837640175088500, guid: f0717372d9db4df449af253c2c9b2e46,
+    type: 3}
+  m_PrefabInstance: {fileID: 2009085650241159020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1817397878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817397872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d94e917f6601240b4558e8e2c9e1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnable: 1
+  jumpMultiplier: 7
+  fallFactor: 3.5
+  fallMaxVelocity: 0
+  isJumpAgain: 1
 --- !u!1 &1881740478 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8710408357577281073, guid: d8db6214552ccad4f8720967fea878f2,
@@ -846,15 +869,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: BongosDrum
       objectReference: {fileID: 0}
+    - target: {fileID: 2817560501422496673, guid: f0717372d9db4df449af253c2c9b2e46,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bongo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200837640175088500, guid: f0717372d9db4df449af253c2c9b2e46,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5408986986308277975, guid: f0717372d9db4df449af253c2c9b2e46,
         type: 3}
       propertyPath: fallFactor
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6682227154603414281, guid: f0717372d9db4df449af253c2c9b2e46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996323334165158484, guid: f0717372d9db4df449af253c2c9b2e46,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5408986986308277975, guid: f0717372d9db4df449af253c2c9b2e46, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3200837640175088500, guid: f0717372d9db4df449af253c2c9b2e46,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1817397878}
   m_SourcePrefab: {fileID: 100100000, guid: f0717372d9db4df449af253c2c9b2e46, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
