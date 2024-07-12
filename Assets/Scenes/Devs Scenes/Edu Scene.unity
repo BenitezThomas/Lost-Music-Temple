@@ -555,17 +555,17 @@ PrefabInstance:
     - target: {fileID: 6046052191167419044, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.098537624
+      value: 0.09853762
       objectReference: {fileID: 0}
     - target: {fileID: 6046052191167419044, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000042806607
+      value: 0.000000004280661
       objectReference: {fileID: 0}
     - target: {fileID: 6046052191167419044, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 4.238689e-10
+      value: -4.238689e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7337371046797068341, guid: d8db6214552ccad4f8720967fea878f2,
         type: 3}
@@ -845,6 +845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BongosDrum
+      objectReference: {fileID: 0}
+    - target: {fileID: 5408986986308277975, guid: f0717372d9db4df449af253c2c9b2e46,
+        type: 3}
+      propertyPath: fallFactor
+      value: 6.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

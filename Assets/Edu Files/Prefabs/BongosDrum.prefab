@@ -226,4 +226,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnable: 1
   jumpMultiplier: 2
-  fallFactor: 5
+  fallFactor: 6.5
+  fallMaxVelocity: 0
