@@ -122,4 +122,9 @@ public class ThirdPersonMovement : MonoBehaviour
         }
     }
 
+    public void JumpHigher(float jumpMultiplier)
+    {
+        velocity.y = Mathf.Sqrt(jumpHeight * jumpMultiplier * -2f * gravity);
+        Jump();
+    }
 }
