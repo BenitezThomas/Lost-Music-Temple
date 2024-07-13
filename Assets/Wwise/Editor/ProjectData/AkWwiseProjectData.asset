@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584808875403216266
+    m_lastTime: -8584808838657914348
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584808875403171000
+    m_lastTime: -8584808838666637811
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -162,8 +162,8 @@ MonoBehaviour:
         guid: 81a70c641227ce4395d3c6d02718b3d0
       Path: Events\Default Work Unit\Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
       maxAttenuation: 0
-      maxDuration: 134.18184
-      minDuration: 134.18184
+      maxDuration: -1
+      minDuration: -1
     - name: Play_FootSteps
       guid: 86d345da49f886439f96d86dba5d13ea
       id: 3854155799
@@ -644,8 +644,8 @@ MonoBehaviour:
         guid: 27afba34b712da468d68bfe392c7d2a6
       Path: Events\Default Work Unit\Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Lost_library_game_trailer_music
       guid: 6408be93b8010c41ad23cca62bb6b599
       id: 3007483891
