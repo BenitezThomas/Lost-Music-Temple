@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4008974574385675188}
   m_Layer: 3
   m_Name: BongosDrum
-  m_TagString: Untagged
+  m_TagString: Bongo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,3 +228,4 @@ MonoBehaviour:
   jumpMultiplier: 2
   fallFactor: 6.5
   fallMaxVelocity: 0
+  isJumpAgain: 0

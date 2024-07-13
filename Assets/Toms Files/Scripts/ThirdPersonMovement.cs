@@ -26,8 +26,6 @@ public class ThirdPersonMovement : MonoBehaviour
     [Tooltip("Height of the player's jump.")]
     [SerializeField] private float jumpHeight = 1.5f;
 
-    public float velocityY;
-
     [Tooltip("Gravity force applied to the player.")]
     [SerializeField] private float gravity = -9.81f;
 
@@ -60,8 +58,6 @@ public class ThirdPersonMovement : MonoBehaviour
         Movement();
         Jump();
         Run();
-
-        velocityY = controller.velocity.y;
     }
 
     //Checks if the player is grounded
@@ -135,15 +131,18 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if(hit.transform.tag == "Bongo")
+        //Author: Eduardo Chiaratto (edu05)
+        //Date: 07/13/2024 BR
+        if (hit.transform.tag == "Bongo")
         {
             var bongo = hit.transform.GetChild(0).GetComponent<BongosDrum>();
-            if(bongo.isEnable && bongo.isJumpAgain && controller.velocity.y > -bongo.fallFactor * 6.5f && bongo.jumpMultiplier > 0) 
+            //if collide with bongo and and meet all requirements, will get jump boost
+            if (bongo.isEnable && bongo.isJumpAgain && bongo.jumpMultiplier > 0) 
             {
                 JumpHigher(bongo.jumpMultiplier);
                 bongo.isJumpAgain = true;
             }
-            //bongo.isJumpAgain = true;
+            //set Fall Max Velocity
             bongo.fallMaxVelocity = controller.velocity.y / 6.5f;
         }
     }

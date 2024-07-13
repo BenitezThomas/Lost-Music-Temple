@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 using UnityEngine.XR;
 
 //Author: Eduardo Chiaratto (edu05)
-//Date: 07/12/2024 BR
+//Date: 07/13/2024 BR
 
 /// <summary>
 /// Registers when player jumps in or walk in bongos top.
@@ -27,37 +27,19 @@ public class BongosDrum : MonoBehaviour
     {
         if (isEnable)
         {
-            var collider = GetComponent<Collider>();
             var player = other.GetComponent<CharacterController>();
-            Debug.Log(player.collisionFlags);
-            if (player.collisionFlags == CollisionFlags.None && jumpMultiplier > 0)
+
+            //will see if active the jump loop
+            if (player.collisionFlags == CollisionFlags.None && -player.velocity.y / 6.5f < fallFactor && jumpMultiplier > 0)
             {
                 isJumpAgain = true;
-            }
-            else if (player.collisionFlags == CollisionFlags.Below && player.velocity.y == 0)
+            }else if (player.collisionFlags != CollisionFlags.None && player.velocity.y == 0)
             {
                 isJumpAgain = false;
-                //fallMaxVelocity = 0;
             }
-        }
-    }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (isEnable)
-        {
-            var player = other.GetComponent<CharacterController>();
-            var collider = GetComponent<Collider>();
-            Debug.Log(player.collisionFlags);
-            /*var player = other.GetComponent<CharacterController>();
-            fallMaxVelocity = player.velocity.magnitude;
-            if (player.velocity.magnitude > 0 && player.velocity.magnitude < fallFactor * 6.5f && jumpMultiplier > 0)
-            {
-                var playerJump = player.GetComponent<ThirdPersonMovement>();
-                playerJump.JumpHigher(jumpMultiplier);
-                //jumpAgain = false;
-            }*/
-            if(player.collisionFlags != CollisionFlags.None ) isJumpAgain = false;
+            //will see if the player y velocity is less than Fall Factor
+            if(-player.velocity.y / 6.5f > fallFactor) isJumpAgain = false;
         }
     }
 }
