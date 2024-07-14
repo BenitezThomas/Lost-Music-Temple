@@ -44,6 +44,7 @@ public class ThirdPersonMovement : MonoBehaviour
     [Tooltip("Transform position to check if the player is grounded.")]
     [SerializeField] private Transform groundCheck;
 
+
     public bool canMove;
 
     void Start()

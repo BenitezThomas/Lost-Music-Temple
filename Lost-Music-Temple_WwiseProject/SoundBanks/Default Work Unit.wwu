@@ -19,12 +19,14 @@
 						<ObjectRef Name="Play_FootSteps" ID="{DA45D386-F849-4386-9F96-D86DBA5D13EA}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_G" ID="{8B2EF5F8-4829-43B1-82CF-A354EE911AE5}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving_Block" ID="{E76A94ED-9941-43C6-B3A3-1F0FC1886A6F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_F_high" ID="{0A1B2E5D-4D9D-43EC-8E79-3E06A816DE2F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_E" ID="{F9C89FC3-5B97-4410-AFFF-D24871BF84AF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gate_Open" ID="{B00B6101-DE1B-44C2-AC72-01CBB744E3A7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_F" ID="{037B9BB7-7B02-4554-90A6-0DE07B21E304}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_C" ID="{F794A731-D930-467D-87BB-691C694C5C0C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Study_Time" ID="{8AFA79C3-1B8F-4692-9E2C-E11F5C31E196}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_E_Low" ID="{9AAC59B6-7AB2-4880-BE15-23CF1E9A4993}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_F" ID="{AAA9BDEC-2D9A-48EE-BD59-EE208C970F8C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>

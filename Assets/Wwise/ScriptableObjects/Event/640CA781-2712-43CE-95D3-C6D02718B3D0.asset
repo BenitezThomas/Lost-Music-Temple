@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994cbdb0f0cb1ce4e944c0d76d36aa1d, type: 3}
+  m_Name: 640CA781-2712-43CE-95D3-C6D02718B3D0
+  m_EditorClassIdentifier: 
+  objectName: Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+  id: 2150382181
+  guid: 640CA781-2712-43CE-95D3-C6D02718B3D0
