@@ -2,6 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	407578916	Play_Collect_Scroll_Jingle			\Default Work Unit\Play_Collect_Scroll_Jingle	
 	409577309	Stop_Study_Time			\Default Work Unit\Stop_Study_Time	
 	689432314	Play_String_Note_F_high			\Default Work Unit\String Notes\Play_String_Note_F_high	
+	744740939	Stop_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_CSharp	
+	766101389	Play_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Play_Level2Piano_CSharp	
 	860510136	Play_HarmonyWheel_D			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_D	
 	860510137	Play_HarmonyWheel_E			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_E	
 	860510138	Play_HarmonyWheel_F			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_F	
@@ -11,8 +13,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	860510143	Play_HarmonyWheel_C			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_C	
 	1188403304	Play_melody_3			\Default Work Unit\Play_melody_3	
 	1227793063	Play_String_Note_E_Low			\Default Work Unit\String Notes\Play_String_Note_E_Low	
+	1292360812	Play_level2Piano_DSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_DSharp	
 	1312779127	Play_Melody1			\Default Work Unit\Play_Melody1	
 	1332247491	Level1MusicStop			\Default Work Unit\Level1MusicStop	
+	1792351953	Stop_Level2Piano_ASharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_ASharp	
+	2138227185	Play_level2Piano_GSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_GSharp	
+	2170343864	Stop_Level2Piano_FSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_FSharp	
+	2376149904	Play_level2Piano_D			\Default Work Unit\Level 2 piano\Play_level2Piano_D	
+	2376149905	Play_level2Piano_E			\Default Work Unit\Level 2 piano\Play_level2Piano_E	
+	2376149906	Play_level2Piano_F			\Default Work Unit\Level 2 piano\Play_level2Piano_F	
+	2376149907	Play_level2Piano_G			\Default Work Unit\Level 2 piano\Play_level2Piano_G	
+	2376149909	Play_level2Piano_A			\Default Work Unit\Level 2 piano\Play_level2Piano_A	
+	2376149910	Play_level2Piano_B			\Default Work Unit\Level 2 piano\Play_level2Piano_B	
+	2376149911	Play_Level2Piano_C			\Default Work Unit\Level 2 piano\Play_Level2Piano_C	
 	2668293568	Play_String_Note_A			\Default Work Unit\String Notes\Play_String_Note_A	
 	2668293570	Play_String_Note_C			\Default Work Unit\String Notes\Play_String_Note_C	
 	2668293571	Play_String_Note_B			\Default Work Unit\String Notes\Play_String_Note_B	
@@ -20,15 +33,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	2668293573	Play_String_Note_D			\Default Work Unit\String Notes\Play_String_Note_D	
 	2668293574	Play_String_Note_G			\Default Work Unit\String Notes\Play_String_Note_G	
 	2668293575	Play_String_Note_F			\Default Work Unit\String Notes\Play_String_Note_F	
+	2711136183	Stop_Level2Piano_GSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_GSharp	
 	2746119090	Play_Moving_Block			\Default Work Unit\Block\Play_Moving_Block	
+	2773441658	Play_level2Piano_FSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_FSharp	
 	3007483891	Stop_Lost_library_game_trailer_music			\Default Work Unit\Stop_Lost_library_game_trailer_music	
 	3176529497	Play_String_Note_G_high			\Default Work Unit\String Notes\Play_String_Note_G_high	
 	3412145620	Stop_Moving_Block			\Default Work Unit\Block\Stop_Moving_Block	
+	3416461271	Play_level2Piano_ASharp			\Default Work Unit\Level 2 piano\Play_level2Piano_ASharp	
+	3507183862	Stop_Level2Piano_DSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_DSharp	
 	3854155799	Play_FootSteps			\Default Work Unit\Play_FootSteps	
 	3935525577	Play_Lost_library_game_trailer_music			\Default Work Unit\Play_Lost_library_game_trailer_music	
 	4089264814	Play_Gate_Open			\Default Work Unit\Block\Play_Gate_Open	
 	4202561861	Level1MusicPlay			\Default Work Unit\Level1MusicPlay	
 	4219497895	Play_Study_Time			\Default Work Unit\Play_Study_Time	
+	4242575856	Stop_Level2Piano_B			\Default Work Unit\Level 2 piano\Stop_Level2Piano_B	
+	4242575857	Stop_Level2Piano_C			\Default Work Unit\Level 2 piano\Stop_Level2Piano_C	
+	4242575859	Stop_Level2Piano_A			\Default Work Unit\Level 2 piano\Stop_Level2Piano_A	
+	4242575860	Stop_Level2Piano_F			\Default Work Unit\Level 2 piano\Stop_Level2Piano_F	
+	4242575861	Stop_Level2Piano_G			\Default Work Unit\Level 2 piano\Stop_Level2Piano_G	
+	4242575862	Stop_Level2Piano_D			\Default Work Unit\Level 2 piano\Stop_Level2Piano_D	
+	4242575863	Stop_Level2Piano_E			\Default Work Unit\Level 2 piano\Stop_Level2Piano_E	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	FootSteps			\Default Work Unit\FootSteps	
@@ -41,36 +65,49 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	388114	melody 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\melody 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\melody 3		620172
 	76708715	Foot Step Wood 5	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 5		23440
 	79362550	Foot Step Rug 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 2		17042
+	83154077	F# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\F# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\F# piano note		2304096
 	86464845	Melody1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Melody1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\Melody1		456974
 	126057298	String Note G high	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note G high_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note G high		233202
 	155952676	String Note B	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note B_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note B		270554
 	201841258	String Note A	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note A_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note A		228014
-	253452743	HarmonyWheel_B	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_B_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_B		201860
+	253452743	HarmonyWheel_B	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_B_8622B4BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_B		201860
+	273429826	F piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\F piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\F piano note		2304096
+	302455035	E piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\E piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\E piano note		1536096
 	302817086	String Note D	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note D_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note D		207264
 	341706876	Foot Step Rug 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 3		18080
+	344952281	G# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\G# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\G# piano note		2304096
 	402357147	Foot Step Rug 5	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 5		16352
+	405704038	A piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\A piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\A piano note		2304096
 	409595829	String Note F	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note F_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F		339034
+	422324391	G piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\G piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\G piano note		2304096
 	432853403	Foot Step Wood 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 3		13930
+	445691425	C# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\C# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\C# piano note		2688096
 	455742158	Gate Open	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Gate Open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Gate Open		57780
 	469612095	String Note E	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note E_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note E		265022
-	488647433	HarmonyWheel_G	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_G_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_G		201860
+	469890072	Hammer release sound	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Hammer release sound_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\Hammer release\Hammer release sound		603492
+	488647433	HarmonyWheel_G	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_G_FBB66FD9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_G		201860
 	500233751	String Note C	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note C_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note C		256002
-	559765484	HarmonyWheel_C	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_C_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_C		201860
-	584818218	HarmonyWheel_A	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_A_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_A		243460
+	559765484	HarmonyWheel_C	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_C_3494A1E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_C		201860
+	584818218	HarmonyWheel_A	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_A_88246160.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_A		243460
 	620327961	String Note G	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note G_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note G		254646
+	625356259	First floor lost library music V1 Gabriele Liotta no loop	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\First floor lost library music V1 Gabriele Liotta_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\First floor lost library music V1 Gabriele Liotta no loop		24296824
 	629947900	String Note E Low	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note E Low_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note E Low		328314
-	632686992	Moving Block	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Moving Block_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Moving Block		408020
-	721139345	Collect_Scroll_Jingle	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Collect_Scroll_Jingle_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collect_Scroll_Jingle		451484
-	801408072	HarmonyWheel_E	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_E_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_E		201860
+	632686992	Moving Block	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Moving Block_18824A0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Moving Block		408068
+	721139345	Collect_Scroll_Jingle	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Collect_Scroll_Jingle_DFD2B115.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collect_Scroll_Jingle		90080
+	789697022	B piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\B piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\B piano note		2304096
+	797625964	D# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\D# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\D# piano note		1467492
+	801408072	HarmonyWheel_E	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_E_A0C2DAB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_E		201860
 	805070630	Foot Step Wood 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 2		22578
 	874061896	Foot Step Wood 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 4		12892
-	876776862	HarmonyWheel_D	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_D_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_D		243460
-	885625676	First floor lost library music V1 Gabriele Liotta no loop	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\First floor lost library music V1 Gabriele Liotta no loop_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\First floor lost library music V1 Gabriele Liotta no loop		25763008
-	888044100	HarmonyWheel_F	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_F_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_F		243460
+	876776862	HarmonyWheel_D	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_D_6E7F559B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_D		243460
+	888044100	HarmonyWheel_F	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Harmony Wheel\HarmonyWheel_F_665960C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_F		243460
+	892634490	A# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\A# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\A# piano note		2304096
 	893217437	Study Time	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Study Time_43E96754.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Study Time		6272208
 	913326851	Foot Step Wood 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\FootSteps Wood\Foot Step Wood 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 1		24162
 	933367190	String Note F high	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\String Note F high_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F high		287848
 	953043269	Foot Step Rug 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 4		19638
 	994341315	Foot Step Rug 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Rug\Foot Step Rug 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 1		15314
+	1008595703	D piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\D piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\D piano note		2304096
 	1018386894	Lost library game trailer music	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Lost library game trailer music_A9329C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Lost library game trailer music		12018692
+	1030262941	C piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\C piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\C piano note		2304096
 
