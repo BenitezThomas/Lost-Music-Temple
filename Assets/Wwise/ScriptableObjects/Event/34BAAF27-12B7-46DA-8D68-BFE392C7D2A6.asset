@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994cbdb0f0cb1ce4e944c0d76d36aa1d, type: 3}
   m_Name: 34BAAF27-12B7-46DA-8D68-BFE392C7D2A6
   m_EditorClassIdentifier: 
-  objectName: Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
-  id: 3691818063
+  objectName: Level1MusicStop
+  id: 1332247491
   guid: 34BAAF27-12B7-46DA-8D68-BFE392C7D2A6
