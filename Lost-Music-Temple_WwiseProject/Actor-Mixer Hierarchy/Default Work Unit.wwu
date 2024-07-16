@@ -329,6 +329,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Melody1" ID="{428EFDF4-9B63-45BF-942D-8622F6C1DFA0}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Melody1.wav</AudioFile>
 									<MediaIDList>
