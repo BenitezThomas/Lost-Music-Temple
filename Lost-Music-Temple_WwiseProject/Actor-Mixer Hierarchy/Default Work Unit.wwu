@@ -115,6 +115,116 @@
 								<ActiveSource Name="String Note A" ID="{BE8AA023-89BA-4E46-849B-E8C61B0D3185}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="String Note E Low" ID="{883E4D02-AAC4-4BE2-BA49-AF3842EDACCE}" ShortID="954020905">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note E Low" ID="{CBA43F88-1946-488B-84D6-1BECCBCDD427}">
+									<Language>SFX</Language>
+									<AudioFile>String Note E Low.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="629947900"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note E Low" ID="{CBA43F88-1946-488B-84D6-1BECCBCDD427}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note F" ID="{18A4C926-D624-4C72-9858-83A834FBC1AC}" ShortID="897006403">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note F" ID="{424E1067-8C0D-4670-A2A9-16CACF851516}">
+									<Language>SFX</Language>
+									<AudioFile>String Note F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="409595829"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note F" ID="{424E1067-8C0D-4670-A2A9-16CACF851516}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note G" ID="{8A680105-BC7A-4A89-91A3-F8173BEA0CE3}" ShortID="633291949">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note G" ID="{1EB8514A-FC4A-47A3-ACCC-675B4FE5A74B}">
+									<Language>SFX</Language>
+									<AudioFile>String Note G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="620327961"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note G" ID="{1EB8514A-FC4A-47A3-ACCC-675B4FE5A74B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note F high" ID="{BC08B8E0-EAD2-4F6C-AEC7-46748D8F214D}" ShortID="954740258">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note F high" ID="{55D1D399-0E2B-4BC8-9D86-ED8B2A5B004B}">
+									<Language>SFX</Language>
+									<AudioFile>String Note F high.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="933367190"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note F high" ID="{55D1D399-0E2B-4BC8-9D86-ED8B2A5B004B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="String Note G high" ID="{3842FA62-39FB-4E4A-ABE1-091E94947386}" ShortID="565781063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="String Note G high" ID="{DF8BD4A2-F9F0-4C19-ACDB-3B4E49687B4E}">
+									<Language>SFX</Language>
+									<AudioFile>String Note G high.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="126057298"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="String Note G high" ID="{DF8BD4A2-F9F0-4C19-ACDB-3B4E49687B4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Stones" ID="{4258AF3F-D43B-443B-98B0-2E4C6B677C4E}" ShortID="550470278">
@@ -147,7 +257,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -175,19 +285,34 @@
 								<ActiveSource Name="Moving Block" ID="{2F36555A-2269-4874-A04F-9CA03353C8B8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Door_Open" ID="{056F155A-704A-4560-8458-EB02FB575901}" ShortID="958365139">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_Open" ID="{09F888DD-2530-4124-B41A-11ECC3ED15D5}">
+									<Language>SFX</Language>
+									<AudioFile>Door_Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="228497183"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_Open" ID="{09F888DD-2530-4124-B41A-11ECC3ED15D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Musical Pieces" ID="{B175EAF7-C1CB-4168-B8CF-AAFB6CB71BBB}" ShortID="614780792">
 					<ChildrenList>
-						<Sound Name="Beet 5th intro" ID="{7999F28D-8145-4CF7-B2BB-66CBC1C812FE}" ShortID="994257792">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
+						<Sound Name="Melody1" ID="{34E8DCDE-DEBE-4429-9884-16F39BBF42C3}" ShortID="594085293">
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="New Attenuation" ID="{A3CDD7A2-FFD7-41C1-9D0B-32FA1E32F48C}" WorkUnitID="{EF8CF49C-B84F-427C-91D8-DCB0F5180C86}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
 								</Reference>
@@ -196,19 +321,19 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Beet 5th intro" ID="{99A9EA7A-68F9-46CC-8EB5-1591936B7C1C}">
+								<AudioFileSource Name="Melody1" ID="{428EFDF4-9B63-45BF-942D-8622F6C1DFA0}">
 									<Language>SFX</Language>
-									<AudioFile>Beet 5th intro.wav</AudioFile>
+									<AudioFile>Melody1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="259411272"/>
+										<MediaID ID="86464845"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Beet 5th intro" ID="{99A9EA7A-68F9-46CC-8EB5-1591936B7C1C}" Platform="Linked"/>
+								<ActiveSource Name="Melody1" ID="{428EFDF4-9B63-45BF-942D-8622F6C1DFA0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Beet 5th" ID="{D451FB49-6C9B-4F6C-9DBD-044EAF15A64D}" ShortID="873054517">
+						<Sound Name="melody 3" ID="{B01A620D-13B8-4FD3-BE91-80A1A4F23E3B}" ShortID="326749864">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -218,21 +343,28 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Beet 5th" ID="{8FE6CCE9-BDE3-43E8-A41D-33E1022C4974}">
+								<AudioFileSource Name="melody 3" ID="{680A742A-BE4E-4EF3-9E2B-ACCC21ABB7A4}">
 									<Language>SFX</Language>
-									<AudioFile>Beet 5th.wav</AudioFile>
+									<AudioFile>melody 3.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="380060289"/>
+										<MediaID ID="388114"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Beet 5th" ID="{8FE6CCE9-BDE3-43E8-A41D-33E1022C4974}" Platform="Linked"/>
+								<ActiveSource Name="melody 3" ID="{680A742A-BE4E-4EF3-9E2B-ACCC21ABB7A4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</Folder>
 				<SwitchContainer Name="FootSteps" ID="{76CBD6DA-3575-4446-B6A1-0F11081DE722}" ShortID="81907155">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -563,6 +695,383 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Folder Name="Harmony Wheel" ID="{0FFF0039-F351-4566-BFA2-5273831D8C26}" ShortID="718575115">
+					<ChildrenList>
+						<Sound Name="HarmonyWheel_A" ID="{0C513F30-0D63-4BE8-B859-583571CC877E}" ShortID="291340257">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_A" ID="{2E08BC70-5B89-41C1-B563-E4BAD3AEF767}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_A.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584818218"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_A" ID="{2E08BC70-5B89-41C1-B563-E4BAD3AEF767}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HarmonyWheel_B" ID="{096CF9B2-65F3-48E3-BF29-631C907D18C6}" ShortID="803792607">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_B" ID="{E3D6D4A0-5819-48EC-A459-4799381FC34F}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_B.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="253452743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_B" ID="{E3D6D4A0-5819-48EC-A459-4799381FC34F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HarmonyWheel_C" ID="{D301DFFB-9A65-48E4-9FC6-D932FE168B7E}" ShortID="714195441">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_C" ID="{D72B700E-F977-429A-9C28-4618F2D28A5A}">
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_C.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="559765484"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_C" ID="{D72B700E-F977-429A-9C28-4618F2D28A5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HarmonyWheel_D" ID="{CB5BFDBA-E33C-454B-A2BC-F5E804DF8886}" ShortID="148926136">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_D" ID="{810BE3F3-01D1-4665-AF1E-AAAD813AEFA0}">
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_D.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="876776862"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_D" ID="{810BE3F3-01D1-4665-AF1E-AAAD813AEFA0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HarmonyWheel_E" ID="{03DA26D3-DEFD-450A-A188-C9D4E9E13EB4}" ShortID="672918636">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_E" ID="{45932737-995A-4A0F-B592-CF9BF2746577}">
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_E.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="801408072"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_E" ID="{45932737-995A-4A0F-B592-CF9BF2746577}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HarmonyWheel_F" ID="{A34EF0F7-4F10-42B3-B57C-B845C3536B06}" ShortID="588234160">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_F" ID="{C4C7D0E3-803B-4920-83D8-5229C79E8447}">
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_F.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="888044100"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_F" ID="{C4C7D0E3-803B-4920-83D8-5229C79E8447}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="HarmonyWheel_G" ID="{D2FD7A80-E89E-4045-9F60-FB19764F46E8}" ShortID="547481138">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="HarmonyWheel_G" ID="{92450303-4CC0-4223-85C3-4EF6AD418161}">
+									<Language>SFX</Language>
+									<AudioFile>Harmony Wheel\HarmonyWheel_G.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="488647433"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="HarmonyWheel_G" ID="{92450303-4CC0-4223-85C3-4EF6AD418161}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Collect_Scroll_Jingle" ID="{DA33B46A-23DE-4E31-B918-163CC47D53CC}" ShortID="33983698">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{A3CDD7A2-FFD7-41C1-9D0B-32FA1E32F48C}">
+								<Attenuation Name="New Attenuation (Custom)" ID="{D6EBCF94-A1CD-4EE6-B4F4-9B79DE6D63B9}" ShortID="932546809">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="16"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{969568BC-4435-4510-8F4A-D27A06CE9407}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>8.473728</XPos>
+															<YPos>-9.11261</YPos>
+															<Flags>0</Flags>
+														</Point>
+														<Point>
+															<XPos>16</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Collect_Scroll_Jingle" ID="{65332105-870B-4D58-8274-F81A88C25C5E}">
+							<Language>SFX</Language>
+							<AudioFile>Collect_Scroll_Jingle.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="721139345"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Collect_Scroll_Jingle" ID="{65332105-870B-4D58-8274-F81A88C25C5E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Music" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" ShortID="837576239">
+					<ChildrenList>
+						<Sound Name="Lost library game trailer music" ID="{69D8DB6E-18C1-49E0-B251-DFA61CBBA64E}" ShortID="1032511743">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.88132635253054"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.95986038394415"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="62.5968586387434"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Lost library game trailer music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1018386894"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" ShortID="162372964">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.930773705642814"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Study Time.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="893217437"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" ShortID="57141954">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{7F47D34F-025B-472E-81AC-656B5B25C6F9}">
+									<Language>SFX</Language>
+									<AudioFile>First floor lost library music V1 Gabriele Liotta no loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="885625676"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{7F47D34F-025B-472E-81AC-656B5B25C6F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

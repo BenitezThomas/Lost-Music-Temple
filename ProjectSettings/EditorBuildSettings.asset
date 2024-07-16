@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Game Scenes/Menu.unity
     guid: a9914273b2c52784bb9a7ec6feabb160
-  - enabled: 0
-    path: Assets/Scenes/Game Scenes/Main Scene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Main Menu.unity
+    guid: 7584bea329861c84d9c53a5c16b7f31b
   - enabled: 1
     path: Assets/Scenes/Game Scenes/Library.unity
     guid: 428e6b3a873c6754bbb99c3aa4620031
@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Level_0.unity
     guid: b3a29ae80a52e9a44ad289d7a56e35b3
   - enabled: 1
-    path: Assets/Scenes/Game Scenes/Library 1.unity
-    guid: 7fa4f1ce519453544912a51232654e21
-  - enabled: 1
     path: Assets/Scenes/Game Scenes/Level_1.unity
-    guid: c1065ecb500e21b41b6b8c8be713f41a
+    guid: b2aa2934da18afd45b904080860ec25a
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Level_2.unity
+    guid: 334545a79aad3754898267ae60a23c58
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

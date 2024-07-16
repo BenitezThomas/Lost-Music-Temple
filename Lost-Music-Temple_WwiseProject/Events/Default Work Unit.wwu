@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Beet_5th_intro" ID="{526045D7-C16A-4275-BC3F-6B96FBF12815}">
-					<ChildrenList>
-						<Action Name="" ID="{A6FF17D8-D593-4D7E-B56E-9B6DA39A1039}" ShortID="58644577">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Beet 5th intro" ID="{7999F28D-8145-4CF7-B2BB-66CBC1C812FE}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_FootSteps" ID="{DA45D386-F849-4386-9F96-D86DBA5D13EA}">
 					<ChildrenList>
 						<Action Name="" ID="{BDC9A686-A731-4B2A-A420-D5F8CAC8E971}" ShortID="568850852">
@@ -71,6 +60,72 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_String_Note_E_Low" ID="{9AAC59B6-7AB2-4880-BE15-23CF1E9A4993}">
+							<ChildrenList>
+								<Action Name="" ID="{46BB3C66-DDB0-4D1A-B50A-2112817662BD}" ShortID="497463346">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="String Note E Low" ID="{883E4D02-AAC4-4BE2-BA49-AF3842EDACCE}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_String_Note_A" ID="{6739C86C-6DCD-4122-9FD0-41C3797404EF}">
+							<ChildrenList>
+								<Action Name="" ID="{64FF0292-39DB-4C97-A891-369D38FB7AC3}" ShortID="677850502">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="String Note A" ID="{D1BB1535-F422-4296-956A-0E696CFCC5B8}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_String_Note_F" ID="{AAA9BDEC-2D9A-48EE-BD59-EE208C970F8C}">
+							<ChildrenList>
+								<Action Name="" ID="{2C4A5F09-D36D-49C2-9A6E-0552CA6B37BD}" ShortID="990919905">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="String Note F" ID="{18A4C926-D624-4C72-9858-83A834FBC1AC}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_String_Note_F_high" ID="{0A1B2E5D-4D9D-43EC-8E79-3E06A816DE2F}">
+							<ChildrenList>
+								<Action Name="" ID="{28A00311-DD21-4F7C-B92C-11D00115E0E5}" ShortID="141266862">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="String Note F high" ID="{BC08B8E0-EAD2-4F6C-AEC7-46748D8F214D}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_String_Note_G_high" ID="{7A5CBFE8-6F99-4B5F-87D5-333898D02F34}">
+							<ChildrenList>
+								<Action Name="" ID="{B80ECB44-C570-4E01-92FA-A402D7C8C4E2}" ShortID="1053673136">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="String Note G high" ID="{3842FA62-39FB-4E4A-ABE1-091E94947386}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_String_Note_G" ID="{8E7324C3-90C6-4CE9-8442-9E7E88C49850}">
+							<ChildrenList>
+								<Action Name="" ID="{31265C00-C565-40F8-9715-71E82CAAC670}" ShortID="429022273">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="String Note G" ID="{8A680105-BC7A-4A89-91A3-F8173BEA0CE3}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Block" ID="{521236C3-141D-43A0-9F73-DB90AFAAA1E1}" ShortID="596422576">
@@ -113,6 +168,195 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Melody1" ID="{479CFDD8-79C9-40D5-878E-D96B11FB21FB}">
+					<ChildrenList>
+						<Action Name="" ID="{ED1369E8-CDB0-4254-82DA-E3D31DAC32BD}" ShortID="738879819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Melody1" ID="{34E8DCDE-DEBE-4429-9884-16F39BBF42C3}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}">
+					<ChildrenList>
+						<Action Name="" ID="{120A8797-12E2-44A8-9991-B97A2E20D11C}" ShortID="979784551">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="melody 3" ID="{B01A620D-13B8-4FD3-BE91-80A1A4F23E3B}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Collect_Scroll_Jingle" ID="{C15CBEE5-14A5-4169-AC4C-1647D998A6DF}">
+					<ChildrenList>
+						<Action Name="" ID="{C89A5489-693F-4C67-8EE9-02731FFA7A89}" ShortID="706492946">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Collect_Scroll_Jingle" ID="{DA33B46A-23DE-4E31-B918-163CC47D53CC}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Harmony Wheel" ID="{CC6DA57B-1C77-40B7-90C0-875765F43885}" ShortID="436601785">
+					<ChildrenList>
+						<Event Name="Play_HarmonyWheel_C" ID="{F794A731-D930-467D-87BB-691C694C5C0C}">
+							<ChildrenList>
+								<Action Name="" ID="{2BDF798E-3DCA-4608-8B96-4FD6BEC28C1E}" ShortID="247592537">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_C" ID="{D301DFFB-9A65-48E4-9FC6-D932FE168B7E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}">
+							<ChildrenList>
+								<Action Name="" ID="{6914D8EF-D709-4035-A4BD-B80EE42F4CF8}" ShortID="808632671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_A" ID="{0C513F30-0D63-4BE8-B859-583571CC877E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HarmonyWheel_F" ID="{037B9BB7-7B02-4554-90A6-0DE07B21E304}">
+							<ChildrenList>
+								<Action Name="" ID="{1232F387-BBF3-41FC-868B-8CCE2C4E4A3B}" ShortID="220751304">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_F" ID="{A34EF0F7-4F10-42B3-B57C-B845C3536B06}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HarmonyWheel_B" ID="{5CDCA287-7643-40FC-97E2-EBF8BDDFEEDC}">
+							<ChildrenList>
+								<Action Name="" ID="{0993A485-4DAB-4307-8F4A-678CC411CAA2}" ShortID="74084264">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_B" ID="{096CF9B2-65F3-48E3-BF29-631C907D18C6}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HarmonyWheel_G" ID="{8B2EF5F8-4829-43B1-82CF-A354EE911AE5}">
+							<ChildrenList>
+								<Action Name="" ID="{2A46FB38-A94B-4348-89A3-89CC35CF45B5}" ShortID="450088613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_G" ID="{D2FD7A80-E89E-4045-9F60-FB19764F46E8}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HarmonyWheel_D" ID="{9F9A2368-17FA-4011-9870-4A509B4AD346}">
+							<ChildrenList>
+								<Action Name="" ID="{1F635EC4-9D16-4632-8296-BDD1C0281645}" ShortID="499411210">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_D" ID="{CB5BFDBA-E33C-454B-A2BC-F5E804DF8886}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HarmonyWheel_E" ID="{19ACD0A5-156C-435D-A788-C195D2F05574}">
+							<ChildrenList>
+								<Action Name="" ID="{B6447087-326A-4446-8244-DC8410321909}" ShortID="1015343152">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="HarmonyWheel_E" ID="{03DA26D3-DEFD-450A-A188-C9D4E9E13EB4}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Study_Time" ID="{678B985C-633D-41B4-96EB-B18BC9634F7F}">
+					<ChildrenList>
+						<Action Name="" ID="{C93805FA-4EFD-403F-8EDC-8859AA4A6A93}" ShortID="312590432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lost_library_game_trailer_music" ID="{5716DC5C-B88D-4A8C-8D57-70ED2117AB6E}">
+					<ChildrenList>
+						<Action Name="" ID="{06E0081F-0B6A-44F8-8776-88D60E7DDF8C}" ShortID="348410466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lost library game trailer music" ID="{69D8DB6E-18C1-49E0-B251-DFA61CBBA64E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Lost_library_game_trailer_music" ID="{93BE0864-01B8-410C-AD23-CCA62BB6B599}">
+					<ChildrenList>
+						<Action Name="" ID="{E0327D89-773C-4B92-96F5-633C6FBC719A}" ShortID="268276039">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lost library game trailer music" ID="{69D8DB6E-18C1-49E0-B251-DFA61CBBA64E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Study_Time" ID="{8AFA79C3-1B8F-4692-9E2C-E11F5C31E196}">
+					<ChildrenList>
+						<Action Name="" ID="{B05AA3CD-5909-4798-B70C-8ED7AB379DC7}" ShortID="31982820">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}">
+					<ChildrenList>
+						<Action Name="" ID="{F79194C2-5C78-4EA9-AB11-15A8082B25E7}" ShortID="636315013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}">
+					<ChildrenList>
+						<Action Name="" ID="{E3BD38C9-E0D2-4C17-A717-E2126100D804}" ShortID="842673571">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

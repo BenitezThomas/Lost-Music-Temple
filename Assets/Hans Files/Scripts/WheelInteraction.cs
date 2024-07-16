@@ -2,13 +2,17 @@
 //Author: Emirhan Bulut
 //Date 6/7/2024 US
 
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WheelInteraction : MonoBehaviour
 {
     [SerializeField] [Range(0.99f,6f)] private float correctBlock;
     [SerializeField] private int currentBlock;
+
+    [SerializeField] AK.Wwise.Event[] playSound; 
+
     public bool isCorrect;
     private bool isFirstSet = false;
     private float cylinderCount;
@@ -40,11 +44,13 @@ public class WheelInteraction : MonoBehaviour
 
     private void RotateCylinder()
     {
+        playSound[currentBlock].Post(gameObject);
+
         //Logic here is, if it is the first time being touched it will play the rotation Animation, if not it will activate the trigger and the animation logic will do the rest.
         if(isFirstSet == false) {animator.Play("rotation");} 
         else { animator.SetTrigger("TriggerExample");}
 
-        isFirstSet = true;     
+        isFirstSet = true;
     }
 
     private void SetCurrentBlock(float count)

@@ -11,7 +11,7 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise2023.1.4.8496</WwiseInstallationPathWindows>
+  <WwiseInstallationPathWindows>D:\Unity\Lost-Music-Temple</WwiseInstallationPathWindows>
   <WwiseProjectPath>../Lost-Music-Temple_WwiseProject/Lost-Music-Temple_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
