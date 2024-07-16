@@ -52,6 +52,41 @@
 						<CurrentSwitchRef Name="Rug" ID="{D8C9E07A-33C5-410A-A70B-747E7FF0C004}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Melody testing" ID="{1AECE351-7820-4A81-9E9C-87CCC92C8C06}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Melody1" ID="{479CFDD8-79C9-40D5-878E-D96B11FB21FB}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_String_Note_B" ID="{F8B8DD82-FB45-4D4B-9EF5-BBF6C726DD77}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_level2Piano_A" ID="{95B506A9-4CA8-4E4E-8A79-9B5651166C8B}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_String_Note_A" ID="{6739C86C-6DCD-4122-9FD0-41C3797404EF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

@@ -30,7 +30,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{85FB6D7B-EDA8-D313-5F71-AA3BC26E4DDB}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F968E65-E303-C89B-658B-8363A6D24ED4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -52,7 +52,7 @@
 				</File>
 				<File Id="86464845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Melody1.wav</ShortName>
-					<CachePath>SFX/Melody1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Melody1_C3F4FBB0.wem</CachePath>
 				</File>
 				<File Id="126057298" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note G high.wav</ShortName>
@@ -68,7 +68,7 @@
 				</File>
 				<File Id="253452743" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_B.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_B_8622B4BD.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_B_B2EA8204.wem</CachePath>
 				</File>
 				<File Id="273429826" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>F piano note.wav</ShortName>
@@ -128,7 +128,7 @@
 				</File>
 				<File Id="488647433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_G.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_G_FBB66FD9.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_G_0847A501.wem</CachePath>
 				</File>
 				<File Id="500233751" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note C.wav</ShortName>
@@ -136,11 +136,11 @@
 				</File>
 				<File Id="559765484" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_C.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_C_3494A1E5.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_C_7DEC66CE.wem</CachePath>
 				</File>
 				<File Id="584818218" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_A.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_A_88246160.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_A_D01960C4.wem</CachePath>
 				</File>
 				<File Id="620327961" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note G.wav</ShortName>
@@ -156,11 +156,11 @@
 				</File>
 				<File Id="632686992" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moving Block.wav</ShortName>
-					<CachePath>SFX/Moving Block_18824A0C.wem</CachePath>
+					<CachePath>SFX/Moving Block_83CA2719.wem</CachePath>
 				</File>
 				<File Id="721139345" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Collect_Scroll_Jingle.wav</ShortName>
-					<CachePath>SFX/Collect_Scroll_Jingle_DFD2B115.wem</CachePath>
+					<CachePath>SFX/Collect_Scroll_Jingle_66D2D3BF.wem</CachePath>
 				</File>
 				<File Id="789697022" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>B piano note.wav</ShortName>
@@ -172,7 +172,7 @@
 				</File>
 				<File Id="801408072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_E.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_E_A0C2DAB2.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_E_417F989B.wem</CachePath>
 				</File>
 				<File Id="805070630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 2.wav</ShortName>
@@ -184,11 +184,11 @@
 				</File>
 				<File Id="876776862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_D.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_D_6E7F559B.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_D_399FBEF3.wem</CachePath>
 				</File>
 				<File Id="888044100" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_F.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_F_665960C8.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_F_BABCE897.wem</CachePath>
 				</File>
 				<File Id="892634490" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>A# piano note.wav</ShortName>
@@ -524,5 +524,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7DB12A96-0BF3-AA71-8DCD-A80918F23643}</FileHash>
+	<FileHash>{695C9CF8-06D1-242F-D049-D29635592AE1}</FileHash>
 </SoundBanksInfo>
