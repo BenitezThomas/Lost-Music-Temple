@@ -12,18 +12,43 @@ using UnityEngine;
 
 public class DialogueData : MonoBehaviour
 {
+    [Tooltip("The object that will show what key the player need to click to start the dialogue")]
+    public GameObject pressText;
+    [Tooltip("The dialogue that will apear after player click to start")]
     public Dialogue dialogue;
+    private bool isReadyToDialogue;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && isReadyToDialogue)
+        {
+            //will start the dialogue that is in this object
+            DialogueManager.instance.StartDialogue(dialogue);
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         //will see that the collider that trigger this is for the player
         if(other.tag == "Player")
         {
-            var player = other.GetComponent<CharacterController>();
-            //will start the dialogue that is in this object
-            DialogManager.instance.StartDialogue(dialogue);
-            player.velocity.Set(0.0f, 0.0f, 0.0f);
+            isReadyToDialogue = true;
         }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        //will see if will show the text above npc's head or not
+        if (pressText && DialogueManager.instance.currentLine.line == null) pressText.SetActive(true);
+        else if(pressText) pressText.SetActive(false);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        //when player leave the area, end the dialogue and disable the npc's head text
+        if (pressText) pressText.SetActive(false);
+        DialogueManager.instance.EndDialogue();
+        isReadyToDialogue = false;
     }
 }
 
@@ -40,6 +65,7 @@ public class DialogueCharacter
 public class DialogueLine
 {
     public DialogueCharacter character;
+    public AudioSource characterAudio;
     [TextArea(10, 100)]
     public string line;
 }
