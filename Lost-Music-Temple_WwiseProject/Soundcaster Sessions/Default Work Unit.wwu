@@ -50,6 +50,9 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Rug" ID="{D8C9E07A-33C5-410A-A70B-747E7FF0C004}"/>
+						<CurrentSwitchRef Name="FixedPiano" ID="{F8C4D720-F648-4685-8CCF-4B49DB5F3DF9}"/>
+						<CurrentSwitchRef Name="Fixed" ID="{5126CE5F-3153-4F33-AD8A-66AA81C594ED}"/>
+						<CurrentSwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Melody testing" ID="{1AECE351-7820-4A81-9E9C-87CCC92C8C06}">
@@ -82,10 +85,26 @@
 							<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
 							<Position X="3" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_GuitarNpcSpeech" ID="{30B13263-120B-43FB-907D-8132E7B9A49F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BongosNPC" ID="{4F1DDAD3-1AE9-407E-B721-765870D9319B}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PianoNpcSpeech" ID="{F0C03F05-9758-4D77-AAA0-47AFBBD308E2}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="FixedPiano" ID="{F8C4D720-F648-4685-8CCF-4B49DB5F3DF9}"/>
+						<CurrentSwitchRef Name="Fixed" ID="{5126CE5F-3153-4F33-AD8A-66AA81C594ED}"/>
+						<CurrentSwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

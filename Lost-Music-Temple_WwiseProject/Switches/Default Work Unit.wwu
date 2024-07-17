@@ -9,6 +9,24 @@
 						<Switch Name="Rug" ID="{D8C9E07A-33C5-410A-A70B-747E7FF0C004}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="GuitarNPC" ID="{56AD8B75-2E0A-436D-AE2F-544204BD0C14}">
+					<ChildrenList>
+						<Switch Name="Broken" ID="{9CCBA8BD-A18C-41E0-AE20-307B4238468B}"/>
+						<Switch Name="Fixed" ID="{5126CE5F-3153-4F33-AD8A-66AA81C594ED}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PianoNPC" ID="{D51CC79D-7B0A-4126-A048-808E0ACC25D7}">
+					<ChildrenList>
+						<Switch Name="BrokenPiano" ID="{78054809-E325-415F-A34D-71E13FE1C705}"/>
+						<Switch Name="FixedPiano" ID="{F8C4D720-F648-4685-8CCF-4B49DB5F3DF9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="BongosNPC" ID="{B9782A97-1B9E-4CE6-8ED3-D57B1775951E}">
+					<ChildrenList>
+						<Switch Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}"/>
+						<Switch Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

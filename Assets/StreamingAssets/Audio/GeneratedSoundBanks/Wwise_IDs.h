@@ -15,9 +15,11 @@ namespace AK
     {
         static const AkUniqueID LEVEL1MUSICPLAY = 4202561861U;
         static const AkUniqueID LEVEL1MUSICSTOP = 1332247491U;
+        static const AkUniqueID PLAY_BONGOSNPC = 2903004101U;
         static const AkUniqueID PLAY_COLLECT_SCROLL_JINGLE = 407578916U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
+        static const AkUniqueID PLAY_GUITARNPCSPEECH = 2474156387U;
         static const AkUniqueID PLAY_HARMONYWHEEL_A = 860510141U;
         static const AkUniqueID PLAY_HARMONYWHEEL_B = 860510142U;
         static const AkUniqueID PLAY_HARMONYWHEEL_C = 860510143U;
@@ -41,6 +43,7 @@ namespace AK
         static const AkUniqueID PLAY_MELODY1 = 1312779127U;
         static const AkUniqueID PLAY_MELODY_3 = 1188403304U;
         static const AkUniqueID PLAY_MOVING_BLOCK = 2746119090U;
+        static const AkUniqueID PLAY_PIANONPCSPEECH = 2315618172U;
         static const AkUniqueID PLAY_STRING_NOTE_A = 2668293568U;
         static const AkUniqueID PLAY_STRING_NOTE_B = 2668293571U;
         static const AkUniqueID PLAY_STRING_NOTE_C = 2668293570U;
@@ -71,6 +74,17 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace BONGOSNPC
+        {
+            static const AkUniqueID GROUP = 3768657756U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BROKENBONGOS = 1414450584U;
+                static const AkUniqueID FIXEDBONGOS = 1894708087U;
+            } // namespace SWITCH
+        } // namespace BONGOSNPC
+
         namespace FOOTSTEPS
         {
             static const AkUniqueID GROUP = 2385628198U;
@@ -81,6 +95,28 @@ namespace AK
                 static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace FOOTSTEPS
+
+        namespace GUITARNPC
+        {
+            static const AkUniqueID GROUP = 438036876U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BROKEN = 231230354U;
+                static const AkUniqueID FIXED = 698073849U;
+            } // namespace SWITCH
+        } // namespace GUITARNPC
+
+        namespace PIANONPC
+        {
+            static const AkUniqueID GROUP = 653617121U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BROKENPIANO = 2630838981U;
+                static const AkUniqueID FIXEDPIANO = 1939185584U;
+            } // namespace SWITCH
+        } // namespace PIANONPC
 
     } // namespace SWITCHES
 
