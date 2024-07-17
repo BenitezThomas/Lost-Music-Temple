@@ -1918,6 +1918,136 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="NPCs" ID="{DA902D05-23A8-4CC3-86A6-75C8A93D3E7F}" ShortID="968667350">
+					<ChildrenList>
+						<Folder Name="Floor 1 Guitar NPC" ID="{C4A77362-8415-4678-A80D-F464B4257ED7}" ShortID="695206607">
+							<ChildrenList>
+								<Event Name="Play_GuitarNpcSpeech" ID="{30B13263-120B-43FB-907D-8132E7B9A49F}">
+									<ChildrenList>
+										<Action Name="" ID="{FFFFBA45-3551-4C37-8F44-F8B8CC6287DB}" ShortID="836680762">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="NPC Speech" ID="{1E546897-03C5-48C4-BB71-60E5518DE101}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{339FC967-1961-4FCF-B903-BFF26CE49810}" ShortID="106849358">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="12"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64" Value="-5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5A70FF92-59E6-4F0B-8FDA-237E4FF8031C}" ShortID="954697760">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="16"/>
+												<Property Name="Delay" Type="Real64" Value="3"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Floor 2 Piano NPC" ID="{CA79FF1B-8B6A-40CD-BE63-8B2BDE3656D8}" ShortID="170703668">
+							<ChildrenList>
+								<Event Name="Play_PianoNpcSpeech" ID="{F0C03F05-9758-4D77-AAA0-47AFBBD308E2}">
+									<ChildrenList>
+										<Action Name="" ID="{94A4C3F4-B6D8-4A42-A454-401C54B5F5D5}" ShortID="320709512">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PianoNPC" ID="{63AF6A08-F88F-4F4F-A076-5AB02432C551}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{965EEED6-129C-48E0-AC0B-359DA9B01C5D}" ShortID="926838553">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="12"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64" Value="-3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DE81FD7C-650A-4FAD-8604-4F7610AA9DD9}" ShortID="1043398087">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="16"/>
+												<Property Name="Delay" Type="Real64" Value="2.584"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Floor 3 Bongos NPC" ID="{9673C23A-488A-44BC-B6D1-7BBF867E36D9}" ShortID="936195371">
+							<ChildrenList>
+								<Event Name="Play_BongosNPC" ID="{4F1DDAD3-1AE9-407E-B721-765870D9319B}">
+									<ChildrenList>
+										<Action Name="" ID="{A3F56908-9EE6-4B0D-802F-40CB48C35C6D}" ShortID="134639751">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bongos NPC" ID="{869568B6-D7CC-4BB0-9DD0-9607250B6D47}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{148E6B00-5E49-433C-9284-8AAEF0493FCC}" ShortID="1004610259">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="12"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64" Value="-3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{686252A5-EF9D-4FC7-ACCA-290801783D05}" ShortID="43762544">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="16"/>
+												<Property Name="Delay" Type="Real64" Value="2.584"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
