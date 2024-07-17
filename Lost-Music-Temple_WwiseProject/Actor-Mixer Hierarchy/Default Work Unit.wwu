@@ -2044,144 +2044,28 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
-						<SwitchContainer Name="Bongos NPC" ID="{869568B6-D7CC-4BB0-9DD0-9607250B6D47}" ShortID="29953095">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-								</Reference>
-								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="BongosNPC" ID="{B9782A97-1B9E-4CE6-8ED3-D57B1775951E}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="BongosNPC" ID="{8F21346E-BC83-4F17-8F38-E27E2002F3BE}" ShortID="894477542">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}" ShortID="347865598">
-									<PropertyList>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-									</PropertyList>
+								<SwitchContainer Name="Bongos NPC" ID="{869568B6-D7CC-4BB0-9DD0-9607250B6D47}" ShortID="29953095">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
 										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Broken Bongos Speech 1" ID="{38805B16-121C-4FA1-95AF-6995547D5921}" ShortID="802613477">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Broken Bongos Speech 1" ID="{EDF95B81-5451-4EC8-B030-CC9B95E2A469}">
-													<Language>SFX</Language>
-													<AudioFile>Broken Bongos Speech 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="711612400"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Broken Bongos Speech 1" ID="{EDF95B81-5451-4EC8-B030-CC9B95E2A469}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Broken Bongos Speech 2" ID="{6A351028-893B-4BD7-99A7-A7B36A36ABE8}" ShortID="704171352">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Broken Bongos Speech 2" ID="{6CE0998E-B1F4-4906-9B55-4DA73CD7C417}">
-													<Language>SFX</Language>
-													<AudioFile>Broken Bongos Speech 2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="570364994"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Broken Bongos Speech 2" ID="{6CE0998E-B1F4-4906-9B55-4DA73CD7C417}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Broken Bongos Speech 3" ID="{2ACC8F1A-F493-46E0-B7B3-B6CF4027ED72}" ShortID="132219651">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Broken Bongos Speech 3" ID="{95949C05-C6B0-46D9-A143-ADC5980D3F32}">
-													<Language>SFX</Language>
-													<AudioFile>Broken Bongos Speech 3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="61030889"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Broken Bongos Speech 3" ID="{95949C05-C6B0-46D9-A143-ADC5980D3F32}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Broken Bongos Speech 4" ID="{679DFB86-77B0-44E1-B370-5C88A55F2955}" ShortID="769457403">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Broken Bongos Speech 4" ID="{51FA7FAB-A8D4-47B7-BD92-C058E06D1BB7}">
-													<Language>SFX</Language>
-													<AudioFile>Broken Bongos Speech 4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="547375393"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Broken Bongos Speech 4" ID="{51FA7FAB-A8D4-47B7-BD92-C058E06D1BB7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}" ShortID="34802214">
-									<PropertyList>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="BongosNPC" ID="{B9782A97-1B9E-4CE6-8ED3-D57B1775951E}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Fixed Bongos Speech 1" ID="{A3B318BA-E596-4EC6-ABDF-9C86FBDFCE63}" ShortID="444735991">
+										<RandomSequenceContainer Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}" ShortID="347865598">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -2191,19 +2075,105 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Fixed Bongos Speech 1" ID="{96726FB6-17DF-4072-AEC8-26A517D8970F}">
-													<Language>SFX</Language>
-													<AudioFile>Fixed Bongos Speech 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="145337992"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Broken Bongos Speech 1" ID="{38805B16-121C-4FA1-95AF-6995547D5921}" ShortID="802613477">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 1" ID="{EDF95B81-5451-4EC8-B030-CC9B95E2A469}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="711612400"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 1" ID="{EDF95B81-5451-4EC8-B030-CC9B95E2A469}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken Bongos Speech 2" ID="{6A351028-893B-4BD7-99A7-A7B36A36ABE8}" ShortID="704171352">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 2" ID="{6CE0998E-B1F4-4906-9B55-4DA73CD7C417}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="570364994"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 2" ID="{6CE0998E-B1F4-4906-9B55-4DA73CD7C417}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken Bongos Speech 3" ID="{2ACC8F1A-F493-46E0-B7B3-B6CF4027ED72}" ShortID="132219651">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 3" ID="{95949C05-C6B0-46D9-A143-ADC5980D3F32}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="61030889"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 3" ID="{95949C05-C6B0-46D9-A143-ADC5980D3F32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken Bongos Speech 4" ID="{679DFB86-77B0-44E1-B370-5C88A55F2955}" ShortID="769457403">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 4" ID="{51FA7FAB-A8D4-47B7-BD92-C058E06D1BB7}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="547375393"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 4" ID="{51FA7FAB-A8D4-47B7-BD92-C058E06D1BB7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Fixed Bongos Speech 1" ID="{96726FB6-17DF-4072-AEC8-26A517D8970F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Fixed Bongos Speech 2" ID="{97D51BC0-BF87-4FD0-8149-CCA473EAA596}" ShortID="828677087">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}" ShortID="34802214">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -2213,90 +2183,124 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Fixed Bongos Speech 2" ID="{89E8F014-1949-45B4-986C-7DDEB08C2181}">
-													<Language>SFX</Language>
-													<AudioFile>Fixed Bongos Speech 2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="96922013"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Fixed Bongos Speech 1" ID="{A3B318BA-E596-4EC6-ABDF-9C86FBDFCE63}" ShortID="444735991">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 1" ID="{96726FB6-17DF-4072-AEC8-26A517D8970F}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="145337992"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 1" ID="{96726FB6-17DF-4072-AEC8-26A517D8970F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed Bongos Speech 2" ID="{97D51BC0-BF87-4FD0-8149-CCA473EAA596}" ShortID="828677087">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 2" ID="{89E8F014-1949-45B4-986C-7DDEB08C2181}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="96922013"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 2" ID="{89E8F014-1949-45B4-986C-7DDEB08C2181}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed Bongos Speech 3" ID="{6C8C88E5-46DE-4F04-95E8-0B17AFA6F6B3}" ShortID="421666244">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 3" ID="{59A485DC-B8FB-401D-AB5E-7CFD6DB1997F}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="982168347"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 3" ID="{59A485DC-B8FB-401D-AB5E-7CFD6DB1997F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed Bongos Speech 4" ID="{140D7C5B-4E3A-4723-8DD1-1C5704EAED22}" ShortID="1067828536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 4" ID="{FB4015DA-2DD9-4DB6-B4D2-C1D6E9A16DA7}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="283822291"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 4" ID="{FB4015DA-2DD9-4DB6-B4D2-C1D6E9A16DA7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Fixed Bongos Speech 2" ID="{89E8F014-1949-45B4-986C-7DDEB08C2181}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Fixed Bongos Speech 3" ID="{6C8C88E5-46DE-4F04-95E8-0B17AFA6F6B3}" ShortID="421666244">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Fixed Bongos Speech 3" ID="{59A485DC-B8FB-401D-AB5E-7CFD6DB1997F}">
-													<Language>SFX</Language>
-													<AudioFile>Fixed Bongos Speech 3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="982168347"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Fixed Bongos Speech 3" ID="{59A485DC-B8FB-401D-AB5E-7CFD6DB1997F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Fixed Bongos Speech 4" ID="{140D7C5B-4E3A-4723-8DD1-1C5704EAED22}" ShortID="1067828536">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Fixed Bongos Speech 4" ID="{FB4015DA-2DD9-4DB6-B4D2-C1D6E9A16DA7}">
-													<Language>SFX</Language>
-													<AudioFile>Fixed Bongos Speech 4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="283822291"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Fixed Bongos Speech 4" ID="{FB4015DA-2DD9-4DB6-B4D2-C1D6E9A16DA7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
+												<ItemList>
+													<ItemRef Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}"/>
+												<ItemList>
+													<ItemRef Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}"/>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
-										<ItemList>
-											<ItemRef Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}"/>
-										<ItemList>
-											<ItemRef Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
-							</GroupingInfo>
-						</SwitchContainer>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
