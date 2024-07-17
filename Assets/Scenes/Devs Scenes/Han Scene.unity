@@ -966,6 +966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302218305}
   - component: {fileID: 302218304}
+  - component: {fileID: 302218306}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1014,6 +1015,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &302218306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302218303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d02bf0b726dd547a6c3ef893b3bc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cc9faff323ab7f447af346a66e879448,
+      type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &314275944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,7 +1283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.117014244, y: 0.00000003417636, z: -0.000000004026784, w: 0.99313027}
+  m_LocalRotation: {x: 0.117014244, y: -0.00000003417636, z: 0.000000004026784, w: 0.99313027}
   m_LocalPosition: {x: 4.496, y: 6, z: -18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1457,6 +1484,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 22284615483402305}
   pianoPuzzleManager: {fileID: 174254151}
+  PlayKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  StopKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3025,8 +3060,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.9246185, y: 1.1, z: 0.96762294}
-  m_Center: {x: 0, y: 0.12, z: 0}
+  m_Size: {x: 0.9246185, y: 1.3605989, z: 0.96762294}
+  m_Center: {x: 0, y: 0.2502995, z: 0}
 --- !u!114 &647955698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3041,6 +3076,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 22284615483402305}
   pianoPuzzleManager: {fileID: 174254151}
+  PlayKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b4987de74d1b8eb4cba33e854824172a,
+      type: 2}
+  StopKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 528bafba48b415144b911e4cc7210c3f,
+      type: 2}
 --- !u!1 &654970115
 GameObject:
   m_ObjectHideFlags: 0
@@ -5795,6 +5840,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 22284615483402305}
   pianoPuzzleManager: {fileID: 174254151}
+  PlayKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  StopKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1520110108
 GameObject:
   m_ObjectHideFlags: 0
@@ -6432,6 +6485,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 22284615483402305}
   pianoPuzzleManager: {fileID: 174254151}
+  PlayKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  StopKeynote:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1659536093
 GameObject:
   m_ObjectHideFlags: 0
@@ -8017,7 +8078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7372867987275842994}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11701424, y: 0.000000017088176, z: -0.0000000020133915, w: 0.99313027}
+  m_LocalRotation: {x: 0.11701424, y: -0.00000001708818, z: 0.000000002013392, w: 0.99313027}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

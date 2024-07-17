@@ -48,7 +48,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8EB67C5E-8DD2-E70C-1843-3C8353856233}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E4362CB0-7325-6229-CD5A-FC0A793FD6DD}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -66,7 +66,7 @@
 				</File>
 				<File Id="19835441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken piano speech 2.wav</ShortName>
-					<CachePath>SFX/Broken piano speech 2_31A8AA07.wem</CachePath>
+					<CachePath>SFX/Broken piano speech 2_681381CB.wem</CachePath>
 				</File>
 				<File Id="61030889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken Bongos Speech 3.wav</ShortName>
@@ -154,7 +154,7 @@
 				</File>
 				<File Id="380037131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken piano speech 4.wav</ShortName>
-					<CachePath>SFX/Broken piano speech 4_6DECB4BD.wem</CachePath>
+					<CachePath>SFX/Broken piano speech 4_FA901EE8.wem</CachePath>
 				</File>
 				<File Id="394326210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken guitar speech 4.wav</ShortName>
@@ -230,7 +230,7 @@
 				</File>
 				<File Id="573482243" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken piano speech 1.wav</ShortName>
-					<CachePath>SFX/Broken piano speech 1_65444148.wem</CachePath>
+					<CachePath>SFX/Broken piano speech 1_B1EDEA31.wem</CachePath>
 				</File>
 				<File Id="584818218" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_A.wav</ShortName>
@@ -238,7 +238,7 @@
 				</File>
 				<File Id="598192894" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 3.wav</ShortName>
-					<CachePath>SFX/Fixed piano speech 3_95FC675D.wem</CachePath>
+					<CachePath>SFX/Fixed piano speech 3_8613D1F6.wem</CachePath>
 				</File>
 				<File Id="620327961" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note G.wav</ShortName>
@@ -258,7 +258,7 @@
 				</File>
 				<File Id="651880420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 2.wav</ShortName>
-					<CachePath>SFX/Fixed piano speech 2_4A8E5588.wem</CachePath>
+					<CachePath>SFX/Fixed piano speech 2_80B79E84.wem</CachePath>
 				</File>
 				<File Id="711612400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken Bongos Speech 1.wav</ShortName>
@@ -286,7 +286,7 @@
 				</File>
 				<File Id="806678999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 1.wav</ShortName>
-					<CachePath>SFX/Fixed piano speech 1_30BC0E90.wem</CachePath>
+					<CachePath>SFX/Fixed piano speech 1_8007E3E2.wem</CachePath>
 				</File>
 				<File Id="874061896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 4.wav</ShortName>
@@ -338,7 +338,7 @@
 				</File>
 				<File Id="1023358941" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 4.wav</ShortName>
-					<CachePath>SFX/Fixed piano speech 4_086A5780.wem</CachePath>
+					<CachePath>SFX/Fixed piano speech 4_A9A7FA81.wem</CachePath>
 				</File>
 				<File Id="1030262941" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>C piano note.wav</ShortName>
@@ -746,5 +746,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{32C2205D-AD21-6BD3-64BA-4310515F5C62}</FileHash>
+	<FileHash>{8FC3FF0A-2523-6E63-FE61-195912F7FFE5}</FileHash>
 </SoundBanksInfo>
