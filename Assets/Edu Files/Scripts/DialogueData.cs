@@ -39,7 +39,7 @@ public class DialogueData : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         //will see if will show the text above npc's head or not
-        if (pressText && DialogueManager.instance.currentLine.line == null) pressText.SetActive(true);
+        if (pressText && !DialogueManager.instance.isDialogueActive) pressText.SetActive(true);
         else if(pressText) pressText.SetActive(false);
     }
 

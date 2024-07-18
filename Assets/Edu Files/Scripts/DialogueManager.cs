@@ -68,7 +68,6 @@ public class DialogueManager : MonoBehaviour
         isDialogueActive = true;
         dialoguePanel.SetActive(true);
         lineQueue.Clear();
-        currentLine = null;
 
         foreach(DialogueLine line in dialogue.lines)
         {
@@ -121,7 +120,6 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         isDialogueActive = false;
-        currentLine.line = null;
         dialoguePanel.SetActive(false);
     }
 }
