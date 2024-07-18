@@ -1395,7 +1395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1503367384}
-  - component: {fileID: 1503367383}
+  - component: {fileID: 1503367385}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -1403,29 +1403,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1503367383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503367382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01d5e1db69d465448a048ec0696cee39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 957524012}
-  characterName: {fileID: 108995533}
-  dialogue: {fileID: 57085523}
-  currentLine:
-    character:
-      characterName: 
-      characterIcon: {fileID: 0}
-    characterAudio: {fileID: 0}
-    line: 
-  isDialogueActive: 0
-  typingSpeed: 0.05
 --- !u!4 &1503367384
 Transform:
   m_ObjectHideFlags: 0
@@ -1441,6 +1418,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503367385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503367382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e893d83e3c59b347a3c0ee3aa7e3595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 957524012}
+  characterName: {fileID: 108995533}
+  dialogue: {fileID: 57085523}
+  currentLine:
+    character:
+      characterName: 
+      characterIcon: {fileID: 0}
+    characterAudio: {fileID: 0}
+    line: 
+  isDialogueActive: 0
+  typingSpeed: 0.1
 --- !u!1 &1733131722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,8 +1655,8 @@ GameObject:
   - component: {fileID: 2090129097}
   - component: {fileID: 2090129096}
   - component: {fileID: 2090129095}
-  - component: {fileID: 2090129099}
   - component: {fileID: 2090129100}
+  - component: {fileID: 2090129101}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -1753,44 +1753,6 @@ Transform:
   - {fileID: 482373125}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2090129099
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090129093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760d50754dee8984aac5b70d5c7ca701, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pressText: {fileID: 482373124}
-  dialogue:
-    lines:
-    - character:
-        characterName: Edu
-        characterIcon: {fileID: 0}
-      characterAudio: {fileID: 0}
-      line: 'Hello
-
-        Is anything you like?'
-    - character:
-        characterName: "Jo\xE3o"
-        characterIcon: {fileID: 0}
-      characterAudio: {fileID: 0}
-      line: 'Yes
-
-        I like to buy a ps5 please'
-    - character:
-        characterName: Edu
-        characterIcon: {fileID: 0}
-      characterAudio: {fileID: 0}
-      line: 'Ok
-
-        Just a second,
-
-        I will take your product'
 --- !u!135 &2090129100
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1812,6 +1774,44 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2090129101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090129093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a16ba9db7f1174cbbbe7895290356e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressText: {fileID: 482373124}
+  dialogue:
+    lines:
+    - character:
+        characterName: Edu
+        characterIcon: {fileID: 0}
+      characterAudio: {fileID: 0}
+      line: 'Hello
+
+        Can I help you?'
+    - character:
+        characterName: "Jo\xE3o"
+        characterIcon: {fileID: 0}
+      characterAudio: {fileID: 0}
+      line: 'Yes
+
+        I like to buy a ps5'
+    - character:
+        characterName: Edu
+        characterIcon: {fileID: 0}
+      characterAudio: {fileID: 0}
+      line: 'Ok
+
+        Stay here
+
+        I will get for you'
 --- !u!1 &2131182123
 GameObject:
   m_ObjectHideFlags: 0
