@@ -30,7 +30,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43FB6272-1A62-248B-59A2-817899F9DD70}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{20FE44F0-3540-6BAE-43DD-A549E99B3367}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -142,6 +142,10 @@
 					<ShortName>Harmony Wheel\HarmonyWheel_D.wav</ShortName>
 					<CachePath>SFX/Harmony Wheel/HarmonyWheel_D_818F3B66.wem</CachePath>
 				</File>
+				<File Id="885625676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>First floor lost library music V1 Gabriele Liotta no loop.wav</ShortName>
+					<CachePath>SFX/First floor lost library music V1 Gabriele Liotta no loop_818F3B66.wem</CachePath>
+				</File>
 				<File Id="888044100" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_F.wav</ShortName>
 					<CachePath>SFX/Harmony Wheel/HarmonyWheel_F_818F3B66.wem</CachePath>
@@ -168,10 +172,16 @@
 				</File>
 				<File Id="1018386894" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lost library game trailer music.wav</ShortName>
-					<CachePath>SFX/Lost library game trailer music_751B93A6.wem</CachePath>
+					<CachePath>SFX/Lost library game trailer music_A9329C37.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4202561861" Name="Level1MusicPlay" DurationType="OneShot" DurationMin="134.18184" DurationMax="134.18184">
+					<MediaRefs>
+						<MediaRef Id="885625676"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1332247491" Name="Level1MusicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="407578916" Name="Play_Collect_Scroll_Jingle" MaxAttenuation="16" DurationType="OneShot" DurationMin="2.3506458" DurationMax="2.3506458">
 					<MediaRefs>
 						<MediaRef Id="721139345"/>
@@ -330,5 +340,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F2C3207E-9DF9-DBD8-2C9A-309B748F2052}</FileHash>
+	<FileHash>{EE07D3CF-2000-7CEC-9FF4-1F33B8B2E565}</FileHash>
 </SoundBanksInfo>

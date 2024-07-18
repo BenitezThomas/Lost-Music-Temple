@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID LEVEL1MUSICPLAY = 4202561861U;
+        static const AkUniqueID LEVEL1MUSICSTOP = 1332247491U;
         static const AkUniqueID PLAY_COLLECT_SCROLL_JINGLE = 407578916U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
