@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c079418a731b39489fe1e514944efc72
     GuidInternal: 
-    m_lastTime: -8584827575274034593
+    m_lastTime: -8584809555006115047
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cee84511aa01b24fb8c1736ae2c63afb
     GuidInternal: 
-    m_lastTime: -8584827575300972369
+    m_lastTime: -8584809555008871363
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584803436447765288
+    m_lastTime: -8584806207225959555
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584803436467944904
+    m_lastTime: -8584806218577971256
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -130,6 +130,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Level 2 piano
+      guid: 833be3a7c3d69843a566efd2fca4f00d
+      id: 2402216652
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      Path: Events\Default Work Unit\Level 2 piano
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1MusicPlay
+      guid: 81a70c641227ce4395d3c6d02718b3d0
+      id: 4202561861
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level1MusicPlay
+        ObjectType: 3
+        guid: 81a70c641227ce4395d3c6d02718b3d0
+      Path: Events\Default Work Unit\Level1MusicPlay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Level1MusicStop
+      guid: 27afba34b712da468d68bfe392c7d2a6
+      id: 1332247491
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level1MusicStop
+        ObjectType: 3
+        guid: 27afba34b712da468d68bfe392c7d2a6
+      Path: Events\Default Work Unit\Level1MusicStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Collect_Scroll_Jingle
       guid: e5be5cc1a5146941ac4c1647d998a6df
       id: 407578916
@@ -145,25 +196,8 @@ MonoBehaviour:
         guid: e5be5cc1a5146941ac4c1647d998a6df
       Path: Events\Default Work Unit\Play_Collect_Scroll_Jingle
       maxAttenuation: 16
-      maxDuration: 2.3506458
-      minDuration: 2.3506458
-    - name: Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
-      guid: 81a70c641227ce4395d3c6d02718b3d0
-      id: 2150382181
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 005a226e7bc8b7429cf2dae646e3b3f2
-      - ElementName: Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
-        ObjectType: 3
-        guid: 81a70c641227ce4395d3c6d02718b3d0
-      Path: Events\Default Work Unit\Play_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.4683279
+      minDuration: 0.4683279
     - name: Play_FootSteps
       guid: 86d345da49f886439f96d86dba5d13ea
       id: 3854155799
@@ -341,6 +375,246 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.0505208
       minDuration: 1.0505208
+    - name: Play_level2Piano_A
+      guid: a906b595a84c4e4e8a799b5651166c8b
+      id: 2376149909
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_A
+        ObjectType: 3
+        guid: a906b595a84c4e4e8a799b5651166c8b
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_A
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_level2Piano_ASharp
+      guid: b6d2b16036986945a4c9228b4e645fdf
+      id: 3416461271
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_ASharp
+        ObjectType: 3
+        guid: b6d2b16036986945a4c9228b4e645fdf
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_ASharp
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_level2Piano_B
+      guid: 6e45d32313950e45bbabc4d1e5d427f0
+      id: 2376149910
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_B
+        ObjectType: 3
+        guid: 6e45d32313950e45bbabc4d1e5d427f0
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_B
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_Level2Piano_C
+      guid: b9e43f9a99aaa544a56db8d0a8fcee0f
+      id: 2376149911
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_Level2Piano_C
+        ObjectType: 3
+        guid: b9e43f9a99aaa544a56db8d0a8fcee0f
+      Path: Events\Default Work Unit\Level 2 piano\Play_Level2Piano_C
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_Level2Piano_CSharp
+      guid: bceade136e14a1498657098d22cad1f1
+      id: 766101389
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_Level2Piano_CSharp
+        ObjectType: 3
+        guid: bceade136e14a1498657098d22cad1f1
+      Path: Events\Default Work Unit\Level 2 piano\Play_Level2Piano_CSharp
+      maxAttenuation: 0
+      maxDuration: 14
+      minDuration: 14
+    - name: Play_level2Piano_D
+      guid: 27af7815cd111e4cb390fccf686ab574
+      id: 2376149904
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_D
+        ObjectType: 3
+        guid: 27af7815cd111e4cb390fccf686ab574
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_D
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_level2Piano_DSharp
+      guid: dfb307c2803f2f4abdc1a57634ac6244
+      id: 1292360812
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_DSharp
+        ObjectType: 3
+        guid: dfb307c2803f2f4abdc1a57634ac6244
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_DSharp
+      maxAttenuation: 0
+      maxDuration: 7.6426873
+      minDuration: 7.6426873
+    - name: Play_level2Piano_E
+      guid: 5183298802758241b0f29b272d88ff54
+      id: 2376149905
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_E
+        ObjectType: 3
+        guid: 5183298802758241b0f29b272d88ff54
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_E
+      maxAttenuation: 0
+      maxDuration: 8
+      minDuration: 8
+    - name: Play_level2Piano_F
+      guid: 7b5b36f00a2e0a4087c86dc3d3a7098c
+      id: 2376149906
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_F
+        ObjectType: 3
+        guid: 7b5b36f00a2e0a4087c86dc3d3a7098c
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_F
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_level2Piano_FSharp
+      guid: 8de67a5a1973fb488f77327dea853dab
+      id: 2773441658
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_FSharp
+        ObjectType: 3
+        guid: 8de67a5a1973fb488f77327dea853dab
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_FSharp
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_level2Piano_G
+      guid: 6eb98db6269fde428f657085b6395870
+      id: 2376149907
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_G
+        ObjectType: 3
+        guid: 6eb98db6269fde428f657085b6395870
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_G
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
+    - name: Play_level2Piano_GSharp
+      guid: ab5cba545a7de34abb6c062c61e657e7
+      id: 2138227185
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Play_level2Piano_GSharp
+        ObjectType: 3
+        guid: ab5cba545a7de34abb6c062c61e657e7
+      Path: Events\Default Work Unit\Level 2 piano\Play_level2Piano_GSharp
+      maxAttenuation: 0
+      maxDuration: 12
+      minDuration: 12
     - name: Play_Lost_library_game_trailer_music
       guid: 5cdc16578db88c4a8d5770ed2117ab6e
       id: 3935525577
@@ -629,9 +903,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
-      guid: 27afba34b712da468d68bfe392c7d2a6
-      id: 3691818063
+    - name: Stop_Level2Piano_A
+      guid: dcec9844f137f444ab049c67a34e90a2
+      id: 4242575859
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -639,13 +913,236 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
-      - ElementName: Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_A
         ObjectType: 3
-        guid: 27afba34b712da468d68bfe392c7d2a6
-      Path: Events\Default Work Unit\Stop_First_floor_lost_library_music_V1_Gabriele_Liotta_no_loop
+        guid: dcec9844f137f444ab049c67a34e90a2
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_A
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_ASharp
+      guid: 068d965497c9d54a93609f5b86ec9e46
+      id: 1792351953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_ASharp
+        ObjectType: 3
+        guid: 068d965497c9d54a93609f5b86ec9e46
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_ASharp
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_B
+      guid: f8d19e39c950bf47bbe17704ba3ac09e
+      id: 4242575856
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_B
+        ObjectType: 3
+        guid: f8d19e39c950bf47bbe17704ba3ac09e
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_B
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_C
+      guid: c13e0fa6a28d79408a389bbef3a41a05
+      id: 4242575857
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_C
+        ObjectType: 3
+        guid: c13e0fa6a28d79408a389bbef3a41a05
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_C
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_CSharp
+      guid: 859e0f9fcedfbc4984c66196eeee5e71
+      id: 744740939
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_CSharp
+        ObjectType: 3
+        guid: 859e0f9fcedfbc4984c66196eeee5e71
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_CSharp
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_D
+      guid: 2b017ece88ea2649aef78f130288fc54
+      id: 4242575862
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_D
+        ObjectType: 3
+        guid: 2b017ece88ea2649aef78f130288fc54
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_D
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_DSharp
+      guid: 0f3f133a01832a44a5737982cbdf7350
+      id: 3507183862
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_DSharp
+        ObjectType: 3
+        guid: 0f3f133a01832a44a5737982cbdf7350
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_DSharp
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_E
+      guid: 9ea901f6808c124fafc93dcc32a0e928
+      id: 4242575863
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_E
+        ObjectType: 3
+        guid: 9ea901f6808c124fafc93dcc32a0e928
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_E
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_F
+      guid: 76dc19b3ce3d904d99443ba4764c748e
+      id: 4242575860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_F
+        ObjectType: 3
+        guid: 76dc19b3ce3d904d99443ba4764c748e
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_F
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_FSharp
+      guid: 98a2593d1b6f564d87a3ac91317d143a
+      id: 2170343864
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_FSharp
+        ObjectType: 3
+        guid: 98a2593d1b6f564d87a3ac91317d143a
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_FSharp
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_G
+      guid: f06aa2f3eb7db645923cfdc0347e0e78
+      id: 4242575861
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_G
+        ObjectType: 3
+        guid: f06aa2f3eb7db645923cfdc0347e0e78
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_G
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
+    - name: Stop_Level2Piano_GSharp
+      guid: 3d030572c6f0e14682373a1a9f27d621
+      id: 2711136183
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Level 2 piano
+        ObjectType: 4
+        guid: 833be3a7c3d69843a566efd2fca4f00d
+      - ElementName: Stop_Level2Piano_GSharp
+        ObjectType: 3
+        guid: 3d030572c6f0e14682373a1a9f27d621
+      Path: Events\Default Work Unit\Level 2 piano\Stop_Level2Piano_GSharp
+      maxAttenuation: 0
+      maxDuration: 3.4271252
+      minDuration: 2.8818572
     - name: Stop_Lost_library_game_trailer_music
       guid: 6408be93b8010c41ad23cca62bb6b599
       id: 3007483891
@@ -729,7 +1226,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 704e823ed1b4ba4980acac3635381b3b
     GuidInternal: 
-    m_lastTime: -8584827575301803057
+    m_lastTime: -8584809555011968931
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -743,7 +1240,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 498df801d36d9b489e9a76cd04bcab91
     GuidInternal: 
-    m_lastTime: -8584827575274084630
+    m_lastTime: -8584809555006130064
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -757,7 +1254,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a4e80e03fc1e8943a19c9f524f8d7c6c
     GuidInternal: 
-    m_lastTime: -8584805046283318317
+    m_lastTime: -8584809555006115047
     List:
     - name: FootSteps
       guid: 0f2047bd8955f3409a5a2bc29216707d
@@ -821,11 +1318,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: b5504e8d964675429cae06d354607df5
     GuidInternal: 
-    m_lastTime: -8584827575274054617
+    m_lastTime: -8584809555006115047
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 01000000050000000600000007000000080000000b0000003e0000003f00000040000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000003e0000003f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

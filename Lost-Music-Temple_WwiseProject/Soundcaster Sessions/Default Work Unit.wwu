@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{58D228D7-2F52-4FD3-A034-6D3C94ECA2E2}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{58D228D7-2F52-4FD3-A034-6D3C94ECA2E2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{58D228D7-2F52-4FD3-A034-6D3C94ECA2E2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="PianoKeysEventSessionTest" ID="{5A885DC3-1F33-448E-91DE-97E6F215FF5A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_level2Piano_A" ID="{95B506A9-4CA8-4E4E-8A79-9B5651166C8B}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Level2Piano_A" ID="{4498ECDC-37F1-44F4-AB04-9C67A34E90A2}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_level2Piano_ASharp" ID="{60B1D2B6-9836-4569-A4C9-228B4E645FDF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Level2Piano_ASharp" ID="{54968D06-C997-4AD5-9360-9F5B86EC9E46}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_level2Piano_B" ID="{23D3456E-9513-450E-BBAB-C4D1E5D427F0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Level2Piano_B" ID="{399ED1F8-50C9-47BF-BBE1-7704BA3AC09E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Level2Piano_C" ID="{9A3FE4B9-AA99-44A5-A56D-B8D0A8FCEE0F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Level2Piano_C" ID="{A60F3EC1-8DA2-4079-8A38-9BBEF3A41A05}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Level2Piano_CSharp" ID="{13DEEABC-146E-49A1-8657-098D22CAD1F1}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Level2Piano_CSharp" ID="{9F0F9E85-DFCE-49BC-84C6-6196EEEE5E71}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Rug" ID="{D8C9E07A-33C5-410A-A70B-747E7FF0C004}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
