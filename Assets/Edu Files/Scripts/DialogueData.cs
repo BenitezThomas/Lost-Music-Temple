@@ -52,19 +52,19 @@ public class DialogueData : MonoBehaviour
     }
 }
 
-//the class for character that speaking
+/*//the class for character that speaking
 [System.Serializable]
 public class DialogueCharacter
 {
     public string characterName;
-    public Sprite characterIcon;
-}
+    //public Sprite characterIcon;
+}*/
 
 //the class for the dialogue's lines
 [System.Serializable]
 public class DialogueLine
 {
-    public DialogueCharacter character;
+    public string characterName;
     public AudioSource characterAudio;
     [TextArea(10, 100)]
     public string line;

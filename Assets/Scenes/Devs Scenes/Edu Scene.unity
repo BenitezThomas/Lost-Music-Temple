@@ -1434,13 +1434,11 @@ MonoBehaviour:
   characterName: {fileID: 108995533}
   dialogue: {fileID: 57085523}
   currentLine:
-    character:
-      characterName: 
-      characterIcon: {fileID: 0}
+    characterName: 
     characterAudio: {fileID: 0}
     line: 
   isDialogueActive: 0
-  typingSpeed: 0.1
+  typingSpeed: 0.05
 --- !u!1 &1733131722
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,23 +1787,17 @@ MonoBehaviour:
   pressText: {fileID: 482373124}
   dialogue:
     lines:
-    - character:
-        characterName: Edu
-        characterIcon: {fileID: 0}
+    - characterName: Edu
       characterAudio: {fileID: 0}
       line: 'Hello
 
         Can I help you?'
-    - character:
-        characterName: "Jo\xE3o"
-        characterIcon: {fileID: 0}
+    - characterName: "Jo\xE3o"
       characterAudio: {fileID: 0}
       line: 'Yes
 
         I like to buy a ps5'
-    - character:
-        characterName: Edu
-        characterIcon: {fileID: 0}
+    - characterName: Edu
       characterAudio: {fileID: 0}
       line: 'Ok
 

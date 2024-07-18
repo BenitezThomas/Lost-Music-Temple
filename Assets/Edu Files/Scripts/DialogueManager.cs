@@ -97,7 +97,7 @@ public class DialogueManager : MonoBehaviour
         //this is where we will call the audioclip
 
         //characterIcon.sprite = currentLine.character.characterIcon;
-        characterName.text = currentLine.character.characterName;
+        characterName.text = currentLine.characterName;
 
         StopAllCoroutines();
 
