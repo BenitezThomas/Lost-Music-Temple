@@ -845,31 +845,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}">
-					<ChildrenList>
-						<Action Name="" ID="{F79194C2-5C78-4EA9-AB11-15A8082B25E7}" ShortID="636315013">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}">
-					<ChildrenList>
-						<Action Name="" ID="{E3BD38C9-E0D2-4C17-A717-E2126100D804}" ShortID="842673571">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Level 2 piano" ID="{A7E33B83-D6C3-4398-A566-EFD2FCA4F00D}" ShortID="725932470">
 					<ChildrenList>
 						<Event Name="Play_Level2Piano_C" ID="{9A3FE4B9-AA99-44A5-A56D-B8D0A8FCEE0F}">
@@ -2039,6 +2014,140 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music events" ID="{751CCBA6-4995-4ED0-A79B-358E05F30CF6}" ShortID="1029135824">
+					<ChildrenList>
+						<Event Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}">
+							<ChildrenList>
+								<Action Name="" ID="{F79194C2-5C78-4EA9-AB11-15A8082B25E7}" ShortID="636315013">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}">
+							<ChildrenList>
+								<Action Name="" ID="{E3BD38C9-E0D2-4C17-A717-E2126100D804}" ShortID="842673571">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Floor2Music" ID="{6A1A4B64-5E98-456B-8E9F-5179C7487930}" ShortID="152613032">
+							<ChildrenList>
+								<Event Name="Floor2musicplay" ID="{D4AECB99-5F6E-4B72-A2FD-3861C4239739}">
+									<ChildrenList>
+										<Action Name="" ID="{FA537120-8E15-4666-BBD5-89EBC37F013F}" ShortID="244772219">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Second Floor music" ID="{CF055BF6-AF7D-4821-8A1D-CA119E908F44}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{77ABC59A-19FA-4D2E-A3AD-ADCE7C80F8AD}" ShortID="567750507">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="12"/>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Second floor music with tension" ID="{AE72CDEE-DB3D-451D-B8C4-B38128D187FB}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Floor2MusicTransitionPlay" ID="{2776DCB1-4742-4CFD-9927-3AED57C386F6}">
+									<ChildrenList>
+										<Action Name="" ID="{02B02788-5883-4F0F-8A27-C1E1B47B14DD}" ShortID="600839303">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="16"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Second floor music with tension" ID="{AE72CDEE-DB3D-451D-B8C4-B38128D187FB}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Floor2MusicTransitionStop" ID="{7D78C6A1-1C74-4682-B096-9A1FDF7FB96C}">
+									<ChildrenList>
+										<Action Name="" ID="{65C9B8A7-8BD4-4CFE-B6BF-170B4B40F2FD}" ShortID="151118559">
+											<PropertyList>
+												<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+												<Property Name="ActionType" Type="int16" Value="12"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Second floor music with tension" ID="{AE72CDEE-DB3D-451D-B8C4-B38128D187FB}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Floor2musicStop" ID="{8B838C6E-77A8-4D37-B152-660CB1F8722F}">
+									<ChildrenList>
+										<Action Name="" ID="{A7890F17-2D66-4DD5-8C35-43FF32EDC523}" ShortID="4490773">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Second Floor music" ID="{CF055BF6-AF7D-4821-8A1D-CA119E908F44}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Floor 3 Music" ID="{65406A3B-B723-46A6-BEC0-E06CE8035701}" ShortID="336814852">
+							<ChildrenList>
+								<Event Name="PlayFloor3Music" ID="{35B489E3-AFD4-402A-998B-136B991E8C39}">
+									<ChildrenList>
+										<Action Name="" ID="{21A85CE1-F3DF-4CF0-8D7C-CFF99EAFD83D}" ShortID="790412111">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stopfloor3Music" ID="{01ADE684-179B-4FD3-8210-A8BF152D8A0C}">
+									<ChildrenList>
+										<Action Name="" ID="{3A055EBA-698E-4AE3-906D-5694E82863BE}" ShortID="897865969">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

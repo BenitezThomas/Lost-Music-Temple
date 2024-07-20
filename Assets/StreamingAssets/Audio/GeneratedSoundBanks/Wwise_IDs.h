@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FLOOR2MUSICPLAY = 628670496U;
+        static const AkUniqueID FLOOR2MUSICSTOP = 3266896802U;
+        static const AkUniqueID FLOOR2MUSICTRANSITIONPLAY = 343141985U;
+        static const AkUniqueID FLOOR2MUSICTRANSITIONSTOP = 2704781623U;
         static const AkUniqueID LEVEL1MUSICPLAY = 4202561861U;
         static const AkUniqueID LEVEL1MUSICSTOP = 1332247491U;
         static const AkUniqueID PLAY_BONGOSNPC = 2903004101U;
@@ -55,6 +59,7 @@ namespace AK
         static const AkUniqueID PLAY_STRING_NOTE_G = 2668293574U;
         static const AkUniqueID PLAY_STRING_NOTE_G_HIGH = 3176529497U;
         static const AkUniqueID PLAY_STUDY_TIME = 4219497895U;
+        static const AkUniqueID PLAYFLOOR3MUSIC = 4225751467U;
         static const AkUniqueID STOP_LEVEL2PIANO_A = 4242575859U;
         static const AkUniqueID STOP_LEVEL2PIANO_ASHARP = 1792351953U;
         static const AkUniqueID STOP_LEVEL2PIANO_B = 4242575856U;
@@ -70,6 +75,7 @@ namespace AK
         static const AkUniqueID STOP_LOST_LIBRARY_GAME_TRAILER_MUSIC = 3007483891U;
         static const AkUniqueID STOP_MOVING_BLOCK = 3412145620U;
         static const AkUniqueID STOP_STUDY_TIME = 409577309U;
+        static const AkUniqueID STOPFLOOR3MUSIC = 101287625U;
     } // namespace EVENTS
 
     namespace SWITCHES
