@@ -48,7 +48,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E4362CB0-7325-6229-CD5A-FC0A793FD6DD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AE8BEBEC-72D8-D21D-8657-D1B395959410}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -236,6 +236,10 @@
 					<ShortName>Harmony Wheel\HarmonyWheel_A.wav</ShortName>
 					<CachePath>SFX/Harmony Wheel/HarmonyWheel_A_D01960C4.wem</CachePath>
 				</File>
+				<File Id="587689137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Second floor music with tension.wav</ShortName>
+					<CachePath>SFX/Second floor music with tension_E5B5F681.wem</CachePath>
+				</File>
 				<File Id="598192894" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 3.wav</ShortName>
 					<CachePath>SFX/Fixed piano speech 3_8613D1F6.wem</CachePath>
@@ -267,6 +271,10 @@
 				<File Id="721139345" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Collect_Scroll_Jingle.wav</ShortName>
 					<CachePath>SFX/Collect_Scroll_Jingle_66D2D3BF.wem</CachePath>
+				</File>
+				<File Id="775882307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Third floor lost library music percussive.wav</ShortName>
+					<CachePath>SFX/Third floor lost library music percussive_818F3B66.wem</CachePath>
 				</File>
 				<File Id="789697022" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>B piano note.wav</ShortName>
@@ -320,6 +328,10 @@
 					<ShortName>Rug\Foot Step Rug 4.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 4_818F3B66.wem</CachePath>
 				</File>
+				<File Id="981396761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Second floor lost library Gabriele Liotta.wav</ShortName>
+					<CachePath>SFX/Second floor lost library Gabriele Liotta_818F3B66.wem</CachePath>
+				</File>
 				<File Id="982168347" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed Bongos Speech 3.wav</ShortName>
 					<CachePath>SFX/Fixed Bongos Speech 3_818F3B66.wem</CachePath>
@@ -346,13 +358,42 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="628670496" Name="Floor2musicplay" DurationType="OneShot" DurationMin="156.5" DurationMax="156.5">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+						<MediaRef Id="981396761"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3266896802" Name="Floor2musicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+						<MediaRef Id="981396761"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="343141985" Name="Floor2MusicTransitionPlay" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2704781623" Name="Floor2MusicTransitionStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4202561861" Name="Level1MusicPlay" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1332247491" Name="Level1MusicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1332247491" Name="Level1MusicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="625356259"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2903004101" Name="Play_BongosNPC" DurationType="OneShot" DurationMin="0.9375" DurationMax="2.6436667">
+					<MediaRefs>
+						<MediaRef Id="625356259"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3768657756" Id="1894708087"/>
@@ -409,6 +450,9 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2474156387" Name="Play_GuitarNpcSpeech" DurationType="OneShot" DurationMin="2.9993541" DurationMax="5.125">
+					<MediaRefs>
+						<MediaRef Id="625356259"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="438036876" Id="698073849"/>
@@ -453,96 +497,115 @@
 				<Event Id="860510141" Name="Play_HarmonyWheel_A" DurationType="OneShot" DurationMin="1.2671875" DurationMax="1.2671875">
 					<MediaRefs>
 						<MediaRef Id="584818218"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="860510142" Name="Play_HarmonyWheel_B" DurationType="OneShot" DurationMin="1.0505208" DurationMax="1.0505208">
 					<MediaRefs>
 						<MediaRef Id="253452743"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="860510143" Name="Play_HarmonyWheel_C" DurationType="OneShot" DurationMin="1.0505208" DurationMax="1.0505208">
 					<MediaRefs>
 						<MediaRef Id="559765484"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="860510136" Name="Play_HarmonyWheel_D" DurationType="OneShot" DurationMin="1.2671875" DurationMax="1.2671875">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="876776862"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="860510137" Name="Play_HarmonyWheel_E" DurationType="OneShot" DurationMin="1.0505208" DurationMax="1.0505208">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="801408072"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="860510138" Name="Play_HarmonyWheel_F" DurationType="OneShot" DurationMin="1.2671875" DurationMax="1.2671875">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="888044100"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="860510139" Name="Play_HarmonyWheel_G" DurationType="OneShot" DurationMin="1.0505208" DurationMax="1.0505208">
 					<MediaRefs>
 						<MediaRef Id="488647433"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149909" Name="Play_level2Piano_A" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
 						<MediaRef Id="405704038"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3416461271" Name="Play_level2Piano_ASharp" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="892634490"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149910" Name="Play_level2Piano_B" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="789697022"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149911" Name="Play_Level2Piano_C" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="1030262941"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="766101389" Name="Play_Level2Piano_CSharp" DurationType="OneShot" DurationMin="14" DurationMax="14">
 					<MediaRefs>
 						<MediaRef Id="445691425"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149904" Name="Play_level2Piano_D" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="1008595703"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1292360812" Name="Play_level2Piano_DSharp" DurationType="OneShot" DurationMin="7.6426873" DurationMax="7.6426873">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="797625964"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149905" Name="Play_level2Piano_E" DurationType="OneShot" DurationMin="8" DurationMax="8">
 					<MediaRefs>
 						<MediaRef Id="302455035"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149906" Name="Play_level2Piano_F" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
 						<MediaRef Id="273429826"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2773441658" Name="Play_level2Piano_FSharp" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
 						<MediaRef Id="83154077"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2376149907" Name="Play_level2Piano_G" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
 						<MediaRef Id="422324391"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2138227185" Name="Play_level2Piano_GSharp" DurationType="OneShot" DurationMin="12" DurationMax="12">
 					<MediaRefs>
 						<MediaRef Id="344952281"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3935525577" Name="Play_Lost_library_game_trailer_music" DurationType="Infinite">
@@ -553,11 +616,13 @@
 				<Event Id="1312779127" Name="Play_Melody1" DurationType="OneShot" DurationMin="5.1800227" DurationMax="5.1800227">
 					<MediaRefs>
 						<MediaRef Id="86464845"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1188403304" Name="Play_melody_3" DurationType="OneShot" DurationMin="7.03034" DurationMax="7.03034">
 					<MediaRefs>
 						<MediaRef Id="388114"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2746119090" Name="Play_Moving_Block" MaxAttenuation="16" DurationType="Infinite">
@@ -566,6 +631,9 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2315618172" Name="Play_PianoNpcSpeech" DurationType="OneShot" DurationMin="1.712" DurationMax="4.7439737">
+					<MediaRefs>
+						<MediaRef Id="625356259"/>
+					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="653617121" Id="2630838981" Default="true"/>
@@ -590,51 +658,61 @@
 				<Event Id="2668293568" Name="Play_String_Note_A" DurationType="OneShot" DurationMin="2.5841043" DurationMax="2.5841043">
 					<MediaRefs>
 						<MediaRef Id="201841258"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293571" Name="Play_String_Note_B" DurationType="OneShot" DurationMin="3.0664172" DurationMax="3.0664172">
 					<MediaRefs>
 						<MediaRef Id="155952676"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293570" Name="Play_String_Note_C" DurationType="OneShot" DurationMin="2.9014285" DurationMax="2.9014285">
 					<MediaRefs>
 						<MediaRef Id="500233751"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293573" Name="Play_String_Note_D" DurationType="OneShot" DurationMin="2.3488436" DurationMax="2.3488436">
 					<MediaRefs>
 						<MediaRef Id="302817086"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293572" Name="Play_String_Note_E" DurationType="OneShot" DurationMin="3.0036962" DurationMax="3.0036962">
 					<MediaRefs>
 						<MediaRef Id="469612095"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1227793063" Name="Play_String_Note_E_Low" DurationType="OneShot" DurationMin="3.7212925" DurationMax="3.7212925">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="629947900"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293575" Name="Play_String_Note_F" DurationType="OneShot" DurationMin="3.8428345" DurationMax="3.8428345">
 					<MediaRefs>
 						<MediaRef Id="409595829"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="689432314" Name="Play_String_Note_F_high" DurationType="OneShot" DurationMin="3.2624943" DurationMax="3.2624943">
 					<MediaRefs>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="933367190"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2668293574" Name="Play_String_Note_G" DurationType="OneShot" DurationMin="2.8860545" DurationMax="2.8860545">
 					<MediaRefs>
 						<MediaRef Id="620327961"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3176529497" Name="Play_String_Note_G_high" DurationType="OneShot" DurationMin="2.6429253" DurationMax="2.6429253">
 					<MediaRefs>
 						<MediaRef Id="126057298"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4219497895" Name="Play_Study_Time" DurationType="Infinite">
@@ -642,27 +720,36 @@
 						<MediaRef Id="893217437"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4225751467" Name="PlayFloor3Music" DurationType="OneShot" DurationMin="115.954" DurationMax="115.954">
+					<MediaRefs>
+						<MediaRef Id="775882307"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4242575859" Name="Stop_Level2Piano_A" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="405704038"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1792351953" Name="Stop_Level2Piano_ASharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="892634490"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4242575856" Name="Stop_Level2Piano_B" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="789697022"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4242575857" Name="Stop_Level2Piano_C" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="1030262941"/>
 					</MediaRefs>
 				</Event>
@@ -670,17 +757,20 @@
 					<MediaRefs>
 						<MediaRef Id="445691425"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4242575862" Name="Stop_Level2Piano_D" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="1008595703"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3507183862" Name="Stop_Level2Piano_DSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 						<MediaRef Id="797625964"/>
 					</MediaRefs>
 				</Event>
@@ -688,35 +778,53 @@
 					<MediaRefs>
 						<MediaRef Id="302455035"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4242575860" Name="Stop_Level2Piano_F" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="273429826"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2170343864" Name="Stop_Level2Piano_FSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="83154077"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4242575861" Name="Stop_Level2Piano_G" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="422324391"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2711136183" Name="Stop_Level2Piano_GSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="344952281"/>
 						<MediaRef Id="469890072"/>
+						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3007483891" Name="Stop_Lost_library_game_trailer_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3007483891" Name="Stop_Lost_library_game_trailer_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="1018386894"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3412145620" Name="Stop_Moving_Block" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="409577309" Name="Stop_Study_Time" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="409577309" Name="Stop_Study_Time" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="893217437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="101287625" Name="Stopfloor3Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="775882307"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="438036876" Name="GuitarNPC">
@@ -746,5 +854,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8FC3FF0A-2523-6E63-FE61-195912F7FFE5}</FileHash>
+	<FileHash>{B6D342F3-632C-E96A-A44E-293912C64F1B}</FileHash>
 </SoundBanksInfo>

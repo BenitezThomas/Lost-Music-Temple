@@ -1134,6 +1134,128 @@
 								<ActiveSource Name="First floor lost library music V1 Gabriele Liotta" ID="{AD48FD5E-C358-4843-81E4-51C75EFBD55C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Second Floor music" ID="{02D3CC52-EA5B-4FCA-804A-24D89546B5EF}" ShortID="630615369">
+							<ChildrenList>
+								<BlendContainer Name="Second Floor music" ID="{CF055BF6-AF7D-4821-8A1D-CA119E908F44}" ShortID="252576165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Second floor lost library Gabriele Liotta" ID="{165B13FD-E93B-4A51-85FF-8E3EA0373FE7}" ShortID="13207029">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Second floor lost library Gabriele Liotta" ID="{20DE29A7-6894-4EE4-9E8F-30EA11EA5E00}">
+													<PropertyList>
+														<Property Name="LoopEnd" Type="Real64" Value="149.680059991692"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Second floor lost library Gabriele Liotta.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981396761"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Second floor lost library Gabriele Liotta" ID="{20DE29A7-6894-4EE4-9E8F-30EA11EA5E00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Second floor music with tension" ID="{AE72CDEE-DB3D-451D-B8C4-B38128D187FB}" ShortID="574239507">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Second floor music with tension" ID="{87F9D052-3C57-48B5-AEEB-C41F3D0679DC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0922357156657404"/>
+														<Property Name="LoopEnd" Type="Real64" Value="149.68006"/>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Second floor music with tension.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587689137"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Second floor music with tension" ID="{87F9D052-3C57-48B5-AEEB-C41F3D0679DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Floor2MusicBlend" ID="{C5DD2964-7F5E-4040-BCB8-48C4505F7F67}" ShortID="472873755"/>
+									</BlendTrackList>
+								</BlendContainer>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" ShortID="174353871">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Third floor lost library music percussive" ID="{33A33665-4B45-4CE0-BEC8-89BDA8828E53}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Third floor lost library music percussive.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775882307"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Third floor lost library music percussive" ID="{33A33665-4B45-4CE0-BEC8-89BDA8828E53}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Level 2 Piano notes" ID="{18093DF7-D702-4DC0-BCD5-E29EC35465BC}" ShortID="308687981">

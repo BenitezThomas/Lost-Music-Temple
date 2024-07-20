@@ -19,6 +19,7 @@
 						<ObjectRef Name="Play_level2Piano_E" ID="{88298351-7502-4182-B0F2-9B272D88FF54}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Study_Time" ID="{678B985C-633D-41B4-96EB-B18BC9634F7F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_D" ID="{F6401FA3-9CF4-41EB-8D14-CB4AC34EC696}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_G" ID="{B68DB96E-9F26-42DE-8F65-7085B6395870}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_E" ID="{19ACD0A5-156C-435D-A788-C195D2F05574}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FootSteps" ID="{DA45D386-F849-4386-9F96-D86DBA5D13EA}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
@@ -38,7 +39,10 @@
 						<ObjectRef Name="Stop_Level2Piano_G" ID="{F3A26AF0-7DEB-45B6-923C-FDC0347E0E78}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Floor 1 Guitar NPC" ID="{C4A77362-8415-4678-A80D-F464B4257ED7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_C" ID="{F794A731-D930-467D-87BB-691C694C5C0C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Floor2MusicTransitionStop" ID="{7D78C6A1-1C74-4682-B096-9A1FDF7FB96C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Study_Time" ID="{8AFA79C3-1B8F-4692-9E2C-E11F5C31E196}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Floor 3 Music" ID="{65406A3B-B723-46A6-BEC0-E06CE8035701}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_GSharp" ID="{7205033D-F0C6-46E1-8237-3A1A9F27D621}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
@@ -58,6 +62,7 @@
 						<ObjectRef Name="NPCs" ID="{DA902D05-23A8-4CC3-86A6-75C8A93D3E7F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="String Notes" ID="{33B5B4D4-D7B5-4CE0-A6F2-7E2ED327464C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_G" ID="{8E7324C3-90C6-4CE9-8442-9E7E88C49850}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Floor2MusicTransitionPlay" ID="{2776DCB1-4742-4CFD-9927-3AED57C386F6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_B" ID="{F8B8DD82-FB45-4D4B-9EF5-BBF6C726DD77}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_FSharp" ID="{3D59A298-6F1B-4D56-87A3-AC91317D143A}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
