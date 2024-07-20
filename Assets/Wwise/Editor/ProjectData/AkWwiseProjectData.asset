@@ -66,7 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8584802213188733629
+=======
+    m_lastTime: -8584802704161828139
+>>>>>>> Stashed changes
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -1617,7 +1621,7 @@ MonoBehaviour:
     m_lastTime: -8584809555006115047
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 020000000300000005000000060000000b000000190000001a0000005500000056000000
+  ExpandedWaapiItemIds: 02000000030000000500000006000000070000000b0000000c000000190000001a0000005500000056000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
