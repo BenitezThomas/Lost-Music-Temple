@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bongo
+  - PlayerHold
+  - Blocker
   layers:
   - Default
   - TransparentFX
