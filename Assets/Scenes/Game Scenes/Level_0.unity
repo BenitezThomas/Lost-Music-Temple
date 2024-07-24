@@ -5687,7 +5687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749061466}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16423994, y: 0.055605855, z: -0.009273583, w: 0.98480827}
+  m_LocalRotation: {x: 0.16423994, y: 0.055605862, z: -0.009273585, w: 0.98480827}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13695,6 +13695,7 @@ GameObject:
   - component: {fileID: 1946515033}
   - component: {fileID: 1946515032}
   - component: {fileID: 1946515035}
+  - component: {fileID: 1946515036}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -13787,6 +13788,32 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 637b11919888fa340975afbd26b41802,
+      type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1946515036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946515031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d02bf0b726dd547a6c3ef893b3bc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 500266cd37b553c4f85b6679a14b8ee6,
       type: 2}
   decodeBank: 0
   overrideLoadSetting: 0

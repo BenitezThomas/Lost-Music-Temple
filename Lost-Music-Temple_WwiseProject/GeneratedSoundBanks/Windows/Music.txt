@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	689432314	Play_String_Note_F_high			\Default Work Unit\String Notes\Play_String_Note_F_high	
+	744740939	Stop_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_CSharp	
+	766101389	Play_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Play_Level2Piano_CSharp	
+	860510136	Play_HarmonyWheel_D			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_D	
+	860510137	Play_HarmonyWheel_E			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_E	
+	860510138	Play_HarmonyWheel_F			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_F	
+	860510139	Play_HarmonyWheel_G			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_G	
+	860510141	Play_HarmonyWheel_A			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_A	
+	860510142	Play_HarmonyWheel_B			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_B	
+	860510143	Play_HarmonyWheel_C			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_C	
+	1188403304	Play_melody_3			\Default Work Unit\Play_melody_3	
+	1227793063	Play_String_Note_E_Low			\Default Work Unit\String Notes\Play_String_Note_E_Low	
+	1292360812	Play_level2Piano_DSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_DSharp	
+	1312779127	Play_Melody1			\Default Work Unit\Play_Melody1	
+	1332247491	Level1MusicStop			\Default Work Unit\Music events\Level1MusicStop	
+	1792351953	Stop_Level2Piano_ASharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_ASharp	
+	2138227185	Play_level2Piano_GSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_GSharp	
+	2170343864	Stop_Level2Piano_FSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_FSharp	
+	2315618172	Play_PianoNpcSpeech			\Default Work Unit\NPCs\Floor 2 Piano NPC\Play_PianoNpcSpeech	
+	2376149904	Play_level2Piano_D			\Default Work Unit\Level 2 piano\Play_level2Piano_D	
+	2376149905	Play_level2Piano_E			\Default Work Unit\Level 2 piano\Play_level2Piano_E	
+	2376149906	Play_level2Piano_F			\Default Work Unit\Level 2 piano\Play_level2Piano_F	
+	2376149907	Play_level2Piano_G			\Default Work Unit\Level 2 piano\Play_level2Piano_G	
+	2376149909	Play_level2Piano_A			\Default Work Unit\Level 2 piano\Play_level2Piano_A	
+	2376149910	Play_level2Piano_B			\Default Work Unit\Level 2 piano\Play_level2Piano_B	
+	2376149911	Play_Level2Piano_C			\Default Work Unit\Level 2 piano\Play_Level2Piano_C	
+	2474156387	Play_GuitarNpcSpeech			\Default Work Unit\NPCs\Floor 1 Guitar NPC\Play_GuitarNpcSpeech	
+	2668293568	Play_String_Note_A			\Default Work Unit\String Notes\Play_String_Note_A	
+	2668293570	Play_String_Note_C			\Default Work Unit\String Notes\Play_String_Note_C	
+	2668293571	Play_String_Note_B			\Default Work Unit\String Notes\Play_String_Note_B	
+	2668293572	Play_String_Note_E			\Default Work Unit\String Notes\Play_String_Note_E	
+	2668293573	Play_String_Note_D			\Default Work Unit\String Notes\Play_String_Note_D	
+	2668293574	Play_String_Note_G			\Default Work Unit\String Notes\Play_String_Note_G	
+	2668293575	Play_String_Note_F			\Default Work Unit\String Notes\Play_String_Note_F	
+	2711136183	Stop_Level2Piano_GSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_GSharp	
+	2773441658	Play_level2Piano_FSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_FSharp	
+	2903004101	Play_BongosNPC			\Default Work Unit\NPCs\Floor 3 Bongos NPC\Play_BongosNPC	
+	3007483891	Stop_Lost_library_game_trailer_music			\Default Work Unit\Stop_Lost_library_game_trailer_music	
+	3176529497	Play_String_Note_G_high			\Default Work Unit\String Notes\Play_String_Note_G_high	
+	3416461271	Play_level2Piano_ASharp			\Default Work Unit\Level 2 piano\Play_level2Piano_ASharp	
+	3507183862	Stop_Level2Piano_DSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_DSharp	
+	3935525577	Play_Lost_library_game_trailer_music			\Default Work Unit\Play_Lost_library_game_trailer_music	
+	4202561861	Level1MusicPlay			\Default Work Unit\Music events\Level1MusicPlay	
+	4242575856	Stop_Level2Piano_B			\Default Work Unit\Level 2 piano\Stop_Level2Piano_B	
+	4242575857	Stop_Level2Piano_C			\Default Work Unit\Level 2 piano\Stop_Level2Piano_C	
+	4242575859	Stop_Level2Piano_A			\Default Work Unit\Level 2 piano\Stop_Level2Piano_A	
+	4242575860	Stop_Level2Piano_F			\Default Work Unit\Level 2 piano\Stop_Level2Piano_F	
+	4242575861	Stop_Level2Piano_G			\Default Work Unit\Level 2 piano\Stop_Level2Piano_G	
+	4242575862	Stop_Level2Piano_D			\Default Work Unit\Level 2 piano\Stop_Level2Piano_D	
+	4242575863	Stop_Level2Piano_E			\Default Work Unit\Level 2 piano\Stop_Level2Piano_E	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	625356259	First floor lost library music V1 Gabriele Liotta no loop	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\First floor lost library music V1 Gabriele Liotta_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 1\First floor lost library music V1 Gabriele Liotta no loop		24296824
+	1018386894	Lost library game trailer music	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Lost library game trailer music_A9329C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 1\Lost library game trailer music		12018692
+

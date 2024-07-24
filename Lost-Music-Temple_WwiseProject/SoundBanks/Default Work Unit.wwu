@@ -5,30 +5,38 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{0E9DB135-671E-426E-BAA6-268914AD106F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Melody1" ID="{479CFDD8-79C9-40D5-878E-D96B11FB21FB}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Study_Time" ID="{678B985C-633D-41B4-96EB-B18BC9634F7F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Study_Time" ID="{8AFA79C3-1B8F-4692-9E2C-E11F5C31E196}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Floor 3 Music" ID="{65406A3B-B723-46A6-BEC0-E06CE8035701}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SFX" ID="{6E90C397-3A22-4F71-9EF8-2F916BD1319C}">
+					<ObjectInclusionList>
 						<ObjectRef Name="Play_level2Piano_F" ID="{F0365B7B-2E0A-400A-87C8-6DC3D3A7098C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_D" ID="{9F9A2368-17FA-4011-9870-4A509B4AD346}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_C" ID="{A60F3EC1-8DA2-4079-8A38-9BBEF3A41A05}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Harmony Wheel" ID="{CC6DA57B-1C77-40B7-90C0-875765F43885}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Melody1" ID="{479CFDD8-79C9-40D5-878E-D96B11FB21FB}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_B" ID="{5CDCA287-7643-40FC-97E2-EBF8BDDFEEDC}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Lost_library_game_trailer_music" ID="{93BE0864-01B8-410C-AD23-CCA62BB6B599}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_C" ID="{96233C20-43A7-4110-B6FE-325011D58895}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_A" ID="{6739C86C-6DCD-4122-9FD0-41C3797404EF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Moving_Block" ID="{DD178BB4-A82D-414B-A5A2-94A5B4A6A9BD}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Collect_Scroll_Jingle" ID="{C15CBEE5-14A5-4169-AC4C-1647D998A6DF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_E" ID="{88298351-7502-4182-B0F2-9B272D88FF54}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Study_Time" ID="{678B985C-633D-41B4-96EB-B18BC9634F7F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_D" ID="{F6401FA3-9CF4-41EB-8D14-CB4AC34EC696}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_G" ID="{B68DB96E-9F26-42DE-8F65-7085B6395870}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_E" ID="{19ACD0A5-156C-435D-A788-C195D2F05574}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FootSteps" ID="{DA45D386-F849-4386-9F96-D86DBA5D13EA}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level 2 piano" ID="{A7E33B83-D6C3-4398-A566-EFD2FCA4F00D}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_G" ID="{8B2EF5F8-4829-43B1-82CF-A354EE911AE5}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving_Block" ID="{E76A94ED-9941-43C6-B3A3-1F0FC1886A6F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_F_high" ID="{0A1B2E5D-4D9D-43EC-8E79-3E06A816DE2F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_E" ID="{F9C89FC3-5B97-4410-AFFF-D24871BF84AF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_DSharp" ID="{3A133F0F-8301-442A-A573-7982CBDF7350}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FootSteps" ID="{76CBD6DA-3575-4446-B6A1-0F11081DE722}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Level2Piano_C" ID="{9A3FE4B9-AA99-44A5-A56D-B8D0A8FCEE0F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gate_Open" ID="{B00B6101-DE1B-44C2-AC72-01CBB744E3A7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_A" ID="{4498ECDC-37F1-44F4-AB04-9C67A34E90A2}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
@@ -40,10 +48,6 @@
 						<ObjectRef Name="Floor 1 Guitar NPC" ID="{C4A77362-8415-4678-A80D-F464B4257ED7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_C" ID="{F794A731-D930-467D-87BB-691C694C5C0C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Floor2MusicTransitionStop" ID="{7D78C6A1-1C74-4682-B096-9A1FDF7FB96C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Study_Time" ID="{8AFA79C3-1B8F-4692-9E2C-E11F5C31E196}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Floor 3 Music" ID="{65406A3B-B723-46A6-BEC0-E06CE8035701}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_GSharp" ID="{7205033D-F0C6-46E1-8237-3A1A9F27D621}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_B" ID="{399ED1F8-50C9-47BF-BBE1-7704BA3AC09E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
@@ -54,7 +58,6 @@
 						<ObjectRef Name="Play_Level2Piano_CSharp" ID="{13DEEABC-146E-49A1-8657-098D22CAD1F1}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_CSharp" ID="{9F0F9E85-DFCE-49BC-84C6-6196EEEE5E71}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_DSharp" ID="{C207B3DF-3F80-4A2F-BDC1-A57634AC6244}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Lost_library_game_trailer_music" ID="{5716DC5C-B88D-4A8C-8D57-70ED2117AB6E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_ASharp" ID="{54968D06-C997-4AD5-9360-9F5B86EC9E46}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_GSharp" ID="{54BA5CAB-7D5A-4AE3-BB6C-062C61E657E7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_G_high" ID="{7A5CBFE8-6F99-4B5F-87D5-333898D02F34}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
@@ -65,9 +68,9 @@
 						<ObjectRef Name="Floor2MusicTransitionPlay" ID="{2776DCB1-4742-4CFD-9927-3AED57C386F6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_B" ID="{F8B8DD82-FB45-4D4B-9EF5-BBF6C726DD77}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_FSharp" ID="{3D59A298-6F1B-4D56-87A3-AC91317D143A}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_F" ID="{B319DC76-3DCE-4D90-9944-3BA4764C748E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level 2 Piano notes" ID="{18093DF7-D702-4DC0-BCD5-E29EC35465BC}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Collect_Scroll_Jingle" ID="{DA33B46A-23DE-4E31-B918-163CC47D53CC}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_A" ID="{95B506A9-4CA8-4E4E-8A79-9B5651166C8B}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_E" ID="{F601A99E-8C80-4F12-AFC9-3DCC32A0E928}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Guitar NPC" ID="{295D49D0-0A7E-4FDB-8473-2853FB0F7D2D}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
@@ -75,8 +78,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="SFX" ID="{6E90C397-3A22-4F71-9EF8-2F916BD1319C}">
-					<ObjectInclusionList/>
+				<SoundBank Name="Music" ID="{BB65E13A-FC56-4B1A-8B03-8015C704FAB9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Lost_library_game_trailer_music" ID="{93BE0864-01B8-410C-AD23-CCA62BB6B599}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music floor 1" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Lost_library_game_trailer_music" ID="{5716DC5C-B88D-4A8C-8D57-70ED2117AB6E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

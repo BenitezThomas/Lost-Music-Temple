@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584798285319806434
+    m_lastTime: -8584797582371493316
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -82,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 35b19d0e1e676e42baa6268914ad106f
       Path: SoundBanks\Default Work Unit\Main
+    - name: Music
+      guid: 3ae165bb56fc1a4b8b038015c704fab9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26f417b6c771d5468b4d61ea6993ad70
+      - ElementName: Music
+        ObjectType: 7
+        guid: 3ae165bb56fc1a4b8b038015c704fab9
+      Path: SoundBanks\Default Work Unit\Music
     - name: SFX
       guid: 97c3906e223a714f9ef82f916bd1319c
       id: 393239870
@@ -108,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584801235416580972
+    m_lastTime: -8584797590222173163
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -271,8 +285,8 @@ MonoBehaviour:
         guid: 6e8c838ba877374db152660cb1f8722f
       Path: Events\Default Work Unit\Music events\Floor2Music\Floor2musicStop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Floor2MusicTransitionPlay
       guid: b1dc76274247fd4c99273aed57c386f6
       id: 343141985
@@ -482,8 +496,8 @@ MonoBehaviour:
         guid: 86d345da49f886439f96d86dba5d13ea
       Path: Events\Default Work Unit\Play_FootSteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.31524622
+      minDuration: 0.12557149
     - name: Play_Gate_Open
       guid: 01610bb01bdec244ac7201cbb744e3a7
       id: 4089264814
@@ -1831,7 +1845,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584809555006115047
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 5e0000005f000000
   ExpandedWaapiItemIds: 18000000190000005e0000005f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
