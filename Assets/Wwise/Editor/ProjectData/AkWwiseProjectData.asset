@@ -66,11 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8584802213188733629
-=======
-    m_lastTime: -8584802704161828139
->>>>>>> Stashed changes
+    m_lastTime: -8584798285319806434
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -86,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 35b19d0e1e676e42baa6268914ad106f
       Path: SoundBanks\Default Work Unit\Main
+    - name: SFX
+      guid: 97c3906e223a714f9ef82f916bd1319c
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26f417b6c771d5468b4d61ea6993ad70
+      - ElementName: SFX
+        ObjectType: 7
+        guid: 97c3906e223a714f9ef82f916bd1319c
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -98,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584802213206360303
+    m_lastTime: -8584801235416580972
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -177,6 +187,138 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Floor 3 Music
+      guid: 3b6a406523b7a646bec0e06ce8035701
+      id: 2335891155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor 3 Music
+        ObjectType: 4
+        guid: 3b6a406523b7a646bec0e06ce8035701
+      Path: Events\Default Work Unit\Music events\Floor 3 Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2Music
+      guid: 644b1a6a985e6b458e9f5179c7487930
+      id: 3178620922
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      Path: Events\Default Work Unit\Music events\Floor2Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2musicplay
+      guid: 99cbaed46e5f724ba2fd3861c4239739
+      id: 628670496
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2musicplay
+        ObjectType: 3
+        guid: 99cbaed46e5f724ba2fd3861c4239739
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2musicplay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2musicStop
+      guid: 6e8c838ba877374db152660cb1f8722f
+      id: 3266896802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2musicStop
+        ObjectType: 3
+        guid: 6e8c838ba877374db152660cb1f8722f
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2musicStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Floor2MusicTransitionPlay
+      guid: b1dc76274247fd4c99273aed57c386f6
+      id: 343141985
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2MusicTransitionPlay
+        ObjectType: 3
+        guid: b1dc76274247fd4c99273aed57c386f6
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2MusicTransitionPlay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Floor2MusicTransitionStop
+      guid: a1c6787d741c8246b0969a1fdf7fb96c
+      id: 2704781623
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2MusicTransitionStop
+        ObjectType: 3
+        guid: a1c6787d741c8246b0969a1fdf7fb96c
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2MusicTransitionStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Harmony Wheel
       guid: 7ba56dcc771cb74090c0875765f43885
       id: 454979760
@@ -221,10 +363,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
       - ElementName: Level1MusicPlay
         ObjectType: 3
         guid: 81a70c641227ce4395d3c6d02718b3d0
-      Path: Events\Default Work Unit\Level1MusicPlay
+      Path: Events\Default Work Unit\Music events\Level1MusicPlay
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -238,13 +383,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
       - ElementName: Level1MusicStop
         ObjectType: 3
         guid: 27afba34b712da468d68bfe392c7d2a6
-      Path: Events\Default Work Unit\Level1MusicStop
+      Path: Events\Default Work Unit\Music events\Level1MusicStop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Music events
+      guid: a6cb1c759549d04ea79b358e05f30cf6
+      id: 3264800193
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      Path: Events\Default Work Unit\Music events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: NPCs
       guid: 052d90daa823c34c86a675c8a93d3e7f
       id: 833916109
@@ -317,8 +482,8 @@ MonoBehaviour:
         guid: 86d345da49f886439f96d86dba5d13ea
       Path: Events\Default Work Unit\Play_FootSteps
       maxAttenuation: 0
-      maxDuration: 0.31524622
-      minDuration: 0.12557149
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Gate_Open
       guid: 01610bb01bdec244ac7201cbb744e3a7
       id: 4089264814
@@ -1053,6 +1218,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayFloor3Music
+      guid: e389b435d4af2a40998b136b991e8c39
+      id: 4225751467
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor 3 Music
+        ObjectType: 4
+        guid: 3b6a406523b7a646bec0e06ce8035701
+      - ElementName: PlayFloor3Music
+        ObjectType: 3
+        guid: e389b435d4af2a40998b136b991e8c39
+      Path: Events\Default Work Unit\Music events\Floor 3 Music\PlayFloor3Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Level2Piano_A
       guid: dcec9844f137f444ab049c67a34e90a2
       id: 4242575859
@@ -1347,6 +1535,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stopfloor3Music
+      guid: 84e6ad019b17d34f8210a8bf152d8a0c
+      id: 101287625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor 3 Music
+        ObjectType: 4
+        guid: 3b6a406523b7a646bec0e06ce8035701
+      - ElementName: Stopfloor3Music
+        ObjectType: 3
+        guid: 84e6ad019b17d34f8210a8bf152d8a0c
+      Path: Events\Default Work Unit\Music events\Floor 3 Music\Stopfloor3Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: String Notes
       guid: d4b4b533b5d7e04ca6f27e2ed327464c
       id: 92711785
@@ -1621,8 +1832,8 @@ MonoBehaviour:
     m_lastTime: -8584809555006115047
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 02000000030000000500000006000000070000000b0000000c000000190000001a0000005500000056000000
+  ExpandedWaapiItemIds: 18000000190000005e0000005f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

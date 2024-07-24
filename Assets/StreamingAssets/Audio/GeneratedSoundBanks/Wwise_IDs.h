@@ -21,7 +21,6 @@ namespace AK
         static const AkUniqueID LEVEL1MUSICSTOP = 1332247491U;
         static const AkUniqueID PLAY_BONGOSNPC = 2903004101U;
         static const AkUniqueID PLAY_COLLECT_SCROLL_JINGLE = 407578916U;
-        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
         static const AkUniqueID PLAY_GUITARNPCSPEECH = 2474156387U;
         static const AkUniqueID PLAY_HARMONYWHEEL_A = 860510141U;
@@ -130,6 +129,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

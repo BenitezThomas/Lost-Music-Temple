@@ -9,6 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{1964E9AC-8E66-B01E-91A4-AE0839EAC3E9}">
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -48,7 +52,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AE8BEBEC-72D8-D21D-8657-D1B395959410}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{F5CD2F21-6BCE-29F1-C661-7F3470719DEF}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -71,14 +75,6 @@
 				<File Id="61030889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken Bongos Speech 3.wav</ShortName>
 					<CachePath>SFX/Broken Bongos Speech 3_818F3B66.wem</CachePath>
-				</File>
-				<File Id="76708715" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FootSteps Wood\Foot Step Wood 5.wav</ShortName>
-					<CachePath>SFX/FootSteps Wood/Foot Step Wood 5_818F3B66.wem</CachePath>
-				</File>
-				<File Id="79362550" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Rug\Foot Step Rug 2.wav</ShortName>
-					<CachePath>SFX/Rug/Foot Step Rug 2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="83154077" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>F# piano note.wav</ShortName>
@@ -136,10 +132,6 @@
 					<ShortName>String Note D.wav</ShortName>
 					<CachePath>SFX/String Note D_818F3B66.wem</CachePath>
 				</File>
-				<File Id="341706876" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Rug\Foot Step Rug 3.wav</ShortName>
-					<CachePath>SFX/Rug/Foot Step Rug 3_818F3B66.wem</CachePath>
-				</File>
 				<File Id="344952281" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>G# piano note.wav</ShortName>
 					<CachePath>SFX/G# piano note_818F3B66.wem</CachePath>
@@ -160,10 +152,6 @@
 					<ShortName>Broken guitar speech 4.wav</ShortName>
 					<CachePath>SFX/Broken guitar speech 4_818F3B66.wem</CachePath>
 				</File>
-				<File Id="402357147" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Rug\Foot Step Rug 5.wav</ShortName>
-					<CachePath>SFX/Rug/Foot Step Rug 5_818F3B66.wem</CachePath>
-				</File>
 				<File Id="405704038" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>A piano note.wav</ShortName>
 					<CachePath>SFX/A piano note_818F3B66.wem</CachePath>
@@ -175,10 +163,6 @@
 				<File Id="422324391" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>G piano note.wav</ShortName>
 					<CachePath>SFX/G piano note_818F3B66.wem</CachePath>
-				</File>
-				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
-					<CachePath>SFX/FootSteps Wood/Foot Step Wood 3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="445691425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>C# piano note.wav</ShortName>
@@ -238,7 +222,7 @@
 				</File>
 				<File Id="587689137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Second floor music with tension.wav</ShortName>
-					<CachePath>SFX/Second floor music with tension_E5B5F681.wem</CachePath>
+					<CachePath>SFX/Second floor music with tension_40A3E384.wem</CachePath>
 				</File>
 				<File Id="598192894" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 3.wav</ShortName>
@@ -274,7 +258,7 @@
 				</File>
 				<File Id="775882307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Third floor lost library music percussive.wav</ShortName>
-					<CachePath>SFX/Third floor lost library music percussive_818F3B66.wem</CachePath>
+					<CachePath>SFX/Third floor lost library music percussive_11A93380.wem</CachePath>
 				</File>
 				<File Id="789697022" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>B piano note.wav</ShortName>
@@ -288,17 +272,9 @@
 					<ShortName>Harmony Wheel\HarmonyWheel_E.wav</ShortName>
 					<CachePath>SFX/Harmony Wheel/HarmonyWheel_E_417F989B.wem</CachePath>
 				</File>
-				<File Id="805070630" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FootSteps Wood\Foot Step Wood 2.wav</ShortName>
-					<CachePath>SFX/FootSteps Wood/Foot Step Wood 2_818F3B66.wem</CachePath>
-				</File>
 				<File Id="806678999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 1.wav</ShortName>
 					<CachePath>SFX/Fixed piano speech 1_8007E3E2.wem</CachePath>
-				</File>
-				<File Id="874061896" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FootSteps Wood\Foot Step Wood 4.wav</ShortName>
-					<CachePath>SFX/FootSteps Wood/Foot Step Wood 4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="876776862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_D.wav</ShortName>
@@ -316,29 +292,17 @@
 					<ShortName>Study Time.wav</ShortName>
 					<CachePath>SFX/Study Time_43E96754.wem</CachePath>
 				</File>
-				<File Id="913326851" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FootSteps Wood\Foot Step Wood 1.wav</ShortName>
-					<CachePath>SFX/FootSteps Wood/Foot Step Wood 1_818F3B66.wem</CachePath>
-				</File>
 				<File Id="933367190" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note F high.wav</ShortName>
 					<CachePath>SFX/String Note F high_818F3B66.wem</CachePath>
 				</File>
-				<File Id="953043269" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Rug\Foot Step Rug 4.wav</ShortName>
-					<CachePath>SFX/Rug/Foot Step Rug 4_818F3B66.wem</CachePath>
-				</File>
 				<File Id="981396761" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Second floor lost library Gabriele Liotta.wav</ShortName>
-					<CachePath>SFX/Second floor lost library Gabriele Liotta_818F3B66.wem</CachePath>
+					<CachePath>SFX/Second floor lost library Gabriele Liotta_BDE3BE4D.wem</CachePath>
 				</File>
 				<File Id="982168347" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed Bongos Speech 3.wav</ShortName>
 					<CachePath>SFX/Fixed Bongos Speech 3_818F3B66.wem</CachePath>
-				</File>
-				<File Id="994341315" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Rug\Foot Step Rug 1.wav</ShortName>
-					<CachePath>SFX/Rug/Foot Step Rug 1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1008595703" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>D piano note.wav</ShortName>
@@ -358,7 +322,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="628670496" Name="Floor2musicplay" DurationType="OneShot" DurationMin="156.5" DurationMax="156.5">
+				<Event Id="628670496" Name="Floor2musicplay" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="587689137"/>
 						<MediaRef Id="981396761"/>
@@ -419,30 +383,6 @@
 					<MediaRefs>
 						<MediaRef Id="721139345"/>
 					</MediaRefs>
-				</Event>
-				<Event Id="3854155799" Name="Play_FootSteps" DurationType="OneShot" DurationMin="0.12557149" DurationMax="0.31524622">
-					<SwitchContainers>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2058049674" Default="true"/>
-							<MediaRefs>
-								<MediaRef Id="76708715"/>
-								<MediaRef Id="432853403"/>
-								<MediaRef Id="805070630"/>
-								<MediaRef Id="874061896"/>
-								<MediaRef Id="913326851"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="712161697"/>
-							<MediaRefs>
-								<MediaRef Id="79362550"/>
-								<MediaRef Id="341706876"/>
-								<MediaRef Id="402357147"/>
-								<MediaRef Id="953043269"/>
-								<MediaRef Id="994341315"/>
-							</MediaRefs>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="4089264814" Name="Play_Gate_Open" DurationType="OneShot" DurationMin="0.65401363" DurationMax="0.65401363">
 					<MediaRefs>
@@ -720,7 +660,7 @@
 						<MediaRef Id="893217437"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4225751467" Name="PlayFloor3Music" DurationType="OneShot" DurationMin="115.954" DurationMax="115.954">
+				<Event Id="4225751467" Name="PlayFloor3Music" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="775882307"/>
 					</MediaRefs>
@@ -839,12 +779,6 @@
 						<Switch Id="2630838981" Name="BrokenPiano"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="2385628198" Name="FootSteps">
-					<Switches>
-						<Switch Id="712161697" Name="Rug"/>
-						<Switch Id="2058049674" Name="Wood"/>
-					</Switches>
-				</SwitchGroup>
 				<SwitchGroup Id="3768657756" Name="BongosNPC">
 					<Switches>
 						<Switch Id="1414450584" Name="BrokenBongos"/>
@@ -854,5 +788,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA1CEA36-1315-79CB-DEEF-B285126B5535}</FileHash>
+	<FileHash>{45343D3C-C3DD-B518-B178-2DC74C909935}</FileHash>
 </SoundBanksInfo>

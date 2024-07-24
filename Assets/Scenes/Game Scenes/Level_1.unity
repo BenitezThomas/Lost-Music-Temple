@@ -319,7 +319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16552476}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16969848, y: 0.05497733, z: -0.009482082, w: 0.9839157}
+  m_LocalRotation: {x: 0.16969848, y: 0.054977335, z: -0.009482083, w: 0.9839157}
   m_LocalPosition: {x: 0.50970787, y: 3.726963, z: -41.353962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2980,7 +2980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436855346}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16969846, y: 0.054977328, z: -0.00948208, w: 0.9839157}
+  m_LocalRotation: {x: 0.16969846, y: 0.054977346, z: -0.009482084, w: 0.9839157}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4439,8 +4439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640951938}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24163002, y: -0.0000000102215605, z: 0.0000000025452558,
-    w: 0.97036844}
+  m_LocalRotation: {x: 0.24163003, y: 0.000000005116647, z: -0.0000000012740885, w: 0.97036844}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15453,6 +15452,7 @@ GameObject:
   - component: {fileID: 1946515034}
   - component: {fileID: 1946515033}
   - component: {fileID: 1946515032}
+  - component: {fileID: 1946515035}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -15527,6 +15527,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1946515035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946515031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d02bf0b726dd547a6c3ef893b3bc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 637b11919888fa340975afbd26b41802,
+      type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1949314048
 GameObject:
   m_ObjectHideFlags: 0
