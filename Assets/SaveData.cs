@@ -8,13 +8,26 @@ public class SaveData : MonoBehaviour
     public LevelInfo levelInfo = new LevelInfo();
     public GameObject player;
 
+    private void Awake() 
+    {
+        //LoadFromJson();
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.G))
         {
             SaveToJson();
         }
-        if(Input.GetKeyDown(KeyCode.L))
+        if(Input.GetKeyDown(KeyCode.H))
+        {
+            SaveGameProgress();
+        }
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            LoadGameSave();
+        }
+        if(Input.GetKeyDown(KeyCode.K))
         {
             LoadFromJson();
         }
@@ -36,7 +49,7 @@ public class SaveData : MonoBehaviour
 
         levelInfo = JsonUtility.FromJson<LevelInfo>(gameSaveData);
         Debug.Log("Data Has Been Loaded");
-        LoadGameSave();
+        //LoadGameSave();
     }
 
     public void SaveGameProgress()
@@ -49,8 +62,16 @@ public class SaveData : MonoBehaviour
         levelInfo.lastLoadedScene = scene.name;
 
         //Grab the Transform of the player and give it to levelInfo
-        Transform playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
-        levelInfo.playerTransform = playerTransform;
+        try 
+        {
+            Transform playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
+            levelInfo.playerTransform = playerTransform;
+        }
+        catch(Exception ex)
+        {
+            Debug.Log(ex.ToString());
+        }
+        
         
         //Grab all NPC tagged objects in the scene
         GameObject[] npcObjects = GameObject.FindGameObjectsWithTag ("NPC");
@@ -70,6 +91,7 @@ public class SaveData : MonoBehaviour
 
 
             dialogueInfos.Add(tempDialog);
+            
         }
 
         //grab the DialogueInfos list and push it into LevelInfo.dialogueInformations
@@ -112,7 +134,8 @@ public class LevelInfo
     public string lastLoadedScene;
     public Transform playerTransform;
     //public Transform playerLocation;
-    public List<DialogueInfo> dialogueInformations = new List<DialogueInfo>();    
+    public List<DialogueInfo> dialogueInformations = new List<DialogueInfo>();
+    public int floorUnlocked;
     
 }
 
