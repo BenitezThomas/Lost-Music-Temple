@@ -8,11 +8,12 @@ public class KeyManager : MonoBehaviour
 {
     public GameObject player; // The collider that will be used as a collider
     public PianoPuzzleManager pianoPuzzleManager; // Reference to the PianoPuzzleManager
+    [SerializeField] Animator animator;
 
     void Start()
     {
         // Get the PianoPuzzleManager component from the grandparent object
-        pianoPuzzleManager = this.transform.parent.parent.GetComponent<PianoPuzzleManager>();
+        //pianoPuzzleManager = this.transform.parent.parent.GetComponent<PianoPuzzleManager>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -20,9 +21,19 @@ public class KeyManager : MonoBehaviour
         if (other.gameObject == player)
         {
             Debug.Log("Key pressed: " + gameObject.name);
+
+            animator.SetTrigger("KeyDown");
             
             // Register the key press with the PianoPuzzleManager
-            pianoPuzzleManager.RegisterKeyPress(gameObject.transform.parent.gameObject);
+            pianoPuzzleManager.RegisterKeyPress(gameObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject == player)
+        {
+            animator.SetTrigger("KeyUp");
         }
     }
 }

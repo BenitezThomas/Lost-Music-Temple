@@ -6,6 +6,7 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
 
+    [SerializeField] int floor;
     [SerializeField] GameObject[] levels;
 
     private void Awake()
@@ -20,7 +21,12 @@ public class LevelManager : MonoBehaviour
             level.SetActive(false);
         }
 
-        if (levels.Length > 0 && GameManager.Instance.currentNoteIndex < levels.Length) levels[GameManager.Instance.currentNoteIndex].SetActive(true);
+        if (levels.Length > 0)
+        {
+            int index = GameManager.Instance.currentNoteIndex;
+            if (floor == 2) index -= 3;
+            levels[index].SetActive(true);
+        }
     }
 
     // Update is called once per frame

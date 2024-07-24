@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        currentNoteIndex = 3;
         //LoadGameState();
     }
 

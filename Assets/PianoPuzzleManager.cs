@@ -16,6 +16,8 @@ public class PianoPuzzleManager : MonoBehaviour
 
     private int currentStep = 0; // Tracks the current step in the sequence
 
+    [SerializeField] OpenGate gate;
+
     /// <summary>
     /// Registers a key press and checks it against the correct sequence.
     /// If the key is correct, it moves to the next step in the sequence.
@@ -33,6 +35,7 @@ public class PianoPuzzleManager : MonoBehaviour
             if (currentStep == correctSequence.Count)
             {
                 Debug.Log("Puzzle Complete!");
+                gate.TryOpenGate();
             }
         }
         else
