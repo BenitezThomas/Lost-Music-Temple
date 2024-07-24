@@ -18,6 +18,10 @@ public class DialogueData : MonoBehaviour
     public Dialogue dialogue;
     private bool isReadyToDialogue;
 
+    //Han Adjustment 7/24/2024
+    public int dialogueNumber;
+    public int npcID;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && isReadyToDialogue)

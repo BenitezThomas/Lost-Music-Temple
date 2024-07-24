@@ -24,6 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c079418a731b39489fe1e514944efc72
     GuidInternal: 
+    m_lastTime: -8584799768238955469
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -37,6 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cee84511aa01b24fb8c1736ae2c63afb
     GuidInternal: 
+    m_lastTime: -8584799768241757009
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -64,6 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
+    m_lastTime: -8584797988595807131
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -91,6 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
+    m_lastTime: -8584797988603844718
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -725,6 +729,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 704e823ed1b4ba4980acac3635381b3b
     GuidInternal: 
+    m_lastTime: -8584799768244418397
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -738,6 +743,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 498df801d36d9b489e9a76cd04bcab91
     GuidInternal: 
+    m_lastTime: -8584799768238975492
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -751,6 +757,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a4e80e03fc1e8943a19c9f524f8d7c6c
     GuidInternal: 
+    m_lastTime: -8584799768238975492
     List:
     - name: FootSteps
       guid: 0f2047bd8955f3409a5a2bc29216707d
@@ -814,6 +821,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: b5504e8d964675429cae06d354607df5
     GuidInternal: 
+    m_lastTime: -8584799768238965475
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 05000000060000000700000008000000

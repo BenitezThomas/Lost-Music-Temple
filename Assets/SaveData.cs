@@ -10,8 +10,11 @@ public class SaveData : MonoBehaviour
 
     private void Awake() 
     {
-        //LoadFromJson();
+        player = GameObject.FindWithTag("Player");
+        LoadFromJson();
+        Debug.Log("Start Load Executed Succesfully");
     }
+
 
     private void Update()
     {
@@ -48,7 +51,7 @@ public class SaveData : MonoBehaviour
         string gameSaveData = System.IO.File.ReadAllText(filePath);
 
         levelInfo = JsonUtility.FromJson<LevelInfo>(gameSaveData);
-        Debug.Log("Data Has Been Loaded");
+        Debug.Log("Save system loaded save file from location: " + Application.persistentDataPath + "/SaveData.json");
         //LoadGameSave();
     }
 
@@ -72,33 +75,39 @@ public class SaveData : MonoBehaviour
             Debug.Log(ex.ToString());
         }
         
-        
         //Grab all NPC tagged objects in the scene
         GameObject[] npcObjects = GameObject.FindGameObjectsWithTag ("NPC");
+        dialogueInfos = levelInfo.dialogueInformations;
 
         foreach(GameObject npc in npcObjects)
         {
-
-            // For Here We need to grab the NPC Dialogue Script and grab the dialogue Number from it. 
-            // Lets Asssume this magical variable is that integer
-
-            int randomNpcID = UnityEngine.Random.Range(0,10);
-            int randomDialogueNumber = UnityEngine.Random.Range(0,10);
-
-            DialogueInfo tempDialog = new DialogueInfo();
-            tempDialog.npcID = randomNpcID;
-            tempDialog.dialogueNumber = randomDialogueNumber;    
-
-
-            dialogueInfos.Add(tempDialog);
+            foreach(DialogueInfo info in levelInfo.dialogueInformations)
+            {
+                if(npc.GetComponent<DialogueData>().npcID == info.npcID)
+                {
+                    info.dialogueNumber = npc.GetComponent<DialogueData>().dialogueNumber;
+                }
+                
+                
+            }
             
         }
 
+       //Code below could be activated if you would like to display the dialog infos list. 
+       //                     /
+       //                   /
+       //                  V
+
+
+        // foreach(DialogueInfo info in dialogueInfos)
+        // {
+        //     Debug.Log(info.npcID);
+        //     Debug.Log(info.dialogueNumber);
+        // }
+
+
         //grab the DialogueInfos list and push it into LevelInfo.dialogueInformations
         levelInfo.dialogueInformations = dialogueInfos;
-        dialogueInfos.Clear();
-
-
 
         Debug.Log("NPC Dialogue Saved");
 
@@ -106,23 +115,35 @@ public class SaveData : MonoBehaviour
 
     public void LoadGameSave()
     {
-        SceneManager.LoadScene(levelInfo.lastLoadedScene);
-        player.transform.position = levelInfo.playerTransform.position;
-
-        //Grab all NPC tagged objects in the scene
-
-        foreach(DialogueInfo npcData in levelInfo.dialogueInformations)
+        try
         {
-            GameObject[] npcObjects = GameObject.FindGameObjectsWithTag ("NPC");
+            SceneManager.LoadScene(levelInfo.lastLoadedScene);
+            Debug.Log("Scene Data Loaded");
+            player.transform.position = levelInfo.playerTransform.position;
+            Debug.Log("Player Position Data Loaded");
+        }
+        catch (Exception ex)
+        {
+            Debug.Log("Player Positon or Scene Data had an error while loading error type: " + ex.ToString());
+        }
+        
+        //Grab all NPC tagged objects in the scene
+        GameObject[] npcObjects = GameObject.FindGameObjectsWithTag ("NPC");
 
-            foreach(GameObject npc in npcObjects)
+        foreach(GameObject npc in npcObjects)
+        {
+            foreach(DialogueInfo npcData in levelInfo.dialogueInformations)
             {
-            //    if(npcData.npcID == npc.ID)
-            //    {
-                    //npc.dialogueNumber = npcData.dialogueNumber
-            //    }
+                if(npc.GetComponent<DialogueData>().npcID == npcData.npcID)
+                {
+                    npc.GetComponent<DialogueData>().dialogueNumber = npcData.dialogueNumber;
+                    Debug.Log("NPC Dialogues Data Loaded");
+                }
             }
         }
+
+        Debug.Log("NPC Dialogues Data Loaded");
+
     }
 }
 
