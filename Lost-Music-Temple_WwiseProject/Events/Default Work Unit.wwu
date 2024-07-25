@@ -2237,6 +2237,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="WindSFX" ID="{3181F647-2459-464B-91E7-B051963FEABE}">
+					<ChildrenList>
+						<Action Name="" ID="{14D7DC5D-CEE7-4080-B4F7-68097E8764A7}" ShortID="25536076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind sfx" ID="{550A8A0E-85CD-45C2-989E-15B5E2A2B7A4}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

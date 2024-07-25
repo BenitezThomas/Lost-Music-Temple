@@ -43,6 +43,7 @@
 						<ObjectRef Name="Play_level2Piano_ASharp" ID="{60B1D2B6-9836-4569-A4C9-228B4E645FDF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_G" ID="{F3A26AF0-7DEB-45B6-923C-FDC0347E0E78}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="C piano note" ID="{DF551829-26EB-4607-AB0C-359CE8BDA4E8}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WindSFX" ID="{3181F647-2459-464B-91E7-B051963FEABE}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Floor 1 Guitar NPC" ID="{C4A77362-8415-4678-A80D-F464B4257ED7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_C" ID="{F794A731-D930-467D-87BB-691C694C5C0C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Floor2MusicTransitionStop" ID="{7D78C6A1-1C74-4682-B096-9A1FDF7FB96C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
@@ -51,6 +52,7 @@
 						<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Floor 2 SFX" ID="{112F9227-B497-4785-967D-F25590A3BD81}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_B" ID="{399ED1F8-50C9-47BF-BBE1-7704BA3AC09E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Unknown Floor SFX" ID="{32C6E65A-4888-4828-9409-D9D4B9ED922D}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_E_Low" ID="{9AAC59B6-7AB2-4880-BE15-23CF1E9A4993}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_String_Note_F" ID="{AAA9BDEC-2D9A-48EE-BD59-EE208C970F8C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_FSharp" ID="{5A7AE68D-7319-48FB-8F77-327DEA853DAB}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>

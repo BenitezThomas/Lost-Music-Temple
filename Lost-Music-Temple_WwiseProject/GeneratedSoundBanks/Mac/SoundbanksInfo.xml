@@ -9,10 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C4C721DF-4840-C3FB-20DA-8474D3AF0F6F}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{1D1AC0FC-884D-C341-44D3-64DF71980CE8}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
+				<File Id="3677152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind sfx.wav</ShortName>
+					<CachePath>SFX/Wind sfx_9A8BADC8.wem</CachePath>
+				</File>
 				<File Id="17993006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken guitar speech 1.wav</ShortName>
 					<CachePath>SFX/Broken guitar speech 1_818F3B66.wem</CachePath>
@@ -343,7 +347,7 @@
 				</File>
 				<File Id="945113159" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Jump.wav</ShortName>
-					<CachePath>SFX/Jump_BE5C7257.wem</CachePath>
+					<CachePath>SFX/Jump_3A021F37.wem</CachePath>
 				</File>
 				<File Id="953043269" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 4.wav</ShortName>
@@ -841,6 +845,11 @@
 						<MediaRef Id="348127573"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="257381952" Name="WindSFX" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="3677152"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="438036876" Name="GuitarNPC">
@@ -1281,5 +1290,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{98042DD8-48DA-10B5-D9AB-448DD48D8708}</FileHash>
+	<FileHash>{CFB654DD-6351-703A-3314-BBA3FB2AFD56}</FileHash>
 </SoundBanksInfo>

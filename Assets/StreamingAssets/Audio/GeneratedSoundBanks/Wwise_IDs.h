@@ -82,6 +82,7 @@ namespace AK
         static const AkUniqueID STOP_STUDY_TIME = 409577309U;
         static const AkUniqueID STOPFLOOR3MUSIC = 101287625U;
         static const AkUniqueID TAMBOURINELAND = 3119369426U;
+        static const AkUniqueID WINDSFX = 257381952U;
     } // namespace EVENTS
 
     namespace SWITCHES
