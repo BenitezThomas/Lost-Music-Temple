@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	689432314	Play_String_Note_F_high			\Default Work Unit\String Notes\Play_String_Note_F_high	
 	744740939	Stop_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_CSharp	
 	766101389	Play_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Play_Level2Piano_CSharp	
+	846198821	PlayerLand			\Default Work Unit\Floor 2\PlayerLand	
 	860510136	Play_HarmonyWheel_D			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_D	
 	860510137	Play_HarmonyWheel_E			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_E	
 	860510138	Play_HarmonyWheel_F			\Default Work Unit\Harmony Wheel\Play_HarmonyWheel_F	
@@ -14,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1227793063	Play_String_Note_E_Low			\Default Work Unit\String Notes\Play_String_Note_E_Low	
 	1292360812	Play_level2Piano_DSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_DSharp	
 	1792351953	Stop_Level2Piano_ASharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_ASharp	
+	1823600288	HammerSwingBackward			\Default Work Unit\Floor 2\HammerSwingBackward	
 	2138227185	Play_level2Piano_GSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_GSharp	
 	2170343864	Stop_Level2Piano_FSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_FSharp	
 	2315618172	Play_PianoNpcSpeech			\Default Work Unit\NPCs\Floor 2 Piano NPC\Play_PianoNpcSpeech	
@@ -25,6 +27,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2376149910	Play_level2Piano_B			\Default Work Unit\Level 2 piano\Play_level2Piano_B	
 	2376149911	Play_Level2Piano_C			\Default Work Unit\Level 2 piano\Play_Level2Piano_C	
 	2474156387	Play_GuitarNpcSpeech			\Default Work Unit\NPCs\Floor 1 Guitar NPC\Play_GuitarNpcSpeech	
+	2483836202	HammerSwingForward			\Default Work Unit\Floor 2\HammerSwingForward	
 	2668293568	Play_String_Note_A			\Default Work Unit\String Notes\Play_String_Note_A	
 	2668293570	Play_String_Note_C			\Default Work Unit\String Notes\Play_String_Note_C	
 	2668293571	Play_String_Note_B			\Default Work Unit\String Notes\Play_String_Note_B	
@@ -37,11 +40,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	2746119090	Play_Moving_Block			\Default Work Unit\Block\Play_Moving_Block	
 	2773441658	Play_level2Piano_FSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_FSharp	
 	2903004101	Play_BongosNPC			\Default Work Unit\NPCs\Floor 3 Bongos NPC\Play_BongosNPC	
+	3119369426	TambourineLand			\Default Work Unit\Floor 2\TambourineLand	
 	3176529497	Play_String_Note_G_high			\Default Work Unit\String Notes\Play_String_Note_G_high	
+	3372711433	HammerHitPlayer			\Default Work Unit\Floor 2\HammerHitPlayer	
 	3412145620	Stop_Moving_Block			\Default Work Unit\Block\Stop_Moving_Block	
 	3416461271	Play_level2Piano_ASharp			\Default Work Unit\Level 2 piano\Play_level2Piano_ASharp	
 	3507183862	Stop_Level2Piano_DSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_DSharp	
 	3854155799	Play_FootSteps			\Default Work Unit\Play_FootSteps	
+	4008126242	PlayerJump			\Default Work Unit\Floor 2\PlayerJump	
 	4089264814	Play_Gate_Open			\Default Work Unit\Block\Play_Gate_Open	
 	4242575856	Stop_Level2Piano_B			\Default Work Unit\Level 2 piano\Stop_Level2Piano_B	
 	4242575857	Stop_Level2Piano_C			\Default Work Unit\Level 2 piano\Stop_Level2Piano_C	
@@ -54,23 +60,31 @@ Event	ID	Name			Wwise Object Path	Notes
 Switch Group	ID	Name			Wwise Object Path	Notes
 	438036876	GuitarNPC			\Default Work Unit\GuitarNPC	
 	653617121	PianoNPC			\Default Work Unit\PianoNPC	
+	1877319332	FootstepLand			\Default Work Unit\FootstepLand	
 	2385628198	FootSteps			\Default Work Unit\FootSteps	
 	3768657756	BongosNPC			\Default Work Unit\BongosNPC	
+	3833651337	Jump			\Default Work Unit\Jump	
 
 Switch	ID	Name	Switch Group			Notes
 	231230354	Broken	GuitarNPC			
 	698073849	Fixed	GuitarNPC			
 	1939185584	FixedPiano	PianoNPC			
 	2630838981	BrokenPiano	PianoNPC			
+	712161697	Rug	FootstepLand			
+	2058049674	Wood	FootstepLand			
+	4248742144	Nothing	FootstepLand			
 	712161697	Rug	FootSteps			
 	2058049674	Wood	FootSteps			
 	1414450584	BrokenBongos	BongosNPC			
 	1894708087	FixedBongos	BongosNPC			
+	782826392	Default	Jump			
+	2604859412	BongoJump	Jump			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	17993006	Broken guitar speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken guitar speech 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Broken speech\Broken guitar speech 1		636096
 	19216402	Fixed guitar speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed guitar speech 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Fixed Speech\Fixed guitar speech 4		840096
 	19835441	Broken piano speech 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken piano speech 2_681381CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Broken Piano\Broken piano speech 2		412212
+	59120885	Big bongo (jump)-001	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Big bongo (jump)-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\BigBongos\Big bongo (jump)-001		479112
 	61030889	Broken Bongos Speech 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken Bongos Speech 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Broken\Broken Bongos Speech 3		507680
 	76708715	Foot Step Wood 5	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\FootSteps Wood\Foot Step Wood 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 5		23440
 	79362550	Foot Step Rug 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug\Foot Step Rug 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 2		17042
@@ -80,24 +94,34 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	145337992	Fixed Bongos Speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed Bongos Speech 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Fixed\Fixed Bongos Speech 1		330096
 	155952676	String Note B	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note B_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note B		270554
 	201841258	String Note A	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note A_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note A		228014
+	209123838	Wood step land 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Wood step land 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\LandMaterial\WoodLand\Wood step land 2		36272
 	232905430	Fixed guitar speech 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed guitar speech 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Fixed Speech\Fixed guitar speech 3		575972
 	253452743	HarmonyWheel_B	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_B_B2EA8204.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_B		201860
+	263325686	Rug step land 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug step land 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\LandMaterial\RugLand\Rug step land 2		47064
 	273429826	F piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\F piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\F piano note		2304096
 	275845767	Broken guitar speech 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken guitar speech 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Broken speech\Broken guitar speech 2		684096
 	283822291	Fixed Bongos Speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed Bongos Speech 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Fixed\Fixed Bongos Speech 4		312096
 	302455035	E piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\E piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\E piano note		1536096
 	302817086	String Note D	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note D_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note D		207264
+	323200315	Hammer hit-001	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer hit-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer hit\Hammer hit-001		70228
+	338168226	Big bongo (jump)-003	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Big bongo (jump)-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\BigBongos\Big bongo (jump)-003		351228
+	338436561	Wood step land 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Wood step land 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\LandMaterial\WoodLand\Wood step land 3		64424
 	341706876	Foot Step Rug 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug\Foot Step Rug 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 3		18080
 	344952281	G# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\G# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\G# piano note		2304096
+	346544328	Hammer hit-005	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer hit-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer hit\Hammer hit-005		57124
 	346971411	Fixed guitar speech 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed guitar speech 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Fixed Speech\Fixed guitar speech 2		864096
 	347333268	Broken piano speech 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken piano speech 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Broken Piano\Broken piano speech 3		328800
+	348127573	Tambourine	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Tambourine_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\Tambourine		371032
 	380037131	Broken piano speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken piano speech 4_FA901EE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Broken Piano\Broken piano speech 4		415688
+	386925507	Hammer hit-003	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer hit-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer hit\Hammer hit-003		70228
 	394326210	Broken guitar speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken guitar speech 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Broken speech\Broken guitar speech 4		912096
 	402357147	Foot Step Rug 5	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug\Foot Step Rug 5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 5		16352
 	405704038	A piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\A piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\A piano note		2304096
+	407330534	Big bongo (jump)-005	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Big bongo (jump)-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\BigBongos\Big bongo (jump)-005		385164
 	409595829	String Note F	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note F_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F		339034
 	422324391	G piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\G piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\G piano note		2304096
 	432853403	Foot Step Wood 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\FootSteps Wood\Foot Step Wood 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 3		13930
+	438727143	Big bongo (jump)-004	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Big bongo (jump)-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\BigBongos\Big bongo (jump)-004		585456
 	445691425	C# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\C# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\C# piano note		2688096
 	455742158	Gate Open	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Gate Open_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Gate Open		57780
 	469612095	String Note E	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note E_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note E		265022
@@ -106,34 +130,45 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	488647433	HarmonyWheel_G	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_G_0847A501.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_G		201860
 	500233751	String Note C	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note C_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note C		256002
 	507335605	Broken guitar speech 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken guitar speech 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Broken speech\Broken guitar speech 3		720096
+	534580837	Big bongo (jump)-002	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Big bongo (jump)-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\BigBongos\Big bongo (jump)-002		463240
 	547375393	Broken Bongos Speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken Bongos Speech 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Broken\Broken Bongos Speech 4		288096
 	559765484	HarmonyWheel_C	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_C_7DEC66CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_C		201860
+	561592676	Land	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Land_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\Land		161880
 	569985905	Fixed guitar speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed guitar speech 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Fixed Speech\Fixed guitar speech 1		984096
 	570364994	Broken Bongos Speech 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken Bongos Speech 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Broken\Broken Bongos Speech 2		408096
 	573482243	Broken piano speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken piano speech 1_B1EDEA31.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Broken Piano\Broken piano speech 1		442808
 	584818218	HarmonyWheel_A	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_A_D01960C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_A		243460
 	598192894	Fixed piano speech 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed piano speech 3_8613D1F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Fixed Piano\Fixed piano speech 3		657496
+	604379748	Rug step land	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug step land_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\LandMaterial\RugLand\Rug step land		45268
 	620327961	String Note G	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note G_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note G		254646
 	629947900	String Note E Low	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note E Low_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note E Low		328314
 	632686992	Moving Block	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Moving Block_83CA2719.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stones\Moving Block		408068
 	651880420	Fixed piano speech 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed piano speech 2_80B79E84.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Fixed Piano\Fixed piano speech 2		910940
+	704244582	Wood step land 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Wood step land 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\LandMaterial\WoodLand\Wood step land 1		57408
 	711612400	Broken Bongos Speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken Bongos Speech 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Broken\Broken Bongos Speech 1		304608
 	721139345	Collect_Scroll_Jingle	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Collect_Scroll_Jingle_66D2D3BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Collect_Scroll_Jingle		90080
 	789697022	B piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\B piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\B piano note		2304096
+	793684957	Rug step land 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug step land 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\LandMaterial\RugLand\Rug step land 3		42476
 	797625964	D# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\D# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\D# piano note		1467492
 	801408072	HarmonyWheel_E	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_E_417F989B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_E		201860
 	805070630	Foot Step Wood 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\FootSteps Wood\Foot Step Wood 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 2		22578
 	806678999	Fixed piano speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed piano speech 1_8007E3E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Fixed Piano\Fixed piano speech 1		795756
+	815226664	Hammer swing-001	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer swing-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer swing-001		132396
+	859696586	Hammer hit-004	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer hit-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer hit\Hammer hit-004		57124
+	872469119	Hammer hit-002	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer hit-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer hit\Hammer hit-002		70228
 	874061896	Foot Step Wood 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\FootSteps Wood\Foot Step Wood 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 4		12892
 	876776862	HarmonyWheel_D	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_D_399FBEF3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_D		243460
 	888044100	HarmonyWheel_F	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Harmony Wheel\HarmonyWheel_F_BABCE897.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harmony Wheel\HarmonyWheel_F		243460
 	892634490	A# piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\A# piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\A# piano note		2304096
 	913326851	Foot Step Wood 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\FootSteps Wood\Foot Step Wood 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Wood\Foot Step Wood 1		24162
+	917867736	Hammer swing-002	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Hammer swing-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Floor 2 SFX\Hammer swing-002		132396
 	933367190	String Note F high	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\String Note F high_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\String Notes\String Note F high		287848
+	945113159	Jump	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Jump_BE5C7257.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\Jump		113772
 	953043269	Foot Step Rug 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug\Foot Step Rug 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 4		19638
 	982168347	Fixed Bongos Speech 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed Bongos Speech 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\BongosNPC\Bongos NPC\Bongos Fixed\Fixed Bongos Speech 3		312096
 	994341315	Foot Step Rug 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Rug\Foot Step Rug 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootSteps\FootSteps Rug\Foot Step Rug 1		15314
 	1008595703	D piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\D piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\D piano note		2304096
 	1023358941	Fixed piano speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed piano speech 4_A9A7FA81.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Fixed Piano\Fixed piano speech 4		674176
 	1030262941	C piano note	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\C piano note_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Level 2 Piano notes\C piano note		2304096
+	1055630175	Big bongo (jump)-006	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Big bongo (jump)-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player jump and land\PlayerJump\BigBongos\Big bongo (jump)-006		1423772
 

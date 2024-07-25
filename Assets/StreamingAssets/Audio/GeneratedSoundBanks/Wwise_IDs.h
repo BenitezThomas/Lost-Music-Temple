@@ -17,6 +17,9 @@ namespace AK
         static const AkUniqueID FLOOR2MUSICSTOP = 3266896802U;
         static const AkUniqueID FLOOR2MUSICTRANSITIONPLAY = 343141985U;
         static const AkUniqueID FLOOR2MUSICTRANSITIONSTOP = 2704781623U;
+        static const AkUniqueID HAMMERHITPLAYER = 3372711433U;
+        static const AkUniqueID HAMMERSWINGBACKWARD = 1823600288U;
+        static const AkUniqueID HAMMERSWINGFORWARD = 2483836202U;
         static const AkUniqueID LEVEL1MUSICPLAY = 4202561861U;
         static const AkUniqueID LEVEL1MUSICSTOP = 1332247491U;
         static const AkUniqueID PLAY_BONGOSNPC = 2903004101U;
@@ -59,6 +62,8 @@ namespace AK
         static const AkUniqueID PLAY_STRING_NOTE_G = 2668293574U;
         static const AkUniqueID PLAY_STRING_NOTE_G_HIGH = 3176529497U;
         static const AkUniqueID PLAY_STUDY_TIME = 4219497895U;
+        static const AkUniqueID PLAYERJUMP = 4008126242U;
+        static const AkUniqueID PLAYERLAND = 846198821U;
         static const AkUniqueID PLAYFLOOR3MUSIC = 4225751467U;
         static const AkUniqueID STOP_LEVEL2PIANO_A = 4242575859U;
         static const AkUniqueID STOP_LEVEL2PIANO_ASHARP = 1792351953U;
@@ -76,6 +81,7 @@ namespace AK
         static const AkUniqueID STOP_MOVING_BLOCK = 3412145620U;
         static const AkUniqueID STOP_STUDY_TIME = 409577309U;
         static const AkUniqueID STOPFLOOR3MUSIC = 101287625U;
+        static const AkUniqueID TAMBOURINELAND = 3119369426U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -90,6 +96,18 @@ namespace AK
                 static const AkUniqueID FIXEDBONGOS = 1894708087U;
             } // namespace SWITCH
         } // namespace BONGOSNPC
+
+        namespace FOOTSTEPLAND
+        {
+            static const AkUniqueID GROUP = 1877319332U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID NOTHING = 4248742144U;
+                static const AkUniqueID RUG = 712161697U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPLAND
 
         namespace FOOTSTEPS
         {
@@ -112,6 +130,17 @@ namespace AK
                 static const AkUniqueID FIXED = 698073849U;
             } // namespace SWITCH
         } // namespace GUITARNPC
+
+        namespace JUMP
+        {
+            static const AkUniqueID GROUP = 3833651337U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BONGOJUMP = 2604859412U;
+                static const AkUniqueID DEFAULT = 782826392U;
+            } // namespace SWITCH
+        } // namespace JUMP
 
         namespace PIANONPC
         {

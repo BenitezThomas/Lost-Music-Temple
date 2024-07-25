@@ -2157,6 +2157,86 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Floor 2" ID="{CEB0E2C8-4835-4D16-B690-3C82889E866A}" ShortID="524071277">
+					<ChildrenList>
+						<Event Name="PlayerJump" ID="{210967A7-E147-4C33-A53D-2BC175DA8152}">
+							<ChildrenList>
+								<Action Name="" ID="{91F32BF8-F79A-43D5-97A9-E6EC78A14660}" ShortID="907729004">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerJump" ID="{0E638425-DC81-44F4-9FDA-3766749CF59D}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerLand" ID="{40E3D3E5-3232-4080-9041-DF540919A8F2}">
+							<ChildrenList>
+								<Action Name="" ID="{B0E2C887-8C35-4B63-9A3E-A8DA706A7F75}" ShortID="715104914">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Land" ID="{1A0195BC-2341-40A6-BB53-3DB93FB34609}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7AEAF50E-5419-4582-A67A-32B659768D39}" ShortID="835397289">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LandMaterial" ID="{80FC10FB-6E8B-43A0-A78F-327BE9590261}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="TambourineLand" ID="{00BCC9C2-40E5-47BE-933F-7684B392271D}">
+							<ChildrenList>
+								<Action Name="" ID="{ECC89DF9-F2FE-431B-A81F-B3A0AF9541CA}" ShortID="177871046">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Tambourine" ID="{3578E49F-85FC-468F-8DE8-9644206C22E7}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HammerSwingForward" ID="{B8E0040E-1F71-4B4D-887D-383AE5D75A21}">
+							<ChildrenList>
+								<Action Name="" ID="{08D26E8F-F9D6-4925-9566-DD0EAC6DAF02}" ShortID="563482575">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer swing-001" ID="{491FFB85-5671-4DFA-BC31-42AEFD0F40A1}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HammerSwingBackward" ID="{63E9F924-3CBE-4F0A-91FD-773B0CEB0BA8}">
+							<ChildrenList>
+								<Action Name="" ID="{0311E253-E09C-4ABE-BD90-A13B8A84473F}" ShortID="784076338">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer swing-002" ID="{9524597A-6E3D-493C-8DBD-3458AF60746E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HammerHitPlayer" ID="{DEF859C4-3467-4531-9CC9-0CC38335756A}">
+							<ChildrenList>
+								<Action Name="" ID="{439635BB-8B08-4A59-B8DA-33EF87312B15}" ShortID="180129384">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer hit" ID="{3078936D-B0EC-40CB-8CFD-DD26761E260E}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

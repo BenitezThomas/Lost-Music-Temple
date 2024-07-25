@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{5627A5C8-11D4-806D-A2B2-A3F5181FA2BE}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C4C721DF-4840-C3FB-20DA-8474D3AF0F6F}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -24,6 +24,10 @@
 				<File Id="19835441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken piano speech 2.wav</ShortName>
 					<CachePath>SFX/Broken piano speech 2_681381CB.wem</CachePath>
+				</File>
+				<File Id="59120885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big bongo (jump)-001.wav</ShortName>
+					<CachePath>SFX/Big bongo (jump)-001_818F3B66.wem</CachePath>
 				</File>
 				<File Id="61030889" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken Bongos Speech 3.wav</ShortName>
@@ -61,6 +65,10 @@
 					<ShortName>String Note A.wav</ShortName>
 					<CachePath>SFX/String Note A_818F3B66.wem</CachePath>
 				</File>
+				<File Id="209123838" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood step land 2.wav</ShortName>
+					<CachePath>SFX/Wood step land 2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="232905430" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed guitar speech 3.wav</ShortName>
 					<CachePath>SFX/Fixed guitar speech 3_818F3B66.wem</CachePath>
@@ -68,6 +76,10 @@
 				<File Id="253452743" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_B.wav</ShortName>
 					<CachePath>SFX/Harmony Wheel/HarmonyWheel_B_B2EA8204.wem</CachePath>
+				</File>
+				<File Id="263325686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug step land 2.wav</ShortName>
+					<CachePath>SFX/Rug step land 2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="273429826" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>F piano note.wav</ShortName>
@@ -89,6 +101,18 @@
 					<ShortName>String Note D.wav</ShortName>
 					<CachePath>SFX/String Note D_818F3B66.wem</CachePath>
 				</File>
+				<File Id="323200315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer hit-001.wav</ShortName>
+					<CachePath>SFX/Hammer hit-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="338168226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big bongo (jump)-003.wav</ShortName>
+					<CachePath>SFX/Big bongo (jump)-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="338436561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood step land 3.wav</ShortName>
+					<CachePath>SFX/Wood step land 3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="341706876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 3.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 3_818F3B66.wem</CachePath>
@@ -96,6 +120,10 @@
 				<File Id="344952281" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>G# piano note.wav</ShortName>
 					<CachePath>SFX/G# piano note_818F3B66.wem</CachePath>
+				</File>
+				<File Id="346544328" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer hit-005.wav</ShortName>
+					<CachePath>SFX/Hammer hit-005_818F3B66.wem</CachePath>
 				</File>
 				<File Id="346971411" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed guitar speech 2.wav</ShortName>
@@ -105,9 +133,17 @@
 					<ShortName>Broken piano speech 3.wav</ShortName>
 					<CachePath>SFX/Broken piano speech 3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="348127573" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tambourine.wav</ShortName>
+					<CachePath>SFX/Tambourine_818F3B66.wem</CachePath>
+				</File>
 				<File Id="380037131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken piano speech 4.wav</ShortName>
 					<CachePath>SFX/Broken piano speech 4_FA901EE8.wem</CachePath>
+				</File>
+				<File Id="386925507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer hit-003.wav</ShortName>
+					<CachePath>SFX/Hammer hit-003_818F3B66.wem</CachePath>
 				</File>
 				<File Id="394326210" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken guitar speech 4.wav</ShortName>
@@ -121,6 +157,10 @@
 					<ShortName>A piano note.wav</ShortName>
 					<CachePath>SFX/A piano note_818F3B66.wem</CachePath>
 				</File>
+				<File Id="407330534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big bongo (jump)-005.wav</ShortName>
+					<CachePath>SFX/Big bongo (jump)-005_818F3B66.wem</CachePath>
+				</File>
 				<File Id="409595829" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note F.wav</ShortName>
 					<CachePath>SFX/String Note F_818F3B66.wem</CachePath>
@@ -132,6 +172,10 @@
 				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="438727143" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big bongo (jump)-004.wav</ShortName>
+					<CachePath>SFX/Big bongo (jump)-004_818F3B66.wem</CachePath>
 				</File>
 				<File Id="445691425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>C# piano note.wav</ShortName>
@@ -165,6 +209,10 @@
 					<ShortName>Broken guitar speech 3.wav</ShortName>
 					<CachePath>SFX/Broken guitar speech 3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="534580837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big bongo (jump)-002.wav</ShortName>
+					<CachePath>SFX/Big bongo (jump)-002_818F3B66.wem</CachePath>
+				</File>
 				<File Id="547375393" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken Bongos Speech 4.wav</ShortName>
 					<CachePath>SFX/Broken Bongos Speech 4_818F3B66.wem</CachePath>
@@ -172,6 +220,10 @@
 				<File Id="559765484" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_C.wav</ShortName>
 					<CachePath>SFX/Harmony Wheel/HarmonyWheel_C_7DEC66CE.wem</CachePath>
+				</File>
+				<File Id="561592676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Land.wav</ShortName>
+					<CachePath>SFX/Land_818F3B66.wem</CachePath>
 				</File>
 				<File Id="569985905" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed guitar speech 1.wav</ShortName>
@@ -193,6 +245,10 @@
 					<ShortName>Fixed piano speech 3.wav</ShortName>
 					<CachePath>SFX/Fixed piano speech 3_8613D1F6.wem</CachePath>
 				</File>
+				<File Id="604379748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug step land.wav</ShortName>
+					<CachePath>SFX/Rug step land_818F3B66.wem</CachePath>
+				</File>
 				<File Id="620327961" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note G.wav</ShortName>
 					<CachePath>SFX/String Note G_818F3B66.wem</CachePath>
@@ -209,6 +265,10 @@
 					<ShortName>Fixed piano speech 2.wav</ShortName>
 					<CachePath>SFX/Fixed piano speech 2_80B79E84.wem</CachePath>
 				</File>
+				<File Id="704244582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wood step land 1.wav</ShortName>
+					<CachePath>SFX/Wood step land 1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="711612400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Broken Bongos Speech 1.wav</ShortName>
 					<CachePath>SFX/Broken Bongos Speech 1_818F3B66.wem</CachePath>
@@ -220,6 +280,10 @@
 				<File Id="789697022" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>B piano note.wav</ShortName>
 					<CachePath>SFX/B piano note_818F3B66.wem</CachePath>
+				</File>
+				<File Id="793684957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rug step land 3.wav</ShortName>
+					<CachePath>SFX/Rug step land 3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="797625964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>D# piano note.wav</ShortName>
@@ -236,6 +300,18 @@
 				<File Id="806678999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fixed piano speech 1.wav</ShortName>
 					<CachePath>SFX/Fixed piano speech 1_8007E3E2.wem</CachePath>
+				</File>
+				<File Id="815226664" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer swing-001.wav</ShortName>
+					<CachePath>SFX/Hammer swing-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="859696586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer hit-004.wav</ShortName>
+					<CachePath>SFX/Hammer hit-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="872469119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer hit-002.wav</ShortName>
+					<CachePath>SFX/Hammer hit-002_818F3B66.wem</CachePath>
 				</File>
 				<File Id="874061896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 4.wav</ShortName>
@@ -257,9 +333,17 @@
 					<ShortName>FootSteps Wood\Foot Step Wood 1.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="917867736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer swing-002.wav</ShortName>
+					<CachePath>SFX/Hammer swing-002_818F3B66.wem</CachePath>
+				</File>
 				<File Id="933367190" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note F high.wav</ShortName>
 					<CachePath>SFX/String Note F high_818F3B66.wem</CachePath>
+				</File>
+				<File Id="945113159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Jump.wav</ShortName>
+					<CachePath>SFX/Jump_BE5C7257.wem</CachePath>
 				</File>
 				<File Id="953043269" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 4.wav</ShortName>
@@ -285,10 +369,33 @@
 					<ShortName>C piano note.wav</ShortName>
 					<CachePath>SFX/C piano note_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1055630175" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Big bongo (jump)-006.wav</ShortName>
+					<CachePath>SFX/Big bongo (jump)-006_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="343141985" Name="Floor2MusicTransitionPlay" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2704781623" Name="Floor2MusicTransitionStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3372711433" Name="HammerHitPlayer" DurationType="OneShot" DurationMin="0.323288" DurationMax="0.3975737">
+					<MediaRefs>
+						<MediaRef Id="323200315"/>
+						<MediaRef Id="346544328"/>
+						<MediaRef Id="386925507"/>
+						<MediaRef Id="859696586"/>
+						<MediaRef Id="872469119"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1823600288" Name="HammerSwingBackward" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="917867736"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2483836202" Name="HammerSwingForward" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="815226664"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2903004101" Name="Play_BongosNPC" DurationType="OneShot" DurationMin="0.9375" DurationMax="2.6436667">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -579,6 +686,83 @@
 						<MediaRef Id="126057298"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4008126242" Name="PlayerJump" DurationType="OneShot" DurationMin="0.5491511" DurationMax="8.070725">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3833651337" Id="782826392" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="945113159"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3833651337" Id="2604859412"/>
+							<MediaRefs>
+								<MediaRef Id="59120885"/>
+								<MediaRef Id="338168226"/>
+								<MediaRef Id="407330534"/>
+								<MediaRef Id="438727143"/>
+								<MediaRef Id="534580837"/>
+								<MediaRef Id="1055630175"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3833651337" Id="782826392" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="945113159"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3833651337" Id="2604859412"/>
+							<MediaRefs>
+								<MediaRef Id="59120885"/>
+								<MediaRef Id="338168226"/>
+								<MediaRef Id="407330534"/>
+								<MediaRef Id="438727143"/>
+								<MediaRef Id="534580837"/>
+								<MediaRef Id="1055630175"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="846198821" Name="PlayerLand" DurationType="OneShot" DurationMin="0.7475378" DurationMax="0.91714287">
+					<MediaRefs>
+						<MediaRef Id="561592676"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1877319332" Id="2058049674" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="209123838"/>
+								<MediaRef Id="338436561"/>
+								<MediaRef Id="704244582"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1877319332" Id="712161697"/>
+							<MediaRefs>
+								<MediaRef Id="263325686"/>
+								<MediaRef Id="604379748"/>
+								<MediaRef Id="793684957"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1877319332" Id="2058049674" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="209123838"/>
+								<MediaRef Id="338436561"/>
+								<MediaRef Id="704244582"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1877319332" Id="712161697"/>
+							<MediaRefs>
+								<MediaRef Id="263325686"/>
+								<MediaRef Id="604379748"/>
+								<MediaRef Id="793684957"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="4242575859" Name="Stop_Level2Piano_A" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="405704038"/>
@@ -652,6 +836,11 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3412145620" Name="Stop_Moving_Block" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3119369426" Name="TambourineLand" DurationType="OneShot" DurationMin="1.844402" DurationMax="2.433703">
+					<MediaRefs>
+						<MediaRef Id="348127573"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="438036876" Name="GuitarNPC">
@@ -666,6 +855,13 @@
 						<Switch Id="2630838981" Name="BrokenPiano"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1877319332" Name="FootstepLand">
+					<Switches>
+						<Switch Id="712161697" Name="Rug"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="4248742144" Name="Nothing"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="FootSteps">
 					<Switches>
 						<Switch Id="712161697" Name="Rug"/>
@@ -676,6 +872,12 @@
 					<Switches>
 						<Switch Id="1414450584" Name="BrokenBongos"/>
 						<Switch Id="1894708087" Name="FixedBongos"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3833651337" Name="Jump">
+					<Switches>
+						<Switch Id="782826392" Name="Default"/>
+						<Switch Id="2604859412" Name="BongoJump"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
@@ -705,6 +907,13 @@
 						<Switch Id="2630838981" Name="BrokenPiano"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1877319332" Name="FootstepLand">
+					<Switches>
+						<Switch Id="712161697" Name="Rug"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="4248742144" Name="Nothing"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2385628198" Name="FootSteps">
 					<Switches>
 						<Switch Id="712161697" Name="Rug"/>
@@ -715,6 +924,12 @@
 					<Switches>
 						<Switch Id="1414450584" Name="BrokenBongos"/>
 						<Switch Id="1894708087" Name="FixedBongos"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3833651337" Name="Jump">
+					<Switches>
+						<Switch Id="782826392" Name="Default"/>
+						<Switch Id="2604859412" Name="BongoJump"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
@@ -1066,5 +1281,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{28ACE920-A79A-0B9D-E4B9-7387F18CF5FB}</FileHash>
+	<FileHash>{93CEAC06-8235-C5AC-C7C7-73B8A2A38A46}</FileHash>
 </SoundBanksInfo>

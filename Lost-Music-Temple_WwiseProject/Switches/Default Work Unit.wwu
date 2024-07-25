@@ -27,6 +27,19 @@
 						<Switch Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="FootstepLand" ID="{CAE5F20B-C3CA-4CDF-8E99-06461C1BD517}">
+					<ChildrenList>
+						<Switch Name="Rug" ID="{BB23C33A-6F11-4FC9-BDA1-0558B3BD420F}"/>
+						<Switch Name="Wood" ID="{8E26A81C-82DF-44B1-B344-8A6B77181D41}"/>
+						<Switch Name="Nothing" ID="{F2ECC17E-9BF7-44F1-B2A0-004C248E1A5E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Jump" ID="{5F68761A-0ED2-477C-8F78-DD732F3713B6}">
+					<ChildrenList>
+						<Switch Name="Default" ID="{34B11013-0758-465D-BC90-55B5F95AF2E2}"/>
+						<Switch Name="BongoJump" ID="{6160B0DD-8BA6-4C9B-93D4-403DCFD6B812}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -2433,6 +2433,708 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player jump and land" ID="{CE581F80-E690-4684-A836-4A5EAD6418B0}" ShortID="887029409">
+					<ChildrenList>
+						<Sound Name="Land" ID="{1A0195BC-2341-40A6-BB53-3DB93FB34609}" ShortID="584438430">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{45CCF452-CBFF-4796-9EC9-FD55F9471F8D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="354"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Land" ID="{6092BD43-0061-4F84-9D2C-128A47370F88}">
+									<Language>SFX</Language>
+									<AudioFile>Land.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="561592676"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Land" ID="{6092BD43-0061-4F84-9D2C-128A47370F88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="LandMaterial" ID="{80FC10FB-6E8B-43A0-A78F-327BE9590261}" ShortID="513058417">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Wood" ID="{8E26A81C-82DF-44B1-B344-8A6B77181D41}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="FootstepLand" ID="{CAE5F20B-C3CA-4CDF-8E99-06461C1BD517}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="WoodLand" ID="{C256F038-DF7B-49FC-BD99-71CAC31080F2}" ShortID="1037709080">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wood step land 1" ID="{EC70A862-8E67-4D84-AD60-BF89C5488E54}" ShortID="949958637">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood step land 1" ID="{4EB0AC69-F6AE-4EF5-B405-6F6357BA59B2}">
+													<Language>SFX</Language>
+													<AudioFile>Wood step land 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="704244582"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood step land 1" ID="{4EB0AC69-F6AE-4EF5-B405-6F6357BA59B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood step land 2" ID="{6393D835-3588-4B2C-86ED-13266BE59B89}" ShortID="815662287">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood step land 2" ID="{8A579BF6-70EE-4988-9A61-2B3AE6D0AA91}">
+													<Language>SFX</Language>
+													<AudioFile>Wood step land 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="209123838"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood step land 2" ID="{8A579BF6-70EE-4988-9A61-2B3AE6D0AA91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood step land 3" ID="{90AFE7D2-892E-4FD9-9D95-DB02DFCDB938}" ShortID="945957659">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood step land 3" ID="{C1EBAB59-441A-41D4-AFD1-EF973FF6FD9A}">
+													<Language>SFX</Language>
+													<AudioFile>Wood step land 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338436561"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood step land 3" ID="{C1EBAB59-441A-41D4-AFD1-EF973FF6FD9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RugLand" ID="{2CBABF2F-C841-4795-9797-23AE9000D1C5}" ShortID="336654967">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="RestartBeginningOrBackward" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Rug step land" ID="{7136E6E7-F17E-4CDC-9081-BD3BE4C6EFF4}" ShortID="745965701">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rug step land" ID="{B1B407D4-A6DC-4C2A-A0B2-A7016AA54A3C}">
+													<Language>SFX</Language>
+													<AudioFile>Rug step land.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604379748"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rug step land" ID="{B1B407D4-A6DC-4C2A-A0B2-A7016AA54A3C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rug step land 2" ID="{CF6E1210-9359-4122-BC53-D84F06AF55F7}" ShortID="503534924">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rug step land 2" ID="{CB0256B3-0162-4D97-B4B3-F2665E8E0879}">
+													<Language>SFX</Language>
+													<AudioFile>Rug step land 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="263325686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rug step land 2" ID="{CB0256B3-0162-4D97-B4B3-F2665E8E0879}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rug step land 3" ID="{4B225674-9A2B-48FC-850A-F6C6B3FDAC51}" ShortID="630407665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rug step land 3" ID="{05927DB5-C01B-4DF5-8D89-4932929C1D95}">
+													<Language>SFX</Language>
+													<AudioFile>Rug step land 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="793684957"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rug step land 3" ID="{05927DB5-C01B-4DF5-8D89-4932929C1D95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="RugLand" ID="{2CBABF2F-C841-4795-9797-23AE9000D1C5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="WoodLand" ID="{C256F038-DF7B-49FC-BD99-71CAC31080F2}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{8E26A81C-82DF-44B1-B344-8A6B77181D41}"/>
+										<ItemList>
+											<ItemRef Name="WoodLand" ID="{C256F038-DF7B-49FC-BD99-71CAC31080F2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Rug" ID="{BB23C33A-6F11-4FC9-BDA1-0558B3BD420F}"/>
+										<ItemList>
+											<ItemRef Name="RugLand" ID="{2CBABF2F-C841-4795-9797-23AE9000D1C5}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="PlayerJump" ID="{0E638425-DC81-44F4-9FDA-3766749CF59D}" ShortID="460857476">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Default" ID="{34B11013-0758-465D-BC90-55B5F95AF2E2}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Jump" ID="{5F68761A-0ED2-477C-8F78-DD732F3713B6}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Jump" ID="{0A9FA2F3-8DD5-46F0-8A6D-184A919B60E4}" ShortID="986124077">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BE13D0E3-8B37-4350-A223-7D934BFE9EDF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="277"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump" ID="{2F571626-03E8-417E-B001-9370B89112A9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.270926050127928"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.310381300146558"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.954817050450852"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Jump.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945113159"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump" ID="{2F571626-03E8-417E-B001-9370B89112A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="BigBongos" ID="{50241C2C-904D-45A6-ADEE-3C3D9EEEFAD1}" ShortID="707652632">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Big bongo (jump)-001" ID="{F6FD9149-0EB9-418C-94AE-48276AA27B8B}" ShortID="167541254">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-001" ID="{7F417FEF-1D2F-46AC-B8EE-BB54AD69DD3B}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59120885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-001" ID="{7F417FEF-1D2F-46AC-B8EE-BB54AD69DD3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-002" ID="{6139BD04-A060-447D-818F-11E10B023623}" ShortID="277713576">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-002" ID="{A4036F98-BE37-45FD-B2C0-BCD601488654}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="534580837"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-002" ID="{A4036F98-BE37-45FD-B2C0-BCD601488654}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-003" ID="{B3F0BCB4-0A2D-4972-8064-2182E7EA318A}" ShortID="395104667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-003" ID="{9EE516DB-93AA-4398-B9DA-8BAE8D55511B}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338168226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-003" ID="{9EE516DB-93AA-4398-B9DA-8BAE8D55511B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-004" ID="{D00B78E1-EE39-43C5-9C71-25C83CB2A902}" ShortID="1016824737">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-004" ID="{089D5326-4291-4F91-AF46-77C766279BD9}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438727143"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-004" ID="{089D5326-4291-4F91-AF46-77C766279BD9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-005" ID="{D2325536-22A3-43B0-9F56-721E0B2DD0F1}" ShortID="748186586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-005" ID="{5A1F9A5C-BF66-44D5-9ABD-BAEB58F5DF8D}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="407330534"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-005" ID="{5A1F9A5C-BF66-44D5-9ABD-BAEB58F5DF8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-006" ID="{74C55D2A-EF23-4DAF-BABA-73DF56B8DBED}" ShortID="720943099">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-006" ID="{BC76FB7B-9409-4C88-B770-04433ED3CD48}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1055630175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-006" ID="{BC76FB7B-9409-4C88-B770-04433ED3CD48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="BigBongos" ID="{50241C2C-904D-45A6-ADEE-3C3D9EEEFAD1}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Jump" ID="{0A9FA2F3-8DD5-46F0-8A6D-184A919B60E4}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Default" ID="{34B11013-0758-465D-BC90-55B5F95AF2E2}"/>
+										<ItemList>
+											<ItemRef Name="Jump" ID="{0A9FA2F3-8DD5-46F0-8A6D-184A919B60E4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="BongoJump" ID="{6160B0DD-8BA6-4C9B-93D4-403DCFD6B812}"/>
+										<ItemList>
+											<ItemRef Name="BigBongos" ID="{50241C2C-904D-45A6-ADEE-3C3D9EEEFAD1}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Sound Name="Tambourine" ID="{3578E49F-85FC-468F-8DE8-9644206C22E7}" ShortID="469074220">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4BE2A5A2-43C7-4DC0-9181-C974404E18DC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tambourine" ID="{4E911701-E42C-4ED2-874E-1FDAA31E5DBB}">
+									<Language>SFX</Language>
+									<AudioFile>Tambourine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="348127573"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tambourine" ID="{4E911701-E42C-4ED2-874E-1FDAA31E5DBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Floor 2 SFX" ID="{112F9227-B497-4785-967D-F25590A3BD81}" ShortID="769879824">
+					<ChildrenList>
+						<Sound Name="Hammer swing-001" ID="{491FFB85-5671-4DFA-BC31-42AEFD0F40A1}" ShortID="969726107">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hammer swing-001" ID="{1851A79A-003B-43EF-9DAD-63E8D5ECD978}">
+									<Language>SFX</Language>
+									<AudioFile>Hammer swing-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815226664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hammer swing-001" ID="{1851A79A-003B-43EF-9DAD-63E8D5ECD978}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hammer swing-002" ID="{9524597A-6E3D-493C-8DBD-3458AF60746E}" ShortID="215507912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hammer swing-002" ID="{5CE9EE60-5F96-456C-8B5D-965BEDD23D93}">
+									<Language>SFX</Language>
+									<AudioFile>Hammer swing-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="917867736"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hammer swing-002" ID="{5CE9EE60-5F96-456C-8B5D-965BEDD23D93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Hammer hit" ID="{3078936D-B0EC-40CB-8CFD-DD26761E260E}" ShortID="776955100">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hammer hit-001" ID="{079C08AA-C8CB-42FE-BDF9-DEB793F8BA01}" ShortID="963105261">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-001" ID="{3CFB8642-A098-42D6-B7A3-07645568C8C8}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="323200315"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-001" ID="{3CFB8642-A098-42D6-B7A3-07645568C8C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-002" ID="{95287C69-DDFE-4D04-9093-9CB8B46B9541}" ShortID="715348842">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-002" ID="{FEF1A915-D022-4683-8401-5642C77A22D0}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="872469119"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-002" ID="{FEF1A915-D022-4683-8401-5642C77A22D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-003" ID="{FE4BCC98-B5A5-4E09-8B2E-568D411C2941}" ShortID="731285555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-003" ID="{ECAD3DAB-21F0-4747-8EB0-CA000C636EEB}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="386925507"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-003" ID="{ECAD3DAB-21F0-4747-8EB0-CA000C636EEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-004" ID="{371B2EFA-313D-4A4F-A8DD-BEE0664C4293}" ShortID="965691406">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-004" ID="{68DB4F86-5419-4C0D-B44B-D4B7C56D654C}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="859696586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-004" ID="{68DB4F86-5419-4C0D-B44B-D4B7C56D654C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-005" ID="{E96D9A11-7C21-4BB8-8395-EAE5A1BB1148}" ShortID="178577974">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-005" ID="{B5009E64-F1F8-4564-9CFF-8D2DEC220268}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="346544328"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-005" ID="{B5009E64-F1F8-4564-9CFF-8D2DEC220268}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
