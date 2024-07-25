@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID LEVEL1MUSICPLAY = 4202561861U;
+        static const AkUniqueID LEVEL1MUSICSTOP = 1332247491U;
         static const AkUniqueID PLAY_COLLECT_SCROLL_JINGLE = 407578916U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_GATE_OPEN = 4089264814U;
@@ -23,6 +25,18 @@ namespace AK
         static const AkUniqueID PLAY_HARMONYWHEEL_E = 860510137U;
         static const AkUniqueID PLAY_HARMONYWHEEL_F = 860510138U;
         static const AkUniqueID PLAY_HARMONYWHEEL_G = 860510139U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_A = 2376149909U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_ASHARP = 3416461271U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_B = 2376149910U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_C = 2376149911U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_CSHARP = 766101389U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_D = 2376149904U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_DSHARP = 1292360812U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_E = 2376149905U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_F = 2376149906U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_FSHARP = 2773441658U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_G = 2376149907U;
+        static const AkUniqueID PLAY_LEVEL2PIANO_GSHARP = 2138227185U;
         static const AkUniqueID PLAY_LOST_LIBRARY_GAME_TRAILER_MUSIC = 3935525577U;
         static const AkUniqueID PLAY_MELODY1 = 1312779127U;
         static const AkUniqueID PLAY_MELODY_3 = 1188403304U;
@@ -38,6 +52,18 @@ namespace AK
         static const AkUniqueID PLAY_STRING_NOTE_G = 2668293574U;
         static const AkUniqueID PLAY_STRING_NOTE_G_HIGH = 3176529497U;
         static const AkUniqueID PLAY_STUDY_TIME = 4219497895U;
+        static const AkUniqueID STOP_LEVEL2PIANO_A = 4242575859U;
+        static const AkUniqueID STOP_LEVEL2PIANO_ASHARP = 1792351953U;
+        static const AkUniqueID STOP_LEVEL2PIANO_B = 4242575856U;
+        static const AkUniqueID STOP_LEVEL2PIANO_C = 4242575857U;
+        static const AkUniqueID STOP_LEVEL2PIANO_CSHARP = 744740939U;
+        static const AkUniqueID STOP_LEVEL2PIANO_D = 4242575862U;
+        static const AkUniqueID STOP_LEVEL2PIANO_DSHARP = 3507183862U;
+        static const AkUniqueID STOP_LEVEL2PIANO_E = 4242575863U;
+        static const AkUniqueID STOP_LEVEL2PIANO_F = 4242575860U;
+        static const AkUniqueID STOP_LEVEL2PIANO_FSHARP = 2170343864U;
+        static const AkUniqueID STOP_LEVEL2PIANO_G = 4242575861U;
+        static const AkUniqueID STOP_LEVEL2PIANO_GSHARP = 2711136183U;
         static const AkUniqueID STOP_LOST_LIBRARY_GAME_TRAILER_MUSIC = 3007483891U;
         static const AkUniqueID STOP_MOVING_BLOCK = 3412145620U;
         static const AkUniqueID STOP_STUDY_TIME = 409577309U;

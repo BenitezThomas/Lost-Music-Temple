@@ -2074,6 +2074,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b383cb6a0c64d524088b341e6ecd77d9,
       type: 2}
+  playLevel_1Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bc4712692313ece4599fc52863e9dcfa,
+      type: 2}
+  stopLevel_1Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8284d542579750f478970bf308165311,
+      type: 2}
 --- !u!4 &151711600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2972730357331493026, guid: ecdacd6eef4605b47bfff01d43a4e6a0,
@@ -4604,7 +4614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ace7e556239a73840b2a1161d71cac18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneNum: 1
+  SceneNum: 5
 --- !u!1 &459307367
 GameObject:
   m_ObjectHideFlags: 0
@@ -4804,6 +4814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bdeff0bf967fd54ab92d6bfd2d58f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floor: 0
   levels:
   - {fileID: 9075376317106304427}
   - {fileID: 9075376317024483986}

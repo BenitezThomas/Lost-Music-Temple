@@ -30,7 +30,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{43FB6272-1A62-248B-59A2-817899F9DD70}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{85FB6D7B-EDA8-D313-5F71-AA3BC26E4DDB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -45,6 +45,10 @@
 				<File Id="79362550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 2.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="83154077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>F# piano note.wav</ShortName>
+					<CachePath>SFX/F# piano note_818F3B66.wem</CachePath>
 				</File>
 				<File Id="86464845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Melody1.wav</ShortName>
@@ -64,7 +68,15 @@
 				</File>
 				<File Id="253452743" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_B.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_B_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_B_8622B4BD.wem</CachePath>
+				</File>
+				<File Id="273429826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>F piano note.wav</ShortName>
+					<CachePath>SFX/F piano note_818F3B66.wem</CachePath>
+				</File>
+				<File Id="302455035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>E piano note.wav</ShortName>
+					<CachePath>SFX/E piano note_818F3B66.wem</CachePath>
 				</File>
 				<File Id="302817086" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note D.wav</ShortName>
@@ -74,17 +86,33 @@
 					<ShortName>Rug\Foot Step Rug 3.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="344952281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>G# piano note.wav</ShortName>
+					<CachePath>SFX/G# piano note_818F3B66.wem</CachePath>
+				</File>
 				<File Id="402357147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rug\Foot Step Rug 5.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="405704038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A piano note.wav</ShortName>
+					<CachePath>SFX/A piano note_818F3B66.wem</CachePath>
 				</File>
 				<File Id="409595829" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note F.wav</ShortName>
 					<CachePath>SFX/String Note F_818F3B66.wem</CachePath>
 				</File>
+				<File Id="422324391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>G piano note.wav</ShortName>
+					<CachePath>SFX/G piano note_818F3B66.wem</CachePath>
+				</File>
 				<File Id="432853403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 3.wav</ShortName>
 					<CachePath>SFX/FootSteps Wood/Foot Step Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="445691425" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C# piano note.wav</ShortName>
+					<CachePath>SFX/C# piano note_818F3B66.wem</CachePath>
 				</File>
 				<File Id="455742158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gate Open.wav</ShortName>
@@ -94,9 +122,13 @@
 					<ShortName>String Note E.wav</ShortName>
 					<CachePath>SFX/String Note E_818F3B66.wem</CachePath>
 				</File>
+				<File Id="469890072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hammer release sound.wav</ShortName>
+					<CachePath>SFX/Hammer release sound_818F3B66.wem</CachePath>
+				</File>
 				<File Id="488647433" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_G.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_G_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_G_FBB66FD9.wem</CachePath>
 				</File>
 				<File Id="500233751" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note C.wav</ShortName>
@@ -104,15 +136,19 @@
 				</File>
 				<File Id="559765484" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_C.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_C_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_C_3494A1E5.wem</CachePath>
 				</File>
 				<File Id="584818218" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_A.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_A_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_A_88246160.wem</CachePath>
 				</File>
 				<File Id="620327961" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note G.wav</ShortName>
 					<CachePath>SFX/String Note G_818F3B66.wem</CachePath>
+				</File>
+				<File Id="625356259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>First floor lost library music V1 Gabriele Liotta.wav</ShortName>
+					<CachePath>SFX/First floor lost library music V1 Gabriele Liotta_11A93380.wem</CachePath>
 				</File>
 				<File Id="629947900" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>String Note E Low.wav</ShortName>
@@ -120,15 +156,23 @@
 				</File>
 				<File Id="632686992" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moving Block.wav</ShortName>
-					<CachePath>SFX/Moving Block_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Moving Block_18824A0C.wem</CachePath>
 				</File>
 				<File Id="721139345" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Collect_Scroll_Jingle.wav</ShortName>
-					<CachePath>SFX/Collect_Scroll_Jingle_818F3B66.wem</CachePath>
+					<CachePath>SFX/Collect_Scroll_Jingle_DFD2B115.wem</CachePath>
+				</File>
+				<File Id="789697022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>B piano note.wav</ShortName>
+					<CachePath>SFX/B piano note_818F3B66.wem</CachePath>
+				</File>
+				<File Id="797625964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>D# piano note.wav</ShortName>
+					<CachePath>SFX/D# piano note_818F3B66.wem</CachePath>
 				</File>
 				<File Id="801408072" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_E.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_E_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_E_A0C2DAB2.wem</CachePath>
 				</File>
 				<File Id="805070630" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FootSteps Wood\Foot Step Wood 2.wav</ShortName>
@@ -140,11 +184,15 @@
 				</File>
 				<File Id="876776862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_D.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_D_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_D_6E7F559B.wem</CachePath>
 				</File>
 				<File Id="888044100" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Harmony Wheel\HarmonyWheel_F.wav</ShortName>
-					<CachePath>SFX/Harmony Wheel/HarmonyWheel_F_818F3B66.wem</CachePath>
+					<CachePath>SFX/Harmony Wheel/HarmonyWheel_F_665960C8.wem</CachePath>
+				</File>
+				<File Id="892634490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A# piano note.wav</ShortName>
+					<CachePath>SFX/A# piano note_818F3B66.wem</CachePath>
 				</File>
 				<File Id="893217437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Study Time.wav</ShortName>
@@ -166,13 +214,27 @@
 					<ShortName>Rug\Foot Step Rug 1.wav</ShortName>
 					<CachePath>SFX/Rug/Foot Step Rug 1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1008595703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>D piano note.wav</ShortName>
+					<CachePath>SFX/D piano note_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1018386894" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lost library game trailer music.wav</ShortName>
-					<CachePath>SFX/Lost library game trailer music_751B93A6.wem</CachePath>
+					<CachePath>SFX/Lost library game trailer music_A9329C37.wem</CachePath>
+				</File>
+				<File Id="1030262941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>C piano note.wav</ShortName>
+					<CachePath>SFX/C piano note_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="407578916" Name="Play_Collect_Scroll_Jingle" MaxAttenuation="16" DurationType="OneShot" DurationMin="2.3506458" DurationMax="2.3506458">
+				<Event Id="4202561861" Name="Level1MusicPlay" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="625356259"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1332247491" Name="Level1MusicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="407578916" Name="Play_Collect_Scroll_Jingle" MaxAttenuation="16" DurationType="OneShot" DurationMin="0.4683279" DurationMax="0.4683279">
 					<MediaRefs>
 						<MediaRef Id="721139345"/>
 					</MediaRefs>
@@ -239,6 +301,66 @@
 				<Event Id="860510139" Name="Play_HarmonyWheel_G" DurationType="OneShot" DurationMin="1.0505208" DurationMax="1.0505208">
 					<MediaRefs>
 						<MediaRef Id="488647433"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149909" Name="Play_level2Piano_A" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="405704038"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3416461271" Name="Play_level2Piano_ASharp" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="892634490"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149910" Name="Play_level2Piano_B" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="789697022"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149911" Name="Play_Level2Piano_C" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="1030262941"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="766101389" Name="Play_Level2Piano_CSharp" DurationType="OneShot" DurationMin="14" DurationMax="14">
+					<MediaRefs>
+						<MediaRef Id="445691425"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149904" Name="Play_level2Piano_D" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="1008595703"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1292360812" Name="Play_level2Piano_DSharp" DurationType="OneShot" DurationMin="7.6426873" DurationMax="7.6426873">
+					<MediaRefs>
+						<MediaRef Id="797625964"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149905" Name="Play_level2Piano_E" DurationType="OneShot" DurationMin="8" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="302455035"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149906" Name="Play_level2Piano_F" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="273429826"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2773441658" Name="Play_level2Piano_FSharp" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="83154077"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2376149907" Name="Play_level2Piano_G" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="422324391"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2138227185" Name="Play_level2Piano_GSharp" DurationType="OneShot" DurationMin="12" DurationMax="12">
+					<MediaRefs>
+						<MediaRef Id="344952281"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3935525577" Name="Play_Lost_library_game_trailer_music" DurationType="Infinite">
@@ -316,6 +438,78 @@
 						<MediaRef Id="893217437"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4242575859" Name="Stop_Level2Piano_A" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="405704038"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1792351953" Name="Stop_Level2Piano_ASharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="469890072"/>
+						<MediaRef Id="892634490"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4242575856" Name="Stop_Level2Piano_B" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="469890072"/>
+						<MediaRef Id="789697022"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4242575857" Name="Stop_Level2Piano_C" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="469890072"/>
+						<MediaRef Id="1030262941"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="744740939" Name="Stop_Level2Piano_CSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="445691425"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4242575862" Name="Stop_Level2Piano_D" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="469890072"/>
+						<MediaRef Id="1008595703"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3507183862" Name="Stop_Level2Piano_DSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="469890072"/>
+						<MediaRef Id="797625964"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4242575863" Name="Stop_Level2Piano_E" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="302455035"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4242575860" Name="Stop_Level2Piano_F" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="273429826"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2170343864" Name="Stop_Level2Piano_FSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="83154077"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4242575861" Name="Stop_Level2Piano_G" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="422324391"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2711136183" Name="Stop_Level2Piano_GSharp" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
+					<MediaRefs>
+						<MediaRef Id="344952281"/>
+						<MediaRef Id="469890072"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3007483891" Name="Stop_Lost_library_game_trailer_music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3412145620" Name="Stop_Moving_Block" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="409577309" Name="Stop_Study_Time" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -330,5 +524,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F2C3207E-9DF9-DBD8-2C9A-309B748F2052}</FileHash>
+	<FileHash>{7DB12A96-0BF3-AA71-8DCD-A80918F23643}</FileHash>
 </SoundBanksInfo>

@@ -332,6 +332,431 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}">
+					<ChildrenList>
+						<Action Name="" ID="{F79194C2-5C78-4EA9-AB11-15A8082B25E7}" ShortID="636315013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}">
+					<ChildrenList>
+						<Action Name="" ID="{E3BD38C9-E0D2-4C17-A717-E2126100D804}" ShortID="842673571">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Level 2 piano" ID="{A7E33B83-D6C3-4398-A566-EFD2FCA4F00D}" ShortID="725932470">
+					<ChildrenList>
+						<Event Name="Play_Level2Piano_C" ID="{9A3FE4B9-AA99-44A5-A56D-B8D0A8FCEE0F}">
+							<ChildrenList>
+								<Action Name="" ID="{F337126F-EA39-461A-90EB-1FDBF3075D38}" ShortID="1032644337">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="C piano note" ID="{DF551829-26EB-4607-AB0C-359CE8BDA4E8}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_B" ID="{23D3456E-9513-450E-BBAB-C4D1E5D427F0}">
+							<ChildrenList>
+								<Action Name="" ID="{8488D0E4-CC3C-4B5C-8E49-BEFEDE75E51D}" ShortID="323753836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="B piano note" ID="{1BD39AF4-53A0-4EC2-837A-4BFE9C7C856C}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_ASharp" ID="{60B1D2B6-9836-4569-A4C9-228B4E645FDF}">
+							<ChildrenList>
+								<Action Name="" ID="{CCFF272D-F630-4D1B-A0AC-BCD4F21A0B64}" ShortID="946038934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="A# piano note" ID="{6A5304DC-3FBE-46C6-8571-0A6B1EF24942}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_A" ID="{95B506A9-4CA8-4E4E-8A79-9B5651166C8B}">
+							<ChildrenList>
+								<Action Name="" ID="{2B7F01CE-D449-49BD-9E6F-804A930AED47}" ShortID="325603610">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="A piano note" ID="{51BF5954-A4FE-4BA1-A5E5-9D9054E8642D}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_GSharp" ID="{54BA5CAB-7D5A-4AE3-BB6C-062C61E657E7}">
+							<ChildrenList>
+								<Action Name="" ID="{50FCAAAB-3646-4EF0-92CA-0663F391A2CE}" ShortID="70162971">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="G# piano note" ID="{356C1918-0219-425E-B39C-70C2D1FD8156}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_G" ID="{B68DB96E-9F26-42DE-8F65-7085B6395870}">
+							<ChildrenList>
+								<Action Name="" ID="{67C06B5B-0DC4-4EDC-B2C5-CA69BC4D2EF9}" ShortID="362397106">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="G piano note" ID="{A212829B-09D9-4F4F-B510-79DE2B293A01}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_FSharp" ID="{5A7AE68D-7319-48FB-8F77-327DEA853DAB}">
+							<ChildrenList>
+								<Action Name="" ID="{6459E68E-5835-4C33-91A9-E6C1D298E9D6}" ShortID="47410597">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="F# piano note" ID="{70129ACB-CF73-46B0-829D-FFE2CC69433C}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_F" ID="{F0365B7B-2E0A-400A-87C8-6DC3D3A7098C}">
+							<ChildrenList>
+								<Action Name="" ID="{CB4E4AD5-626D-4FC6-AD5F-B25977302D62}" ShortID="135051553">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="F piano note" ID="{B2883397-8B81-44A0-B44F-E3EFE967F103}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_E" ID="{88298351-7502-4182-B0F2-9B272D88FF54}">
+							<ChildrenList>
+								<Action Name="" ID="{DF464B0C-2067-464C-B159-9A28F1ADF235}" ShortID="889311991">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E piano note" ID="{6F2AC64E-9153-49A3-B464-67B8073946D3}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_DSharp" ID="{C207B3DF-3F80-4A2F-BDC1-A57634AC6244}">
+							<ChildrenList>
+								<Action Name="" ID="{0A44161B-60D8-45A2-B587-BEC9F412395C}" ShortID="628224220">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="D# piano note" ID="{05794617-2F06-4817-ABD2-BC5EE400FF30}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_level2Piano_D" ID="{1578AF27-11CD-4C1E-B390-FCCF686AB574}">
+							<ChildrenList>
+								<Action Name="" ID="{8B0BA5E4-58EA-4A3C-883E-7DE8E9FDC25E}" ShortID="81405918">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="D piano note" ID="{8D01971A-75EE-4A46-A3A4-2AAC418AE612}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Level2Piano_CSharp" ID="{13DEEABC-146E-49A1-8657-098D22CAD1F1}">
+							<ChildrenList>
+								<Action Name="" ID="{99A94D44-499F-443B-B776-8E045C9331C4}" ShortID="533078265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="C# piano note" ID="{0B831A70-0843-48BC-84F8-76496070FB8F}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_C" ID="{A60F3EC1-8DA2-4079-8A38-9BBEF3A41A05}">
+							<ChildrenList>
+								<Action Name="" ID="{B67B422B-E976-44DE-AF8C-403C60F1C980}" ShortID="1050071128">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="C piano note" ID="{DF551829-26EB-4607-AB0C-359CE8BDA4E8}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8873F137-9FC2-4863-B3B6-6A1A8DBEBDB8}" ShortID="468284316">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_CSharp" ID="{9F0F9E85-DFCE-49BC-84C6-6196EEEE5E71}">
+							<ChildrenList>
+								<Action Name="" ID="{019C38F2-2083-4261-8550-64B42EA95192}" ShortID="905845612">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="C# piano note" ID="{0B831A70-0843-48BC-84F8-76496070FB8F}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{07F3E258-91BC-43FE-A52F-739BD4BB56F1}" ShortID="555562120">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_D" ID="{CE7E012B-EA88-4926-AEF7-8F130288FC54}">
+							<ChildrenList>
+								<Action Name="" ID="{6FD1FF3A-7855-4D3F-8901-521D3709F79D}" ShortID="915493326">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="D piano note" ID="{8D01971A-75EE-4A46-A3A4-2AAC418AE612}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F9EA8F62-F0E4-400A-97DD-615AC23EFC68}" ShortID="546228499">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_DSharp" ID="{3A133F0F-8301-442A-A573-7982CBDF7350}">
+							<ChildrenList>
+								<Action Name="" ID="{16D6AB7A-BB93-4EA6-9381-68D92203FFDD}" ShortID="312708612">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="D# piano note" ID="{05794617-2F06-4817-ABD2-BC5EE400FF30}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7EBECF31-8592-4075-ADBD-40F2A3DFA8E2}" ShortID="825799874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_E" ID="{F601A99E-8C80-4F12-AFC9-3DCC32A0E928}">
+							<ChildrenList>
+								<Action Name="" ID="{FA239B2D-516C-4AC4-A61D-D82BEE39628C}" ShortID="784846426">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="E piano note" ID="{6F2AC64E-9153-49A3-B464-67B8073946D3}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5AE5F69F-7A1C-4253-8E86-DF00A41BD8B5}" ShortID="872567461">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_F" ID="{B319DC76-3DCE-4D90-9944-3BA4764C748E}">
+							<ChildrenList>
+								<Action Name="" ID="{49814565-3E2B-4E82-B6DE-6F362CA9D6AA}" ShortID="284099411">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="F piano note" ID="{B2883397-8B81-44A0-B44F-E3EFE967F103}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{35D0E856-B173-4DBF-A3A2-A31B46DFE462}" ShortID="437318325">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_FSharp" ID="{3D59A298-6F1B-4D56-87A3-AC91317D143A}">
+							<ChildrenList>
+								<Action Name="" ID="{EA4CF04D-B225-4C64-8222-01599C2E823B}" ShortID="306067323">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="F# piano note" ID="{70129ACB-CF73-46B0-829D-FFE2CC69433C}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{31F34603-70E7-43BB-AA83-89BE53804AC8}" ShortID="100868426">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_G" ID="{F3A26AF0-7DEB-45B6-923C-FDC0347E0E78}">
+							<ChildrenList>
+								<Action Name="" ID="{5DB939ED-2FD2-4F64-B17B-42BD7EC7E50B}" ShortID="1040951660">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="G piano note" ID="{A212829B-09D9-4F4F-B510-79DE2B293A01}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8955D6D6-119E-4E7D-A846-C0417DE38A7B}" ShortID="774770835">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_GSharp" ID="{7205033D-F0C6-46E1-8237-3A1A9F27D621}">
+							<ChildrenList>
+								<Action Name="" ID="{9C1CD83F-2624-4BFD-A38C-7B2036781477}" ShortID="878405868">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="G# piano note" ID="{356C1918-0219-425E-B39C-70C2D1FD8156}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0C822795-C067-490C-8033-9C9517917EC6}" ShortID="693198117">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_A" ID="{4498ECDC-37F1-44F4-AB04-9C67A34E90A2}">
+							<ChildrenList>
+								<Action Name="" ID="{4C8B47C1-FF00-43A4-A331-01584F4CFD55}" ShortID="716589921">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="A piano note" ID="{51BF5954-A4FE-4BA1-A5E5-9D9054E8642D}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EE453BBD-F756-4C8C-8736-C1BE4E9637CB}" ShortID="161794524">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_ASharp" ID="{54968D06-C997-4AD5-9360-9F5B86EC9E46}">
+							<ChildrenList>
+								<Action Name="" ID="{9905003D-C3D6-477C-A1AC-9BFC048C7D9B}" ShortID="688765718">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="A# piano note" ID="{6A5304DC-3FBE-46C6-8571-0A6B1EF24942}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{13E40FCD-3790-4B30-B35C-A121527CE56E}" ShortID="615991413">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Level2Piano_B" ID="{399ED1F8-50C9-47BF-BBE1-7704BA3AC09E}">
+							<ChildrenList>
+								<Action Name="" ID="{BEC1BAE0-EA39-47F4-A8F6-3E29C71649DE}" ShortID="97456578">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="B piano note" ID="{1BD39AF4-53A0-4EC2-837A-4BFE9C7C856C}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8CBC8240-E3E1-47AC-B810-1787F325EEFB}" ShortID="679267260">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

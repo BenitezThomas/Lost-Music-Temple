@@ -274,6 +274,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Moving Block" ID="{2F36555A-2269-4874-A04F-9CA03353C8B8}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="499.212"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.118135087155339"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.765570684387011"/>
+										<Property Name="LoopEnd" Type="Real64" Value="4.36546449782144"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Moving Block.wav</AudioFile>
 									<MediaIDList>
@@ -709,6 +716,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_A" ID="{2E08BC70-5B89-41C1-B563-E4BAD3AEF767}">
 									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.69428280651341"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 									</PropertyList>
 									<Language>SFX</Language>
@@ -734,6 +742,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_B" ID="{E3D6D4A0-5819-48EC-A459-4799381FC34F}">
 									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.531658977224352"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 									</PropertyList>
 									<Language>SFX</Language>
@@ -758,6 +767,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_C" ID="{D72B700E-F977-429A-9C28-4618F2D28A5A}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.330048690932312"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Harmony Wheel\HarmonyWheel_C.wav</AudioFile>
 									<MediaIDList>
@@ -780,6 +794,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_D" ID="{810BE3F3-01D1-4665-AF1E-AAAD813AEFA0}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.453144955300128"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Harmony Wheel\HarmonyWheel_D.wav</AudioFile>
 									<MediaIDList>
@@ -802,6 +821,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_E" ID="{45932737-995A-4A0F-B592-CF9BF2746577}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.446773227969349"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Harmony Wheel\HarmonyWheel_E.wav</AudioFile>
 									<MediaIDList>
@@ -824,6 +848,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_F" ID="{C4C7D0E3-803B-4920-83D8-5229C79E8447}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.493604326309068"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Harmony Wheel\HarmonyWheel_F.wav</AudioFile>
 									<MediaIDList>
@@ -846,6 +875,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="HarmonyWheel_G" ID="{92450303-4CC0-4223-85C3-4EF6AD418161}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.441406582588335"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Harmony Wheel\HarmonyWheel_G.wav</AudioFile>
 									<MediaIDList>
@@ -964,6 +997,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Collect_Scroll_Jingle" ID="{65332105-870B-4D58-8274-F81A88C25C5E}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.370084078331205"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.468327905491698"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Collect_Scroll_Jingle.wav</AudioFile>
 							<MediaIDList>
@@ -975,77 +1013,455 @@
 						<ActiveSource Name="Collect_Scroll_Jingle" ID="{65332105-870B-4D58-8274-F81A88C25C5E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" ShortID="162372964">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-18</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Music" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" ShortID="837576239">
 					<ChildrenList>
-						<AudioFileSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}">
+						<Sound Name="Lost library game trailer music" ID="{69D8DB6E-18C1-49E0-B251-DFA61CBBA64E}" ShortID="1032511743">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.930773705642814"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Study Time.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="893217437"/>
-							</MediaIDList>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.88132635253054"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.95986038394415"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="62.5968586387434"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Lost library game trailer music.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1018386894"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" ShortID="162372964">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.930773705642814"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Study Time.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="893217437"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" ShortID="57141954">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{7F47D34F-025B-472E-81AC-656B5B25C6F9}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>First floor lost library music V1 Gabriele Liotta no loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="885625676"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="First floor lost library music V1 Gabriele Liotta" ID="{AD48FD5E-C358-4843-81E4-51C75EFBD55C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>First floor lost library music V1 Gabriele Liotta.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="625356259"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="First floor lost library music V1 Gabriele Liotta" ID="{AD48FD5E-C358-4843-81E4-51C75EFBD55C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Lost library game trailer music" ID="{69D8DB6E-18C1-49E0-B251-DFA61CBBA64E}" ShortID="1032511743">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-7</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-						</Reference>
-					</ReferenceList>
+				</Folder>
+				<Folder Name="Level 2 Piano notes" ID="{18093DF7-D702-4DC0-BCD5-E29EC35465BC}" ShortID="308687981">
 					<ChildrenList>
-						<AudioFileSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}">
+						<Sound Name="A piano note" ID="{51BF5954-A4FE-4BA1-A5E5-9D9054E8642D}" ShortID="323501019">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A piano note" ID="{743F6815-BF52-489F-9151-B15B0BE54F58}">
+									<Language>SFX</Language>
+									<AudioFile>A piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405704038"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A piano note" ID="{743F6815-BF52-489F-9151-B15B0BE54F58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A# piano note" ID="{6A5304DC-3FBE-46C6-8571-0A6B1EF24942}" ShortID="697255180">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A# piano note" ID="{3A8B8CB8-6DA9-4175-A208-9E777445EB9E}">
+									<Language>SFX</Language>
+									<AudioFile>A# piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="892634490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A# piano note" ID="{3A8B8CB8-6DA9-4175-A208-9E777445EB9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="B piano note" ID="{1BD39AF4-53A0-4EC2-837A-4BFE9C7C856C}" ShortID="827699337">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="B piano note" ID="{430FA91A-B0E9-45F1-8C2F-9FC81E476530}">
+									<Language>SFX</Language>
+									<AudioFile>B piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="789697022"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="B piano note" ID="{430FA91A-B0E9-45F1-8C2F-9FC81E476530}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C piano note" ID="{DF551829-26EB-4607-AB0C-359CE8BDA4E8}" ShortID="190460094">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C piano note" ID="{22F73A13-168A-4CC9-8A13-006205A5FB54}">
+									<Language>SFX</Language>
+									<AudioFile>C piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030262941"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C piano note" ID="{22F73A13-168A-4CC9-8A13-006205A5FB54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="C# piano note" ID="{0B831A70-0843-48BC-84F8-76496070FB8F}" ShortID="206740403">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="C# piano note" ID="{1F477855-15F6-4958-B9D1-096AFC93684F}">
+									<Language>SFX</Language>
+									<AudioFile>C# piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="445691425"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="C# piano note" ID="{1F477855-15F6-4958-B9D1-096AFC93684F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="D piano note" ID="{8D01971A-75EE-4A46-A3A4-2AAC418AE612}" ShortID="1045550400">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="D piano note" ID="{41D68697-40E8-42CD-8BA6-3C09BC615ACC}">
+									<Language>SFX</Language>
+									<AudioFile>D piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1008595703"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="D piano note" ID="{41D68697-40E8-42CD-8BA6-3C09BC615ACC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="D# piano note" ID="{05794617-2F06-4817-ABD2-BC5EE400FF30}" ShortID="275415470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="D# piano note" ID="{1A8AC995-1D1B-4827-80B6-48BB4A09432B}">
+									<Language>SFX</Language>
+									<AudioFile>D# piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="797625964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="D# piano note" ID="{1A8AC995-1D1B-4827-80B6-48BB4A09432B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="E piano note" ID="{6F2AC64E-9153-49A3-B464-67B8073946D3}" ShortID="398184102">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="E piano note" ID="{DC4140CF-9820-4111-8CD5-36BE34C8DC86}">
+									<Language>SFX</Language>
+									<AudioFile>E piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302455035"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="E piano note" ID="{DC4140CF-9820-4111-8CD5-36BE34C8DC86}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="F piano note" ID="{B2883397-8B81-44A0-B44F-E3EFE967F103}" ShortID="777852332">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="F piano note" ID="{09B41FA5-6904-4911-9A3C-A52AE2B0AC69}">
+									<Language>SFX</Language>
+									<AudioFile>F piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="273429826"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="F piano note" ID="{09B41FA5-6904-4911-9A3C-A52AE2B0AC69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="F# piano note" ID="{70129ACB-CF73-46B0-829D-FFE2CC69433C}" ShortID="473251576">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="F# piano note" ID="{0995403D-8538-4109-BB7F-CB3CAD4CABE9}">
+									<Language>SFX</Language>
+									<AudioFile>F# piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="83154077"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="F# piano note" ID="{0995403D-8538-4109-BB7F-CB3CAD4CABE9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="G piano note" ID="{A212829B-09D9-4F4F-B510-79DE2B293A01}" ShortID="1013271112">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="G piano note" ID="{135E9EA5-A808-47C0-9C3C-3E5145EA3FEA}">
+									<Language>SFX</Language>
+									<AudioFile>G piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="422324391"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="G piano note" ID="{135E9EA5-A808-47C0-9C3C-3E5145EA3FEA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="G# piano note" ID="{356C1918-0219-425E-B39C-70C2D1FD8156}" ShortID="988348602">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="G# piano note" ID="{F2FABE37-B0AC-4ECC-B1AF-46D5A36DA1C6}">
+									<Language>SFX</Language>
+									<AudioFile>G# piano note.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="344952281"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="G# piano note" ID="{F2FABE37-B0AC-4ECC-B1AF-46D5A36DA1C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" ShortID="167918920">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="1.88132635253054"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="4.95986038394415"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="62.5968586387434"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{16D88245-FCED-44B3-AAC2-D8C6DD62CE02}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Lost library game trailer music.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1018386894"/>
-							</MediaIDList>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hammer release sound" ID="{CFBD1F50-57D6-4439-A146-BF3F959FE9E0}" ShortID="366239457">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DAF62F48-6784-43B6-B075-FCE821F8FAEE}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer release sound" ID="{58444947-66CE-4B05-8274-A64901678B2C}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer release sound.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="469890072"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer release sound" ID="{58444947-66CE-4B05-8274-A64901678B2C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

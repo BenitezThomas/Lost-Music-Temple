@@ -1980,6 +1980,7 @@
 										<Property Name="Pitch" Type="Real32" Value="-500"/>
 									</PropertyList>
 								</Effect>
+								<Effect Name="HammerPitchShift" ID="{49458B63-637D-4852-BAB4-50C153EAC722}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
