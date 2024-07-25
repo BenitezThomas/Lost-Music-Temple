@@ -719,7 +719,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C09A3550-E8D0-6D1E-CB63-B44738C5AC68}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9CBA1ED0-C1B0-7523-DD12-C2DAE8ACCEA3}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -730,10 +730,6 @@
 				<File Id="86464845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Melody1.wav</ShortName>
 					<CachePath>SFX/Melody1_C3F4FBB0.wem</CachePath>
-				</File>
-				<File Id="775882307" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Third floor lost library music percussive.wav</ShortName>
-					<CachePath>SFX/Third floor lost library music percussive_11A93380.wem</CachePath>
 				</File>
 				<File Id="893217437" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Study Time.wav</ShortName>
@@ -756,26 +752,28 @@
 						<MediaRef Id="893217437"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4225751467" Name="PlayFloor3Music" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="775882307"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="409577309" Name="Stop_Study_Time" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="101287625" Name="Stopfloor3Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<MediaRefs>
-						<MediaRef Id="775882307"/>
-					</MediaRefs>
-				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{3D6D1EB1-7390-F996-65D1-A734873F1E94}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{D0A6FCA8-3394-26F0-BE58-C34BFD13F539}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
+				<File Id="587689137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Second floor music with tension.wav</ShortName>
+					<CachePath>SFX/Second floor music with tension_40A3E384.wem</CachePath>
+				</File>
 				<File Id="625356259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>First floor lost library music V1 Gabriele Liotta.wav</ShortName>
 					<CachePath>SFX/First floor lost library music V1 Gabriele Liotta_11A93380.wem</CachePath>
+				</File>
+				<File Id="775882307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Third floor lost library music percussive.wav</ShortName>
+					<CachePath>SFX/Third floor lost library music percussive_11A93380.wem</CachePath>
+				</File>
+				<File Id="981396761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Second floor lost library Gabriele Liotta.wav</ShortName>
+					<CachePath>SFX/Second floor lost library Gabriele Liotta_BDE3BE4D.wem</CachePath>
 				</File>
 				<File Id="1018386894" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lost library game trailer music.wav</ShortName>
@@ -783,6 +781,28 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="628670496" Name="Floor2musicplay" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+						<MediaRef Id="981396761"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3266896802" Name="Floor2musicStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+						<MediaRef Id="981396761"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="343141985" Name="Floor2MusicTransitionPlay" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2704781623" Name="Floor2MusicTransitionStop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="587689137"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4202561861" Name="Level1MusicPlay" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="625356259"/>
@@ -968,6 +988,11 @@
 						<MediaRef Id="625356259"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4225751467" Name="PlayFloor3Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="775882307"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4242575859" Name="Stop_Level2Piano_A" DurationType="OneShot" DurationMin="2.8818572" DurationMax="3.4271252">
 					<MediaRefs>
 						<MediaRef Id="625356259"/>
@@ -1033,8 +1058,13 @@
 						<MediaRef Id="1018386894"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="101287625" Name="Stopfloor3Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="775882307"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{80704176-C153-7D3D-7EE1-744A0B4FD654}</FileHash>
+	<FileHash>{28ACE920-A79A-0B9D-E4B9-7387F18CF5FB}</FileHash>
 </SoundBanksInfo>

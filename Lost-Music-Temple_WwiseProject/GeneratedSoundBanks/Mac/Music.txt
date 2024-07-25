@@ -1,4 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
+	101287625	Stopfloor3Music			\Default Work Unit\Music events\Floor 3 Music\Stopfloor3Music	
+	343141985	Floor2MusicTransitionPlay			\Default Work Unit\Music events\Floor2Music\Floor2MusicTransitionPlay	
+	628670496	Floor2musicplay			\Default Work Unit\Music events\Floor2Music\Floor2musicplay	
 	689432314	Play_String_Note_F_high			\Default Work Unit\String Notes\Play_String_Note_F_high	
 	744740939	Stop_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_CSharp	
 	766101389	Play_Level2Piano_CSharp			\Default Work Unit\Level 2 piano\Play_Level2Piano_CSharp	
@@ -33,15 +36,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	2668293573	Play_String_Note_D			\Default Work Unit\String Notes\Play_String_Note_D	
 	2668293574	Play_String_Note_G			\Default Work Unit\String Notes\Play_String_Note_G	
 	2668293575	Play_String_Note_F			\Default Work Unit\String Notes\Play_String_Note_F	
+	2704781623	Floor2MusicTransitionStop			\Default Work Unit\Music events\Floor2Music\Floor2MusicTransitionStop	
 	2711136183	Stop_Level2Piano_GSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_GSharp	
 	2773441658	Play_level2Piano_FSharp			\Default Work Unit\Level 2 piano\Play_level2Piano_FSharp	
 	2903004101	Play_BongosNPC			\Default Work Unit\NPCs\Floor 3 Bongos NPC\Play_BongosNPC	
 	3007483891	Stop_Lost_library_game_trailer_music			\Default Work Unit\Stop_Lost_library_game_trailer_music	
 	3176529497	Play_String_Note_G_high			\Default Work Unit\String Notes\Play_String_Note_G_high	
+	3266896802	Floor2musicStop			\Default Work Unit\Music events\Floor2Music\Floor2musicStop	
 	3416461271	Play_level2Piano_ASharp			\Default Work Unit\Level 2 piano\Play_level2Piano_ASharp	
 	3507183862	Stop_Level2Piano_DSharp			\Default Work Unit\Level 2 piano\Stop_Level2Piano_DSharp	
 	3935525577	Play_Lost_library_game_trailer_music			\Default Work Unit\Play_Lost_library_game_trailer_music	
 	4202561861	Level1MusicPlay			\Default Work Unit\Music events\Level1MusicPlay	
+	4225751467	PlayFloor3Music			\Default Work Unit\Music events\Floor 3 Music\PlayFloor3Music	
 	4242575856	Stop_Level2Piano_B			\Default Work Unit\Level 2 piano\Stop_Level2Piano_B	
 	4242575857	Stop_Level2Piano_C			\Default Work Unit\Level 2 piano\Stop_Level2Piano_C	
 	4242575859	Stop_Level2Piano_A			\Default Work Unit\Level 2 piano\Stop_Level2Piano_A	
@@ -51,6 +57,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	4242575863	Stop_Level2Piano_E			\Default Work Unit\Level 2 piano\Stop_Level2Piano_E	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	587689137	Second floor music with tension	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Second floor music with tension_40A3E384.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 2\Second Floor music\Second Floor music\Second floor music with tension		30048144
 	625356259	First floor lost library music V1 Gabriele Liotta no loop	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\First floor lost library music V1 Gabriele Liotta_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 1\First floor lost library music V1 Gabriele Liotta no loop		24296824
+	775882307	Third floor lost library music percussive	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Third floor lost library music percussive_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 3\Third floor lost library music percussive		22263264
+	981396761	Second floor lost library Gabriele Liotta	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Second floor lost library Gabriele Liotta_BDE3BE4D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 2\Second Floor music\Second Floor music\Second floor lost library Gabriele Liotta		30048144
 	1018386894	Lost library game trailer music	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Mac\SFX\Lost library game trailer music_A9329C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 1\Lost library game trailer music		12018692
 

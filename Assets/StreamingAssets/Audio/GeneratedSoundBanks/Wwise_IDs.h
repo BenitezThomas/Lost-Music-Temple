@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FLOOR2MUSICPLAY = 628670496U;
+        static const AkUniqueID FLOOR2MUSICSTOP = 3266896802U;
         static const AkUniqueID FLOOR2MUSICTRANSITIONPLAY = 343141985U;
         static const AkUniqueID FLOOR2MUSICTRANSITIONSTOP = 2704781623U;
         static const AkUniqueID LEVEL1MUSICPLAY = 4202561861U;

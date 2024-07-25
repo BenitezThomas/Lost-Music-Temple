@@ -1,14 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
-	101287625	Stopfloor3Music			\Default Work Unit\Music events\Floor 3 Music\Stopfloor3Music	
 	409577309	Stop_Study_Time			\Default Work Unit\Stop_Study_Time	
 	1188403304	Play_melody_3			\Default Work Unit\Play_melody_3	
 	1312779127	Play_Melody1			\Default Work Unit\Play_Melody1	
 	4219497895	Play_Study_Time			\Default Work Unit\Play_Study_Time	
-	4225751467	PlayFloor3Music			\Default Work Unit\Music events\Floor 3 Music\PlayFloor3Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	388114	melody 3	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\melody 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\melody 3		620172
 	86464845	Melody1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Melody1_C3F4FBB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musical Pieces\Melody1		456974
-	775882307	Third floor lost library music percussive	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Third floor lost library music percussive_11A93380.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music floor 3\Third floor lost library music percussive		22263264
 	893217437	Study Time	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Study Time_43E96754.wem		\Actor-Mixer Hierarchy\Default Work Unit\Study Time		6272208
 

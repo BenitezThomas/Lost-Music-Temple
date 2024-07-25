@@ -7,9 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Melody1" ID="{479CFDD8-79C9-40D5-878E-D96B11FB21FB}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Study_Time" ID="{678B985C-633D-41B4-96EB-B18BC9634F7F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Study_Time" ID="{8AFA79C3-1B8F-4692-9E2C-E11F5C31E196}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Floor 3 Music" ID="{65406A3B-B723-46A6-BEC0-E06CE8035701}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -81,10 +79,14 @@
 				<SoundBank Name="Music" ID="{BB65E13A-FC56-4B1A-8B03-8015C704FAB9}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_Lost_library_game_trailer_music" ID="{93BE0864-01B8-410C-AD23-CCA62BB6B599}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music floor 3" ID="{0069BD5C-2A6A-4352-8AD2-3F9FCEE48397}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music floor 1" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Floor 3 Music" ID="{65406A3B-B723-46A6-BEC0-E06CE8035701}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Level1MusicStop" ID="{34BAAF27-12B7-46DA-8D68-BFE392C7D2A6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Lost_library_game_trailer_music" ID="{5716DC5C-B88D-4A8C-8D57-70ED2117AB6E}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music floor 2" ID="{D33B3F14-5503-4C25-953A-1693050666D9}" WorkUnitID="{069A650A-A2EA-4BA6-B2B8-8101E4980636}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
