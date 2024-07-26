@@ -1,3 +1,4 @@
+using Cinemachine.Utility;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,6 +44,7 @@ public class ThirdPersonMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
 
     public bool canMove;
+    public int test;
 
     void Start()
     {
@@ -129,15 +131,22 @@ public class ThirdPersonMovement : MonoBehaviour
         Jump();
     }
 
+    //will force the player to move
+    public void ForceMove(Vector3 direction, float force)
+    {
+        controller.Move(direction * force * Time.deltaTime);
+    }
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         //Author: Eduardo Chiaratto (edu05)
         //Date: 07/13/2024 BR
+        //This is for Bongo's Jump Script
         if (hit.transform.tag == "Bongo")
         {
             var bongo = hit.transform.GetChild(0).GetComponent<BongosDrum>();
             //if collide with bongo and and meet all requirements, will get jump boost
-            if (bongo.isEnable && bongo.isJumpAgain && bongo.jumpMultiplier > 0) 
+            if (bongo.isEnable && bongo.isJumpAgain && bongo.jumpMultiplier > 0)
             {
                 JumpHigher(bongo.jumpMultiplier);
                 bongo.isJumpAgain = true;
