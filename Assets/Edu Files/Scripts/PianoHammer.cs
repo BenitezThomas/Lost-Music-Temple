@@ -32,7 +32,7 @@ public class PianoHammer : MonoBehaviour
             //while time < 0.5f, will move player as if he was pushed
             if (time < 0.5f)
             {
-                characterController.ForceMove(transform.up, force);
+                characterController.ForceMove((characterController.transform.position - transform.position).normalized, force);
             }
             else
             {

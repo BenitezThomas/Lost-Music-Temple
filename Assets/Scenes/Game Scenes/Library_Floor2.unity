@@ -3221,6 +3221,7 @@ MonoBehaviour:
     m_Bits: 8
   groundCheck: {fileID: 1976530584}
   canMove: 0
+  test: 0
 --- !u!143 &72914185
 CharacterController:
   m_ObjectHideFlags: 0
@@ -16346,7 +16347,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487803504}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bdeff0bf967fd54ab92d6bfd2d58f07, type: 3}
   m_Name: 
@@ -30957,7 +30958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1114727018
 Transform:
   m_ObjectHideFlags: 0
@@ -30985,7 +30986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa724c12ee96d040a51460469313855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleLevel: 4
+  puzzleLevel: 8
   ui_Manager: {fileID: 2021975639}
   mesh: {fileID: 1114727021}
   interactableMaterial: {fileID: 2100000, guid: 524e6f1186d8aa941b6257cae87d5583,
@@ -61497,7 +61498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa724c12ee96d040a51460469313855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzleLevel: 3
+  puzzleLevel: 7
   ui_Manager: {fileID: 2021975639}
   mesh: {fileID: 3176949304845593965}
   interactableMaterial: {fileID: 2100000, guid: 524e6f1186d8aa941b6257cae87d5583,
