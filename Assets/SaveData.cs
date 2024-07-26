@@ -53,6 +53,7 @@ public class SaveData : MonoBehaviour
         levelInfo = JsonUtility.FromJson<LevelInfo>(gameSaveData);
         Debug.Log("Save system loaded save file from location: " + Application.persistentDataPath + "/SaveData.json");
         //LoadGameSave();
+        
     }
 
     public void SaveGameProgress()
