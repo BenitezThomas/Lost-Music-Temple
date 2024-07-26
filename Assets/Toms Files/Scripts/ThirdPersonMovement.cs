@@ -122,4 +122,28 @@ public class ThirdPersonMovement : MonoBehaviour
         }
     }
 
+    //player will jump higher than normal
+    public void JumpHigher(float jumpMultiplier)
+    {
+        velocity.y = Mathf.Sqrt(jumpHeight * jumpMultiplier * -2f * gravity);
+        Jump();
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        //Author: Eduardo Chiaratto (edu05)
+        //Date: 07/13/2024 BR
+        if (hit.transform.tag == "Bongo")
+        {
+            var bongo = hit.transform.GetChild(0).GetComponent<BongosDrum>();
+            //if collide with bongo and and meet all requirements, will get jump boost
+            if (bongo.isEnable && bongo.isJumpAgain && bongo.jumpMultiplier > 0) 
+            {
+                JumpHigher(bongo.jumpMultiplier);
+                bongo.isJumpAgain = true;
+            }
+            //set Fall Max Velocity
+            bongo.fallMaxVelocity = controller.velocity.y / 6.5f;
+        }
+    }
 }
