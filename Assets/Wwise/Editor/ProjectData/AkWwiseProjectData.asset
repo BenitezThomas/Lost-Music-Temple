@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584797425280704464
+    m_lastTime: -8584795296434004509
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584797425299256727
+    m_lastTime: -8584795296464835982
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -158,6 +158,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6273a7c415847846a80df464b4257ed7
       Path: Events\Default Work Unit\NPCs\Floor 1 Guitar NPC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor 2
+      guid: c8e2b0ce3548164db6903c82889e866a
+      id: 403960475
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      Path: Events\Default Work Unit\Floor 2
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -285,8 +302,8 @@ MonoBehaviour:
         guid: 6e8c838ba877374db152660cb1f8722f
       Path: Events\Default Work Unit\Music events\Floor2Music\Floor2musicStop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Floor2MusicTransitionPlay
       guid: b1dc76274247fd4c99273aed57c386f6
       id: 343141985
@@ -333,6 +350,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: HammerHitPlayer
+      guid: c459f8de673431459cc90cc38335756a
+      id: 3372711433
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      - ElementName: HammerHitPlayer
+        ObjectType: 3
+        guid: c459f8de673431459cc90cc38335756a
+      Path: Events\Default Work Unit\Floor 2\HammerHitPlayer
+      maxAttenuation: 0
+      maxDuration: 0.3975737
+      minDuration: 0.323288
+    - name: HammerSwingBackward
+      guid: 24f9e963be3c0a4f91fd773b0ceb0ba8
+      id: 1823600288
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      - ElementName: HammerSwingBackward
+        ObjectType: 3
+        guid: 24f9e963be3c0a4f91fd773b0ceb0ba8
+      Path: Events\Default Work Unit\Floor 2\HammerSwingBackward
+      maxAttenuation: 0
+      maxDuration: 0.75
+      minDuration: 0.75
+    - name: HammerSwingForward
+      guid: 0e04e0b8711f4d4b887d383ae5d75a21
+      id: 2483836202
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      - ElementName: HammerSwingForward
+        ObjectType: 3
+        guid: 0e04e0b8711f4d4b887d383ae5d75a21
+      Path: Events\Default Work Unit\Floor 2\HammerSwingForward
+      maxAttenuation: 0
+      maxDuration: 0.75
+      minDuration: 0.75
     - name: Harmony Wheel
       guid: 7ba56dcc771cb74090c0875765f43885
       id: 454979760
@@ -1232,6 +1309,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayerJump
+      guid: a767092147e1334ca53d2bc175da8152
+      id: 4008126242
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      - ElementName: PlayerJump
+        ObjectType: 3
+        guid: a767092147e1334ca53d2bc175da8152
+      Path: Events\Default Work Unit\Floor 2\PlayerJump
+      maxAttenuation: 0
+      maxDuration: 8.070725
+      minDuration: 0.5491511
+    - name: PlayerLand
+      guid: e5d3e340323280409041df540919a8f2
+      id: 846198821
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      - ElementName: PlayerLand
+        ObjectType: 3
+        guid: e5d3e340323280409041df540919a8f2
+      Path: Events\Default Work Unit\Floor 2\PlayerLand
+      maxAttenuation: 0
+      maxDuration: 0.91714287
+      minDuration: 0.7475378
     - name: PlayFloor3Music
       guid: e389b435d4af2a40998b136b991e8c39
       id: 4225751467
@@ -1589,6 +1706,43 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: TambourineLand
+      guid: c2c9bc00e540be47933f7684b392271d
+      id: 3119369426
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Floor 2
+        ObjectType: 4
+        guid: c8e2b0ce3548164db6903c82889e866a
+      - ElementName: TambourineLand
+        ObjectType: 3
+        guid: c2c9bc00e540be47933f7684b392271d
+      Path: Events\Default Work Unit\Floor 2\TambourineLand
+      maxAttenuation: 0
+      maxDuration: 2.433703
+      minDuration: 1.844402
+    - name: WindSFX
+      guid: 47f6813159244b4691e7b051963feabe
+      id: 257381952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: WindSFX
+        ObjectType: 3
+        guid: 47f6813159244b4691e7b051963feabe
+      Path: Events\Default Work Unit\WindSFX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1629,7 +1783,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a4e80e03fc1e8943a19c9f524f8d7c6c
     GuidInternal: 
-    m_lastTime: -8584797425280684774
+    m_lastTime: -8584795296421555639
     List:
     - name: BongosNPC
       guid: 972a78b99e1be64c8ed3d57b1775951e
@@ -1678,6 +1832,72 @@ MonoBehaviour:
         - ElementName: FixedBongos
           ObjectType: 10
           guid: abc982ff846d1541a59beee7f7b4c68f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: FootstepLand
+      guid: 0bf2e5cacac3df4c8e9906461c1bd517
+      id: 1877319332
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+      - ElementName: FootstepLand
+        ObjectType: 11
+        guid: 0bf2e5cacac3df4c8e9906461c1bd517
+      Path: Switches\Default Work Unit\FootstepLand
+      values:
+      - name: Nothing
+        guid: 7ec1ecf2f79bf144b2a0004c248e1a5e
+        id: 4248742144
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: FootstepLand
+          ObjectType: 11
+          guid: 0bf2e5cacac3df4c8e9906461c1bd517
+        - ElementName: Nothing
+          ObjectType: 10
+          guid: 7ec1ecf2f79bf144b2a0004c248e1a5e
+      - name: Rug
+        guid: 3ac323bb116fc94fbda10558b3bd420f
+        id: 712161697
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: FootstepLand
+          ObjectType: 11
+          guid: 0bf2e5cacac3df4c8e9906461c1bd517
+        - ElementName: Rug
+          ObjectType: 10
+          guid: 3ac323bb116fc94fbda10558b3bd420f
+      - name: Wood
+        guid: 1ca8268edf82b144b3448a6b77181d41
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: FootstepLand
+          ObjectType: 11
+          guid: 0bf2e5cacac3df4c8e9906461c1bd517
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 1ca8268edf82b144b3448a6b77181d41
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -1781,6 +2001,56 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Jump
+      guid: 1a76685fd20e7c478f78dd732f3713b6
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+      - ElementName: Jump
+        ObjectType: 11
+        guid: 1a76685fd20e7c478f78dd732f3713b6
+      Path: Switches\Default Work Unit\Jump
+      values:
+      - name: BongoJump
+        guid: ddb06061a68b9b4c93d4403dcfd6b812
+        id: 2604859412
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: Jump
+          ObjectType: 11
+          guid: 1a76685fd20e7c478f78dd732f3713b6
+        - ElementName: BongoJump
+          ObjectType: 10
+          guid: ddb06061a68b9b4c93d4403dcfd6b812
+      - name: Default
+        guid: 1310b13458075d46bc9055b5f95af2e2
+        id: 782826392
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: Jump
+          ObjectType: 11
+          guid: 1a76685fd20e7c478f78dd732f3713b6
+        - ElementName: Default
+          ObjectType: 10
+          guid: 1310b13458075d46bc9055b5f95af2e2
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: PianoNPC
       guid: 9dc71cd50a7b2641a048808e0acc25d7
       id: 653617121
@@ -1845,7 +2115,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584809555006115047
     List: []
-  ExpandedFileSystemItemIds: 5e0000005f000000
+  ExpandedFileSystemItemIds: 5e0000005f0000006d0000006e000000
   ExpandedWaapiItemIds: 18000000190000005e0000005f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

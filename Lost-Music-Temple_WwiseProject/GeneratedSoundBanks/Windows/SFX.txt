@@ -82,7 +82,7 @@ Switch	ID	Name	Switch Group			Notes
 	2604859412	BongoJump	Jump			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	3677152	Wind sfx	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Wind sfx_9A8BADC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Unknown Floor SFX\Wind sfx		1967128
+	3677152	Wind sfx	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Wind sfx_3FED5C41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Unknown Floor SFX\Wind sfx		1967128
 	17993006	Broken guitar speech 1	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken guitar speech 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Broken speech\Broken guitar speech 1		636096
 	19216402	Fixed guitar speech 4	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Fixed guitar speech 4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Guitar NPC\NPC Speech\Fixed Speech\Fixed guitar speech 4		840096
 	19835441	Broken piano speech 2	D:\Unity\Lost-Music-Temple\Lost-Music-Temple_WwiseProject\.cache\Windows\SFX\Broken piano speech 2_681381CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\NPCs\Piano NPC\PianoNPC\Broken Piano\Broken piano speech 2		412212

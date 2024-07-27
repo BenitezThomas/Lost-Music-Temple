@@ -9,7 +9,8 @@ public class KeyManager : MonoBehaviour
     public GameObject player; // The collider that will be used as a collider
     public PianoPuzzleManager pianoPuzzleManager; // Reference to the PianoPuzzleManager
     [SerializeField] Animator animator;
-
+    [SerializeField] Playkeynote ak.Wwise.event;
+     [SerializeField] Stopkeynote ak.Wwise.event;
     void Start()
     {
         // Get the PianoPuzzleManager component from the grandparent object
@@ -21,6 +22,7 @@ public class KeyManager : MonoBehaviour
         if (other.gameObject == player)
         {
             Debug.Log("Key pressed: " + gameObject.name);
+            Playkeynote.post(gameObject);
 
             animator.SetTrigger("KeyDown");
             
