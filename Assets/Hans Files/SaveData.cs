@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using NUnit.Framework.Internal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,8 @@ public class SaveData : MonoBehaviour
     public LevelInfo levelInfo = new LevelInfo();
     public GameObject player;
 
+    private KeyPreferences keyPreferences;
+    public KeyPreferences keyInput;
     private void Awake() 
     {
         player = GameObject.FindWithTag("Player");
@@ -18,22 +21,30 @@ public class SaveData : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            SaveToJson();
-        }
-        if(Input.GetKeyDown(KeyCode.H))
-        {
-            SaveGameProgress();
-        }
-        if(Input.GetKeyDown(KeyCode.J))
-        {
-            LoadGameSave();
-        }
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            LoadFromJson();
-        }
+
+        //Tests here
+        //
+        //  \
+        //  V
+        // if(Input.GetKeyDown(KeyCode.G))
+        // {
+        //     SaveToJson();
+        // }
+        // if(Input.GetKeyDown(KeyCode.H))
+        // {
+        //     SaveGameProgress();
+        // }
+        // if(Input.GetKeyDown(KeyCode.J))
+        // {
+        //     LoadGameSave();
+        // }
+        // if(Input.GetKeyDown(KeyCode.K))
+        // {
+        //     LoadFromJson();
+        // }
+
+        
+
     }
 
     public void SaveToJson()

@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using TMPro;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class KeyPreferences : MonoBehaviour
@@ -10,7 +12,12 @@ public class KeyPreferences : MonoBehaviour
     private string KeyBindName;
     public TextMeshProUGUI buttonText;
     public PlayerKeybinds _playerKeybinds = new PlayerKeybinds();
+    string filePath;
 
+    private void Awake()
+    {
+        filePath = Application.persistentDataPath + "/KeyBinds.json";
+    }
     private void Start() 
     {
         buttonText = GetComponent<TextMeshProUGUI>();
@@ -43,16 +50,7 @@ public class KeyPreferences : MonoBehaviour
                             return;
                         }
                     }
-
-                    // KeybindInfo tempKeyBindInfo = new KeybindInfo();
-                    // tempKeyBindInfo.keybindName = KeyBindName;
-                    // tempKeyBindInfo.keyCode = keycode;
-
-                    // _playerKeybinds.keybindInfos.Add(tempKeyBindInfo);
-                    
-
                 }
-
             }
         }
     }
@@ -60,26 +58,71 @@ public class KeyPreferences : MonoBehaviour
     public void SaveToJson()
     {
         string keybindSaveData = JsonUtility.ToJson(_playerKeybinds);
-        Debug.Log("%%%% - " + keybindSaveData);
-        string filePath = Application.persistentDataPath + "/KeyBinds.json";
-        Debug.Log(filePath);
         System.IO.File.WriteAllText(filePath, keybindSaveData);
-        Debug.Log("Keybind File Created");
+        LoadFromJson();
     }
 
     public void LoadFromJson()
     {
-        string filePath = Application.persistentDataPath + "/KeyBinds.json";
-        string keybindData = System.IO.File.ReadAllText(filePath);
-
-        _playerKeybinds = JsonUtility.FromJson<PlayerKeybinds>(keybindData);
-        Debug.Log(" system loaded : " + Application.persistentDataPath + "/KeyBinds.json");
+        if (File.Exists(filePath)) 
+        {
+            string keybindData = System.IO.File.ReadAllText(filePath);
+            _playerKeybinds = JsonUtility.FromJson<PlayerKeybinds>(keybindData);
+        }
+        else
+        {
+            RestoreDefault();
+        }
         
     }
 
     public void ChangeKey()
     {
         buttonText.text = "Awaiting Input";
+    }
+    
+    public KeyCode GetKeyBindData(string keyName)
+    {
+        LoadFromJson();
+        foreach(KeybindInfo keybindInfo in _playerKeybinds.keybindInfos)
+        {
+            if(keybindInfo.keybindName == keyName)
+            {
+                return keybindInfo.keyCode;                     
+            }
+        }
+        Debug.Log("No Keybind with that name was found || Error recieved from : " + keyName + " Call");
+        return KeyCode.F10;
+    }
+
+    public void RestoreDefault()
+    {
+        Dictionary<string, KeyCode> defaultKeybinds = DefaultKeybinds.GetDefaultKeybinds();
+
+        _playerKeybinds.keybindInfos.Clear();
+        foreach (var defaultKeybind in defaultKeybinds)
+        {
+            _playerKeybinds.keybindInfos.Add(new KeybindInfo
+            {
+                keybindName = defaultKeybind.Key,
+                keyCode = defaultKeybind.Value,
+                defaultKeyCode = defaultKeybind.Value
+            });
+        }
+        SaveToJson();
+        RefreshText();
+    }
+
+    private void RefreshText()
+    {
+        foreach(KeybindInfo keybindInfo in _playerKeybinds.keybindInfos)
+        {
+            if(keybindInfo.keybindName == KeyBindName)
+            {
+                buttonText.text = keybindInfo.keyCode.ToString();
+                return;
+            }
+        }              
     }
 
 }
@@ -96,5 +139,6 @@ public class KeybindInfo
 {
     public string keybindName;
     public KeyCode keyCode;
+    public KeyCode defaultKeyCode;
 }
 

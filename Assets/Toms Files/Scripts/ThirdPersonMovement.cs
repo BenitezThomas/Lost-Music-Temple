@@ -38,6 +38,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private Vector3 velocity;
     private Rigidbody rb;
     private bool isGrounded;
+    public KeyPreferences keyInput;
 
     [Tooltip("Transform position to check if the player is grounded.")]
     [SerializeField] private Transform groundCheck;
@@ -104,7 +105,7 @@ public class ThirdPersonMovement : MonoBehaviour
     // Controls player jumping 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded && canMove)
+        if (Input.GetKeyDown(keyInput.GetKeyBindData("Jump")) && isGrounded && canMove)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
