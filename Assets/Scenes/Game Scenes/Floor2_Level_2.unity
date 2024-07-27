@@ -1343,6 +1343,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3644,6 +3650,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10151,6 +10163,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10641,6 +10659,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13591,7 +13615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599887277}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1799723, y: -0.000000008462713, z: 0.0000000015483358, w: 0.9836717}
+  m_LocalRotation: {x: 0.1799723, y: 0.000000008462718, z: -0.0000000015483363, w: 0.9836717}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14450,7 +14474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640951938}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2534548, y: -0.000000016644544, z: 0.000000004361039, w: 0.96734726}
+  m_LocalRotation: {x: 0.2534548, y: 0.000000016644547, z: -0.0000000043610404, w: 0.96734726}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15209,6 +15233,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16159,6 +16189,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20111,6 +20147,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21903,6 +21945,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22340,6 +22388,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34589,6 +34643,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 414079066}
+    - target: {fileID: 113073397364014997, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4d27b15d281e7c244a9dd2c8e4ef39cc,
+        type: 2}
+    - target: {fileID: 113073397364014997, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 526d0a1c365d7dc44a301986b25625e4,
+        type: 2}
     - target: {fileID: 402841225765969077, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Name
@@ -34705,6 +34771,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1956234962}
+    - target: {fileID: 1908209469502177252, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 13f4e2a73ceb40249bf421dd7dde19d9,
+        type: 2}
+    - target: {fileID: 1908209469502177252, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a7db7cd7ea40f5948b6325f0ed4a68c4,
+        type: 2}
     - target: {fileID: 1938365732598528743, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Size.z
@@ -34796,6 +34874,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 406771731}
+    - target: {fileID: 2850547766430709954, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c2b007a0215f3147b31fec7337565a3,
+        type: 2}
+    - target: {fileID: 2850547766430709954, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f9cd62f7f4fae6c4886caa8860f1014e,
+        type: 2}
     - target: {fileID: 2984907608313822003, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: gate
@@ -34836,6 +34926,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1234512428}
+    - target: {fileID: 3192210291151794180, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 521b2f7ef4dfb9d45a8d4b3d705a6538,
+        type: 2}
+    - target: {fileID: 3192210291151794180, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 55e27dfc6a5030b42a154039f59f7fdd,
+        type: 2}
     - target: {fileID: 3428230235804295492, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: player
@@ -34846,6 +34948,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 404310333}
+    - target: {fileID: 3428230235804295492, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: eb5978b4a5483804ea0801ef3a0d95ea,
+        type: 2}
+    - target: {fileID: 3428230235804295492, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: fd0d12a338c7ad44abc52cf21a5e2635,
+        type: 2}
     - target: {fileID: 3677976156772930407, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Enabled
@@ -34871,6 +34985,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 240870043}
+    - target: {fileID: 3872016299632919176, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 5705d43e2c5c5604b81124c50fd900c7,
+        type: 2}
+    - target: {fileID: 3872016299632919176, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d71c8db772882c147866e8ef218689f3,
+        type: 2}
     - target: {fileID: 4111993697733410693, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Size.z
@@ -35006,6 +35132,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1292099015}
+    - target: {fileID: 5558959667722793886, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 47e8ade594100ef47a8461f9ffd97f16,
+        type: 2}
+    - target: {fileID: 5558959667722793886, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 6eb1987ff6ad14944a48175de9c9d29c,
+        type: 2}
     - target: {fileID: 5982548117597493964, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Name
@@ -35026,6 +35164,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1973765504}
+    - target: {fileID: 6001084801180512163, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b4987de74d1b8eb4cba33e854824172a,
+        type: 2}
+    - target: {fileID: 6001084801180512163, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 528bafba48b415144b911e4cc7210c3f,
+        type: 2}
     - target: {fileID: 6125583759463238509, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Name
@@ -35056,6 +35206,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 2025692185}
+    - target: {fileID: 7102699115820643840, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ecb051720701f84fa58b4841abcc9e0,
+        type: 2}
+    - target: {fileID: 7102699115820643840, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1112d7c073f3ad94a89c7391d5105526,
+        type: 2}
     - target: {fileID: 7670217881968216309, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Enabled
@@ -35136,6 +35298,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 596410545}
+    - target: {fileID: 8381800496999707776, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: dbbf128ab18a0b9469e7137348d5f6d6,
+        type: 2}
+    - target: {fileID: 8381800496999707776, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: df956770152efd64589b7c7a464e8bd9,
+        type: 2}
     - target: {fileID: 8382186768314460624, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Name
@@ -35156,6 +35330,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 665315404}
+    - target: {fileID: 8458431377099265740, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c46877c1e1ea22041aaa5219b831232b,
+        type: 2}
+    - target: {fileID: 8458431377099265740, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 03d14cc481a2cb14390c75b470372870,
+        type: 2}
     - target: {fileID: 8859700066816494949, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Name
@@ -35176,6 +35362,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 663057834}
+    - target: {fileID: 8880985859131519509, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: PlayKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d2c585a30dd05548ab0cb4c23a5c9fd,
+        type: 2}
+    - target: {fileID: 8880985859131519509, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
+        type: 3}
+      propertyPath: StopKeynote.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a62234f7320971a448bf51b668ea9bbf,
+        type: 2}
     - target: {fileID: 9055492734997266259, guid: e5dbcd8a5a86e2b41984af3d1da2c231,
         type: 3}
       propertyPath: m_Name
@@ -40645,6 +40843,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: HitPlayer.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43445,6 +43649,8 @@ GameObject:
   - component: {fileID: 1946515034}
   - component: {fileID: 1946515033}
   - component: {fileID: 1946515032}
+  - component: {fileID: 1946515036}
+  - component: {fileID: 1946515035}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -43519,6 +43725,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1946515035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946515031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d02bf0b726dd547a6c3ef893b3bc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 637b11919888fa340975afbd26b41802,
+      type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1946515036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946515031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d02bf0b726dd547a6c3ef893b3bc13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 500266cd37b553c4f85b6679a14b8ee6,
+      type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1948953922
 GameObject:
   m_ObjectHideFlags: 0

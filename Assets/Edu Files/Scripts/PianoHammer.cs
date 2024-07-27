@@ -21,6 +21,7 @@ public class PianoHammer : MonoBehaviour
     private float time;
     //will get to push player
     private ThirdPersonMovement characterController;
+    [SerializeField] AK.Wwise.Event HitPlayer;
 
     // Update is called once per frame
     void Update()
@@ -46,6 +47,7 @@ public class PianoHammer : MonoBehaviour
     {
         if (other.transform.tag == "Player")
         {
+            HitPlayer.Post(gameObject);
             /*var player = other.transform.GetComponent<CharacterController>();
             if (isEnable)
             {

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994cbdb0f0cb1ce4e944c0d76d36aa1d, type: 3}
+  m_Name: 399ED1F8-50C9-47BF-BBE1-7704BA3AC09E
+  m_EditorClassIdentifier: 
+  objectName: Stop_Level2Piano_B
+  id: 4242575856
+  guid: 399ED1F8-50C9-47BF-BBE1-7704BA3AC09E
