@@ -50,7 +50,84 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Rug" ID="{D8C9E07A-33C5-410A-A70B-747E7FF0C004}"/>
+						<CurrentSwitchRef Name="FixedPiano" ID="{F8C4D720-F648-4685-8CCF-4B49DB5F3DF9}"/>
+						<CurrentSwitchRef Name="Fixed" ID="{5126CE5F-3153-4F33-AD8A-66AA81C594ED}"/>
+						<CurrentSwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
 					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Melody testing" ID="{1AECE351-7820-4A81-9E9C-87CCC92C8C06}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Level1MusicPlay" ID="{640CA781-2712-43CE-95D3-C6D02718B3D0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Melody1" ID="{479CFDD8-79C9-40D5-878E-D96B11FB21FB}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_String_Note_B" ID="{F8B8DD82-FB45-4D4B-9EF5-BBF6C726DD77}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_melody_3" ID="{558FB10B-E35E-4D77-B5DC-F449774D4939}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_level2Piano_A" ID="{95B506A9-4CA8-4E4E-8A79-9B5651166C8B}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_String_Note_A" ID="{6739C86C-6DCD-4122-9FD0-41C3797404EF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HarmonyWheel_A" ID="{28B30694-AF9F-46EE-9AA4-547CF6B03997}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_GuitarNpcSpeech" ID="{30B13263-120B-43FB-907D-8132E7B9A49F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BongosNPC" ID="{4F1DDAD3-1AE9-407E-B721-765870D9319B}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PianoNpcSpeech" ID="{F0C03F05-9758-4D77-AAA0-47AFBBD308E2}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="BrokenPiano" ID="{78054809-E325-415F-A34D-71E13FE1C705}"/>
+						<CurrentSwitchRef Name="Broken" ID="{9CCBA8BD-A18C-41E0-AE20-307B4238468B}"/>
+						<CurrentSwitchRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music events" ID="{A68B34C1-8305-4336-9E07-3CFE01EFB3F7}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Floor2musicplay" ID="{D4AECB99-5F6E-4B72-A2FD-3861C4239739}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Floor2musicStop" ID="{8B838C6E-77A8-4D37-B152-660CB1F8722F}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Floor2MusicTransitionPlay" ID="{2776DCB1-4742-4CFD-9927-3AED57C386F6}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Floor2MusicTransitionStop" ID="{7D78C6A1-1C74-4682-B096-9A1FDF7FB96C}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -329,6 +329,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Melody1" ID="{428EFDF4-9B63-45BF-942D-8622F6C1DFA0}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Melody1.wav</AudioFile>
 									<MediaIDList>
@@ -1013,7 +1018,7 @@
 						<ActiveSource Name="Collect_Scroll_Jingle" ID="{65332105-870B-4D58-8274-F81A88C25C5E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Folder Name="Music" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" ShortID="837576239">
+				<Folder Name="Music floor 1" ID="{D20301CD-F522-469D-9B88-934876F8C3A5}" ShortID="837576239">
 					<ChildrenList>
 						<Sound Name="Lost library game trailer music" ID="{69D8DB6E-18C1-49E0-B251-DFA61CBBA64E}" ShortID="1032511743">
 							<PropertyList>
@@ -1049,41 +1054,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Lost library game trailer music" ID="{5442DEFC-9247-4E28-8742-9124381B3006}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" ShortID="162372964">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="0.930773705642814"/>
-										<Property Name="LoopBegin" Type="Real64" Value="0"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Study Time.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="893217437"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="First floor lost library music V1 Gabriele Liotta no loop" ID="{0A85F740-F801-4317-B9D7-977927A32037}" ShortID="57141954">
@@ -1460,6 +1430,1749 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="NPCs" ID="{EF9574C1-1A35-4B91-9366-9D18C5613F2A}" ShortID="951997566">
+					<ChildrenList>
+						<Folder Name="Piano NPC" ID="{0C88C78D-EE7A-4507-90A7-3BDB22883073}" ShortID="974250004">
+							<ChildrenList>
+								<SwitchContainer Name="PianoNPC" ID="{63AF6A08-F88F-4F4F-A076-5AB02432C551}" ShortID="469458147">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="BrokenPiano" ID="{78054809-E325-415F-A34D-71E13FE1C705}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="PianoNPC" ID="{D51CC79D-7B0A-4126-A048-808E0ACC25D7}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Broken Piano" ID="{4AA4E2C3-B8FD-40B1-A50F-84CE2E383997}" ShortID="447358744">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Broken piano speech 1" ID="{D74DA747-C283-4996-B453-865D4B354AC9}" ShortID="580193881">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken piano speech 1" ID="{B127F6E8-628D-4034-84E1-12A590A90EAB}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.194209039548023"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.194209039548023"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Broken piano speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="573482243"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken piano speech 1" ID="{B127F6E8-628D-4034-84E1-12A590A90EAB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken piano speech 2" ID="{E45A4C9B-7627-46BA-949F-B88FB2552FD1}" ShortID="314054083">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken piano speech 2" ID="{D7BA750B-3A99-45A8-AA42-C0CED650DE14}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.269584245527307"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.269584245527307"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Broken piano speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="19835441"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken piano speech 2" ID="{D7BA750B-3A99-45A8-AA42-C0CED650DE14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken piano speech 3" ID="{1EA4E71F-8DB9-4307-BA73-0837A057D38C}" ShortID="129195627">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken piano speech 3" ID="{1EC769FE-DFD5-471B-AAC7-DADE63313E9B}">
+															<Language>SFX</Language>
+															<AudioFile>Broken piano speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="347333268"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken piano speech 3" ID="{1EC769FE-DFD5-471B-AAC7-DADE63313E9B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken piano speech 4" ID="{3B231D46-3155-4757-8BE5-0C64B3E7F555}" ShortID="183562109">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken piano speech 4" ID="{D6222559-54E4-4249-BAC7-7F34168C8AD1}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.33545197740113"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.33545197740113"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Broken piano speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="380037131"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken piano speech 4" ID="{D6222559-54E4-4249-BAC7-7F34168C8AD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fixed Piano" ID="{1C6CED9D-4437-4709-9B72-D3F2579D2564}" ShortID="513666368">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Fixed piano speech 1" ID="{86516FB7-0B56-4D94-A6C8-3C176C3269D2}" ShortID="194483290">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed piano speech 1" ID="{713BEA42-C305-47E1-9193-3EC99B103CBD}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.35593220338983"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.35593220338983"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fixed piano speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="806678999"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed piano speech 1" ID="{713BEA42-C305-47E1-9193-3EC99B103CBD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed piano speech 2" ID="{81C4ACE0-ECDF-4346-ABA0-4FF02E3DC28B}" ShortID="572948826">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed piano speech 2" ID="{3AE52C2F-D098-4C6B-BFC5-F4394D27BDC5}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.504047198681733"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.504047198681733"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fixed piano speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="651880420"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed piano speech 2" ID="{3AE52C2F-D098-4C6B-BFC5-F4394D27BDC5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed piano speech 3" ID="{A2659FF7-CF78-499B-8B91-46B53B83DFC9}" ShortID="865774156">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed piano speech 3" ID="{BD5727BD-B28D-41F0-B080-9E076088F4F6}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.28271186440678"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.28271186440678"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fixed piano speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="598192894"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed piano speech 3" ID="{BD5727BD-B28D-41F0-B080-9E076088F4F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed piano speech 4" ID="{8D5AD77D-00CA-406D-ACE0-941A3935E64B}" ShortID="1047796456">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed piano speech 4" ID="{D1D0775E-7B09-4744-BEBA-2F3709FA6D9E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.128507532956686"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.128507532956686"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Fixed piano speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1023358941"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed piano speech 4" ID="{D1D0775E-7B09-4744-BEBA-2F3709FA6D9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Fixed Piano" ID="{1C6CED9D-4437-4709-9B72-D3F2579D2564}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Broken Piano" ID="{4AA4E2C3-B8FD-40B1-A50F-84CE2E383997}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="BrokenPiano" ID="{78054809-E325-415F-A34D-71E13FE1C705}"/>
+												<ItemList>
+													<ItemRef Name="Broken Piano" ID="{4AA4E2C3-B8FD-40B1-A50F-84CE2E383997}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="FixedPiano" ID="{F8C4D720-F648-4685-8CCF-4B49DB5F3DF9}"/>
+												<ItemList>
+													<ItemRef Name="Fixed Piano" ID="{1C6CED9D-4437-4709-9B72-D3F2579D2564}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Guitar NPC" ID="{295D49D0-0A7E-4FDB-8473-2853FB0F7D2D}" ShortID="894799279">
+							<ChildrenList>
+								<SwitchContainer Name="NPC Speech" ID="{1E546897-03C5-48C4-BB71-60E5518DE101}" ShortID="547991711">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Broken" ID="{9CCBA8BD-A18C-41E0-AE20-307B4238468B}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="GuitarNPC" ID="{56AD8B75-2E0A-436D-AE2F-544204BD0C14}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Broken speech" ID="{7388B1E2-F1F9-45C2-8B05-853E0E917566}" ShortID="466920506">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Broken guitar speech 1" ID="{E7894825-EA06-47EC-9C53-3F37D1332A59}" ShortID="889204320">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken guitar speech 1" ID="{4175D3CC-CDE7-482F-A127-FAE56E77090B}">
+															<Language>SFX</Language>
+															<AudioFile>Broken guitar speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="17993006"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken guitar speech 1" ID="{4175D3CC-CDE7-482F-A127-FAE56E77090B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken guitar speech 2" ID="{C1ACA2D4-BEDC-404B-8FE7-0CEC81CFA69B}" ShortID="157431469">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken guitar speech 2" ID="{3F16A1DD-2A4D-4735-A9ED-A25BFA7DA845}">
+															<Language>SFX</Language>
+															<AudioFile>Broken guitar speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="275845767"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken guitar speech 2" ID="{3F16A1DD-2A4D-4735-A9ED-A25BFA7DA845}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken guitar speech 3" ID="{E6A984B7-8787-4B9B-892A-DA45B1966E46}" ShortID="895588299">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken guitar speech 3" ID="{72870947-ECC7-4DF0-AC2B-8EDFEEEFB414}">
+															<Language>SFX</Language>
+															<AudioFile>Broken guitar speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="507335605"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken guitar speech 3" ID="{72870947-ECC7-4DF0-AC2B-8EDFEEEFB414}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken guitar speech 4" ID="{2D6FC103-8660-4548-B94B-5108ADB8B362}" ShortID="1010212043">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken guitar speech 4" ID="{7BED82E8-EDF5-48ED-8A70-3A2D74BBE4F5}">
+															<Language>SFX</Language>
+															<AudioFile>Broken guitar speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="394326210"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken guitar speech 4" ID="{7BED82E8-EDF5-48ED-8A70-3A2D74BBE4F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken guitar speech 5" ID="{A6361380-C169-4E70-A49D-6AB617EE5BA4}" ShortID="522069101">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken guitar speech 5" ID="{037D447F-E075-47B2-AE5A-E232EE76D69F}">
+															<Language>SFX</Language>
+															<AudioFile>Broken guitar speech 5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="480125180"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken guitar speech 5" ID="{037D447F-E075-47B2-AE5A-E232EE76D69F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fixed Speech" ID="{92E3F1D7-E49A-4F27-8CEA-BCE4E9380845}" ShortID="609815921">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Fixed guitar speech 1" ID="{C22D01F3-46C1-40D1-9741-949496FFA8E4}" ShortID="123392397">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed guitar speech 1" ID="{A2338AF5-B92A-42C0-99E2-A06A8E5D69BC}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed guitar speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="569985905"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed guitar speech 1" ID="{A2338AF5-B92A-42C0-99E2-A06A8E5D69BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed guitar speech 2" ID="{A18660D2-9040-4E93-84E9-6E1B044E566D}" ShortID="384979258">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed guitar speech 2" ID="{972E81AE-CE3A-42AF-9478-88E3069299E9}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed guitar speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="346971411"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed guitar speech 2" ID="{972E81AE-CE3A-42AF-9478-88E3069299E9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed guitar speech 3" ID="{56D15F1A-EDDB-4465-A55E-8931EB4836B7}" ShortID="495989500">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed guitar speech 3" ID="{314F084F-87B5-49D8-A98F-F2B11816B7CA}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed guitar speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="232905430"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed guitar speech 3" ID="{314F084F-87B5-49D8-A98F-F2B11816B7CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed guitar speech 4" ID="{5ECF6744-4259-44F7-B4AF-9094324C254A}" ShortID="882304846">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed guitar speech 4" ID="{1717937F-67DB-4A94-BF61-D8B144F283A0}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed guitar speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="19216402"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed guitar speech 4" ID="{1717937F-67DB-4A94-BF61-D8B144F283A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Fixed Speech" ID="{92E3F1D7-E49A-4F27-8CEA-BCE4E9380845}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Broken speech" ID="{7388B1E2-F1F9-45C2-8B05-853E0E917566}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Fixed" ID="{5126CE5F-3153-4F33-AD8A-66AA81C594ED}"/>
+												<ItemList>
+													<ItemRef Name="Fixed Speech" ID="{92E3F1D7-E49A-4F27-8CEA-BCE4E9380845}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Broken" ID="{9CCBA8BD-A18C-41E0-AE20-307B4238468B}"/>
+												<ItemList>
+													<ItemRef Name="Broken speech" ID="{7388B1E2-F1F9-45C2-8B05-853E0E917566}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="BongosNPC" ID="{8F21346E-BC83-4F17-8F38-E27E2002F3BE}" ShortID="894477542">
+							<ChildrenList>
+								<SwitchContainer Name="Bongos NPC" ID="{869568B6-D7CC-4BB0-9DD0-9607250B6D47}" ShortID="29953095">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="BongosNPC" ID="{B9782A97-1B9E-4CE6-8ED3-D57B1775951E}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}" ShortID="347865598">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Broken Bongos Speech 1" ID="{38805B16-121C-4FA1-95AF-6995547D5921}" ShortID="802613477">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 1" ID="{EDF95B81-5451-4EC8-B030-CC9B95E2A469}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="711612400"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 1" ID="{EDF95B81-5451-4EC8-B030-CC9B95E2A469}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken Bongos Speech 2" ID="{6A351028-893B-4BD7-99A7-A7B36A36ABE8}" ShortID="704171352">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 2" ID="{6CE0998E-B1F4-4906-9B55-4DA73CD7C417}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="570364994"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 2" ID="{6CE0998E-B1F4-4906-9B55-4DA73CD7C417}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken Bongos Speech 3" ID="{2ACC8F1A-F493-46E0-B7B3-B6CF4027ED72}" ShortID="132219651">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 3" ID="{95949C05-C6B0-46D9-A143-ADC5980D3F32}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="61030889"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 3" ID="{95949C05-C6B0-46D9-A143-ADC5980D3F32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Broken Bongos Speech 4" ID="{679DFB86-77B0-44E1-B370-5C88A55F2955}" ShortID="769457403">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Broken Bongos Speech 4" ID="{51FA7FAB-A8D4-47B7-BD92-C058E06D1BB7}">
+															<Language>SFX</Language>
+															<AudioFile>Broken Bongos Speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="547375393"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Broken Bongos Speech 4" ID="{51FA7FAB-A8D4-47B7-BD92-C058E06D1BB7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}" ShortID="34802214">
+											<PropertyList>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Fixed Bongos Speech 1" ID="{A3B318BA-E596-4EC6-ABDF-9C86FBDFCE63}" ShortID="444735991">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 1" ID="{96726FB6-17DF-4072-AEC8-26A517D8970F}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="145337992"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 1" ID="{96726FB6-17DF-4072-AEC8-26A517D8970F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed Bongos Speech 2" ID="{97D51BC0-BF87-4FD0-8149-CCA473EAA596}" ShortID="828677087">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 2" ID="{89E8F014-1949-45B4-986C-7DDEB08C2181}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="96922013"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 2" ID="{89E8F014-1949-45B4-986C-7DDEB08C2181}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed Bongos Speech 3" ID="{6C8C88E5-46DE-4F04-95E8-0B17AFA6F6B3}" ShortID="421666244">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 3" ID="{59A485DC-B8FB-401D-AB5E-7CFD6DB1997F}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="982168347"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 3" ID="{59A485DC-B8FB-401D-AB5E-7CFD6DB1997F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Fixed Bongos Speech 4" ID="{140D7C5B-4E3A-4723-8DD1-1C5704EAED22}" ShortID="1067828536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Fixed Bongos Speech 4" ID="{FB4015DA-2DD9-4DB6-B4D2-C1D6E9A16DA7}">
+															<Language>SFX</Language>
+															<AudioFile>Fixed Bongos Speech 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="283822291"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Fixed Bongos Speech 4" ID="{FB4015DA-2DD9-4DB6-B4D2-C1D6E9A16DA7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
+												<ItemList>
+													<ItemRef Name="Bongos Fixed" ID="{41DFCF2F-8154-4C9C-B37E-FE85E128FE5E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="BrokenBongos" ID="{0E77BAFB-D26A-45D0-90C4-8BDE26D86B85}"/>
+												<ItemList>
+													<ItemRef Name="Bongos Broken" ID="{BF6ACAB5-1674-4133-A687-4F64B8C06FFA}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music floor 2" ID="{D33B3F14-5503-4C25-953A-1693050666D9}" ShortID="564252457">
+					<ChildrenList>
+						<Folder Name="Second Floor music" ID="{02D3CC52-EA5B-4FCA-804A-24D89546B5EF}" ShortID="630615369">
+							<ChildrenList>
+								<BlendContainer Name="Second Floor music" ID="{CF055BF6-AF7D-4821-8A1D-CA119E908F44}" ShortID="252576165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Second floor lost library Gabriele Liotta" ID="{165B13FD-E93B-4A51-85FF-8E3EA0373FE7}" ShortID="13207029">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Second floor lost library Gabriele Liotta" ID="{20DE29A7-6894-4EE4-9E8F-30EA11EA5E00}">
+													<PropertyList>
+														<Property Name="LoopEnd" Type="Real64" Value="149.680059991692"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Second floor lost library Gabriele Liotta.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981396761"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Second floor lost library Gabriele Liotta" ID="{20DE29A7-6894-4EE4-9E8F-30EA11EA5E00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Second floor music with tension" ID="{AE72CDEE-DB3D-451D-B8C4-B38128D187FB}" ShortID="574239507">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Second floor music with tension" ID="{87F9D052-3C57-48B5-AEEB-C41F3D0679DC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0922357156657404"/>
+														<Property Name="LoopEnd" Type="Real64" Value="149.68006"/>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Second floor music with tension.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587689137"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Second floor music with tension" ID="{87F9D052-3C57-48B5-AEEB-C41F3D0679DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Floor2MusicBlend" ID="{C5DD2964-7F5E-4040-BCB8-48C4505F7F67}" ShortID="472873755"/>
+									</BlendTrackList>
+								</BlendContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Study Time" ID="{563E1B1B-E66C-45B7-A136-58C86C50AEF4}" ShortID="162372964">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.930773705642814"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Study Time.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="893217437"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Study Time" ID="{B35C102B-5429-4C77-B954-F7849FF4168A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Music floor 3" ID="{0069BD5C-2A6A-4352-8AD2-3F9FCEE48397}" ShortID="458969481">
+					<ChildrenList>
+						<Sound Name="Third floor lost library music percussive" ID="{7A7AE108-E26C-4215-AAFE-63DDFEEB6CF5}" ShortID="174353871">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Third floor lost library music percussive" ID="{33A33665-4B45-4CE0-BEC8-89BDA8828E53}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Third floor lost library music percussive.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="775882307"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Third floor lost library music percussive" ID="{33A33665-4B45-4CE0-BEC8-89BDA8828E53}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player jump and land" ID="{CE581F80-E690-4684-A836-4A5EAD6418B0}" ShortID="887029409">
+					<ChildrenList>
+						<Sound Name="Land" ID="{1A0195BC-2341-40A6-BB53-3DB93FB34609}" ShortID="584438430">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{45CCF452-CBFF-4796-9EC9-FD55F9471F8D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="354"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Land" ID="{6092BD43-0061-4F84-9D2C-128A47370F88}">
+									<Language>SFX</Language>
+									<AudioFile>Land.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="561592676"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Land" ID="{6092BD43-0061-4F84-9D2C-128A47370F88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="LandMaterial" ID="{80FC10FB-6E8B-43A0-A78F-327BE9590261}" ShortID="513058417">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Wood" ID="{8E26A81C-82DF-44B1-B344-8A6B77181D41}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="FootstepLand" ID="{CAE5F20B-C3CA-4CDF-8E99-06461C1BD517}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="WoodLand" ID="{C256F038-DF7B-49FC-BD99-71CAC31080F2}" ShortID="1037709080">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wood step land 1" ID="{EC70A862-8E67-4D84-AD60-BF89C5488E54}" ShortID="949958637">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood step land 1" ID="{4EB0AC69-F6AE-4EF5-B405-6F6357BA59B2}">
+													<Language>SFX</Language>
+													<AudioFile>Wood step land 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="704244582"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood step land 1" ID="{4EB0AC69-F6AE-4EF5-B405-6F6357BA59B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood step land 2" ID="{6393D835-3588-4B2C-86ED-13266BE59B89}" ShortID="815662287">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood step land 2" ID="{8A579BF6-70EE-4988-9A61-2B3AE6D0AA91}">
+													<Language>SFX</Language>
+													<AudioFile>Wood step land 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="209123838"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood step land 2" ID="{8A579BF6-70EE-4988-9A61-2B3AE6D0AA91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood step land 3" ID="{90AFE7D2-892E-4FD9-9D95-DB02DFCDB938}" ShortID="945957659">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wood step land 3" ID="{C1EBAB59-441A-41D4-AFD1-EF973FF6FD9A}">
+													<Language>SFX</Language>
+													<AudioFile>Wood step land 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338436561"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wood step land 3" ID="{C1EBAB59-441A-41D4-AFD1-EF973FF6FD9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RugLand" ID="{2CBABF2F-C841-4795-9797-23AE9000D1C5}" ShortID="336654967">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="RestartBeginningOrBackward" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Rug step land" ID="{7136E6E7-F17E-4CDC-9081-BD3BE4C6EFF4}" ShortID="745965701">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rug step land" ID="{B1B407D4-A6DC-4C2A-A0B2-A7016AA54A3C}">
+													<Language>SFX</Language>
+													<AudioFile>Rug step land.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604379748"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rug step land" ID="{B1B407D4-A6DC-4C2A-A0B2-A7016AA54A3C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rug step land 2" ID="{CF6E1210-9359-4122-BC53-D84F06AF55F7}" ShortID="503534924">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rug step land 2" ID="{CB0256B3-0162-4D97-B4B3-F2665E8E0879}">
+													<Language>SFX</Language>
+													<AudioFile>Rug step land 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="263325686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rug step land 2" ID="{CB0256B3-0162-4D97-B4B3-F2665E8E0879}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rug step land 3" ID="{4B225674-9A2B-48FC-850A-F6C6B3FDAC51}" ShortID="630407665">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rug step land 3" ID="{05927DB5-C01B-4DF5-8D89-4932929C1D95}">
+													<Language>SFX</Language>
+													<AudioFile>Rug step land 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="793684957"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rug step land 3" ID="{05927DB5-C01B-4DF5-8D89-4932929C1D95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="RugLand" ID="{2CBABF2F-C841-4795-9797-23AE9000D1C5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="WoodLand" ID="{C256F038-DF7B-49FC-BD99-71CAC31080F2}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{8E26A81C-82DF-44B1-B344-8A6B77181D41}"/>
+										<ItemList>
+											<ItemRef Name="WoodLand" ID="{C256F038-DF7B-49FC-BD99-71CAC31080F2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Rug" ID="{BB23C33A-6F11-4FC9-BDA1-0558B3BD420F}"/>
+										<ItemList>
+											<ItemRef Name="RugLand" ID="{2CBABF2F-C841-4795-9797-23AE9000D1C5}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="PlayerJump" ID="{0E638425-DC81-44F4-9FDA-3766749CF59D}" ShortID="460857476">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Default" ID="{34B11013-0758-465D-BC90-55B5F95AF2E2}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Jump" ID="{5F68761A-0ED2-477C-8F78-DD732F3713B6}" WorkUnitID="{030EE8A4-1EFC-4389-A19C-9F524F8D7C6C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Jump" ID="{0A9FA2F3-8DD5-46F0-8A6D-184A919B60E4}" ShortID="986124077">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BE13D0E3-8B37-4350-A223-7D934BFE9EDF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="277"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump" ID="{2F571626-03E8-417E-B001-9370B89112A9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.270926050127928"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.310381300146558"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.954817050450852"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Jump.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945113159"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump" ID="{2F571626-03E8-417E-B001-9370B89112A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="BigBongos" ID="{50241C2C-904D-45A6-ADEE-3C3D9EEEFAD1}" ShortID="707652632">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Big bongo (jump)-001" ID="{F6FD9149-0EB9-418C-94AE-48276AA27B8B}" ShortID="167541254">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-001" ID="{7F417FEF-1D2F-46AC-B8EE-BB54AD69DD3B}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59120885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-001" ID="{7F417FEF-1D2F-46AC-B8EE-BB54AD69DD3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-002" ID="{6139BD04-A060-447D-818F-11E10B023623}" ShortID="277713576">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-002" ID="{A4036F98-BE37-45FD-B2C0-BCD601488654}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="534580837"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-002" ID="{A4036F98-BE37-45FD-B2C0-BCD601488654}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-003" ID="{B3F0BCB4-0A2D-4972-8064-2182E7EA318A}" ShortID="395104667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-003" ID="{9EE516DB-93AA-4398-B9DA-8BAE8D55511B}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338168226"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-003" ID="{9EE516DB-93AA-4398-B9DA-8BAE8D55511B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-004" ID="{D00B78E1-EE39-43C5-9C71-25C83CB2A902}" ShortID="1016824737">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-004" ID="{089D5326-4291-4F91-AF46-77C766279BD9}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="438727143"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-004" ID="{089D5326-4291-4F91-AF46-77C766279BD9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-005" ID="{D2325536-22A3-43B0-9F56-721E0B2DD0F1}" ShortID="748186586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-005" ID="{5A1F9A5C-BF66-44D5-9ABD-BAEB58F5DF8D}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="407330534"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-005" ID="{5A1F9A5C-BF66-44D5-9ABD-BAEB58F5DF8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big bongo (jump)-006" ID="{74C55D2A-EF23-4DAF-BABA-73DF56B8DBED}" ShortID="720943099">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big bongo (jump)-006" ID="{BC76FB7B-9409-4C88-B770-04433ED3CD48}">
+													<Language>SFX</Language>
+													<AudioFile>Big bongo (jump)-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1055630175"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Big bongo (jump)-006" ID="{BC76FB7B-9409-4C88-B770-04433ED3CD48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="BigBongos" ID="{50241C2C-904D-45A6-ADEE-3C3D9EEEFAD1}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Jump" ID="{0A9FA2F3-8DD5-46F0-8A6D-184A919B60E4}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Default" ID="{34B11013-0758-465D-BC90-55B5F95AF2E2}"/>
+										<ItemList>
+											<ItemRef Name="Jump" ID="{0A9FA2F3-8DD5-46F0-8A6D-184A919B60E4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="BongoJump" ID="{6160B0DD-8BA6-4C9B-93D4-403DCFD6B812}"/>
+										<ItemList>
+											<ItemRef Name="BigBongos" ID="{50241C2C-904D-45A6-ADEE-3C3D9EEEFAD1}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Sound Name="Tambourine" ID="{3578E49F-85FC-468F-8DE8-9644206C22E7}" ShortID="469074220">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4BE2A5A2-43C7-4DC0-9181-C974404E18DC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tambourine" ID="{4E911701-E42C-4ED2-874E-1FDAA31E5DBB}">
+									<Language>SFX</Language>
+									<AudioFile>Tambourine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="348127573"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tambourine" ID="{4E911701-E42C-4ED2-874E-1FDAA31E5DBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Floor 2 SFX" ID="{112F9227-B497-4785-967D-F25590A3BD81}" ShortID="769879824">
+					<ChildrenList>
+						<Sound Name="Hammer swing-001" ID="{491FFB85-5671-4DFA-BC31-42AEFD0F40A1}" ShortID="969726107">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hammer swing-001" ID="{1851A79A-003B-43EF-9DAD-63E8D5ECD978}">
+									<Language>SFX</Language>
+									<AudioFile>Hammer swing-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="815226664"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hammer swing-001" ID="{1851A79A-003B-43EF-9DAD-63E8D5ECD978}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Hammer swing-002" ID="{9524597A-6E3D-493C-8DBD-3458AF60746E}" ShortID="215507912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hammer swing-002" ID="{5CE9EE60-5F96-456C-8B5D-965BEDD23D93}">
+									<Language>SFX</Language>
+									<AudioFile>Hammer swing-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="917867736"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hammer swing-002" ID="{5CE9EE60-5F96-456C-8B5D-965BEDD23D93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Hammer hit" ID="{3078936D-B0EC-40CB-8CFD-DD26761E260E}" ShortID="776955100">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hammer hit-001" ID="{079C08AA-C8CB-42FE-BDF9-DEB793F8BA01}" ShortID="963105261">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-001" ID="{3CFB8642-A098-42D6-B7A3-07645568C8C8}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="323200315"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-001" ID="{3CFB8642-A098-42D6-B7A3-07645568C8C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-002" ID="{95287C69-DDFE-4D04-9093-9CB8B46B9541}" ShortID="715348842">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-002" ID="{FEF1A915-D022-4683-8401-5642C77A22D0}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="872469119"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-002" ID="{FEF1A915-D022-4683-8401-5642C77A22D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-003" ID="{FE4BCC98-B5A5-4E09-8B2E-568D411C2941}" ShortID="731285555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-003" ID="{ECAD3DAB-21F0-4747-8EB0-CA000C636EEB}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="386925507"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-003" ID="{ECAD3DAB-21F0-4747-8EB0-CA000C636EEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-004" ID="{371B2EFA-313D-4A4F-A8DD-BEE0664C4293}" ShortID="965691406">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-004" ID="{68DB4F86-5419-4C0D-B44B-D4B7C56D654C}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="859696586"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-004" ID="{68DB4F86-5419-4C0D-B44B-D4B7C56D654C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hammer hit-005" ID="{E96D9A11-7C21-4BB8-8395-EAE5A1BB1148}" ShortID="178577974">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hammer hit-005" ID="{B5009E64-F1F8-4564-9CFF-8D2DEC220268}">
+											<Language>SFX</Language>
+											<AudioFile>Hammer hit-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="346544328"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hammer hit-005" ID="{B5009E64-F1F8-4564-9CFF-8D2DEC220268}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Unknown Floor SFX" ID="{32C6E65A-4888-4828-9409-D9D4B9ED922D}" ShortID="289948343">
+					<ChildrenList>
+						<Sound Name="Wind sfx" ID="{550A8A0E-85CD-45C2-989E-15B5E2A2B7A4}" ShortID="447006470">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1145E8CE-01AA-4FB2-B8C1-736AE2C63AFB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind sfx" ID="{716D0498-0C58-40E9-AA06-6D64E387255D}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1056.383"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.74398175989309"/>
+										<Property Name="LoopEnd" Type="Real64" Value="7.19980535164609"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Wind sfx.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="3677152"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind sfx" ID="{716D0498-0C58-40E9-AA06-6D64E387255D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

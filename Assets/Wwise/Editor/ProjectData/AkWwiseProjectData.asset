@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c079418a731b39489fe1e514944efc72
     GuidInternal: 
-    m_lastTime: -8584827575274034593
+    m_lastTime: -8584809555006115047
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cee84511aa01b24fb8c1736ae2c63afb
     GuidInternal: 
-    m_lastTime: -8584827575300972369
+    m_lastTime: -8584809555008871363
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 26f417b6c771d5468b4d61ea6993ad70
     GuidInternal: 
-    m_lastTime: -8584797384503494144
+    m_lastTime: -8584797425280704464
     List:
     - name: Main
       guid: 35b19d0e1e676e42baa6268914ad106f
@@ -82,6 +82,34 @@ MonoBehaviour:
         ObjectType: 7
         guid: 35b19d0e1e676e42baa6268914ad106f
       Path: SoundBanks\Default Work Unit\Main
+    - name: Music
+      guid: 3ae165bb56fc1a4b8b038015c704fab9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26f417b6c771d5468b4d61ea6993ad70
+      - ElementName: Music
+        ObjectType: 7
+        guid: 3ae165bb56fc1a4b8b038015c704fab9
+      Path: SoundBanks\Default Work Unit\Music
+    - name: SFX
+      guid: 97c3906e223a714f9ef82f916bd1319c
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 26f417b6c771d5468b4d61ea6993ad70
+      - ElementName: SFX
+        ObjectType: 7
+        guid: 97c3906e223a714f9ef82f916bd1319c
+      Path: SoundBanks\Default Work Unit\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 005a226e7bc8b7429cf2dae646e3b3f2
     GuidInternal: 
-    m_lastTime: -8584797384530867308
+    m_lastTime: -8584797425299256727
     List:
     - name: Block
       guid: c33612521d14a0439f73db90afaaa1e1
@@ -113,6 +141,198 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Floor 1 Guitar NPC
+      guid: 6273a7c415847846a80df464b4257ed7
+      id: 2573779347
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      - ElementName: Floor 1 Guitar NPC
+        ObjectType: 4
+        guid: 6273a7c415847846a80df464b4257ed7
+      Path: Events\Default Work Unit\NPCs\Floor 1 Guitar NPC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor 2 Piano NPC
+      guid: 1bff79ca6a8bcd40be638b2bde3656d8
+      id: 2266125909
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      - ElementName: Floor 2 Piano NPC
+        ObjectType: 4
+        guid: 1bff79ca6a8bcd40be638b2bde3656d8
+      Path: Events\Default Work Unit\NPCs\Floor 2 Piano NPC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor 3 Bongos NPC
+      guid: 3ac273968a48bc44b6d17bbf867e36d9
+      id: 3535735257
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      - ElementName: Floor 3 Bongos NPC
+        ObjectType: 4
+        guid: 3ac273968a48bc44b6d17bbf867e36d9
+      Path: Events\Default Work Unit\NPCs\Floor 3 Bongos NPC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor 3 Music
+      guid: 3b6a406523b7a646bec0e06ce8035701
+      id: 2335891155
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor 3 Music
+        ObjectType: 4
+        guid: 3b6a406523b7a646bec0e06ce8035701
+      Path: Events\Default Work Unit\Music events\Floor 3 Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2Music
+      guid: 644b1a6a985e6b458e9f5179c7487930
+      id: 3178620922
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      Path: Events\Default Work Unit\Music events\Floor2Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2musicplay
+      guid: 99cbaed46e5f724ba2fd3861c4239739
+      id: 628670496
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2musicplay
+        ObjectType: 3
+        guid: 99cbaed46e5f724ba2fd3861c4239739
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2musicplay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2musicStop
+      guid: 6e8c838ba877374db152660cb1f8722f
+      id: 3266896802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2musicStop
+        ObjectType: 3
+        guid: 6e8c838ba877374db152660cb1f8722f
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2musicStop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Floor2MusicTransitionPlay
+      guid: b1dc76274247fd4c99273aed57c386f6
+      id: 343141985
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2MusicTransitionPlay
+        ObjectType: 3
+        guid: b1dc76274247fd4c99273aed57c386f6
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2MusicTransitionPlay
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Floor2MusicTransitionStop
+      guid: a1c6787d741c8246b0969a1fdf7fb96c
+      id: 2704781623
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor2Music
+        ObjectType: 4
+        guid: 644b1a6a985e6b458e9f5179c7487930
+      - ElementName: Floor2MusicTransitionStop
+        ObjectType: 3
+        guid: a1c6787d741c8246b0969a1fdf7fb96c
+      Path: Events\Default Work Unit\Music events\Floor2Music\Floor2MusicTransitionStop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Harmony Wheel
       guid: 7ba56dcc771cb74090c0875765f43885
       id: 454979760
@@ -157,10 +377,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
       - ElementName: Level1MusicPlay
         ObjectType: 3
         guid: 81a70c641227ce4395d3c6d02718b3d0
-      Path: Events\Default Work Unit\Level1MusicPlay
+      Path: Events\Default Work Unit\Music events\Level1MusicPlay
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -174,13 +397,73 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
       - ElementName: Level1MusicStop
         ObjectType: 3
         guid: 27afba34b712da468d68bfe392c7d2a6
-      Path: Events\Default Work Unit\Level1MusicStop
+      Path: Events\Default Work Unit\Music events\Level1MusicStop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Music events
+      guid: a6cb1c759549d04ea79b358e05f30cf6
+      id: 3264800193
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      Path: Events\Default Work Unit\Music events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: NPCs
+      guid: 052d90daa823c34c86a675c8a93d3e7f
+      id: 833916109
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      Path: Events\Default Work Unit\NPCs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BongosNPC
+      guid: d3da1d4fe91a7e40b721765870d9319b
+      id: 2903004101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      - ElementName: Floor 3 Bongos NPC
+        ObjectType: 4
+        guid: 3ac273968a48bc44b6d17bbf867e36d9
+      - ElementName: Play_BongosNPC
+        ObjectType: 3
+        guid: d3da1d4fe91a7e40b721765870d9319b
+      Path: Events\Default Work Unit\NPCs\Floor 3 Bongos NPC\Play_BongosNPC
+      maxAttenuation: 0
+      maxDuration: 2.6436667
+      minDuration: 0.9375
     - name: Play_Collect_Scroll_Jingle
       guid: e5be5cc1a5146941ac4c1647d998a6df
       id: 407578916
@@ -235,6 +518,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.65401363
       minDuration: 0.65401363
+    - name: Play_GuitarNpcSpeech
+      guid: 6332b1300b12fb43907d8132e7b9a49f
+      id: 2474156387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      - ElementName: Floor 1 Guitar NPC
+        ObjectType: 4
+        guid: 6273a7c415847846a80df464b4257ed7
+      - ElementName: Play_GuitarNpcSpeech
+        ObjectType: 3
+        guid: 6332b1300b12fb43907d8132e7b9a49f
+      Path: Events\Default Work Unit\NPCs\Floor 1 Guitar NPC\Play_GuitarNpcSpeech
+      maxAttenuation: 0
+      maxDuration: 5.125
+      minDuration: 2.9993541
     - name: Play_HarmonyWheel_A
       guid: 9406b3289fafee469aa4547cf6b03997
       id: 860510141
@@ -686,6 +992,29 @@ MonoBehaviour:
       maxAttenuation: 16
       maxDuration: -1
       minDuration: -1
+    - name: Play_PianoNpcSpeech
+      guid: 053fc0f05897774daaa047afbbd308e2
+      id: 2315618172
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: NPCs
+        ObjectType: 4
+        guid: 052d90daa823c34c86a675c8a93d3e7f
+      - ElementName: Floor 2 Piano NPC
+        ObjectType: 4
+        guid: 1bff79ca6a8bcd40be638b2bde3656d8
+      - ElementName: Play_PianoNpcSpeech
+        ObjectType: 3
+        guid: 053fc0f05897774daaa047afbbd308e2
+      Path: Events\Default Work Unit\NPCs\Floor 2 Piano NPC\Play_PianoNpcSpeech
+      maxAttenuation: 0
+      maxDuration: 4.7439737
+      minDuration: 1.712
     - name: Play_String_Note_A
       guid: 6cc83967cd6d22419fd041c3797404ef
       id: 2668293568
@@ -900,6 +1229,29 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5c988b673d63b44196ebb18bc9634f7f
       Path: Events\Default Work Unit\Play_Study_Time
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayFloor3Music
+      guid: e389b435d4af2a40998b136b991e8c39
+      id: 4225751467
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor 3 Music
+        ObjectType: 4
+        guid: 3b6a406523b7a646bec0e06ce8035701
+      - ElementName: PlayFloor3Music
+        ObjectType: 3
+        guid: e389b435d4af2a40998b136b991e8c39
+      Path: Events\Default Work Unit\Music events\Floor 3 Music\PlayFloor3Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1197,6 +1549,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stopfloor3Music
+      guid: 84e6ad019b17d34f8210a8bf152d8a0c
+      id: 101287625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 005a226e7bc8b7429cf2dae646e3b3f2
+      - ElementName: Music events
+        ObjectType: 4
+        guid: a6cb1c759549d04ea79b358e05f30cf6
+      - ElementName: Floor 3 Music
+        ObjectType: 4
+        guid: 3b6a406523b7a646bec0e06ce8035701
+      - ElementName: Stopfloor3Music
+        ObjectType: 3
+        guid: 84e6ad019b17d34f8210a8bf152d8a0c
+      Path: Events\Default Work Unit\Music events\Floor 3 Music\Stopfloor3Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: String Notes
       guid: d4b4b533b5d7e04ca6f27e2ed327464c
       id: 92711785
@@ -1226,7 +1601,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 704e823ed1b4ba4980acac3635381b3b
     GuidInternal: 
-    m_lastTime: -8584827575301803057
+    m_lastTime: -8584809555011968931
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -1240,7 +1615,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 498df801d36d9b489e9a76cd04bcab91
     GuidInternal: 
-    m_lastTime: -8584827575274084630
+    m_lastTime: -8584809555006130064
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1254,8 +1629,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a4e80e03fc1e8943a19c9f524f8d7c6c
     GuidInternal: 
-    m_lastTime: -8584797384503394135
+    m_lastTime: -8584797425280684774
     List:
+    - name: BongosNPC
+      guid: 972a78b99e1be64c8ed3d57b1775951e
+      id: 3768657756
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+      - ElementName: BongosNPC
+        ObjectType: 11
+        guid: 972a78b99e1be64c8ed3d57b1775951e
+      Path: Switches\Default Work Unit\BongosNPC
+      values:
+      - name: BrokenBongos
+        guid: fbba770e6ad2d04590c48bde26d86b85
+        id: 1414450584
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: BongosNPC
+          ObjectType: 11
+          guid: 972a78b99e1be64c8ed3d57b1775951e
+        - ElementName: BrokenBongos
+          ObjectType: 10
+          guid: fbba770e6ad2d04590c48bde26d86b85
+      - name: FixedBongos
+        guid: abc982ff846d1541a59beee7f7b4c68f
+        id: 1894708087
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: BongosNPC
+          ObjectType: 11
+          guid: 972a78b99e1be64c8ed3d57b1775951e
+        - ElementName: FixedBongos
+          ObjectType: 10
+          guid: abc982ff846d1541a59beee7f7b4c68f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: FootSteps
       guid: 0f2047bd8955f3409a5a2bc29216707d
       id: 2385628198
@@ -1306,6 +1731,106 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: GuitarNPC
+      guid: 758bad560a2e6d43ae2f544204bd0c14
+      id: 438036876
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+      - ElementName: GuitarNPC
+        ObjectType: 11
+        guid: 758bad560a2e6d43ae2f544204bd0c14
+      Path: Switches\Default Work Unit\GuitarNPC
+      values:
+      - name: Broken
+        guid: bda8cb9c8ca1e041ae20307b4238468b
+        id: 231230354
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: GuitarNPC
+          ObjectType: 11
+          guid: 758bad560a2e6d43ae2f544204bd0c14
+        - ElementName: Broken
+          ObjectType: 10
+          guid: bda8cb9c8ca1e041ae20307b4238468b
+      - name: Fixed
+        guid: 5fce26515331334fad8a66aa81c594ed
+        id: 698073849
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: GuitarNPC
+          ObjectType: 11
+          guid: 758bad560a2e6d43ae2f544204bd0c14
+        - ElementName: Fixed
+          ObjectType: 10
+          guid: 5fce26515331334fad8a66aa81c594ed
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PianoNPC
+      guid: 9dc71cd50a7b2641a048808e0acc25d7
+      id: 653617121
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+      - ElementName: PianoNPC
+        ObjectType: 11
+        guid: 9dc71cd50a7b2641a048808e0acc25d7
+      Path: Switches\Default Work Unit\PianoNPC
+      values:
+      - name: BrokenPiano
+        guid: 0948057825e35f41a34d71e13fe1c705
+        id: 2630838981
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: PianoNPC
+          ObjectType: 11
+          guid: 9dc71cd50a7b2641a048808e0acc25d7
+        - ElementName: BrokenPiano
+          ObjectType: 10
+          guid: 0948057825e35f41a34d71e13fe1c705
+      - name: FixedPiano
+        guid: 20d7c4f848f685468ccf4b49db5f3df9
+        id: 1939185584
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4e80e03fc1e8943a19c9f524f8d7c6c
+        - ElementName: PianoNPC
+          ObjectType: 11
+          guid: 9dc71cd50a7b2641a048808e0acc25d7
+        - ElementName: FixedPiano
+          ObjectType: 10
+          guid: 20d7c4f848f685468ccf4b49db5f3df9
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -1318,11 +1843,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: b5504e8d964675429cae06d354607df5
     GuidInternal: 
-    m_lastTime: -8584827575274054617
+    m_lastTime: -8584809555006115047
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 5e0000005f000000
+  ExpandedWaapiItemIds: 18000000190000005e0000005f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
