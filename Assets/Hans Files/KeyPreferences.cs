@@ -10,7 +10,7 @@ public class KeyPreferences : MonoBehaviour
 {
     [SerializeField]
     private string KeyBindName;
-    public TextMeshProUGUI buttonText;
+    private TextMeshProUGUI buttonText;
     public PlayerKeybinds _playerKeybinds = new PlayerKeybinds();
     string filePath;
 

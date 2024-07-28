@@ -8,12 +8,15 @@ public class SaveData : MonoBehaviour
 {
     public LevelInfo levelInfo = new LevelInfo();
     public GameObject player;
-
-    private KeyPreferences keyPreferences;
-    public KeyPreferences keyInput;
     private void Awake() 
     {
-        player = GameObject.FindWithTag("Player");
+        try{
+            player = GameObject.FindWithTag("Player");
+        }
+        catch
+        {
+            Debug.Log("Could find player object - Make sure the player object has the Player Tag");
+        }
         LoadFromJson();
         Debug.Log("Start Load Executed Succesfully");
     }
@@ -77,16 +80,20 @@ public class SaveData : MonoBehaviour
         levelInfo.lastLoadedScene = scene.name;
 
         //Grab the Transform of the player and give it to levelInfo
+        Transform playerTransform = null;
         try 
         {
-            Transform playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
-            levelInfo.playerTransform = playerTransform;
+            playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
         }
         catch(Exception ex)
         {
             Debug.Log(ex.ToString());
         }
-        
+
+        if(playerTransform != null)
+        {
+            levelInfo.playerTransform = playerTransform;
+        }        
         //Grab all NPC tagged objects in the scene
         GameObject[] npcObjects = GameObject.FindGameObjectsWithTag ("NPC");
         dialogueInfos = levelInfo.dialogueInformations;
