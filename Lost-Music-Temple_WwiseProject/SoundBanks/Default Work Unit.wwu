@@ -39,6 +39,7 @@
 						<ObjectRef Name="Play_Gate_Open" ID="{B00B6101-DE1B-44C2-AC72-01CBB744E3A7}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_A" ID="{4498ECDC-37F1-44F4-AB04-9C67A34E90A2}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_B" ID="{23D3456E-9513-450E-BBAB-C4D1E5D427F0}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HammerHitPlayer" ID="{DEF859C4-3467-4531-9CC9-0CC38335756A}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HarmonyWheel_F" ID="{037B9BB7-7B02-4554-90A6-0DE07B21E304}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_level2Piano_ASharp" ID="{60B1D2B6-9836-4569-A4C9-228B4E645FDF}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Level2Piano_G" ID="{F3A26AF0-7DEB-45B6-923C-FDC0347E0E78}" WorkUnitID="{6E225A00-C87B-42B7-9CF2-DAE646E3B3F2}" Origin="Manual" Filter="7"/>

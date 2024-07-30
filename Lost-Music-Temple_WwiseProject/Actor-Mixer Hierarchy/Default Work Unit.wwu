@@ -1104,6 +1104,9 @@
 				<Folder Name="Level 2 Piano notes" ID="{18093DF7-D702-4DC0-BCD5-E29EC35465BC}" ShortID="308687981">
 					<ChildrenList>
 						<Sound Name="A piano note" ID="{51BF5954-A4FE-4BA1-A5E5-9D9054E8642D}" ShortID="323501019">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1126,6 +1129,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="A# piano note" ID="{6A5304DC-3FBE-46C6-8571-0A6B1EF24942}" ShortID="697255180">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1148,6 +1154,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="B piano note" ID="{1BD39AF4-53A0-4EC2-837A-4BFE9C7C856C}" ShortID="827699337">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1170,6 +1179,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="C piano note" ID="{DF551829-26EB-4607-AB0C-359CE8BDA4E8}" ShortID="190460094">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1192,6 +1204,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="C# piano note" ID="{0B831A70-0843-48BC-84F8-76496070FB8F}" ShortID="206740403">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1214,6 +1229,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="D piano note" ID="{8D01971A-75EE-4A46-A3A4-2AAC418AE612}" ShortID="1045550400">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1236,6 +1254,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="D# piano note" ID="{05794617-2F06-4817-ABD2-BC5EE400FF30}" ShortID="275415470">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1258,6 +1279,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="E piano note" ID="{6F2AC64E-9153-49A3-B464-67B8073946D3}" ShortID="398184102">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1280,6 +1304,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="F piano note" ID="{B2883397-8B81-44A0-B44F-E3EFE967F103}" ShortID="777852332">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1302,6 +1329,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="F# piano note" ID="{70129ACB-CF73-46B0-829D-FFE2CC69433C}" ShortID="473251576">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1324,6 +1354,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="G piano note" ID="{A212829B-09D9-4F4F-B510-79DE2B293A01}" ShortID="1013271112">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1346,6 +1379,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="G# piano note" ID="{356C1918-0219-425E-B39C-70C2D1FD8156}" ShortID="988348602">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
@@ -1369,6 +1405,7 @@
 						</Sound>
 						<RandomSequenceContainer Name="Hammer release" ID="{ECB2F4D4-2A8B-4868-97CF-EF4342771CD2}" ShortID="167918920">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -3012,6 +3049,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Hammer hit" ID="{3078936D-B0EC-40CB-8CFD-DD26761E260E}" ShortID="776955100">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
