@@ -3005,7 +3005,13 @@
 				<Folder Name="Floor 2 SFX" ID="{112F9227-B497-4785-967D-F25590A3BD81}" ShortID="769879824">
 					<ChildrenList>
 						<Sound Name="Hammer swing-001" ID="{491FFB85-5671-4DFA-BC31-42AEFD0F40A1}" ShortID="969726107">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AttenuationPosition" ID="{53EF9662-7560-499B-910C-AC47C1F63C19}" WorkUnitID="{EF8CF49C-B84F-427C-91D8-DCB0F5180C86}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
 								</Reference>
@@ -3027,7 +3033,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Hammer swing-002" ID="{9524597A-6E3D-493C-8DBD-3458AF60746E}" ShortID="215507912">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AttenuationPosition" ID="{53EF9662-7560-499B-910C-AC47C1F63C19}" WorkUnitID="{EF8CF49C-B84F-427C-91D8-DCB0F5180C86}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2AB7266A-D5B1-4573-8D27-A7239B128C78}"/>
 								</Reference>

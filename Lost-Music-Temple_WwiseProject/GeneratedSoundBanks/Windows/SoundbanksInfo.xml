@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{595554BA-BEA4-8B33-C28D-3A69EC002CEF}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{881293A1-3FAD-C894-3578-14950891BB90}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -390,12 +390,12 @@
 						<MediaRef Id="872469119"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1823600288" Name="HammerSwingBackward" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+				<Event Id="1823600288" Name="HammerSwingBackward" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="917867736"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2483836202" Name="HammerSwingForward" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+				<Event Id="2483836202" Name="HammerSwingForward" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
 					<MediaRefs>
 						<MediaRef Id="815226664"/>
 					</MediaRefs>
@@ -1290,5 +1290,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DD0B95B9-58D7-93A0-5956-32548415AB41}</FileHash>
+	<FileHash>{4F46A139-7542-5073-B8C1-3B9DC40D2392}</FileHash>
 </SoundBanksInfo>

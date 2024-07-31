@@ -821,6 +821,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnable: 1
   force: 40
+  HitPlayer:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 404729b88d83be14b9b638cc84fca5b9,
+      type: 2}
+  HammerSwingForward:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 47601a6135a7c7141a37c23878fe8d20,
+      type: 2}
+  HammerSwingBackward:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f5bf30539ad33504eb63110a3aee41d0,
+      type: 2}
 --- !u!65 &4026665429657549343
 BoxCollider:
   m_ObjectHideFlags: 0

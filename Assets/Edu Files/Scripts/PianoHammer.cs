@@ -22,6 +22,8 @@ public class PianoHammer : MonoBehaviour
     //will get to push player
     private ThirdPersonMovement characterController;
     [SerializeField] AK.Wwise.Event HitPlayer;
+    [SerializeField] AK.Wwise.Event HammerSwingForward;
+    [SerializeField] AK.Wwise.Event HammerSwingBackward;
 
     // Update is called once per frame
     void Update()
@@ -58,4 +60,19 @@ public class PianoHammer : MonoBehaviour
             characterController = other.transform.GetComponent<ThirdPersonMovement>();
         }
     }
+
+    public void PlayForwardSound()
+    {
+        HammerSwingForward.Post(gameObject);
+        
+    }
+
+
+    public void PlayBackwardSound()
+    {
+        HammerSwingBackward.Post(gameObject);
+
+    }
+
+
 }
