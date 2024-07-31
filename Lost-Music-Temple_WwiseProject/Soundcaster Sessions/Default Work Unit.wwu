@@ -52,6 +52,7 @@
 						<CurrentSwitchRef Name="Rug" ID="{D8C9E07A-33C5-410A-A70B-747E7FF0C004}"/>
 						<CurrentSwitchRef Name="FixedPiano" ID="{F8C4D720-F648-4685-8CCF-4B49DB5F3DF9}"/>
 						<CurrentSwitchRef Name="Fixed" ID="{5126CE5F-3153-4F33-AD8A-66AA81C594ED}"/>
+						<CurrentSwitchRef Name="BongoJump" ID="{6160B0DD-8BA6-4C9B-93D4-403DCFD6B812}"/>
 						<CurrentSwitchRef Name="FixedBongos" ID="{FF82C9AB-6D84-4115-A59B-EEE7F7B4C68F}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

@@ -3007,6 +3007,11 @@
 						<Sound Name="Hammer swing-001" ID="{491FFB85-5671-4DFA-BC31-42AEFD0F40A1}" ShortID="969726107">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3035,6 +3040,11 @@
 						<Sound Name="Hammer swing-002" ID="{9524597A-6E3D-493C-8DBD-3458AF60746E}" ShortID="215507912">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -3062,7 +3072,7 @@
 						</Sound>
 						<RandomSequenceContainer Name="Hammer hit" ID="{3078936D-B0EC-40CB-8CFD-DD26761E260E}" ShortID="776955100">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
