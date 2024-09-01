@@ -485,7 +485,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 5000
+  far clip plane: 500
   field of view: 40
   orthographic: 0
   orthographic size: 10
@@ -512,8 +512,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16552476}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18422401, y: 0.059859205, z: -0.011241135, w: 0.9809955}
-  m_LocalPosition: {x: -8.264765, y: 3.161268, z: -29.4}
+  m_LocalRotation: {x: -0.00636881, y: -0.000000034479214, z: -2.1959598e-10, w: 0.99997973}
+  m_LocalPosition: {x: -1.23, y: 14.03, z: -20.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1288,10 +1288,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -1342,6 +1377,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -3595,10 +3660,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -3649,6 +3749,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -3811,7 +3941,7 @@ MonoBehaviour:
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0
-  m_VerticalDamping: 0
+  m_VerticalDamping: 4
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_DeadZoneWidth: 0
@@ -3834,7 +3964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 4, z: -8}
+  m_FollowOffset: {x: 0, y: 1, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -10011,7 +10141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436855346}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.184224, y: 0.059859198, z: -0.011241132, w: 0.9809955}
+  m_LocalRotation: {x: -0.013821011, y: 0.08602284, z: 0.0011934619, w: 0.99619657}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10050,7 +10180,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -10108,10 +10238,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -10162,6 +10327,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -10604,10 +10799,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -10658,6 +10888,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -13615,7 +13875,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599887277}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1799723, y: 0.000000008462718, z: -0.0000000015483363, w: 0.9836717}
+  m_LocalRotation: {x: -0.00636881, y: -0.00000001723961, z: -1.0979802e-10, w: 0.99997973}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13654,7 +13914,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -14474,7 +14734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640951938}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2534548, y: 0.000000016644547, z: -0.0000000043610404, w: 0.96734726}
+  m_LocalRotation: {x: 0.0985376, y: -1e-45, z: -0, w: 0.99513334}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14513,7 +14773,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -15163,10 +15423,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -15232,6 +15527,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -16134,10 +16459,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -16188,6 +16548,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -20092,10 +20482,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -20146,6 +20571,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -21875,10 +22330,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -21944,6 +22434,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -22318,10 +22838,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -22387,6 +22942,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -23512,7 +24097,7 @@ Transform:
   m_GameObject: {fileID: 1077091698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.94, y: 1.467, z: -27.81}
+  m_LocalPosition: {x: -1.23, y: 13.03, z: -15.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28773,6 +29358,7 @@ GameObject:
   - component: {fileID: 1321500013}
   - component: {fileID: 1321500015}
   - component: {fileID: 1321500014}
+  - component: {fileID: 1321500016}
   m_Layer: 8
   m_Name: FreeLook Camera
   m_TagString: Untagged
@@ -28789,7 +29375,7 @@ Transform:
   m_GameObject: {fileID: 1321500012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -7.999998}
+  m_LocalPosition: {x: 0, y: 1, z: -5.000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -28812,21 +29398,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CollideAgainst:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 511
   m_IgnoreTag: 
   m_TransparentLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_MinimumDistanceFromTarget: 0.3
+  m_MinimumDistanceFromTarget: 1
   m_AvoidObstacles: 1
   m_DistanceLimit: 0
   m_MinimumOcclusionTime: 0
-  m_CameraRadius: 0.2
+  m_CameraRadius: 1
   m_Strategy: 0
   m_MaximumEffort: 4
-  m_SmoothingTime: 0.27
-  m_Damping: 0.86
-  m_DampingWhenOccluded: 0
+  m_SmoothingTime: 2
+  m_Damping: 9
+  m_DampingWhenOccluded: 9
   m_OptimalTargetDistance: 0
 --- !u!114 &1321500015
 MonoBehaviour:
@@ -28853,7 +29439,7 @@ MonoBehaviour:
     FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -28868,9 +29454,9 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_YAxis:
-    Value: 0.5
+    Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 4
+    m_MaxSpeed: 1
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -28894,7 +29480,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 450
+    m_MaxSpeed: 150
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
@@ -28902,7 +29488,7 @@ MonoBehaviour:
     m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
-    m_Wrap: 1
+    m_Wrap: 0
     m_Recentering:
       m_enabled: 0
       m_WaitTime: 1
@@ -28925,14 +29511,30 @@ MonoBehaviour:
   - m_Height: 8
     m_Radius: 5
   - m_Height: 4
-    m_Radius: 8
-  - m_Height: -1
+    m_Radius: 7
+  - m_Height: 1
     m_Radius: 5
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 640951940}
   - {fileID: 436855348}
   - {fileID: 599887279}
+--- !u!114 &1321500016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321500012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af44d3841c2a7fb4b96c81a7ad288899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freeLookCamera: {fileID: 1321500015}
+  minFOV: 40
+  maxFOV: 80
+  sensitivity: 15
 --- !u!1 &1326793405
 GameObject:
   m_ObjectHideFlags: 0
@@ -30266,10 +30868,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -30335,6 +30972,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31790,7 +32457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455641593
@@ -40788,10 +41455,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5739717354798447313}
     m_Modifications:
+    - target: {fileID: 945500078287969224, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508714218582925014, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2288886680500415935, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341626373628430844, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354996049823749796, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
       propertyPath: m_Name
       value: PianoHammer (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877125978290659764, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654854016976905827, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5267071470255939195, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -40842,6 +41544,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815931686376154414, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860151204851548549, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351054265821728654, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409674665743636631, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946691596090481879, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193411878501696721, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8987604623066262275, guid: 7b72fbb67f5d27d4981bce9c3ca3da77,
         type: 3}
@@ -42594,11 +43326,11 @@ MonoBehaviour:
   m_LookaheadSmoothing: 5.9
   m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0
-  m_VerticalDamping: 0
+  m_VerticalDamping: 4
   m_ScreenX: 0.5
   m_ScreenY: 0.53
   m_DeadZoneWidth: 0.14634146
-  m_DeadZoneHeight: 0.008354219
+  m_DeadZoneHeight: 0
   m_SoftZoneWidth: 0.8
   m_SoftZoneHeight: 0.8
   m_BiasX: 0
@@ -42617,7 +43349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 4, z: -8}
+  m_FollowOffset: {x: 0, y: 1, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -42721,7 +43453,7 @@ MonoBehaviour:
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
   m_HorizontalDamping: 0
-  m_VerticalDamping: 0
+  m_VerticalDamping: 4
   m_ScreenX: 0.5
   m_ScreenY: 0.6
   m_DeadZoneWidth: 0
@@ -42744,7 +43476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 4, z: -8}
+  m_FollowOffset: {x: 0, y: 1, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1

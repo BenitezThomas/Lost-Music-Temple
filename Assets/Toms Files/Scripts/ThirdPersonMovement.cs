@@ -28,7 +28,7 @@ public class ThirdPersonMovement : MonoBehaviour
     [SerializeField] private float jumpHeight = 1.5f;
 
     [Tooltip("Gravity force applied to the player.")]
-    [SerializeField] private float gravity = -9.81f;
+    [SerializeField] private float gravity = 10f;
 
     [Tooltip("Distance from the player to the ground check sphere.")]
     [SerializeField] private float groundDistance = 0.4f;
@@ -109,6 +109,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+
     }
 
     // Checks if the player is running (holding down the Left Shift key) and adjusts speed.
