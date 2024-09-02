@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    [SerializeField] int SceneNum; 
+    [SerializeField] int SceneNum;
+    [SerializeField] GameObject settings;
 
     // Start is called before the first frame update
     void Start()
@@ -29,4 +30,18 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Setting()
+    {
+        if (settings.activeSelf)
+        {
+            settings.SetActive(false);
+        }
+        else
+        {
+            settings.SetActive(true);
+        }
+    }
+
+
 }
